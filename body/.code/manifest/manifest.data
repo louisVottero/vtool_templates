@@ -2,7 +2,8 @@ init.py True
 init/groups.py True
 init/import_structure.py True
 rig.py True
-rig/fix_center_line.py True
-rig/rotate_order.py True
-rig/orient_joints.py True
+rig/prep.py True
+rig/prep/fix_center_line.py True
+rig/prep/rotate_order.py True
+rig/prep/orient_joints.py True
 rig/ground.py True

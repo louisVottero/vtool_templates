@@ -24,6 +24,10 @@
         1.0
     ],
     [
+        "Rig.Prep",
+        null
+    ],
+    [
         "Rig.Orient Joints",
         true
     ],
