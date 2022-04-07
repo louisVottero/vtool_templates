@@ -10,3 +10,6 @@ def main():
     rig.create()
     
     cmds.addAttr(rig.controls[0], ln = 'size', min = 0.01, dv = 1, k = True)
+
+
+    put.control_ground = rig.controls

@@ -20,19 +20,145 @@
         true
     ],
     [
-        "Rig.Size",
+        "Rig.Info.",
+        true
+    ],
+    [
+        "Rig.Info.Size",
         1.0
     ],
     [
-        "Rig.Prep",
-        null
+        "Rig.Info.Mappings.",
+        false
     ],
     [
-        "Rig.Orient Joints",
-        true
+        "Rig.Info.Mappings.Joint Mapping",
+        [
+            [
+                {
+                    "base": "JNT_root",
+                    "head": "JNT_head",
+                    "neck": "JNT_neck*",
+                    "pelvis": "JNT_pelvis",
+                    "spine": "JNT_spine*,JNT_chest"
+                },
+                [
+                    "base",
+                    "pelvis",
+                    "spine",
+                    "neck",
+                    "head"
+                ]
+            ],
+            "dictionary"
+        ]
     ],
     [
-        "Rig.Fix Center Joints",
-        true
+        "Rig.Info.Mappings.Arm Left Joint Mapping",
+        [
+            [
+                {
+                    "arm": "JNT_arm_L, JNT_elbow_L, JNT_wrist_L",
+                    "index": "JNT_index*_L",
+                    "middle": "JNT_middle*_L",
+                    "pinky": "JNT_pinky*_L",
+                    "ring": "JNT_ring*_L",
+                    "thumb": "JNT_thumb*_L"
+                },
+                [
+                    "arm",
+                    "thumb",
+                    "index",
+                    "middle",
+                    "ring",
+                    "pinky"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Arm Right Joint Mapping",
+        [
+            [
+                {
+                    "arm": "JNT_arm_R, JNT_elbow_R, JNT_wrist_R",
+                    "index": "JNT_index*_R",
+                    "middle": "JNT_middle*_R",
+                    "pinky": "JNT_pinky*_R",
+                    "ring": "JNT_ring*_R",
+                    "thumb": "JNT_thumb*_R"
+                },
+                [
+                    "arm",
+                    "thumb",
+                    "index",
+                    "middle",
+                    "ring",
+                    "pinky"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Leg Left Joint Mapping",
+        [
+            [
+                {
+                    "leg": "JNT_leg_L, JNT_knee_L, JNT_ankle_L",
+                    "toe1": "JNT_toe1*_L",
+                    "toe2": "JNT_toe2*_L",
+                    "toe3": "JNT_toe3*_L",
+                    "toe4": "JNT_toe4*_L",
+                    "toe5": "JNT_toe5*_L"
+                },
+                [
+                    "leg",
+                    "toe1",
+                    "toe2",
+                    "toe3",
+                    "toe4",
+                    "toe5"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Leg Right Joint Mapping",
+        [
+            [
+                {
+                    "leg": "JNT_leg_R, JNT_knee_R, JNT_ankle_R",
+                    "toe1": "JNT_toe1*_R",
+                    "toe2": "JNT_toe2*_R",
+                    "toe3": "JNT_toe3*_R",
+                    "toe4": "JNT_toe4*_R",
+                    "toe5": "JNT_toe5*_R"
+                },
+                [
+                    "leg",
+                    "toe1",
+                    "toe2",
+                    "toe3",
+                    "toe4",
+                    "toe5"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Prep.",
+        false
+    ],
+    [
+        "Rig.Prep.Orient Joints",
+        false
+    ],
+    [
+        "Rig.Prep.Align Center Joints",
+        false
     ]
 ]

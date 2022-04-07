@@ -8,17 +8,15 @@ def main():
         show('Skip Fixing Center Joints')
         return
 
-    root_joint = 'JNT_root'
-    pelvis_joint = 'JNT_pelvis'
-    chest_joint = 'JNT_chest'
-    spine_joints = cmds.ls('JNT_spine?', type = 'joint')
-    neck_joints = cmds.ls('JNT_neck?', type = 'joint')
-    head_joint = 'JNT_head'
+    base_joint = put.joint_base
+    pelvis_joint = put.joint_pelvis
+    spine_joints = put.joint_spine
+    neck_joints = put.joint_neck
+    head_joint = put.joint_head
 
-    zero(root_joint)
+    zero(base_joint)
 
     center(pelvis_joint)
-    center(chest_joint)
     center(spine_joints)
     center(neck_joints)
     center(head_joint)
@@ -28,7 +26,6 @@ def zero(joints):
     joints = util.convert_to_sequence(joints)
     
     for joint in joints:
-
         cmds.move(0,0,0, 
                     '%s.scalePivot' % joint, 
                     '%s.rotatePivot' % joint, a = True)

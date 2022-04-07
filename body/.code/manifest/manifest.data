@@ -3,7 +3,14 @@ init/groups.py True
 init/import_structure.py True
 rig.py True
 rig/prep.py True
+rig/prep/put.py True
 rig/prep/fix_center_line.py True
-rig/prep/rotate_order.py True
 rig/prep/orient_joints.py True
 rig/ground.py True
+rig/gear.py True
+rig/root.py True
+rig/spine.py True
+rig/spine/ik_spine.py False
+rig/spine/pelvis.py True
+rig/neck.py False
+rig/head.py False
