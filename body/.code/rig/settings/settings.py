@@ -13,7 +13,7 @@ def main():
     rig.set_control_shape('gear')
     rig.set_control_offset_axis('X')
     rig.set_control_set('base')
-    rig.set_control_parent(put.control_ground[0])
+    rig.set_control_parent(put.group_control)
     
     rig.delete_setup()
     rig.create()

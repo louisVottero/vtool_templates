@@ -4,42 +4,46 @@ from vtool.maya_lib import space
 from vtool.maya_lib import geo
 from vtool.maya_lib import attr
 
-control_size = process.get_option('Control Size')
-
 def main():
+
+    size = put.size
         
-    joints = cmds.ls('JNT_neck*', type = 'joint')
-    joints.append('JNT_head')
+    joints = put.joint_neck
+    joints.append(put.joint_head)
         
     rig = rigs.FkCurveRig('neck')
     rig.set_joints(joints)
 
-    rig.set_control_size(control_size*15)
+    rig.set_control_size(size*15)
     rig.set_control_shape('circle')
     rig.set_ribbon(True)
     rig.set_ribbon_offset_axis('X')
-    rig.set_ribbon_joint_aim(True, [0,0,-1])
-    #rig.set_create_sub_controls(True)
-    #rig.set_nice_sub_control_naming(True)
+    rig.set_ribbon_joint_aim(True, [0,1,0])
+    rig.set_stretch_on_off(True)
+    
 
-    rig.connect_sub_visibility('CNT_GEAR_1.subVisibility')
+    rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
     rig.set_control_set('neck')
-    rig.set_control_parent('CNT_SUB_SPINE_3')    
-    rig.set_setup_parent('Setup_Grp')
+    rig.set_control_parent(put.control_sub_spine[-1])    
+    rig.set_setup_parent(put.group_setup)
     rig.create()
+
+    cmds.setAttr('%s.stretchOffOn' % rig.controls[-1], .1)
+    
+    put.control_neck = rig.controls
+    put.control_sub_neck = rig.sub_controls
     
     control = rigs_util.Control(rig.controls[0])
     control.translate_shape(0,2,0)
-
-
     
     xform = space.get_xform_group(rig.controls[0])
     control = rig.controls[0]
-           
     
-    switch = space.SpaceSwitch(['CNT_SUB_GROUND_2',
-                        'CNT_SUB_ROOT_2', 
-                        'CNT_SUB_SPINE_3'], xform)
+    space.create_follow_group(put.joint_spine[-1],rig.control_group,prefix='follow',follow_scale=False,use_duplicate=False)
+    
+    switch = space.SpaceSwitch([put.control_ground[-1],
+                        put.control_root[-1], 
+                        put.control_sub_spine[-1]], xform)
     switch.set_connect_translate(False)        
     switch.set_connect_scale(False)        
     switch.set_input_attribute(control,'switchRotate',['ground','root','spine'])

@@ -22,33 +22,37 @@ def main():
     rig.set_control_shape('hexagon')
     rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
     rig.set_ribbon_joint_aim(True, [0,1,0])
-    
+
+    rig.set_control_color_hue(.165)    
+    rig.set_control_color_increment_hue(-.02)
+    rig.set_sub_control_color_hue(.12)
+
     rig.set_control_parent(put.control_root[-1])
     rig.set_setup_parent(put.group_setup)    
     rig.create()
 
+    cmds.setAttr('%s.stretchOffOn' % rig.controls[-1], .1)
+
     put.control_spine = rig.controls
     put.control_sub_spine = rig.sub_controls
-
-    #constraint = cmds.parentConstraint(rig.controls[0], 'cluster_spineHandle')
-    #cmds.setAttr(constraint[0] + '.interpType', 2)
     
     cmds.parent('xform_%s' % rig.sub_controls[0], put.control_root[-1])
-    cmds.orientConstraint(rig.sub_controls[-1], 'JNT_chest', mo = True)
+    cmds.orientConstraint(rig.sub_controls[-1], put.joint_spine[-1], mo = True)
     
     scale = 35 * size
     
     control = rigs_util.Control(rig.controls[-1])
     control.set_curve_type('hexagon_cylinder')
-    control.scale_shape(scale, scale*.8, scale)
-    control.translate_shape(0,10*size, 0)
+    control.scale_shape(scale, scale*.6, scale)
+    control.translate_shape(0,9*size, 0)
 
     control = rigs_util.Control(rig.controls[0])
     control.set_curve_type('hexagon_cylinder')
-    control.scale_shape(scale*.9, scale*.1, scale*.9)    
+    control.scale_shape(scale*.8, scale*.6, scale*.8)    
+    control.translate_shape(0,-9*size, 0)
     
     control = rigs_util.Control(rig.controls[1])
     control.set_curve_type('hexagon_cylinder')
-    control.scale_shape(scale*.9, scale*.1, scale*.9)    
+    control.scale_shape(scale, scale*.1, scale*.8)    
     
     attr.disconnect_attribute('%s.subVisibility' % rig.controls[0])

@@ -29,7 +29,7 @@
     ],
     [
         "Rig.Info.Mappings.",
-        false
+        true
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
@@ -59,6 +59,7 @@
             [
                 {
                     "arm": "JNT_arm_L, JNT_elbow_L, JNT_wrist_L",
+                    "clavicle": "JNT_clavicle_L",
                     "index": "JNT_index*_L",
                     "middle": "JNT_middle*_L",
                     "pinky": "JNT_pinky*_L",
@@ -71,7 +72,8 @@
                     "index",
                     "middle",
                     "ring",
-                    "pinky"
+                    "pinky",
+                    "clavicle"
                 ]
             ],
             "dictionary"
@@ -83,6 +85,7 @@
             [
                 {
                     "arm": "JNT_arm_R, JNT_elbow_R, JNT_wrist_R",
+                    "clavicle": "JNT_clavicle_R",
                     "index": "JNT_index*_R",
                     "middle": "JNT_middle*_R",
                     "pinky": "JNT_pinky*_R",
@@ -95,7 +98,8 @@
                     "index",
                     "middle",
                     "ring",
-                    "pinky"
+                    "pinky",
+                    "clavicle"
                 ]
             ],
             "dictionary"
