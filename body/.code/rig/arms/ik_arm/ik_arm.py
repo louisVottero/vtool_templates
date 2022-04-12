@@ -1,5 +1,6 @@
 from vtool.maya_lib import rigs
 from vtool.maya_lib import space
+from vtool.maya_lib import geo
 from vtool.maya_lib import rigs_util
 
 def main():
@@ -34,10 +35,7 @@ def main():
         rig.set_control_parent(put.control_clavicle[side])
         rig.set_setup_parent(put.group_setup)
         rig.create()
-        
-        control = rigs_util.Control(rig.controls[1])
-        control.scale_shape(.3,.3,.3)
-        
+                
         put.control_arm_ik[side] = rig.controls
         
         cmds.setAttr('%s.poleVisibility' % rig.controls[-1], 1)
@@ -46,3 +44,31 @@ def main():
         clavicle_section = process.get_runtime_value('clavicle_ik_%s' % side)
         cmds.pointConstraint(clavicle_section[1], rig.control_group, mo = True)                    
         
+        control = rigs_util.Control(rig.controls[1])
+        control.scale_shape(.3,.3,.3)
+        
+        control = rigs_util.Control(rig.controls[-1])
+        control.set_curve_type('cube')        
+        control.scale_shape(13*size, 11*size, 13*size)
+
+        #control = rigs_util.Control(rig.sub_controls[-1])
+        #control.set_curve_type('cube')        
+
+        child = cmds.listRelatives(joints[-1], type = 'joint')
+        position_start = cmds.xform(joints[-1], q = True, ws = True, t = True)
+        position_end = cmds.xform(child[0], q = True, ws = True, t = True)
+        geo.move_cvs(get_start_cvs(rig.controls[-1]),position_start,pivot_at_center = True)
+        geo.move_cvs(get_end_cvs(rig.controls[-1]),position_end,pivot_at_center = True)
+        #rigs_util.fix_sub_controls(rig.controls[-1])
+                    
+
+def get_start_cvs(control):
+    cvs = ['%s.cv[5:6]' % control, 
+            '%s.cv[9:14]' % control]
+    return cvs
+    
+def get_end_cvs(control):
+    cvs = ['%s.cv[0:4]' % control, 
+            '%s.cv[7:8]' % control, 
+            '%s.cv[15]' % control]
+    return cvs            

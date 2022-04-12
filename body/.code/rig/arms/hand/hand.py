@@ -30,7 +30,7 @@ def main():
         cmds.addAttr(rig.controls[0], ln = 'fkIk', min = 0, max = 1, dv = 1, k = True)
         cmds.connectAttr('%s.fkIk' % rig.controls[0], '%s.switch' % put.joint_arm[side][0])        
         
-        offset = 20
+        offset = 15
         
         if side == 'R':
             offset = offset * -1
