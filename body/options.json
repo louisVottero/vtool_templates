@@ -16,6 +16,10 @@
         "Setup"
     ],
     [
+        "Asset.Joint Group",
+        "Joints"
+    ],
+    [
         "Rig.",
         true
     ],
@@ -28,8 +32,12 @@
         1.0
     ],
     [
+        "Rig.Info.Scale Uniform",
+        false
+    ],
+    [
         "Rig.Info.Mappings.",
-        true
+        false
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
@@ -148,6 +156,46 @@
                     "toe3",
                     "toe4",
                     "toe5"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Foot Left Joint Mapping",
+        [
+            [
+                {
+                    "foot": "JNT_ankle_L, JNT_ball_L, JNT_toe_L",
+                    "heel": "GDE_heel_L",
+                    "yaw in": "GDE_yawIn_L",
+                    "yaw out": "GDE_yawOut_L"
+                },
+                [
+                    "foot",
+                    "yaw in",
+                    "yaw out",
+                    "heel"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Foot Right Joint Mapping",
+        [
+            [
+                {
+                    "foot": "JNT_ankle_R, JNT_ball_R, JNT_toe_R",
+                    "heel": "GDE_heel_R",
+                    "yaw in": "GDE_yawIn_R",
+                    "yaw out": "GDE_yawOut_R"
+                },
+                [
+                    "foot",
+                    "yaw in",
+                    "yaw out",
+                    "heel"
                 ]
             ],
             "dictionary"

@@ -7,6 +7,8 @@ def main():
 
     top_group = core.create_group(top_group)
     
+    put.group_top = top_group
+    
     group = process.get_option('Control Group')
     group = core.create_group(group,top_group)[0]
     put.group_control = group
@@ -15,4 +17,6 @@ def main():
     group = core.create_group(group,top_group)[0]
     put.group_setup = group
     
-        
+    group = process.get_option('Joint Group')
+    group = core.create_group(group,top_group)[0]
+    put.group_joint = group      

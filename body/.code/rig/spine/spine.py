@@ -22,6 +22,7 @@ def main():
     rig.set_control_shape('hexagon')
     rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
     rig.set_ribbon_joint_aim(True, [0,1,0])
+    rig.set_create_follows(False)
 
     rig.set_control_color_hue(.165)    
     rig.set_control_color_increment_hue(-.02)
@@ -42,17 +43,13 @@ def main():
     scale = 35 * size
     
     control = rigs_util.Control(rig.controls[-1])
-    control.set_curve_type('hexagon_cylinder')
-    control.scale_shape(scale, scale*.6, scale)
+    control.set_curve_type('rib')
+    control.scale_shape(scale*.9, scale*.8, scale*.9)
     control.translate_shape(0,9*size, 0)
 
     control = rigs_util.Control(rig.controls[0])
-    control.set_curve_type('hexagon_cylinder')
-    control.scale_shape(scale*.8, scale*.6, scale*.8)    
+    control.set_curve_type('pelvis')
+    control.scale_shape(scale*.7, scale*.7, scale*.6)    
     control.translate_shape(0,-9*size, 0)
     
-    control = rigs_util.Control(rig.controls[1])
-    control.set_curve_type('hexagon_cylinder')
-    control.scale_shape(scale, scale*.1, scale*.8)    
-    
-    attr.disconnect_attribute('%s.subVisibility' % rig.controls[0])
+    #attr.disconnect_attribute('%s.subVisibility' % rig.controls[0])

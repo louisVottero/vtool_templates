@@ -21,6 +21,7 @@ def main():
         rig.set_stretch_type(1)
         rig.set_create_ik_buffer_joint(False)
         rig.set_pole_offset(size*1)
+        rig.set_pole_control_shape('sphere')        
         rig.set_pole_follow_transform([put.control_ground[-1],put.control_root[-1]],1)
         rig.set_control_set([side, 'arm_%s' % side])       
         rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
@@ -50,16 +51,13 @@ def main():
         control = rigs_util.Control(rig.controls[-1])
         control.set_curve_type('cube')        
         control.scale_shape(13*size, 11*size, 13*size)
-
-        #control = rigs_util.Control(rig.sub_controls[-1])
-        #control.set_curve_type('cube')        
-
+        
         child = cmds.listRelatives(joints[-1], type = 'joint')
         position_start = cmds.xform(joints[-1], q = True, ws = True, t = True)
         position_end = cmds.xform(child[0], q = True, ws = True, t = True)
         geo.move_cvs(get_start_cvs(rig.controls[-1]),position_start,pivot_at_center = True)
         geo.move_cvs(get_end_cvs(rig.controls[-1]),position_end,pivot_at_center = True)
-        #rigs_util.fix_sub_controls(rig.controls[-1])
+
                     
 
 def get_start_cvs(control):

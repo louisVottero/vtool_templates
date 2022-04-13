@@ -19,3 +19,5 @@ def main():
     rig.create()
     
     attr.lock_translate_attributes(rig.controls[0])
+    
+    put.control_pelvis = rig.controls[0]

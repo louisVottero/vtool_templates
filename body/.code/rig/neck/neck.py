@@ -14,13 +14,16 @@ def main():
     rig = rigs.FkCurveRig('neck')
     rig.set_joints(joints)
 
-    rig.set_control_size(size*15)
+    rig.set_control_size(size*13)
     rig.set_control_shape('circle')
     rig.set_ribbon(True)
     rig.set_ribbon_offset_axis('X')
     rig.set_ribbon_joint_aim(True, [0,1,0])
     rig.set_stretch_on_off(True)
-    
+
+    rig.set_control_color_hue(.165)    
+    rig.set_control_color_increment_hue(-.02)
+    rig.set_sub_control_color_hue(.12)    
 
     rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
     rig.set_control_set('neck')

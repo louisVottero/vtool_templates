@@ -5,6 +5,8 @@ arm_left_joint_mapping = process.get_option('Arm Left Joint Mapping')
 arm_right_joint_mapping = process.get_option('Arm Right Joint Mapping')
 leg_left_joint_mapping = process.get_option('Leg Left Joint Mapping')
 leg_right_joint_mapping = process.get_option('Leg Right Joint Mapping')
+foot_left_joint_mapping = process.get_option('Foot Left Joint Mapping')
+foot_right_joint_mapping = process.get_option('Foot Right Joint Mapping')
 
 def main():
 
@@ -35,6 +37,12 @@ def main():
         current = inc+1
         put.joint_toe['L']['toe%s' % current] = get_mapping('toe%s' % current, leg_left_joint_mapping)
         put.joint_toe['R']['toe%s' % current] = get_mapping('toe%s' % current, leg_right_joint_mapping)    
+    
+    #feet
+    put.joint_foot = {'L':{}, 'R':{}}
+    for mapping in ['foot','yaw in', 'yaw out', 'heel']:
+        put.joint_foot['L'][mapping] = get_mapping(mapping, foot_left_joint_mapping) 
+        put.joint_foot['R'][mapping] = get_mapping(mapping, foot_right_joint_mapping)     
 
 def get_mapping(name, joint_mapping):
     

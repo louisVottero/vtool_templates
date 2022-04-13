@@ -6,20 +6,21 @@ from vtool.maya_lib import geo
 def main():
     
     size = put.size
-    put.control_arm_fk = {}
+    put.control_leg_fk = {}
     
     for side in 'LR':
         
-        joints = put.joint_arm[side]
+        joints = put.joint_leg[side]
         
-        rig = rigs.FkRig('fk_arm',side)
+        rig = rigs.FkRig('fk_leg',side)
         rig.set_joints(joints)
 
-        rig.set_control_offset_axis('Z')
+        rig.set_control_offset_axis('Y')
         rig.set_control_size(size*15)
         rig.set_buffer(True)
+
         rig.set_control_shape('cylinder')        
-        rig.set_control_set([side, 'arm_%s' % side])       
+        rig.set_control_set([side, 'leg_%s' % side])       
 
         if side == 'L':
             rig.set_control_color_hue(.65)
@@ -28,16 +29,16 @@ def main():
             rig.set_control_color_hue(1)
             rig.set_control_color_increment_hue(-0.04)
 
-        rig.set_control_parent(put.control_clavicle[side])
+        rig.set_control_parent(put.control_pelvis)
         rig.set_setup_parent(put.group_setup)
         rig.create()
         
         clavicle_section = process.get_runtime_value('clavicle_ik_%s' % side)        
         cmds.pointConstraint(clavicle_section[1], rig.control_group, mo = True)
         
-        put.control_arm_fk[side] = rig.controls
+        put.control_leg_fk[side] = rig.controls
                        
-        attr.hide_attributes(rig.controls[1],['rotateX','rotateZ'])
+        attr.hide_attributes(rig.controls[1],['rotateY','rotateZ'])
         attr.hide_translate(rig.controls[1])
 
         for control, joint in zip(rig.controls, joints):
@@ -62,4 +63,4 @@ def get_end_cvs(control):
             '%sShape1.cv[0:7]' % control,
             '%sShape5.cv[0]' % control,
             '%sShape2.cv[0]' % control]
-    return cvs         
+    return cvs     
