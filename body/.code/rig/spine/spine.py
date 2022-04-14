@@ -37,7 +37,7 @@ def main():
     put.control_spine = rig.controls
     put.control_sub_spine = rig.sub_controls
     
-    cmds.parent('xform_%s' % rig.sub_controls[0], put.control_root[-1])
+    #cmds.parent('xform_%s' % rig.sub_controls[0], put.control_root[-1])
     cmds.orientConstraint(rig.sub_controls[-1], put.joint_spine[-1], mo = True)
     
     scale = 35 * size

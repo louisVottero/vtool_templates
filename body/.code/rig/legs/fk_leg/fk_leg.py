@@ -33,9 +33,6 @@ def main():
         rig.set_setup_parent(put.group_setup)
         rig.create()
         
-        clavicle_section = process.get_runtime_value('clavicle_ik_%s' % side)        
-        cmds.pointConstraint(clavicle_section[1], rig.control_group, mo = True)
-        
         put.control_leg_fk[side] = rig.controls
                        
         attr.hide_attributes(rig.controls[1],['rotateY','rotateZ'])

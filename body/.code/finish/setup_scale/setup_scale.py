@@ -44,14 +44,6 @@ def main():
         cmds.connectAttr('CNT_GROUND_1.scaleX', '%s.scaleX' % put.group_setup)
         cmds.connectAttr('CNT_GROUND_1.scaleY', '%s.scaleY' % put.group_setup)
         cmds.connectAttr('CNT_GROUND_1.scaleZ', '%s.scaleZ' % put.group_setup)    
-
-    #fix neck
-    neck_rivets = cmds.ls('rivet_JNT_neck*', type = 'transform')
-    for rivet in neck_rivets:
-        cmds.connectAttr('CNT_GROUND_1.scaleX', '%s.scaleX' % rivet)
-        cmds.connectAttr('CNT_GROUND_1.scaleY', '%s.scaleY' % rivet)
-        cmds.connectAttr('CNT_GROUND_1.scaleZ', '%s.scaleZ' % rivet)
-    
         
 def attach_condition(control, mult, value):
     

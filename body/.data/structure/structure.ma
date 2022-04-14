@@ -1,16 +1,16 @@
-//Maya ASCII 2022 scene
+//Maya ASCII 2020 scene
 //Name: structure.ma
-//Last modified: Wed, Apr 06, 2022 11:19:26 PM
+//Last modified: Thu, Apr 14, 2022 01:19:35 AM
 //Codeset: 1252
-requires maya "2022";
+requires maya "2020";
 requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
-fileInfo "product" "Maya 2022";
-fileInfo "version" "2022";
-fileInfo "cutIdentifier" "202110272215-ad32f8f1e6";
-fileInfo "osv" "Windows 10 Home v2009 (Build: 19044)";
-fileInfo "UUID" "D8755E10-4631-C3BD-38E8-BDA4C78B0835";
+fileInfo "product" "Maya 2020";
+fileInfo "version" "2020";
+fileInfo "cutIdentifier" "202011110415-b1e20b88e2";
+fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19044)\n";
+fileInfo "UUID" "137832F1-475F-67B4-A60E-049A5DA4AEA1";
 createNode transform -n "temp";
 	rename -uid "1A2AF9C0-0001-230D-5E54-40120004E714";
 	setAttr ".ove" yes;
@@ -296,7 +296,7 @@ createNode joint -n "JNT_root";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5712,7 +5712,6 @@ select -ne :hardwareRenderingGlobals;
 	setAttr -av ".aora";
 	setAttr -av ".mbe";
 	setAttr -av -k on ".mbsof";
-	setAttr ".fprt" yes;
 select -ne :renderPartition;
 	setAttr -av -k on ".cch";
 	setAttr -cb on ".ihi";
@@ -5784,14 +5783,8 @@ select -ne :defaultResolution;
 	setAttr -av -cb on ".isu";
 	setAttr -av -cb on ".pdu";
 select -ne :defaultColorMgtGlobals;
-	setAttr ".cfe" yes;
+	setAttr ".cme" no;
 	setAttr ".cfp" -type "string" "<MAYA_RESOURCES>/OCIO-configs/Maya2022-default/config.ocio";
-	setAttr ".vtn" -type "string" "ACES 1.0 SDR-video (sRGB)";
-	setAttr ".vn" -type "string" "ACES 1.0 SDR-video";
-	setAttr ".dn" -type "string" "sRGB";
-	setAttr ".wsn" -type "string" "ACEScg";
-	setAttr ".otn" -type "string" "ACES 1.0 SDR-video (sRGB)";
-	setAttr ".potn" -type "string" "ACES 1.0 SDR-video (sRGB)";
 select -ne :hardwareRenderGlobals;
 	setAttr -k on ".cch";
 	setAttr -k on ".ihi";
@@ -5944,9 +5937,9 @@ connectAttr "JNT_ball_R.s" "JNT_toe5_1_R.is";
 connectAttr "JNT_toe5_1_R.s" "JNT_toe5_2_R.is";
 connectAttr "JNT_toe5_2_R.s" "JNT_toe5_3_R.is";
 connectAttr "JNT_ankle_R.s" "JNT_ankleBall_R.is";
-dataStructure -fmt "raw" -as "name=DiffEdge:float=value";
 dataStructure -fmt "raw" -as "name=Offset:float[3]=value";
-dataStructure -fmt "raw" -as "name=DiffArea:float=value";
+dataStructure -fmt "raw" -as "name=DiffEdge:float=value";
 dataStructure -fmt "raw" -as "name=Blur3dMetaData:string=Blur3dValue";
 dataStructure -fmt "raw" -as "name=Curvature:float=mean:float=gaussian:float=ABS:float=RMS";
+dataStructure -fmt "raw" -as "name=DiffArea:float=value";
 // End of structure.ma
