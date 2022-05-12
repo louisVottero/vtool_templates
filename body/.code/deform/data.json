@@ -1,11 +1,11 @@
 [
     [
         "name",
-        "structure"
+        "deform"
     ],
     [
         "data_type",
-        "maya.ascii"
+        "script.python"
     ],
     [
         "sub_folder",

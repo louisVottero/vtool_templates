@@ -1,11 +1,11 @@
 [
     [
         "name",
-        "structure"
+        "control_cvs"
     ],
     [
         "data_type",
-        "maya.ascii"
+        "maya.control_cvs"
     ],
     [
         "sub_folder",

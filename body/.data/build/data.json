@@ -1,14 +1,14 @@
 [
     [
-        "name", 
+        "name",
         "build"
-    ], 
+    ],
     [
-        "data_type", 
+        "data_type",
         "maya.ascii"
-    ], 
+    ],
     [
-        "sub_folder", 
+        "sub_folder",
         ""
     ]
 ]

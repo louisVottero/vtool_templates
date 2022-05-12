@@ -24,7 +24,7 @@ def main():
             rig = rigs.FkScaleRig(finger,side)
             rig.set_joints(joints[1:-1])
 
-            rig.set_control_size(size*2.5)
+            rig.set_control_size(size*3.5)
             rig.set_control_shape('cylinder')
             
             if side == 'L':

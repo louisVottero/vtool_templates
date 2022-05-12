@@ -1,11 +1,11 @@
 [
     [
         "name",
-        "structure"
+        "import_model"
     ],
     [
         "data_type",
-        "maya.ascii"
+        "script.python"
     ],
     [
         "sub_folder",

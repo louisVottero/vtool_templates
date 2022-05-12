@@ -1,5 +1,6 @@
 init.py True
 init/groups.py True
+init/import_model.py True
 init/import_structure.py True
 rig.py True
 rig/prep.py True
@@ -38,6 +39,8 @@ rig_finish.py True
 rig_finish/import_control_cvs.py True
 rig_finish/delete_guides.py True
 rig_finish/create_bind_skeleton.py True
+deform.py True
+deform/import_weights_skinCluster.py True
 finish.py True
 finish/hide.py True
 finish/gear_settings.py True
