@@ -9,7 +9,7 @@ def main():
     rig = rigs.SparseRig('settings')
     rig.set_joints(put.joint_head)
     rig.set_attach_joints(False)
-    rig.set_control_size(put.size*5)
+    rig.set_control_size(size*5)
     rig.set_control_shape('gear')
     rig.set_control_offset_axis('X')
     rig.set_control_set('base')

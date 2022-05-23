@@ -1,14 +1,14 @@
 [
     [
-        "name", 
+        "name",
         "setup_scale"
-    ], 
+    ],
     [
-        "data_type", 
+        "data_type",
         "script.python"
-    ], 
+    ],
     [
-        "sub_folder", 
+        "sub_folder",
         ""
     ]
 ]
