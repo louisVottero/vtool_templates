@@ -5,4 +5,4 @@ https://github.com/louisVottero/vtool
 
 body template
 
-![rig_template](https://user-images.githubusercontent.com/2879064/163105159-3cf4b6bb-d36a-4ca5-89bb-3b8e146b360c.png)
+![template_model_with_rig](https://user-images.githubusercontent.com/2879064/167993220-64ace1d8-9950-458e-b5c4-9c2c3facef58.png)
