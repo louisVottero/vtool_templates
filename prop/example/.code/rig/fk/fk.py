@@ -8,6 +8,7 @@ def main():
     rig.set_control_size(put.size*.2)
     rig.set_joints(joints)
     rig.set_control_shape('cube')
+    rig.set_joint_name_token('JNT_')
     rig.use_hierarchy_to_inform_color(True)
     rig.use_hierarchy_to_inform_naming(True)
     rig.use_hierarchy_to_inform_parenting(True)
