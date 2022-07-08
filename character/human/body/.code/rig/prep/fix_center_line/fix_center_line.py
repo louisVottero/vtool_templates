@@ -3,7 +3,7 @@ from vtool.maya_lib import space
 
 def main():
 
-    fix = process.get_option('Fix Center Joints')
+    fix = process.get_option('Align Center Joints')
     if not fix:
         show('Skip Fixing Center Joints')
         return
