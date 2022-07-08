@@ -78,19 +78,19 @@ def main():
         
         #fix pole vector
         loc = cmds.spaceLocator(n = 'clavicle_rotateLock_%s' % side)[0]
-        locXform = cmds.group(loc ,n = 'xform_clavicle_rotateLock_%s' % side)
+        loc_xform = space.create_xform_group(loc)
 
         if side =='L':
             left_loc = loc
-            space.MatchSpace(section[0],locXform).translation_rotation()
+            space.MatchSpace(section[0],loc_xform).translation_rotation()
             pole_value = cmds.getAttr('%s.poleVector' % handle)[0]
             
             cmds.setAttr('%s.translateX' % loc, pole_value[0])
             cmds.setAttr('%s.translateY' % loc, pole_value[1])
             cmds.setAttr('%s.translateZ' % loc, pole_value[2])
             
-        cmds.parent(locXform, driver)
+        cmds.parent(loc_xform, driver)
         if side == 'R':
-            space.mirror_xform(left_loc, locXform)
+            space.mirror_xform(left_loc, loc_xform)
 
         cmds.poleVectorConstraint(loc, handle)         
