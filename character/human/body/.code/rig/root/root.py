@@ -33,6 +33,6 @@ def main():
     cmds.hide(root_follow)
     cmds.pointConstraint(rig.sub_controls[-1], root_follow, mo = True)
     cmds.transformLimits(root_follow, ty = [0, 0], ety = [1, 1])    
-    cmds.parentConstraint(root_follow, 'JNT_root', mo = True)
+    cmds.parentConstraint(root_follow, put.joint_base, mo = True)
     
     
