@@ -4,7 +4,8 @@ def main():
     
     for side in 'LR':
         loc_ankle_ball = cmds.spaceLocator(n = 'aim_ankleBall_%s' % side)[0]
-        space.MatchSpace('JNT_ankleBall_%s' % side, loc_ankle_ball).translation_rotation()
+        jnt_ankleball = put.joint_foot[side]['ankleball']
+        space.MatchSpace(jnt_ankleball, loc_ankle_ball).translation_rotation()
         cmds.parent(loc_ankle_ball, 'follow_controls_foot_1_%s' % side)
         cmds.hide(loc_ankle_ball)
         

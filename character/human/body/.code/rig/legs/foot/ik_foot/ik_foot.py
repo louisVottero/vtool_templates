@@ -20,7 +20,7 @@ def main():
         
         rig.set_attribute_control(put.control_leg_ik[side][-1]) 
         rig.set_pivot_locators(heel, yaw_in, yaw_out)
-        rig.set_ik_parent('JNT_ankle_%s_2' % side)
+        rig.set_ik_parent('%s_2'%put.joint_leg[side][2])
         rig.set_ik_leg(['xform_offset_CNT_SUB_IK_LEG_BTM_1_%s' % side, 'xform_ikHandle_ik_leg_1_%s' % side])
         rig.set_buffer(True)
         rig.set_control_shape('square')
