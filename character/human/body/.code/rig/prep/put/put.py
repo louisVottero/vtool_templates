@@ -40,7 +40,7 @@ def main():
     
     #feet
     put.joint_foot = {'L':{}, 'R':{}}
-    for mapping in ['foot','yaw in', 'yaw out', 'heel']:
+    for mapping in ['foot','yaw in', 'yaw out', 'heel','ankleball']:
         put.joint_foot['L'][mapping] = get_mapping(mapping, foot_left_joint_mapping) 
         put.joint_foot['R'][mapping] = get_mapping(mapping, foot_right_joint_mapping)     
 
