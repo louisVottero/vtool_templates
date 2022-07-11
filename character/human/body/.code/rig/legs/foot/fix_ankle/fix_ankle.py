@@ -4,7 +4,7 @@ def main():
     
     for side in ['L','R']:
         
-        ik_ankle = 'JNT_ankle_%s_2' % side
+        ik_ankle = '%s_2' % put.joint_leg[side][2]
         
         #This is needed because the foot roll exists on same joint as the ik leg
         cmds.delete('%s_orientConstraint1' % ik_ankle)
