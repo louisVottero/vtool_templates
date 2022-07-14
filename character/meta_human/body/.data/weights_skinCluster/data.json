@@ -1,0 +1,10 @@
+[
+    [
+        "name",
+        "weights_skinCluster"
+    ],
+    [
+        "data_type",
+        "maya.skin_weights"
+    ]
+]
