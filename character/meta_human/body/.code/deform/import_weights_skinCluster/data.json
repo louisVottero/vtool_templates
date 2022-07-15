@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "import_weights_skinCluster"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]
