@@ -1,0 +1,208 @@
+[
+    [
+        "Asset.",
+        true
+    ],
+    [
+        "Asset.Top Group",
+        "rig"
+    ],
+    [
+        "Asset.Control Group",
+        "controls_grp"
+    ],
+    [
+        "Asset.Setup Group",
+        "rig_setup_grp"
+    ],
+    [
+        "Asset.Joint Group",
+        ""
+    ],
+    [
+        "Rig.",
+        true
+    ],
+    [
+        "Rig.Info.",
+        true
+    ],
+    [
+        "Rig.Info.Size",
+        1.0
+    ],
+    [
+        "Rig.Info.Scale Uniform",
+        true
+    ],
+    [
+        "Rig.Info.Z Up",
+        true
+    ],
+    [
+        "Rig.Info.Mappings.",
+        true
+    ],
+    [
+        "Rig.Info.Mappings.Joint Mapping",
+        [
+            [
+                {
+                    "base": "root_drv",
+                    "head": "head_drv",
+                    "neck": "neck_??_drv",
+                    "pelvis": "pelvis_drv",
+                    "spine": "spine_??_drv"
+                },
+                [
+                    "base",
+                    "pelvis",
+                    "spine",
+                    "neck",
+                    "head"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Arm Left Joint Mapping",
+        [
+            [
+                {
+                    "arm": "upperarm_l_drv,lowerarm_l_drv,hand_l_drv",
+                    "clavicle": "clavicle_l_drv",
+                    "index": "index_metacarpal_l_drv,index_??_l_drv",
+                    "middle": "middle_metacarpal_l_drv,middle_??_l_drv",
+                    "pinky": "pinky_metacarpal_l_drv,pinky_??_l_drv",
+                    "ring": "ring_metacarpal_l_drv,ring_??_l_drv",
+                    "thumb": "thumb_??_l_drv"
+                },
+                [
+                    "arm",
+                    "thumb",
+                    "index",
+                    "middle",
+                    "ring",
+                    "pinky",
+                    "clavicle"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Arm Right Joint Mapping",
+        [
+            [
+                {
+                    "arm": "upperarm_r_drv, lowerarm_r_drv, hand_r_drv",
+                    "clavicle": "clavicle_r_drv",
+                    "index": "index_??_r_drv",
+                    "middle": "middle_??_r_drv",
+                    "pinky": "pinky_??_r_drv",
+                    "ring": "ring_??_r_drv",
+                    "thumb": "thumb_??_r_drv"
+                },
+                [
+                    "arm",
+                    "thumb",
+                    "index",
+                    "middle",
+                    "ring",
+                    "pinky",
+                    "clavicle"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Leg Left Joint Mapping",
+        [
+            [
+                {
+                    "leg": "thigh_l_drv,calf_l_drv,foot_l_drv",
+                    "toe1": "bigtoe_??_l_drv",
+                    "toe2": "indextoe_??_l_drv",
+                    "toe3": "middletoe_??_l_drv",
+                    "toe4": "ringtoe_??_l_drv",
+                    "toe5": "littletoe_??_l_drv"
+                },
+                [
+                    "leg",
+                    "toe1",
+                    "toe2",
+                    "toe3",
+                    "toe4",
+                    "toe5"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Leg Right Joint Mapping",
+        [
+            [
+                {
+                    "leg": "thigh_r_drv,calf_r_drv,foot_r_drv",
+                    "toe1": "bigtoe_??_r_drv",
+                    "toe2": "indextoe_??_r_drv",
+                    "toe3": "middletoe_??_r_drv",
+                    "toe4": "ringtoe_??_r_drv",
+                    "toe5": "littletoe_??_r_drv"
+                },
+                [
+                    "leg",
+                    "toe1",
+                    "toe2",
+                    "toe3",
+                    "toe4",
+                    "toe5"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Foot Left Joint Mapping",
+        [
+            [
+                {
+                    "foot": "foot_l_drv,ball_l_drv,GDE_toe_l",
+                    "heel": "GDE_heel_l",
+                    "yaw in": "GDE_yawIn_l",
+                    "yaw out": "GDE_yawOut_l"
+                },
+                [
+                    "foot",
+                    "yaw in",
+                    "yaw out",
+                    "heel"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Rig.Info.Mappings.Foot Right Joint Mapping",
+        [
+            [
+                {
+                    "foot": "foot_r_drv,ball_r_drv,GDE_toe_r",
+                    "heel": "GDE_heel_r",
+                    "yaw in": "GDE_yawIn_r",
+                    "yaw out": "GDE_yawOut_r"
+                },
+                [
+                    "foot",
+                    "yaw in",
+                    "yaw out",
+                    "heel"
+                ]
+            ],
+            "dictionary"
+        ]
+    ]
+]
