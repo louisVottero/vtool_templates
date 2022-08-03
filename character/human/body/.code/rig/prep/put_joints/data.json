@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "put_joints"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]

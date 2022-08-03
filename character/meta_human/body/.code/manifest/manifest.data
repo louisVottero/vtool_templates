@@ -43,3 +43,10 @@ finish/import_control_values.py True
 finish/setup_scale.py False
 finish/lock.py True
 finish/cleanup.py True
+deform.py False
+deform/import_weights_skinCluster.py False
+init/import_model.py False
+rig/legs/foot/ankle_ball.py False
+rig/prep/fix_center_line.py False
+rig/prep/orient_joints.py False
+rig_finish/create_bind_skeleton.py False
