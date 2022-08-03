@@ -37,7 +37,7 @@
     ],
     [
         "Rig.Info.Mappings.",
-        true
+        false
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
@@ -206,12 +206,32 @@
         ]
     ],
     [
+        "Rig.Info.Deformation Joints.",
+        true
+    ],
+    [
+        "Rig.Info.Deformation Joints.Arm",
+        4
+    ],
+    [
+        "Rig.Info.Deformation Joints.Elbow",
+        4
+    ],
+    [
+        "Rig.Info.Deformation Joints.Leg",
+        4
+    ],
+    [
+        "Rig.Info.Deformation Joints.Knee",
+        4
+    ],
+    [
         "Rig.Prep.",
-        false
+        true
     ],
     [
         "Rig.Prep.Orient Joints",
-        false
+        true
     ],
     [
         "Rig.Prep.Align Center Joints",
