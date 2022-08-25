@@ -2,9 +2,12 @@ init.py True
 init/open_meta_human.py True
 init/groups.py True
 init/import_structure.py True
+init/import_model.py False
 rig.py True
 rig/prep.py True
 rig/prep/put.py True
+rig/prep/fix_center_line.py False
+rig/prep/orient_joints.py False
 rig/settings.py True
 rig/ground.py True
 rig/root.py True
@@ -36,6 +39,7 @@ rig_finish.py True
 rig_finish/import_control_cvs.py True
 rig_finish/delete_guides.py True
 rig_finish/methuman.py True
+rig_finish/create_bind_skeleton.py False
 finish.py True
 finish/hide.py True
 finish/gear_settings.py True
@@ -45,8 +49,3 @@ finish/lock.py True
 finish/cleanup.py True
 deform.py False
 deform/import_weights_skinCluster.py False
-init/import_model.py False
-rig/legs/foot/ankle_ball.py False
-rig/prep/fix_center_line.py False
-rig/prep/orient_joints.py False
-rig_finish/create_bind_skeleton.py False
