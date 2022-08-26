@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "transfer_weights"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]

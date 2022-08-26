@@ -1,0 +1,4 @@
+import_weight_mesh.py True
+transfer_weights.py True
+rig.py True
+rig/lids.py True
