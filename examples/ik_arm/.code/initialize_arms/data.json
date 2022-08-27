@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "initialize_arms"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]
