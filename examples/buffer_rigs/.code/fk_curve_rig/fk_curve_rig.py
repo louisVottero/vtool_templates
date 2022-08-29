@@ -9,6 +9,7 @@ def main():
     rig.set_ribbon(True)
         
     rig.set_buffer(True)
+    rig.set_buffer_replace('joint', 'buffer_fkcurve')    
 
     rig.set_control_parent(put.control_follow)        
     rig.create()

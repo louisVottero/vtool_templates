@@ -5,7 +5,7 @@ def main():
     joints = put.arm_sections[put.current_ik]
     hue = put.current_ik * .1
     
-    rig = rigs.IkAppendageRig('default')
+    rig = rigs.IkAppendageRig('soft')
     rig.set_joints(joints)
     
     rig.set_control_size(5)

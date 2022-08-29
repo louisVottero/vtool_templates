@@ -6,7 +6,7 @@ def main():
     joints = put.arm_sections[put.current_ik]
 
     
-    rig = rigs.IkAppendageRig('default')
+    rig = rigs.IkAppendageRig('elbow_lock')
     rig.set_joints(joints)
     
     rig.set_control_size(5)
