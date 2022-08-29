@@ -8,6 +8,7 @@ def main():
     rig.set_joints(joints)
     
     rig.set_buffer(True)
+    rig.set_buffer_replace('joint', 'buffer_fk')
     
     rig.set_control_parent(put.control_follow)
     rig.delete_setup()
