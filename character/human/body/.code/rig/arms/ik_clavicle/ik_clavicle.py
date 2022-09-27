@@ -33,8 +33,8 @@ def main():
         
         if side == 'R':
             cmds.setAttr('xform_%s.scaleX' % rig.controls[0], -1)
-            cmds.setAttr('xform_%s.scaleX' % rig.controls[0], -1)
-            cmds.setAttr('xform_%s.scaleX' % rig.controls[0], -1)
+            cmds.setAttr('xform_%s.scaleY' % rig.controls[0], -1)
+            cmds.setAttr('xform_%s.scaleZ' % rig.controls[0], -1)
         
         section = space.duplicate_joint_section(clavicle_joints[0],name='ik_clavicle_%s' % side)
         cmds.parent(section[0], rig.setup_group)
@@ -94,3 +94,4 @@ def main():
             space.mirror_xform(left_loc, loc_xform)
 
         cmds.poleVectorConstraint(loc, handle)         
+        

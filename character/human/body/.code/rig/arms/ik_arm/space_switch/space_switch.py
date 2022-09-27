@@ -11,7 +11,6 @@ def main():
                             put.control_spine[-1],
                             put.control_clavicle[side],
                             controls[0]],target=xform)
-        switch.set_connect_scale(False)        
         switch.set_input_attribute(controls[-1],'switch',['ground','root','spine', 'clavicle','arm_top'])
         switch.create(create_switch=True)          
         cmds.setAttr('%s.switch' % controls[-1], 0)

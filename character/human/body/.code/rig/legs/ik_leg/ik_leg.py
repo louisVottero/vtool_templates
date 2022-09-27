@@ -25,6 +25,11 @@ def main():
         rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
         rig.set_pole_follow_transform([put.control_ground[-1],put.control_root[-1]],1)
 
+        if put.controls_mirrored_ik:
+            rig.set_right_side_fix(False)
+            rig.set_negate_right_scale(True,scale_x=-1,scale_y=-1,scale_z=-1)
+
+
         if side == 'L':
             rig.set_control_color_hue(.65)
             rig.set_control_color_increment_hue(-0.02)

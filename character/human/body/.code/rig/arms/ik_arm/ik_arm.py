@@ -25,6 +25,9 @@ def main():
         rig.set_pole_follow_transform([put.control_ground[-1],put.control_root[-1]],1)
         rig.set_control_set([side, 'arm_%s' % side])       
         rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
+        if put.controls_mirrored_ik:
+            rig.set_right_side_fix(False)
+            rig.set_negate_right_scale(True,scale_x=-1,scale_y=-1,scale_z=-1)
 
         if side == 'L':
             rig.set_control_color_hue(.65)
@@ -36,7 +39,7 @@ def main():
         rig.set_control_parent(put.control_clavicle[side])
         rig.set_setup_parent(put.group_setup)
         rig.create()
-                
+              
         put.control_arm_ik[side] = rig.controls
         
         cmds.setAttr('%s.poleVisibility' % rig.controls[-1], 1)
@@ -57,7 +60,7 @@ def main():
         position_end = cmds.xform(child[0], q = True, ws = True, t = True)
         geo.move_cvs(get_start_cvs(rig.controls[-1]),position_start,pivot_at_center = True)
         geo.move_cvs(get_end_cvs(rig.controls[-1]),position_end,pivot_at_center = True)
-
+        
                     
 
 def get_start_cvs(control):

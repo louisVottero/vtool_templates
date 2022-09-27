@@ -37,7 +37,7 @@
     ],
     [
         "Rig.Info.Mappings.",
-        true
+        false
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
@@ -207,7 +207,7 @@
     ],
     [
         "Rig.Info.Deformation Joints.",
-        true
+        false
     ],
     [
         "Rig.Info.Deformation Joints.Arm",
@@ -224,6 +224,14 @@
     [
         "Rig.Info.Deformation Joints.Knee",
         4
+    ],
+    [
+        "Rig.Info.Controls.",
+        true
+    ],
+    [
+        "Rig.Info.Controls.Mirrored IK",
+        true
     ],
     [
         "Rig.Prep.",

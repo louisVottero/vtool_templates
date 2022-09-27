@@ -18,7 +18,8 @@ def main():
     rig.set_control_shape('circle')
     rig.set_ribbon(True)
     rig.set_ribbon_offset_axis('X')
-    rig.set_ribbon_joint_aim(True, [0,1,0])
+    #temporarily removing until its more stable.
+    #rig.set_ribbon_joint_aim(True, [0,1,0])
     rig.set_stretch_on_off(True)
 
     rig.set_control_color_hue(.165)    

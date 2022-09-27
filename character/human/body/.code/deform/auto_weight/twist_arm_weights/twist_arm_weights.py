@@ -3,7 +3,7 @@ from vtool import util
 
 def main():
 
-    body_mesh = 'body'
+    body_mesh = 'bodyMid'
     
     meshes = [body_mesh]
     

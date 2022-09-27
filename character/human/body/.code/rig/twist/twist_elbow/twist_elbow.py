@@ -1,5 +1,6 @@
 from vtool.maya_lib import rigs
 from vtool.maya_lib import space
+from vtool.maya_lib import attr
 
 def main():
 
@@ -33,5 +34,8 @@ def main():
 
         space.create_follow_group(elbow_joint, 'xform_CNT_ELBOW_TWIST_TOP_1_%s' % side)        
         space.create_follow_group(arm_joints[2], 'xform_CNT_ELBOW_TWIST_BTM_1_%s' % side)              
+        
+        xform = space.get_xform_group(rig.controls[-1])
+        space.zero_out_transform_channels(xform)
         
         put.joint_twist_elbow[side] = rig.sub_joints                

@@ -13,7 +13,6 @@ def main():
                             put.control_root[-1], 
                             put.control_pelvis,
                             controls[0]],target=xform)
-        switch.set_connect_scale(False)        
         switch.set_input_attribute(controls[-1],'switch',['ground','root','pelvis','leg_top'])
         switch.create(create_switch=True)          
         cmds.setAttr('%s.switch' % controls[-1], 0)
