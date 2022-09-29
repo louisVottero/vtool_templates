@@ -3,6 +3,15 @@
 These templates work with Vetala auto rig, which can be downloaded here
 https://github.com/louisVottero/vtool
 
-body template
+some of the templates included
 
-![template_model_with_rig](https://user-images.githubusercontent.com/2879064/167993220-64ace1d8-9950-458e-b5c4-9c2c3facef58.png)
+* human / body
+* meta_human / body
+* prop / use_hierarchy
+
+as well as various examples
+
+
+
+![vetala_pose](https://user-images.githubusercontent.com/2879064/192540668-fd581c40-2ca5-4ca4-8b6b-649e2cebf019.png)
+
