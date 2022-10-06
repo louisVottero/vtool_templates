@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "prep_mapping"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]

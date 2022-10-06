@@ -1,0 +1,42 @@
+[
+    [
+        "Shape Combo System.",
+        true
+    ],
+    [
+        "Shape Combo System.Face Model",
+        "bodyMid"
+    ],
+    [
+        "Shape Combo System.Build Shape Combo System",
+        [
+            "process.run_script('build_shape_combo_system')",
+            "script"
+        ]
+    ],
+    [
+        "Shape Combo System.----",
+        null
+    ],
+    [
+        "Shape Combo System.Launch Shape Combo UI",
+        [
+            "\nfrom vtool.maya_lib import ui\nui.shape_combo()\n",
+            "script"
+        ]
+    ],
+    [
+        "Shape Combo System.Save Shape Combo System",
+        [
+            "process.run_script('save_shape_combo_system')",
+            "script"
+        ]
+    ],
+    [
+        "Shape Combo System.Load Shape Combo System",
+        [
+            "process.run_script('load_shape_combo_system')",
+            "script"
+        ]
+    ]
+]

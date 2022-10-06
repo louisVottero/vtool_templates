@@ -1,28 +1,29 @@
 //Maya ASCII 2022 scene
 //Name: structure.ma
-//Last modified: Mon, Sep 26, 2022 11:06:42 PM
+//Last modified: Fri, Sep 30, 2022 01:51:37 AM
 //Codeset: 1252
 requires maya "2022";
 requires "stereoCamera" "10.0";
+requires "mtoa" "5.0.0.4";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202205171752-c25c06f306";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22621)";
-fileInfo "UUID" "0E43C11F-4E3D-54E6-94C8-0498EC4D1E92";
+fileInfo "UUID" "91EB91A1-4C91-06CF-69D9-B288021CAB44";
 createNode transform -n "temp";
-	rename -uid "14F2E0DA-4FF8-4D77-97EA-9F8062D3423F";
+	rename -uid "2275EE48-4428-688E-62DF-BEB35DD2D013";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 18;
 createNode joint -n "GDE_headPivot" -p "temp";
-	rename -uid "A4627E63-439D-FBE5-0AB8-789E9EEED296";
+	rename -uid "A678C22F-4013-BC36-97F9-DBA9732A0B87";
 	setAttr ".t" -type "double3" 0.00015367437566737852 174.90277771341809 -2.3478771929905178 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 2;
 createNode joint -n "GDE_yawIn_L" -p "temp";
-	rename -uid "9F6AE2B3-4F01-DECE-E260-949E9880347A";
+	rename -uid "F2A6141E-48A2-2934-9672-C48C6F2AFD33";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -43,7 +44,7 @@ createNode joint -n "GDE_yawIn_L" -p "temp";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 18;
@@ -64,7 +65,7 @@ createNode joint -n "GDE_yawIn_L" -p "temp";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_heel_L" -p "temp";
-	rename -uid "66D61401-42F4-ADC4-A770-B9AEDA0DA7AE";
+	rename -uid "066F15AE-4F9A-153E-6CF6-3188459048D4";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -85,7 +86,7 @@ createNode joint -n "GDE_heel_L" -p "temp";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 18;
@@ -106,7 +107,7 @@ createNode joint -n "GDE_heel_L" -p "temp";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_yawOut_L" -p "temp";
-	rename -uid "B251EBFC-4A88-C91E-A7C1-A4ABA97D64D0";
+	rename -uid "B9275C72-4496-6FD3-36E1-33AEB406EF1F";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -127,7 +128,7 @@ createNode joint -n "GDE_yawOut_L" -p "temp";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 18;
@@ -148,7 +149,7 @@ createNode joint -n "GDE_yawOut_L" -p "temp";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_yawIn_R" -p "temp";
-	rename -uid "B34D319E-43C9-0081-46C1-36A2BC55F47C";
+	rename -uid "96CF92AB-4197-CBD6-24A0-5F911D0800A0";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -169,7 +170,7 @@ createNode joint -n "GDE_yawIn_R" -p "temp";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 18;
@@ -190,7 +191,7 @@ createNode joint -n "GDE_yawIn_R" -p "temp";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_heel_R" -p "temp";
-	rename -uid "783E3359-4852-2F84-1CC2-34B140132816";
+	rename -uid "74CD1F2D-4992-E328-5066-B88C5CD21BB2";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -211,7 +212,7 @@ createNode joint -n "GDE_heel_R" -p "temp";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 18;
@@ -232,7 +233,7 @@ createNode joint -n "GDE_heel_R" -p "temp";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_yawOut_R" -p "temp";
-	rename -uid "70DE432D-4A77-3C5B-4F82-59979D880C73";
+	rename -uid "B2866981-4CD5-D16A-4992-32948C162711";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -253,7 +254,7 @@ createNode joint -n "GDE_yawOut_R" -p "temp";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 18;
@@ -274,7 +275,7 @@ createNode joint -n "GDE_yawOut_R" -p "temp";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_root";
-	rename -uid "0BFEBF7B-4B32-1412-F8DE-0BBD8B6BBA25";
+	rename -uid "2351A3AD-4E05-A5F3-0458-16A751129B0A";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -296,7 +297,7 @@ createNode joint -n "JNT_root";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -320,7 +321,7 @@ createNode joint -n "JNT_root";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pelvis" -p "JNT_root";
-	rename -uid "D00B54D1-4D83-EA8A-DB9A-06880CACD321";
+	rename -uid "329BE367-4DBE-BD90-33A0-6F91F3A64C72";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -342,7 +343,7 @@ createNode joint -n "JNT_pelvis" -p "JNT_root";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -367,7 +368,7 @@ createNode joint -n "JNT_pelvis" -p "JNT_root";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_spine1" -p "JNT_pelvis";
-	rename -uid "4E80D96C-42D5-8D40-DD73-F2979ECF221C";
+	rename -uid "A5B63619-4E99-5044-0086-46A13888E7D8";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -388,7 +389,7 @@ createNode joint -n "JNT_spine1" -p "JNT_pelvis";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -412,7 +413,7 @@ createNode joint -n "JNT_spine1" -p "JNT_pelvis";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_spine2" -p "JNT_spine1";
-	rename -uid "5CE5FB89-410F-E6DA-4CEB-2288BCB7AB86";
+	rename -uid "CA5898A8-4C84-9B35-7343-C7B52E97B2F8";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -433,7 +434,7 @@ createNode joint -n "JNT_spine2" -p "JNT_spine1";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -457,7 +458,7 @@ createNode joint -n "JNT_spine2" -p "JNT_spine1";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_spine3" -p "JNT_spine2";
-	rename -uid "7FCE33AE-46FC-5748-6BF5-AB94B26FB507";
+	rename -uid "1EA8AD08-4BB4-8E65-EE3F-8D9AA56E27FC";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -478,7 +479,7 @@ createNode joint -n "JNT_spine3" -p "JNT_spine2";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -502,7 +503,7 @@ createNode joint -n "JNT_spine3" -p "JNT_spine2";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_spine4" -p "JNT_spine3";
-	rename -uid "FC87F6FD-46CD-BD92-97FE-5BB620C66AC7";
+	rename -uid "762625B2-4CC7-B646-90EA-42819A202524";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -523,7 +524,7 @@ createNode joint -n "JNT_spine4" -p "JNT_spine3";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -547,7 +548,7 @@ createNode joint -n "JNT_spine4" -p "JNT_spine3";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_spine5" -p "JNT_spine4";
-	rename -uid "D46937B7-4201-C268-CE2C-B9B709FCB6B7";
+	rename -uid "DEB5AE46-4F93-38E7-010B-CCAC57011ADA";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -568,7 +569,7 @@ createNode joint -n "JNT_spine5" -p "JNT_spine4";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -592,7 +593,7 @@ createNode joint -n "JNT_spine5" -p "JNT_spine4";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_chest" -p "JNT_spine5";
-	rename -uid "0130EB4F-41A8-9652-CB28-C58EFC078B2F";
+	rename -uid "7ABBD8C5-4BFC-0237-35F8-67BF0117AF84";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -603,7 +604,7 @@ createNode joint -n "JNT_chest" -p "JNT_spine5";
 		 -8.2653340658701974e-19 0.99999999999999989 -1.1145598333150993e-16 0 -2.2286807305284212e-16 1.1058862159352148e-16 0.99999999999999989 0
 		 1.2225896077425394e-06 135.62822925145349 -1.8788336394841243 1;
 createNode joint -n "JNT_clavicle_L" -p "JNT_chest";
-	rename -uid "BC03335B-409C-4A2A-CC24-5F9B05B1A10F";
+	rename -uid "C0CF7AF4-4E41-59CE-63A3-CA91B591EFF6";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -625,7 +626,7 @@ createNode joint -n "JNT_clavicle_L" -p "JNT_chest";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -652,7 +653,7 @@ createNode joint -n "JNT_clavicle_L" -p "JNT_chest";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_arm_L" -p "JNT_clavicle_L";
-	rename -uid "CA4C7FFB-46AA-9077-7196-34A1A97D74F8";
+	rename -uid "3E67D8C6-49B7-AE73-F8C4-719B850AF4C2";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -674,7 +675,7 @@ createNode joint -n "JNT_arm_L" -p "JNT_clavicle_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr -av ".v";
 	setAttr ".uoc" 1;
@@ -703,7 +704,7 @@ createNode joint -n "JNT_arm_L" -p "JNT_clavicle_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_elbow_L" -p "JNT_arm_L";
-	rename -uid "71F2E3ED-489F-4D0B-7105-688489F517FF";
+	rename -uid "EC0AC6D1-4D41-4AB6-8EF1-83A8455FFA4C";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -725,12 +726,12 @@ createNode joint -n "JNT_elbow_L" -p "JNT_arm_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" 33.77498373832583 -1.4210854715202004e-14 -1.7763568394002505e-15 ;
-	setAttr ".r" -type "double3" 3.2600685485001054e-14 -9.7318549781500882e-14 -2.2357344856394367e-14 ;
+	setAttr ".r" -type "double3" 3.2600685485001054e-14 -9.7318549781500882e-14 -2.235734485639437e-14 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" -2.2501804437414443 -39.535264235069768 6.2557952996842605 ;
@@ -754,7 +755,7 @@ createNode joint -n "JNT_elbow_L" -p "JNT_arm_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_wrist_L" -p "JNT_elbow_L";
-	rename -uid "098CBC08-4CEE-B26C-F941-04B9918D31FE";
+	rename -uid "E1AC787E-4468-D6EE-1A75-D498FB758C8E";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -776,7 +777,7 @@ createNode joint -n "JNT_wrist_L" -p "JNT_elbow_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -804,7 +805,7 @@ createNode joint -n "JNT_wrist_L" -p "JNT_elbow_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_wristAim_L" -p "JNT_wrist_L";
-	rename -uid "94F583AB-4C78-DE09-60EF-DC9866A1DBFA";
+	rename -uid "31E5FBD7-4AFF-399D-42D0-A69CEF97C5C7";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -819,7 +820,7 @@ createNode joint -n "GDE_wristAim_L" -p "JNT_wrist_L";
 		 68.915959912692514 101.11019174054417 11.34708972457485 1;
 	setAttr ".radi" 2;
 createNode joint -n "GDE_wristUp_L" -p "JNT_wrist_L";
-	rename -uid "832C5282-43B4-A7F7-CBA2-30B45369D631";
+	rename -uid "0861D5AB-4691-35D3-AE1E-E0B4DCDB9E22";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -834,7 +835,7 @@ createNode joint -n "GDE_wristUp_L" -p "JNT_wrist_L";
 		 61.046405394459157 120.39957409063602 8.0862061955051825 1;
 	setAttr ".radi" 2;
 createNode joint -n "JNT_indexBase_L" -p "JNT_wrist_L";
-	rename -uid "B38E8A4B-4849-2DE0-7E3E-ABAF7874323E";
+	rename -uid "5F8E86B3-4BE6-BF7A-0D56-2C9921D638CD";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -856,7 +857,7 @@ createNode joint -n "JNT_indexBase_L" -p "JNT_wrist_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -885,7 +886,7 @@ createNode joint -n "JNT_indexBase_L" -p "JNT_wrist_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_index_01_L" -p "JNT_indexBase_L";
-	rename -uid "F386C84B-48F3-26FF-E644-6B9DFDE8A16A";
+	rename -uid "AAC3F8CF-44BC-680E-2F42-9F98070AB2E2";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -907,7 +908,7 @@ createNode joint -n "JNT_index_01_L" -p "JNT_indexBase_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -937,7 +938,7 @@ createNode joint -n "JNT_index_01_L" -p "JNT_indexBase_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_index_02_L" -p "JNT_index_01_L";
-	rename -uid "57214593-40D9-C8C5-79EF-3C987DB38D4C";
+	rename -uid "44981FDA-49A2-BC87-3B2F-6BA545EE7556";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -959,12 +960,12 @@ createNode joint -n "JNT_index_02_L" -p "JNT_index_01_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" 5.1286186597007344 6.3948846218409017e-14 -8.5265128291212022e-14 ;
-	setAttr ".r" -type "double3" -9.6442557226928907e-14 8.0525543874491675e-13 -1.8558536566339628e-12 ;
+	setAttr ".r" -type "double3" -9.6442557226928919e-14 8.0525543874491675e-13 -1.8558536566339628e-12 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" 0 0 -13.659159222328777 ;
@@ -988,7 +989,7 @@ createNode joint -n "JNT_index_02_L" -p "JNT_index_01_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_index_03_L" -p "JNT_index_02_L";
-	rename -uid "20FAA123-4FD0-A648-D0C7-5EB340B011CB";
+	rename -uid "03AE9C31-4002-3A94-4FCB-32BC7F79C54D";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1010,12 +1011,12 @@ createNode joint -n "JNT_index_03_L" -p "JNT_index_02_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" 3.0334051505087132 -9.5923269327613525e-14 -5.6843418860808015e-14 ;
-	setAttr ".r" -type "double3" -2.751689029876123e-11 5.7289644137072107e-13 1.5193523569068252e-12 ;
+	setAttr ".r" -type "double3" -2.7516890298761236e-11 5.7289644137072107e-13 1.5193523569068252e-12 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" -0.026359537445473299 -0.323251372577816 4.6618951350925579 ;
@@ -1039,7 +1040,7 @@ createNode joint -n "JNT_index_03_L" -p "JNT_index_02_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_index_04_L" -p "JNT_index_03_L";
-	rename -uid "3EC32B79-40B1-FEAC-8192-4FACC3716813";
+	rename -uid "58090CBE-4B29-BAB0-FA7E-77A6328845DA";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1061,7 +1062,7 @@ createNode joint -n "JNT_index_04_L" -p "JNT_index_03_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1089,7 +1090,7 @@ createNode joint -n "JNT_index_04_L" -p "JNT_index_03_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middleBase_L" -p "JNT_wrist_L";
-	rename -uid "A9FD47E3-40FB-8E80-13F6-27A41B6C37FB";
+	rename -uid "F31ECFAB-41BA-9735-1B6C-BB955FCE27E0";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1111,7 +1112,7 @@ createNode joint -n "JNT_middleBase_L" -p "JNT_wrist_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1140,7 +1141,7 @@ createNode joint -n "JNT_middleBase_L" -p "JNT_wrist_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middle_01_L" -p "JNT_middleBase_L";
-	rename -uid "15273365-4C43-C686-6767-E9841A98B69D";
+	rename -uid "146C34D3-4051-DB24-821D-96922A93BA0E";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1162,7 +1163,7 @@ createNode joint -n "JNT_middle_01_L" -p "JNT_middleBase_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1192,7 +1193,7 @@ createNode joint -n "JNT_middle_01_L" -p "JNT_middleBase_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middle_02_L" -p "JNT_middle_01_L";
-	rename -uid "F84CBED7-401D-C097-7764-6DA861C37D2E";
+	rename -uid "D20B5B95-4F4B-0C26-6202-C697BDCC8EB4";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1214,7 +1215,7 @@ createNode joint -n "JNT_middle_02_L" -p "JNT_middle_01_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1222,7 +1223,7 @@ createNode joint -n "JNT_middle_02_L" -p "JNT_middle_01_L";
 	setAttr ".r" -type "double3" 7.5193450338263938e-14 -1.3102116582363208e-12 4.8264917291208779e-13 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 0 0 -6.5692389141995076 ;
+	setAttr ".jo" -type "double3" 0 0 -6.5692389141995085 ;
 	setAttr ".pa" -type "double3" 0 3.1805546814635168e-15 0 ;
 	setAttr ".bps" -type "matrix" 0.13467553809237776 -0.98865620772974239 0.066493626438727957 0
 		 0.96105759081836784 0.14666852791474255 0.23421496546915363 0 -0.24131060185976699 0.032361177926134459 0.96990821606650479 0
@@ -1243,7 +1244,7 @@ createNode joint -n "JNT_middle_02_L" -p "JNT_middle_01_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middle_03_L" -p "JNT_middle_02_L";
-	rename -uid "DEACCFD9-48E2-0E2C-B03F-35AB2B92CDD7";
+	rename -uid "CCEA05C4-4661-0812-AC74-82BED79265FC";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1265,7 +1266,7 @@ createNode joint -n "JNT_middle_03_L" -p "JNT_middle_02_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1294,7 +1295,7 @@ createNode joint -n "JNT_middle_03_L" -p "JNT_middle_02_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middle_04_L" -p "JNT_middle_03_L";
-	rename -uid "C8372610-4371-2FAE-FBF7-1BB2561B45A6";
+	rename -uid "37FD1D1A-4186-4002-637F-588AFE2D2866";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1316,7 +1317,7 @@ createNode joint -n "JNT_middle_04_L" -p "JNT_middle_03_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1344,7 +1345,7 @@ createNode joint -n "JNT_middle_04_L" -p "JNT_middle_03_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ringBase_L" -p "JNT_wrist_L";
-	rename -uid "BFB9612D-45A8-92E6-EA43-C2A42568A5A2";
+	rename -uid "52FEFC52-4326-368A-D0F0-0E9FE081EC61";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1366,15 +1367,15 @@ createNode joint -n "JNT_ringBase_L" -p "JNT_wrist_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" 2.370647344840819 1.3240943159528058 -2.1034363981411701 ;
-	setAttr ".r" -type "double3" -4.1012538235069282e-14 9.3206472986086494e-13 4.447853235759809e-13 ;
+	setAttr ".r" -type "double3" -4.1012538235069282e-14 9.3206472986086494e-13 4.44785323575981e-13 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" -0.0044296914070045433 0.37904007357769354 -1.3391203775707781 ;
+	setAttr ".jo" -type "double3" -0.0044296914070045433 0.37904007357769354 -1.3391203775707783 ;
 	setAttr ".pa" -type "double3" 1.5753684906623966e-14 3.8266048511357949e-14 -5.0391913234437593e-14 ;
 	setAttr ".bps" -type "matrix" 0.73158474758085468 -0.6669730439752809 0.14117618679297614 0
 		 0.64697278670091807 0.74451090067158876 0.16471105624586341 0 -0.21496504454330631 -0.029162945522144899 0.97618622825410029 0
@@ -1395,7 +1396,7 @@ createNode joint -n "JNT_ringBase_L" -p "JNT_wrist_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ring_01_L" -p "JNT_ringBase_L";
-	rename -uid "9F49E302-496F-6A51-1417-27B93D3D0BE0";
+	rename -uid "87E1BDCC-40BC-9A15-DBCF-768279565874";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1417,7 +1418,7 @@ createNode joint -n "JNT_ring_01_L" -p "JNT_ringBase_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1447,7 +1448,7 @@ createNode joint -n "JNT_ring_01_L" -p "JNT_ringBase_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ring_02_L" -p "JNT_ring_01_L";
-	rename -uid "07F4BDD9-495E-BDBE-F822-B8A3ED3BCFAF";
+	rename -uid "DC529051-4B7F-FCB0-219C-02B19EDE8FDE";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1469,7 +1470,7 @@ createNode joint -n "JNT_ring_02_L" -p "JNT_ring_01_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1498,7 +1499,7 @@ createNode joint -n "JNT_ring_02_L" -p "JNT_ring_01_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ring_03_L" -p "JNT_ring_02_L";
-	rename -uid "DCC908B3-4FA3-2AEF-CF17-BDB7A546D414";
+	rename -uid "FB9EF1C1-4226-25CB-FB4F-C695B35294DE";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1520,7 +1521,7 @@ createNode joint -n "JNT_ring_03_L" -p "JNT_ring_02_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1549,7 +1550,7 @@ createNode joint -n "JNT_ring_03_L" -p "JNT_ring_02_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ring_04_L" -p "JNT_ring_03_L";
-	rename -uid "EEC3732A-4C37-0367-297B-28955AD01529";
+	rename -uid "618EF863-44F1-9262-C37F-98A36976F234";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1571,7 +1572,7 @@ createNode joint -n "JNT_ring_04_L" -p "JNT_ring_03_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1599,7 +1600,7 @@ createNode joint -n "JNT_ring_04_L" -p "JNT_ring_03_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinkyBase_L" -p "JNT_wrist_L";
-	rename -uid "71E03211-467D-B3A8-20B4-E292A2A538DC";
+	rename -uid "F2C984DF-49E9-13CC-47F8-208E1F4FB13F";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1621,7 +1622,7 @@ createNode joint -n "JNT_pinkyBase_L" -p "JNT_wrist_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1650,7 +1651,7 @@ createNode joint -n "JNT_pinkyBase_L" -p "JNT_wrist_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinky_01_L" -p "JNT_pinkyBase_L";
-	rename -uid "A80AA629-4F79-1A71-EE3E-368154F5C540";
+	rename -uid "03FA1553-4227-4BCB-509C-9B9EF9D8C3F7";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1672,7 +1673,7 @@ createNode joint -n "JNT_pinky_01_L" -p "JNT_pinkyBase_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1702,7 +1703,7 @@ createNode joint -n "JNT_pinky_01_L" -p "JNT_pinkyBase_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinky_02_L" -p "JNT_pinky_01_L";
-	rename -uid "D4E1DFA4-4452-F034-6285-73AED460D31E";
+	rename -uid "816448ED-4DEE-CBD8-25E8-BB85A4F09B64";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1724,7 +1725,7 @@ createNode joint -n "JNT_pinky_02_L" -p "JNT_pinky_01_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1732,7 +1733,7 @@ createNode joint -n "JNT_pinky_02_L" -p "JNT_pinky_01_L";
 	setAttr ".r" -type "double3" 6.1579854374703114e-14 -1.4690260676134163e-12 1.9687633478259158e-12 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 0 0 -4.800733497416493 ;
+	setAttr ".jo" -type "double3" 0 0 -4.8007334974164939 ;
 	setAttr ".pa" -type "double3" 0 3.1805546814635168e-15 0 ;
 	setAttr ".bps" -type "matrix" 0.17535247995491104 -0.98294301656672267 -0.055448480198952613 0
 		 0.98155101203730311 0.17890892888738291 -0.067447801542490832 0 0.076217573709797523 -0.042598372587229948 0.9961808370525459 0
@@ -1753,7 +1754,7 @@ createNode joint -n "JNT_pinky_02_L" -p "JNT_pinky_01_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinky_03_L" -p "JNT_pinky_02_L";
-	rename -uid "46B8DC6A-458F-9D9E-9B16-17BFDB4CDD8E";
+	rename -uid "0B3EAF2E-44A2-A176-3CF7-05A2DC148A09";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1775,7 +1776,7 @@ createNode joint -n "JNT_pinky_03_L" -p "JNT_pinky_02_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1804,7 +1805,7 @@ createNode joint -n "JNT_pinky_03_L" -p "JNT_pinky_02_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinky_04_L" -p "JNT_pinky_03_L";
-	rename -uid "4E2E2818-4F52-11F1-F82C-0E97DD2125C5";
+	rename -uid "4757201E-4C5B-5D0F-669D-119DF3F3EDF3";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1826,7 +1827,7 @@ createNode joint -n "JNT_pinky_04_L" -p "JNT_pinky_03_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1854,7 +1855,7 @@ createNode joint -n "JNT_pinky_04_L" -p "JNT_pinky_03_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_thumbBase_L" -p "JNT_wrist_L";
-	rename -uid "DB9FDDCC-4FA4-50ED-5EAA-359837A99E2F";
+	rename -uid "9B0B61EF-4702-22A2-4BCF-5681A26838F4";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1876,7 +1877,7 @@ createNode joint -n "JNT_thumbBase_L" -p "JNT_wrist_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1905,7 +1906,7 @@ createNode joint -n "JNT_thumbBase_L" -p "JNT_wrist_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_thumb_01_L" -p "JNT_thumbBase_L";
-	rename -uid "C12EFAAD-4617-795E-C86A-3A81821DBD48";
+	rename -uid "A8C0416E-4CD0-1AF7-8A0A-F389C469FBB6";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1927,7 +1928,7 @@ createNode joint -n "JNT_thumb_01_L" -p "JNT_thumbBase_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1957,7 +1958,7 @@ createNode joint -n "JNT_thumb_01_L" -p "JNT_thumbBase_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_thumb_02_L" -p "JNT_thumb_01_L";
-	rename -uid "070E4DD9-45F6-9B29-495B-0CB090C08F09";
+	rename -uid "0AB0EDC8-4F87-DA86-C16E-069CA001628C";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -1979,7 +1980,7 @@ createNode joint -n "JNT_thumb_02_L" -p "JNT_thumb_01_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -1987,7 +1988,7 @@ createNode joint -n "JNT_thumb_02_L" -p "JNT_thumb_01_L";
 	setAttr ".r" -type "double3" -9.1556552800322315e-12 4.0924812852949039e-13 -1.2518573151938227e-12 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 0.080486239699985904 1.7484219587635035 2.6360832644870422 ;
+	setAttr ".jo" -type "double3" 0.080486239699985918 1.7484219587635035 2.6360832644870422 ;
 	setAttr ".pa" -type "double3" 0 3.1805546814635168e-15 0 ;
 	setAttr ".bps" -type "matrix" 0.13018755827941139 -0.91525641034599903 0.38125700385671762 0
 		 -0.2218834867974169 0.34788273006816939 0.91090357580093939 0 -0.96634306431818795 -0.20318294574317372 -0.15779028044610716 0
@@ -2008,7 +2009,7 @@ createNode joint -n "JNT_thumb_02_L" -p "JNT_thumb_01_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_thumb_03_L" -p "JNT_thumb_02_L";
-	rename -uid "4B5B5D03-4E63-D30A-B313-D79E0AC556F9";
+	rename -uid "A865E2DC-401F-3E73-83F5-D4A9D073A3F8";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2030,7 +2031,7 @@ createNode joint -n "JNT_thumb_03_L" -p "JNT_thumb_02_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2058,7 +2059,7 @@ createNode joint -n "JNT_thumb_03_L" -p "JNT_thumb_02_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_arm_L" -p "JNT_arm_L";
-	rename -uid "2D29839B-48AC-64EE-C83A-D0A5045E933F";
+	rename -uid "5E76D50C-4CDD-181E-6C41-62BEEA44D420";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2067,13 +2068,13 @@ createNode joint -n "GDE_arm_L" -p "JNT_arm_L";
 	setAttr ".t" -type "double3" -3.4715653207621813 2.7859295355701192 -7.1054273576010019e-15 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" -2.8462832941579699e-06 5.301373124998948 51.252980998033287 ;
+	setAttr ".jo" -type "double3" -2.8462832941579703e-06 5.301373124998948 51.252980998033287 ;
 	setAttr ".bps" -type "matrix" 0.99961095266458011 0.027879582495798954 -0.00081987369198410764 0
 		 -0.02788019909056607 0.99961098995989695 -0.00075049987662256096 0 0.00079863112966299665 0.00077306613840681659 0.99999938227834129 0
 		 61.046405394459157 120.39957409063602 8.0862061955051825 1;
 	setAttr ".radi" 2;
 createNode joint -n "JNT_neck1" -p "JNT_chest";
-	rename -uid "6353C854-4B7B-DBCA-90A9-5294319F9674";
+	rename -uid "2047EBFB-4B6E-89D4-092A-C4BED6F4A185";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2095,7 +2096,7 @@ createNode joint -n "JNT_neck1" -p "JNT_chest";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2122,7 +2123,7 @@ createNode joint -n "JNT_neck1" -p "JNT_chest";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_neck2" -p "JNT_neck1";
-	rename -uid "A14BB832-4542-1BBE-1607-DBACC98AFDD3";
+	rename -uid "15653ABD-4B7A-BE6C-A9CA-E0B5C6466C5A";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2143,7 +2144,7 @@ createNode joint -n "JNT_neck2" -p "JNT_neck1";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2166,7 +2167,7 @@ createNode joint -n "JNT_neck2" -p "JNT_neck1";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_neck3" -p "JNT_neck2";
-	rename -uid "B8198AE9-49F6-62E6-956D-2D856D8E15AA";
+	rename -uid "BED3199F-4813-1E5F-D860-A7AFFAD95AA6";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2187,7 +2188,7 @@ createNode joint -n "JNT_neck3" -p "JNT_neck2";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2210,7 +2211,7 @@ createNode joint -n "JNT_neck3" -p "JNT_neck2";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_head" -p "JNT_neck3";
-	rename -uid "7C7D1282-4F04-2FA1-7013-7F957B2D2F93";
+	rename -uid "4E37A192-458F-2409-5B05-E996F51DB4A2";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2232,7 +2233,7 @@ createNode joint -n "JNT_head" -p "JNT_neck3";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2260,7 +2261,7 @@ createNode joint -n "JNT_head" -p "JNT_neck3";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_headEnd" -p "JNT_head";
-	rename -uid "492F1F0E-4B42-982D-070C-3DBAD96450FC";
+	rename -uid "6C0C302F-40EE-0396-51E5-21B7DE9D09C3";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2282,7 +2283,7 @@ createNode joint -n "JNT_headEnd" -p "JNT_head";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2304,7 +2305,7 @@ createNode joint -n "JNT_headEnd" -p "JNT_head";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_clavicle_R" -p "JNT_chest";
-	rename -uid "4EE4CD45-453A-603D-001D-A5AF3F0D59D5";
+	rename -uid "9FFB3390-4E3E-FFE6-E789-1F85592596AF";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2326,7 +2327,7 @@ createNode joint -n "JNT_clavicle_R" -p "JNT_chest";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2354,7 +2355,7 @@ createNode joint -n "JNT_clavicle_R" -p "JNT_chest";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_arm_R" -p "JNT_clavicle_R";
-	rename -uid "548DED01-4663-DEA7-937D-CB8817D3581B";
+	rename -uid "195C6C65-4B96-0D89-0F0F-22B81E9A92A1";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2376,7 +2377,7 @@ createNode joint -n "JNT_arm_R" -p "JNT_clavicle_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr -av ".v";
 	setAttr ".uoc" 1;
@@ -2405,7 +2406,7 @@ createNode joint -n "JNT_arm_R" -p "JNT_clavicle_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_elbow_R" -p "JNT_arm_R";
-	rename -uid "9F69214E-407F-5B41-CEAD-E9AD94E8364F";
+	rename -uid "83D1191F-4EF6-BBAE-3C1D-E4B83F7844D9";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2427,7 +2428,7 @@ createNode joint -n "JNT_elbow_R" -p "JNT_arm_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2456,7 +2457,7 @@ createNode joint -n "JNT_elbow_R" -p "JNT_arm_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_wrist_R" -p "JNT_elbow_R";
-	rename -uid "2563988D-4F76-D5F7-37E6-F09F47346526";
+	rename -uid "A90D5127-452B-500B-BDAC-84B0E418EB89";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2478,7 +2479,7 @@ createNode joint -n "JNT_wrist_R" -p "JNT_elbow_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2506,7 +2507,7 @@ createNode joint -n "JNT_wrist_R" -p "JNT_elbow_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_wristAim_R" -p "JNT_wrist_R";
-	rename -uid "A4E6EAF0-40D6-28B8-67B7-7191320E34C5";
+	rename -uid "244A6F60-41BA-C005-100E-9E8BD170CA1C";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2520,7 +2521,7 @@ createNode joint -n "GDE_wristAim_R" -p "JNT_wrist_R";
 		 -2.7755575615628914e-16 1.8041124150158794e-16 0.99999999999999967 0 -68.915959912692514 101.11019174054417 11.34708972457485 1;
 	setAttr ".radi" 2;
 createNode joint -n "GDE_wristUp_R" -p "JNT_wrist_R";
-	rename -uid "00B8EC87-424F-DDA9-BB5E-A2A5E9423D13";
+	rename -uid "F19017CA-43DC-8228-14BD-EA93907D5478";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2534,7 +2535,7 @@ createNode joint -n "GDE_wristUp_R" -p "JNT_wrist_R";
 		 -2.7755575615628914e-16 1.8041124150158794e-16 0.99999999999999967 0 -61.046405394459143 120.39957409063602 8.0862061955051825 1;
 	setAttr ".radi" 2;
 createNode joint -n "JNT_thumbBase_R" -p "JNT_wrist_R";
-	rename -uid "4CA5CFCA-4426-8B69-73F8-6BBB590ABFEB";
+	rename -uid "94D8E155-4CEC-C094-3D2D-4C9E0C27F7EA";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2556,7 +2557,7 @@ createNode joint -n "JNT_thumbBase_R" -p "JNT_wrist_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2585,7 +2586,7 @@ createNode joint -n "JNT_thumbBase_R" -p "JNT_wrist_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_thumb_01_R" -p "JNT_thumbBase_R";
-	rename -uid "8F5DABBB-4A17-5195-4DDF-35B7644401B7";
+	rename -uid "AF0E9B3D-4DCE-942A-00FE-6EBD4A12F65E";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2607,7 +2608,7 @@ createNode joint -n "JNT_thumb_01_R" -p "JNT_thumbBase_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2637,7 +2638,7 @@ createNode joint -n "JNT_thumb_01_R" -p "JNT_thumbBase_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_thumb_02_R" -p "JNT_thumb_01_R";
-	rename -uid "D0BD737A-4753-9E73-BF18-B1B94C4C9ECC";
+	rename -uid "134D347B-4EAE-B74E-EAA2-48A31ABD2924";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2659,7 +2660,7 @@ createNode joint -n "JNT_thumb_02_R" -p "JNT_thumb_01_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2688,7 +2689,7 @@ createNode joint -n "JNT_thumb_02_R" -p "JNT_thumb_01_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_thumb_03_R" -p "JNT_thumb_02_R";
-	rename -uid "8147F850-4E9B-BEDB-7FBD-A98AD7CA3777";
+	rename -uid "C4BB5DC1-4E82-DDBF-E117-E6BB75B6F959";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2710,14 +2711,14 @@ createNode joint -n "JNT_thumb_03_R" -p "JNT_thumb_02_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" -3.6353432067868994 9.2370555648813024e-14 -2.8421709430404007e-14 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 3.1805546814635168e-15 -3.180554681463516e-15 1.4312496066585824e-14 ;
+	setAttr ".jo" -type "double3" 3.1805546814635168e-15 -3.180554681463516e-15 1.4312496066585827e-14 ;
 	setAttr ".pa" -type "double3" 0 1.2722218725854067e-14 0 ;
 	setAttr ".bps" -type "matrix" 0.14009420022822264 0.91319575869673164 -0.38268410126462671 0
 		 -0.14487177096790671 0.40124120127517027 0.9044432919624541 0 0.97948240670215092 -0.071267136167792622 0.18850785199403311 0
@@ -2738,7 +2739,7 @@ createNode joint -n "JNT_thumb_03_R" -p "JNT_thumb_02_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ringBase_R" -p "JNT_wrist_R";
-	rename -uid "59B56404-407D-6B82-DBB7-F7A346D43644";
+	rename -uid "4C7BE196-4015-E989-D9CF-6EAF109B9D55";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2760,7 +2761,7 @@ createNode joint -n "JNT_ringBase_R" -p "JNT_wrist_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2768,7 +2769,7 @@ createNode joint -n "JNT_ringBase_R" -p "JNT_wrist_R";
 	setAttr ".r" -type "double3" -5.7761761605078372e-12 8.6698690365849278e-13 4.2946495630003347e-13 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 4.1632181539415845 0.37904007357806735 -1.3391203775702027 ;
+	setAttr ".jo" -type "double3" 4.1632181539415845 0.3790400735780674 -1.3391203775702027 ;
 	setAttr ".pa" -type "double3" 1.5753684906623966e-14 3.8266048511357949e-14 -5.0391913234437593e-14 ;
 	setAttr ".bps" -type "matrix" 0.73158474758085168 0.66697304397528567 -0.14117618679296839 0
 		 0.59645360365823208 -0.72647374725486213 -0.34129018918302811 0 -0.33019214980094563 0.16547765154189314 -0.92929558863152328 0
@@ -2789,7 +2790,7 @@ createNode joint -n "JNT_ringBase_R" -p "JNT_wrist_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ring_01_R" -p "JNT_ringBase_R";
-	rename -uid "5F6B7B4D-4826-F073-87C8-C48BCFE71CE8";
+	rename -uid "1336EA1F-43A5-BDAB-7FA9-F2889C9688F1";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2811,7 +2812,7 @@ createNode joint -n "JNT_ring_01_R" -p "JNT_ringBase_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2841,7 +2842,7 @@ createNode joint -n "JNT_ring_01_R" -p "JNT_ringBase_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ring_02_R" -p "JNT_ring_01_R";
-	rename -uid "3FCFB431-4A34-62AC-4819-A8A5646B4D48";
+	rename -uid "70C54559-4296-F2F2-CFA7-33BD4D05B9B9";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2863,7 +2864,7 @@ createNode joint -n "JNT_ring_02_R" -p "JNT_ring_01_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2892,7 +2893,7 @@ createNode joint -n "JNT_ring_02_R" -p "JNT_ring_01_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ring_03_R" -p "JNT_ring_02_R";
-	rename -uid "09EFD452-4D50-92AA-A253-44909E70CED3";
+	rename -uid "BFD122CA-4D32-5D66-5B79-F8AD2937845F";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2914,7 +2915,7 @@ createNode joint -n "JNT_ring_03_R" -p "JNT_ring_02_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2943,7 +2944,7 @@ createNode joint -n "JNT_ring_03_R" -p "JNT_ring_02_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ring_04_R" -p "JNT_ring_03_R";
-	rename -uid "B52DC21B-4531-3302-D6AF-C58E449B3331";
+	rename -uid "DAA2CE8C-4FD8-8251-5F55-AC8FE0AA3CE4";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -2965,7 +2966,7 @@ createNode joint -n "JNT_ring_04_R" -p "JNT_ring_03_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -2993,7 +2994,7 @@ createNode joint -n "JNT_ring_04_R" -p "JNT_ring_03_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_indexBase_R" -p "JNT_wrist_R";
-	rename -uid "5DEF8A0A-48AD-F773-82FC-91A732CECACD";
+	rename -uid "438B287A-4B00-F083-1831-05B898215A4F";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3015,7 +3016,7 @@ createNode joint -n "JNT_indexBase_R" -p "JNT_wrist_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3044,7 +3045,7 @@ createNode joint -n "JNT_indexBase_R" -p "JNT_wrist_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_index_01_R" -p "JNT_indexBase_R";
-	rename -uid "90373BFE-4559-F11F-4E53-E99F9411F345";
+	rename -uid "76DAEBE9-40EB-C9E7-E311-209C100EC28C";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3066,7 +3067,7 @@ createNode joint -n "JNT_index_01_R" -p "JNT_indexBase_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3096,7 +3097,7 @@ createNode joint -n "JNT_index_01_R" -p "JNT_indexBase_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_index_02_R" -p "JNT_index_01_R";
-	rename -uid "2F8E5A9A-45B4-1187-257D-08A304E988E2";
+	rename -uid "24365DE5-47F6-FCC6-D8CC-0A9CE376EC99";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3118,7 +3119,7 @@ createNode joint -n "JNT_index_02_R" -p "JNT_index_01_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3147,7 +3148,7 @@ createNode joint -n "JNT_index_02_R" -p "JNT_index_01_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_index_03_R" -p "JNT_index_02_R";
-	rename -uid "CBEC9292-4957-BFF3-E791-6D8B636B75E1";
+	rename -uid "D51504B4-4FCC-DA35-8488-6C935E33B6FB";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3169,7 +3170,7 @@ createNode joint -n "JNT_index_03_R" -p "JNT_index_02_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3198,7 +3199,7 @@ createNode joint -n "JNT_index_03_R" -p "JNT_index_02_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_index_04_R" -p "JNT_index_03_R";
-	rename -uid "8A103D19-436D-586A-D064-92BA10EBDB66";
+	rename -uid "012AD728-4CAC-1E5D-BD46-6F9EF35C4B94";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3220,7 +3221,7 @@ createNode joint -n "JNT_index_04_R" -p "JNT_index_03_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3248,7 +3249,7 @@ createNode joint -n "JNT_index_04_R" -p "JNT_index_03_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middleBase_R" -p "JNT_wrist_R";
-	rename -uid "B3CA063F-4256-DA19-42B0-E88CEAC14886";
+	rename -uid "3C379CBB-41F7-B637-5EAF-A6BB8DCB6FC0";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3270,7 +3271,7 @@ createNode joint -n "JNT_middleBase_R" -p "JNT_wrist_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3278,7 +3279,7 @@ createNode joint -n "JNT_middleBase_R" -p "JNT_wrist_R";
 	setAttr ".r" -type "double3" -3.0970651210750972e-13 1.8606244886561599e-13 1.1171698318640551e-13 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 23.685445101645129 -8.9731684454448466 2.6644650617278103 ;
+	setAttr ".jo" -type "double3" 23.685445101645129 -8.9731684454448484 2.6644650617278103 ;
 	setAttr ".pa" -type "double3" 1.5753684906623966e-14 3.8266048511357949e-14 -5.0391913234437593e-14 ;
 	setAttr ".bps" -type "matrix" 0.65434958587730141 0.72267800054348741 -0.22262777677700368 0
 		 0.70737936918373712 -0.68904346176390985 -0.15758659795054014 0 -0.26728458151457657 -0.054365571190545831 -0.96208281200409296 0
@@ -3299,7 +3300,7 @@ createNode joint -n "JNT_middleBase_R" -p "JNT_wrist_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middle_01_R" -p "JNT_middleBase_R";
-	rename -uid "DF7CFD3D-4ABC-3839-4967-E6935783000E";
+	rename -uid "FDCFBAA1-4B30-06A1-25B2-1D98FA83A075";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3321,7 +3322,7 @@ createNode joint -n "JNT_middle_01_R" -p "JNT_middleBase_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3351,7 +3352,7 @@ createNode joint -n "JNT_middle_01_R" -p "JNT_middleBase_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middle_02_R" -p "JNT_middle_01_R";
-	rename -uid "42E8E6EA-428C-DE42-53D7-D59C303DBAD7";
+	rename -uid "7760E2C9-41FA-D827-F08A-2AAFAB9A18EA";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3373,7 +3374,7 @@ createNode joint -n "JNT_middle_02_R" -p "JNT_middle_01_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3381,7 +3382,7 @@ createNode joint -n "JNT_middle_02_R" -p "JNT_middle_01_R";
 	setAttr ".r" -type "double3" -3.007738013530206e-14 5.2408466329452938e-13 -4.2937488199757614e-14 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 0 0 -6.5692389141982019 ;
+	setAttr ".jo" -type "double3" 0 0 -6.5692389141982028 ;
 	setAttr ".pa" -type "double3" 0 3.1805546814635168e-15 0 ;
 	setAttr ".bps" -type "matrix" 0.12711129341144012 0.98725126621379999 -0.095800085837744936 0
 		 0.95776838702393752 -0.14727944667266829 -0.24695846089040455 0 -0.25791943684964047 -0.060363084306893695 -0.96427893378841512 0
@@ -3402,7 +3403,7 @@ createNode joint -n "JNT_middle_02_R" -p "JNT_middle_01_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middle_03_R" -p "JNT_middle_02_R";
-	rename -uid "9F53C98A-4863-2285-9B60-ABB33BDB8FB1";
+	rename -uid "CA20D201-42BA-C57A-EC07-50A5C9CD6354";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3424,7 +3425,7 @@ createNode joint -n "JNT_middle_03_R" -p "JNT_middle_02_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3453,7 +3454,7 @@ createNode joint -n "JNT_middle_03_R" -p "JNT_middle_02_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_middle_04_R" -p "JNT_middle_03_R";
-	rename -uid "F02F9476-48E4-6F61-0281-D8A98DEBA518";
+	rename -uid "5E716214-40FA-7356-ED83-8C9098E74367";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3475,7 +3476,7 @@ createNode joint -n "JNT_middle_04_R" -p "JNT_middle_03_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3503,7 +3504,7 @@ createNode joint -n "JNT_middle_04_R" -p "JNT_middle_03_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinkyBase_R" -p "JNT_wrist_R";
-	rename -uid "6707F863-4635-5EEE-3E25-018F06B7A37E";
+	rename -uid "17C73F89-4C9F-0C37-F482-C1A567D5FFD1";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3525,7 +3526,7 @@ createNode joint -n "JNT_pinkyBase_R" -p "JNT_wrist_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3554,7 +3555,7 @@ createNode joint -n "JNT_pinkyBase_R" -p "JNT_wrist_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinky_01_R" -p "JNT_pinkyBase_R";
-	rename -uid "D29351B3-424A-2683-8362-85B26E45A0FB";
+	rename -uid "0A2365B6-4AC0-0B9D-3B7F-9B97AF63D612";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3576,7 +3577,7 @@ createNode joint -n "JNT_pinky_01_R" -p "JNT_pinkyBase_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3606,7 +3607,7 @@ createNode joint -n "JNT_pinky_01_R" -p "JNT_pinkyBase_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinky_02_R" -p "JNT_pinky_01_R";
-	rename -uid "3DEBD4A5-4E33-04A9-816D-85881E52C521";
+	rename -uid "50242BA8-493F-917A-8285-2C85C32AFA32";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3628,7 +3629,7 @@ createNode joint -n "JNT_pinky_02_R" -p "JNT_pinky_01_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3657,7 +3658,7 @@ createNode joint -n "JNT_pinky_02_R" -p "JNT_pinky_01_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinky_03_R" -p "JNT_pinky_02_R";
-	rename -uid "AF7293B0-45C4-871F-894F-C9A730C92AD1";
+	rename -uid "E2EA07C3-4FAD-B059-8420-0DB0D04EB60A";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3679,7 +3680,7 @@ createNode joint -n "JNT_pinky_03_R" -p "JNT_pinky_02_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3708,7 +3709,7 @@ createNode joint -n "JNT_pinky_03_R" -p "JNT_pinky_02_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_pinky_04_R" -p "JNT_pinky_03_R";
-	rename -uid "6BC0A2F2-420B-C451-FE43-34874591F53D";
+	rename -uid "FB860FDE-4723-9B10-D2FC-2D8A8999BAEF";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3730,7 +3731,7 @@ createNode joint -n "JNT_pinky_04_R" -p "JNT_pinky_03_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3758,7 +3759,7 @@ createNode joint -n "JNT_pinky_04_R" -p "JNT_pinky_03_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_arm_R" -p "JNT_arm_R";
-	rename -uid "11EDAB31-4CE1-FADC-93E6-47AD557D6C82";
+	rename -uid "ED6361AD-42AA-2902-FE64-819519FB064E";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3773,7 +3774,7 @@ createNode joint -n "GDE_arm_R" -p "JNT_arm_R";
 		 61.046405394459157 120.39957409063602 8.0862061955051825 1;
 	setAttr ".radi" 2;
 createNode joint -n "JNT_leg_L" -p "JNT_pelvis";
-	rename -uid "098C7F60-4D46-9E57-5528-398CE302FBF3";
+	rename -uid "2EFBA5DF-465B-12CB-A842-9B830AB5DA4B";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3795,7 +3796,7 @@ createNode joint -n "JNT_leg_L" -p "JNT_pelvis";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr -av ".v";
 	setAttr ".uoc" 1;
@@ -3824,7 +3825,7 @@ createNode joint -n "JNT_leg_L" -p "JNT_pelvis";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_knee_L" -p "JNT_leg_L";
-	rename -uid "EAB48EB6-47D7-5FA1-B570-C5B597B1FADD";
+	rename -uid "9AE48D7C-4AB8-1287-982C-AB87433DE32F";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3846,14 +3847,14 @@ createNode joint -n "JNT_knee_L" -p "JNT_leg_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" 0 -46.537654626735801 9.3258734068513149e-15 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".jo" -type "double3" 9.5058406903286166 0 0 ;
+	setAttr ".jo" -type "double3" 9.5058406903286183 0 0 ;
 	setAttr ".pa" -type "double3" -2.981770013872047e-16 -3.9756933518293967e-15 -1.5902773407317588e-15 ;
 	setAttr ".bps" -type "matrix" 0.94979620705540213 0.029076223203106003 -0.31151522965565448 0
 		 0.0037171923562929719 0.99455327005182148 0.1041632157252034 0 0.31284716323495454 -0.10009178924103682 0.94451484169512656 0
@@ -3874,7 +3875,7 @@ createNode joint -n "JNT_knee_L" -p "JNT_leg_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ankle_L" -p "JNT_knee_L";
-	rename -uid "7B31BC80-4952-D730-D4F5-689A0654AB5F";
+	rename -uid "CB5C4B44-432B-C335-DB0E-D68CA100C5C8";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3896,7 +3897,7 @@ createNode joint -n "JNT_ankle_L" -p "JNT_knee_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3925,7 +3926,7 @@ createNode joint -n "JNT_ankle_L" -p "JNT_knee_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ball_L" -p "JNT_ankle_L";
-	rename -uid "5C9FFF0A-459E-79C8-3BCD-37A86F023298";
+	rename -uid "D501B213-44F2-9870-8D5C-C58DA6EE6AC1";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3947,7 +3948,7 @@ createNode joint -n "JNT_ball_L" -p "JNT_ankle_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -3975,7 +3976,7 @@ createNode joint -n "JNT_ball_L" -p "JNT_ankle_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe_L" -p "JNT_ball_L";
-	rename -uid "0E85CD2A-41B2-4BE5-78DF-139F6690EAF1";
+	rename -uid "FEDDFB1F-4D7B-9952-06D6-D58CA72DF71A";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -3997,7 +3998,7 @@ createNode joint -n "JNT_toe_L" -p "JNT_ball_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4025,7 +4026,7 @@ createNode joint -n "JNT_toe_L" -p "JNT_ball_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe1_1_L" -p "JNT_ball_L";
-	rename -uid "8C0D1244-4E75-86F6-32E6-4CAB2AEBA0B0";
+	rename -uid "48B56A87-4C95-ACEB-B119-A5B4246B05B0";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4047,7 +4048,7 @@ createNode joint -n "JNT_toe1_1_L" -p "JNT_ball_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4070,7 +4071,7 @@ createNode joint -n "JNT_toe1_1_L" -p "JNT_ball_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe1_2_L" -p "JNT_toe1_1_L";
-	rename -uid "6C163351-403B-40A0-4535-FDB0331D2866";
+	rename -uid "27DB25D9-4D66-6AA2-5907-8C8512B8024C";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4092,7 +4093,7 @@ createNode joint -n "JNT_toe1_2_L" -p "JNT_toe1_1_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4115,7 +4116,7 @@ createNode joint -n "JNT_toe1_2_L" -p "JNT_toe1_1_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe1_3_L" -p "JNT_toe1_2_L";
-	rename -uid "F01759C7-4627-AAF9-B8AD-AFA498C8D185";
+	rename -uid "1AC02DF8-42A4-EABF-6A5C-FDB30E28B14C";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4137,7 +4138,7 @@ createNode joint -n "JNT_toe1_3_L" -p "JNT_toe1_2_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4159,7 +4160,7 @@ createNode joint -n "JNT_toe1_3_L" -p "JNT_toe1_2_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe2_1_L" -p "JNT_ball_L";
-	rename -uid "192BEC4C-42E0-EC9F-5406-6A811EC1D6FA";
+	rename -uid "9C8B8BC7-4416-0FB9-D7D6-C991C4195756";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4181,13 +4182,13 @@ createNode joint -n "JNT_toe2_1_L" -p "JNT_ball_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" -0.94528357717251943 -0.5974843471357083 2.9385619247747616 ;
 	setAttr ".r" -type "double3" -4.5049575292915813e-14 -3.3761090982066272e-13 -3.502585842961697e-13 ;
-	setAttr ".jo" -type "double3" 9.7975641193769647 13.742510856386071 -2.7879549629703645e-14 ;
+	setAttr ".jo" -type "double3" 9.7975641193769647 13.742510856386073 -2.7879549629703645e-14 ;
 	setAttr ".bps" -type "matrix" 0.90402978772712494 -0.27584083855616948 -0.32656082846336426 0
 		 0.30734040692481224 0.95038600233014925 0.04804498773242355 0 0.29710607057638566 -0.14379943796672956 0.94395429151369015 0
 		 10.663131328810845 1.8581229830810342 8.2756843836700842 1;
@@ -4204,7 +4205,7 @@ createNode joint -n "JNT_toe2_1_L" -p "JNT_ball_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe2_2_L" -p "JNT_toe2_1_L";
-	rename -uid "8F1FE90F-4364-F96E-2F79-AF80F756DE1D";
+	rename -uid "63685F92-48FC-A360-4DB3-6C8E81526D6C";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4226,7 +4227,7 @@ createNode joint -n "JNT_toe2_2_L" -p "JNT_toe2_1_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4249,7 +4250,7 @@ createNode joint -n "JNT_toe2_2_L" -p "JNT_toe2_1_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe2_3_L" -p "JNT_toe2_2_L";
-	rename -uid "1C48A264-4C2C-8BBA-5730-4EBD736CC020";
+	rename -uid "F769AC3F-481F-E018-8B62-11909644187D";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4271,7 +4272,7 @@ createNode joint -n "JNT_toe2_3_L" -p "JNT_toe2_2_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4293,7 +4294,7 @@ createNode joint -n "JNT_toe2_3_L" -p "JNT_toe2_2_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe3_1_L" -p "JNT_ball_L";
-	rename -uid "A39A95CC-4425-08B4-6318-B98D07C562CF";
+	rename -uid "A4691BA5-4A78-F85C-ABE1-4F9EF5284F08";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4315,7 +4316,7 @@ createNode joint -n "JNT_toe3_1_L" -p "JNT_ball_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4338,7 +4339,7 @@ createNode joint -n "JNT_toe3_1_L" -p "JNT_ball_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe3_2_L" -p "JNT_toe3_1_L";
-	rename -uid "ADD7E561-431E-487D-F468-C8840D0B4FCC";
+	rename -uid "4B30263E-43B6-0D38-BE4D-D384D1DD173C";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4360,7 +4361,7 @@ createNode joint -n "JNT_toe3_2_L" -p "JNT_toe3_1_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4383,7 +4384,7 @@ createNode joint -n "JNT_toe3_2_L" -p "JNT_toe3_1_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe3_3_L" -p "JNT_toe3_2_L";
-	rename -uid "73E32660-4740-6F7D-0411-AC8042012E99";
+	rename -uid "D1ACE974-4278-172B-2A0D-E8AF312D16C1";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4405,7 +4406,7 @@ createNode joint -n "JNT_toe3_3_L" -p "JNT_toe3_2_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4427,7 +4428,7 @@ createNode joint -n "JNT_toe3_3_L" -p "JNT_toe3_2_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe4_1_L" -p "JNT_ball_L";
-	rename -uid "5A4C4CA7-424D-5534-E184-C69FBF497FF4";
+	rename -uid "8D94C14A-47FD-26A9-5ACB-0792C7D37618";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4449,7 +4450,7 @@ createNode joint -n "JNT_toe4_1_L" -p "JNT_ball_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4472,7 +4473,7 @@ createNode joint -n "JNT_toe4_1_L" -p "JNT_ball_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe4_2_L" -p "JNT_toe4_1_L";
-	rename -uid "B16DA906-48D0-44CE-58F3-779071D2237E";
+	rename -uid "183D7402-44B2-0057-3A47-6F8BEA30F79B";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4494,7 +4495,7 @@ createNode joint -n "JNT_toe4_2_L" -p "JNT_toe4_1_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4517,7 +4518,7 @@ createNode joint -n "JNT_toe4_2_L" -p "JNT_toe4_1_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe4_3_L" -p "JNT_toe4_2_L";
-	rename -uid "56C8BDCD-4A53-450B-B80C-3A9D0ED23C16";
+	rename -uid "FE1F0E8B-474D-0871-4E6F-878F22641A93";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4539,7 +4540,7 @@ createNode joint -n "JNT_toe4_3_L" -p "JNT_toe4_2_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4561,7 +4562,7 @@ createNode joint -n "JNT_toe4_3_L" -p "JNT_toe4_2_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe5_1_L" -p "JNT_ball_L";
-	rename -uid "9E0F2314-46CE-74FB-F1F6-73B19505A234";
+	rename -uid "366EA750-4488-60E6-367A-C5884C3EC488";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4583,7 +4584,7 @@ createNode joint -n "JNT_toe5_1_L" -p "JNT_ball_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4606,7 +4607,7 @@ createNode joint -n "JNT_toe5_1_L" -p "JNT_ball_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe5_2_L" -p "JNT_toe5_1_L";
-	rename -uid "7285BE88-4DFD-4126-3960-D9A96B3CE248";
+	rename -uid "4D1647A6-4DBB-0027-1EEA-F7A002E21A32";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4628,7 +4629,7 @@ createNode joint -n "JNT_toe5_2_L" -p "JNT_toe5_1_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4651,7 +4652,7 @@ createNode joint -n "JNT_toe5_2_L" -p "JNT_toe5_1_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe5_3_L" -p "JNT_toe5_2_L";
-	rename -uid "1090B9B3-4D78-7097-AD94-7BBC9224E121";
+	rename -uid "C3B9AA30-4126-8B9B-33C5-4BB9758006AC";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4673,7 +4674,7 @@ createNode joint -n "JNT_toe5_3_L" -p "JNT_toe5_2_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4695,7 +4696,7 @@ createNode joint -n "JNT_toe5_3_L" -p "JNT_toe5_2_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ankleBall_L" -p "JNT_ankle_L";
-	rename -uid "50EECDBC-425A-6F8E-A5B9-E2878DD6181F";
+	rename -uid "663C0A48-4D0B-BB01-459B-9AA65CF93907";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4717,7 +4718,7 @@ createNode joint -n "JNT_ankleBall_L" -p "JNT_ankle_L";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4745,7 +4746,7 @@ createNode joint -n "JNT_ankleBall_L" -p "JNT_ankle_L";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_leg_R" -p "JNT_pelvis";
-	rename -uid "3813D07F-4725-9EDF-ABC4-DE8CB83E471E";
+	rename -uid "2C871BA0-4DE0-9D3A-9513-BD84BD9540B6";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4767,7 +4768,7 @@ createNode joint -n "JNT_leg_R" -p "JNT_pelvis";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr -av ".v";
 	setAttr ".uoc" 1;
@@ -4796,7 +4797,7 @@ createNode joint -n "JNT_leg_R" -p "JNT_pelvis";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_knee_R" -p "JNT_leg_R";
-	rename -uid "BE9F8FC0-49A2-2592-A8E2-9DA7B3CEEFF1";
+	rename -uid "6FD0E902-4F8C-08E7-FCA3-F78BFB242651";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4818,7 +4819,7 @@ createNode joint -n "JNT_knee_R" -p "JNT_leg_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4846,7 +4847,7 @@ createNode joint -n "JNT_knee_R" -p "JNT_leg_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ankle_R" -p "JNT_knee_R";
-	rename -uid "2658AAC0-4F49-807A-B423-85945DDD0299";
+	rename -uid "C7BC615C-4ADD-FDDF-5D61-2096C4373B86";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4868,7 +4869,7 @@ createNode joint -n "JNT_ankle_R" -p "JNT_knee_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4897,7 +4898,7 @@ createNode joint -n "JNT_ankle_R" -p "JNT_knee_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ball_R" -p "JNT_ankle_R";
-	rename -uid "1C561D90-4E83-C23A-3647-CF9CBF3290E3";
+	rename -uid "B9BFB9F6-4184-AF0A-6E30-3D98B65FE6A5";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4919,7 +4920,7 @@ createNode joint -n "JNT_ball_R" -p "JNT_ankle_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4947,7 +4948,7 @@ createNode joint -n "JNT_ball_R" -p "JNT_ankle_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe_R" -p "JNT_ball_R";
-	rename -uid "010AEE02-402E-CF86-4511-3483DD57D536";
+	rename -uid "C9AFA592-49A2-0CD9-CD25-69818F9C6AF4";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -4969,7 +4970,7 @@ createNode joint -n "JNT_toe_R" -p "JNT_ball_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -4997,7 +4998,7 @@ createNode joint -n "JNT_toe_R" -p "JNT_ball_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe1_1_R" -p "JNT_ball_R";
-	rename -uid "4A3A59CD-420B-59F0-2BD4-C98FE9584DB7";
+	rename -uid "0BAE5970-453D-7B76-26D7-C28C79A0CDB3";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5019,7 +5020,7 @@ createNode joint -n "JNT_toe1_1_R" -p "JNT_ball_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5042,7 +5043,7 @@ createNode joint -n "JNT_toe1_1_R" -p "JNT_ball_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe1_2_R" -p "JNT_toe1_1_R";
-	rename -uid "27F4ACB4-4BDE-9ADC-AE19-DFAC205888F9";
+	rename -uid "1F8DAEA9-4F7E-14B0-7277-B989C8A9D624";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5064,7 +5065,7 @@ createNode joint -n "JNT_toe1_2_R" -p "JNT_toe1_1_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5087,7 +5088,7 @@ createNode joint -n "JNT_toe1_2_R" -p "JNT_toe1_1_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe1_3_R" -p "JNT_toe1_2_R";
-	rename -uid "6E3B1F3A-4BA2-96F5-1537-269703CE1520";
+	rename -uid "775925D6-4047-8E80-F965-888A3FCC4AB1";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5109,7 +5110,7 @@ createNode joint -n "JNT_toe1_3_R" -p "JNT_toe1_2_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5131,7 +5132,7 @@ createNode joint -n "JNT_toe1_3_R" -p "JNT_toe1_2_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe2_1_R" -p "JNT_ball_R";
-	rename -uid "2F6642F4-4444-CC71-83C4-999B6EED7684";
+	rename -uid "0035CAD2-4906-6247-59BD-22BE799E71FE";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5153,7 +5154,7 @@ createNode joint -n "JNT_toe2_1_R" -p "JNT_ball_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5176,7 +5177,7 @@ createNode joint -n "JNT_toe2_1_R" -p "JNT_ball_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe2_2_R" -p "JNT_toe2_1_R";
-	rename -uid "13C21DA7-4EEE-A6B9-4CA1-6ABE02B500EA";
+	rename -uid "61B9F336-4FBD-9C81-F405-74A036B0B2E4";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5198,7 +5199,7 @@ createNode joint -n "JNT_toe2_2_R" -p "JNT_toe2_1_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5221,7 +5222,7 @@ createNode joint -n "JNT_toe2_2_R" -p "JNT_toe2_1_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe2_3_R" -p "JNT_toe2_2_R";
-	rename -uid "96F4226B-4DF6-F7A0-2D74-17AE44181ED4";
+	rename -uid "B99155FE-4630-4593-949B-B383F71A1749";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5243,7 +5244,7 @@ createNode joint -n "JNT_toe2_3_R" -p "JNT_toe2_2_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5265,7 +5266,7 @@ createNode joint -n "JNT_toe2_3_R" -p "JNT_toe2_2_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe3_1_R" -p "JNT_ball_R";
-	rename -uid "A1637B99-47B9-B6E2-28FC-6A89361C999F";
+	rename -uid "6C231640-43B2-8C11-D253-2A942506A9D9";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5287,7 +5288,7 @@ createNode joint -n "JNT_toe3_1_R" -p "JNT_ball_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5310,7 +5311,7 @@ createNode joint -n "JNT_toe3_1_R" -p "JNT_ball_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe3_2_R" -p "JNT_toe3_1_R";
-	rename -uid "A1085F04-4314-0DB0-A2C8-E88FE642326E";
+	rename -uid "00042E38-4D6F-6640-E2B7-D39DD95FBFA5";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5332,13 +5333,13 @@ createNode joint -n "JNT_toe3_2_R" -p "JNT_toe3_1_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" 1.5987211554602254e-14 -2.6645352591003757e-15 -3.4884464875655699 ;
 	setAttr ".r" -type "double3" -1.5477861850399332e-13 -4.1615729151458647e-13 9.2807591681773084e-15 ;
-	setAttr ".jo" -type "double3" 2.3394781121475785 2.9661773137249896 0.060578816165950872 ;
+	setAttr ".jo" -type "double3" 2.3394781121475785 2.9661773137249901 0.060578816165950872 ;
 	setAttr ".bps" -type "matrix" 0.95971312716578783 -0.090135239647336315 0.26613220797074044 0
 		 0.014457164477465853 -0.930056566402512 -0.36713182058606808 0 0.28060952218507429 0.35618874472010864 -0.89128439579843277 0
 		 -12.924125749068216 1.3600967202754415 10.052056620620867 1;
@@ -5355,7 +5356,7 @@ createNode joint -n "JNT_toe3_2_R" -p "JNT_toe3_1_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe3_3_R" -p "JNT_toe3_2_R";
-	rename -uid "51819C2F-4E7D-56CD-10A4-E98652F04555";
+	rename -uid "C3F1DBBB-456F-CF75-6A34-AC8CD5141505";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5377,7 +5378,7 @@ createNode joint -n "JNT_toe3_3_R" -p "JNT_toe3_2_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5399,7 +5400,7 @@ createNode joint -n "JNT_toe3_3_R" -p "JNT_toe3_2_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe4_1_R" -p "JNT_ball_R";
-	rename -uid "043626AE-4E71-203F-0131-92A2559FA4BB";
+	rename -uid "7A5797E5-4DDA-1A90-CCD0-B6B8D928AAC8";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5421,7 +5422,7 @@ createNode joint -n "JNT_toe4_1_R" -p "JNT_ball_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5444,7 +5445,7 @@ createNode joint -n "JNT_toe4_1_R" -p "JNT_ball_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe4_2_R" -p "JNT_toe4_1_R";
-	rename -uid "AA77A6ED-4817-F325-9961-99A8316C09C1";
+	rename -uid "566B9C11-41D4-7CED-FEB7-B68CF5B7A2EE";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5466,7 +5467,7 @@ createNode joint -n "JNT_toe4_2_R" -p "JNT_toe4_1_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5489,7 +5490,7 @@ createNode joint -n "JNT_toe4_2_R" -p "JNT_toe4_1_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe4_3_R" -p "JNT_toe4_2_R";
-	rename -uid "F7065489-4181-4F90-5428-33908BEB94A0";
+	rename -uid "7AD728A8-480E-2819-6670-CF947A2AD4A4";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5511,7 +5512,7 @@ createNode joint -n "JNT_toe4_3_R" -p "JNT_toe4_2_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5533,7 +5534,7 @@ createNode joint -n "JNT_toe4_3_R" -p "JNT_toe4_2_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe5_1_R" -p "JNT_ball_R";
-	rename -uid "9192527E-48CA-B2E7-0E5F-169A874A9554";
+	rename -uid "8D0BDEDF-4ED5-E741-4EA2-4598BE8A4071";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5555,7 +5556,7 @@ createNode joint -n "JNT_toe5_1_R" -p "JNT_ball_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5578,7 +5579,7 @@ createNode joint -n "JNT_toe5_1_R" -p "JNT_ball_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe5_2_R" -p "JNT_toe5_1_R";
-	rename -uid "FD0566EF-4A5E-D1F1-B081-BCBB8734FD4B";
+	rename -uid "02707C88-4D8E-FD22-B226-C29CF4321993";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5600,7 +5601,7 @@ createNode joint -n "JNT_toe5_2_R" -p "JNT_toe5_1_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5623,7 +5624,7 @@ createNode joint -n "JNT_toe5_2_R" -p "JNT_toe5_1_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_toe5_3_R" -p "JNT_toe5_2_R";
-	rename -uid "3D81A0A2-42A7-C1D7-3362-E396DECB6641";
+	rename -uid "8D262387-4153-7A03-1172-16888673F88A";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5645,7 +5646,7 @@ createNode joint -n "JNT_toe5_3_R" -p "JNT_toe5_2_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5667,7 +5668,7 @@ createNode joint -n "JNT_toe5_3_R" -p "JNT_toe5_2_R";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ankleBall_R" -p "JNT_ankle_R";
-	rename -uid "E71584FB-402F-7286-FE46-93BFAB86AECD";
+	rename -uid "FECDF9B7-440B-AEC1-42B8-ACAC092C69C8";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
@@ -5689,7 +5690,7 @@ createNode joint -n "JNT_ankleBall_R" -p "JNT_ankle_R";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
@@ -5736,12 +5737,13 @@ select -ne :hardwareRenderingGlobals;
 	setAttr -av ".aora";
 	setAttr -av ".mbe";
 	setAttr -av -k on ".mbsof";
+	setAttr ".fprt" yes;
 select -ne :renderPartition;
 	setAttr -av -k on ".cch";
 	setAttr -cb on ".ihi";
 	setAttr -av -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -s 2 ".st";
+	setAttr -s 3 ".st";
 	setAttr -cb on ".an";
 	setAttr -cb on ".pt";
 select -ne :renderGlobalsList1;
@@ -5754,7 +5756,7 @@ select -ne :defaultShaderList1;
 	setAttr -cb on ".ihi";
 	setAttr -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -s 5 ".s";
+	setAttr -s 6 ".s";
 select -ne :postProcessList1;
 	setAttr -k on ".cch";
 	setAttr -cb on ".ihi";
@@ -5790,8 +5792,7 @@ select -ne :initialParticleSE;
 	setAttr -k on ".epo";
 	setAttr ".ro" yes;
 select -ne :defaultRenderGlobals;
-	addAttr -ci true -h true -sn "dss" -ln "defaultSurfaceShader" -dt "string";
-	setAttr ".dss" -type "string" "lambert1";
+	setAttr ".ren" -type "string" "arnold";
 select -ne :defaultResolution;
 	setAttr -av -k on ".cch";
 	setAttr -av -k on ".ihi";
@@ -5810,17 +5811,14 @@ select -ne :defaultResolution;
 	setAttr -av -cb on ".isu";
 	setAttr -av -cb on ".pdu";
 select -ne :defaultColorMgtGlobals;
-	setAttr ".cme" no;
 	setAttr ".cfe" yes;
-	setAttr ".cfp" -type "string" "<MAYA_RESOURCES>/OCIO-configs/Maya-legacy/config.ocio";
-	setAttr ".vtn" -type "string" "sRGB gamma (legacy)";
-	setAttr ".vn" -type "string" "sRGB gamma";
-	setAttr ".dn" -type "string" "legacy";
-	setAttr ".wsn" -type "string" "scene-linear Rec 709/sRGB";
-	setAttr ".ovt" no;
-	setAttr ".povt" no;
-	setAttr ".otn" -type "string" "sRGB gamma (legacy)";
-	setAttr ".potn" -type "string" "sRGB gamma (legacy)";
+	setAttr ".cfp" -type "string" "<MAYA_RESOURCES>/OCIO-configs/Maya2022-default/config.ocio";
+	setAttr ".vtn" -type "string" "ACES 1.0 SDR-video (sRGB)";
+	setAttr ".vn" -type "string" "ACES 1.0 SDR-video";
+	setAttr ".dn" -type "string" "sRGB";
+	setAttr ".wsn" -type "string" "ACEScg";
+	setAttr ".otn" -type "string" "ACES 1.0 SDR-video (sRGB)";
+	setAttr ".potn" -type "string" "ACES 1.0 SDR-video (sRGB)";
 select -ne :hardwareRenderGlobals;
 	setAttr -k on ".cch";
 	setAttr -k on ".ihi";
@@ -5978,6 +5976,6 @@ connectAttr "JNT_ankle_R.s" "JNT_ankleBall_R.is";
 dataStructure -fmt "raw" -as "name=DiffEdge:float=value";
 dataStructure -fmt "raw" -as "name=Blur3dMetaData:string=Blur3dValue";
 dataStructure -fmt "raw" -as "name=Curvature:float=mean:float=gaussian:float=ABS:float=RMS";
-dataStructure -fmt "raw" -as "name=DiffArea:float=value";
 dataStructure -fmt "raw" -as "name=Offset:float[3]=value";
+dataStructure -fmt "raw" -as "name=DiffArea:float=value";
 // End of structure.ma

@@ -1,0 +1,88 @@
+[
+    [
+        "Rig.",
+        true
+    ],
+    [
+        "Rig.Info.",
+        false
+    ],
+    [
+        "Rig.Info.Size",
+        1.0
+    ],
+    [
+        "Rig.Info.Mappings.",
+        false
+    ],
+    [
+        "Rig.Info.Mappings.Joint Mapping",
+        [
+            [
+                {
+                    "base": "JNT_head",
+                    "earL": "JNT_ear_L",
+                    "earR": "JNT_ear_R",
+                    "eyeL": "JNT_eye_L",
+                    "eyeR": "JNT_eye_R",
+                    "eye_lookL": "JNT_eyeLook_L",
+                    "eye_lookR": "JNT_eyeLook_R",
+                    "jaw": "JNT_jaw",
+                    "nose": "JNT_nose"
+                },
+                [
+                    "base",
+                    "jaw",
+                    "eyeL",
+                    "eyeR",
+                    "nose",
+                    "earL",
+                    "earR",
+                    "eye_lookL",
+                    "eye_lookR"
+                ]
+            ],
+            "dictionary"
+        ]
+    ],
+    [
+        "Workflow.",
+        true
+    ],
+    [
+        "Workflow.Structure.",
+        true
+    ],
+    [
+        "Workflow.Structure.Place Skeleton",
+        [
+            "process.run_script('leave_off/place_skeleton')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Structure.Export Skeleton",
+        [
+            "process.run_script('leave_off/export_skeleton')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Deform.",
+        true
+    ],
+    [
+        "Workflow.Deform.Paint Skin Weights",
+        [
+            "process.run_script('leave_off/paint_skin_weights')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Deform.Export Skin Weights",
+        [
+            "process.run_script('leave_off/export_skin_weights')",
+            "script"
+        ]
+    ]
+]

@@ -1,0 +1,28 @@
+[
+    [
+        "Face Model.",
+        true
+    ],
+    [
+        "Face Model.Remove Faces",
+        "bodyMid.f[20256:41295]"
+    ],
+    [
+        "Face Model.-----",
+        null
+    ],
+    [
+        "Face Model.Generate Face",
+        [
+            "process.run_script('leave_off/generate_face',hard_error=True,settings=None,return_status=False)",
+            "script"
+        ]
+    ],
+    [
+        "Face Model.Save Face",
+        [
+            "process.run_script('leave_off/save_face',hard_error=True,settings=None,return_status=False)",
+            "script"
+        ]
+    ]
+]

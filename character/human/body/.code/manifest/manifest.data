@@ -57,3 +57,8 @@ finish/import_control_values.py True
 finish/setup_scale.py True
 finish/lock.py True
 finish/cleanup.py True
+leave_off.py False
+leave_off/place_skeleton.py True
+leave_off/export_skeleton.py True
+leave_off/paint_skin_weights.py True
+leave_off/export_skin_weights.py True

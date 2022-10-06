@@ -1,0 +1,62 @@
+[
+    [
+        "Rig.",
+        true
+    ],
+    [
+        "Rig.Info.",
+        true
+    ],
+    [
+        "Rig.Info.Size",
+        1.0
+    ],
+    [
+        "Rig.Info.Mappings.",
+        true
+    ],
+    [
+        "Rig.Info.Mappings.Joint Mapping",
+        [
+            [
+                {
+                    "browL": "JNT_brow*_L",
+                    "browR": "JNT_brow*_R",
+                    "lidBtmL": "JNT_lidBtm*_L",
+                    "lidBtmR": "JNT_lidBtm*_R",
+                    "lidTopL": "JNT_lidTop*_L",
+                    "lidTopR": "JNT_lidTop*_R",
+                    "mouthBtm": "JNT_lipBtm",
+                    "mouthBtmL": "JNT_lipBtm*_L",
+                    "mouthBtmR": "JNT_lipBtm*_R",
+                    "mouthTop": "JNT_lipTop",
+                    "mouthTopL": "JNT_lipTop*_L",
+                    "mouthTopR": "JNT_lipTop*_R",
+                    "nasolabialL": "JNT_nasolabial*_L",
+                    "nasolabialR": "JNT_nasolabial*_R",
+                    "ridgeL": "JNT_ridge*_L",
+                    "ridgeR": "JNT_ridge*_R"
+                },
+                [
+                    "browL",
+                    "browR",
+                    "lidTopL",
+                    "lidTopR",
+                    "lidBtmL",
+                    "lidBtmR",
+                    "ridgeL",
+                    "ridgeR",
+                    "nasolabialL",
+                    "nasolabialR",
+                    "mouthTop",
+                    "mouthTopL",
+                    "mouthTopR",
+                    "mouthBtm",
+                    "mouthBtmL",
+                    "mouthBtmR"
+                ]
+            ],
+            "dictionary"
+        ]
+    ]
+]

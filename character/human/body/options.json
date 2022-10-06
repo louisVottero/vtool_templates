@@ -37,7 +37,7 @@
     ],
     [
         "Rig.Info.Mappings.",
-        false
+        true
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
@@ -227,7 +227,7 @@
     ],
     [
         "Rig.Info.Controls.",
-        true
+        false
     ],
     [
         "Rig.Info.Controls.Mirrored IK",
@@ -235,7 +235,7 @@
     ],
     [
         "Rig.Prep.",
-        true
+        false
     ],
     [
         "Rig.Prep.Orient Joints",
@@ -244,5 +244,45 @@
     [
         "Rig.Prep.Align Center Joints",
         false
+    ],
+    [
+        "Workflow.",
+        true
+    ],
+    [
+        "Workflow.Structure.",
+        true
+    ],
+    [
+        "Workflow.Structure.Place Skeleton",
+        [
+            "process.run_script('leave_off/place_skeleton')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Structure.Export Skeleton",
+        [
+            "process.run_script('leave_off/export_skeleton')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Deform.",
+        true
+    ],
+    [
+        "Workflow.Deform.Paint Skin Weights",
+        [
+            "process.run_script('leave_off/paint_skin_weights')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Deform.Export Skin Weights",
+        [
+            "process.run_script('leave_off/export_skin_weights')",
+            "script"
+        ]
     ]
 ]
