@@ -11,6 +11,5 @@ def main():
     process.import_data('structure')
     
     process.run_script('import_model')
-    #process.import_data('model')
     
     

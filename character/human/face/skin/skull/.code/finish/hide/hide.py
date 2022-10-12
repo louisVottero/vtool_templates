@@ -1,3 +1,4 @@
 
 def main():
-    cmds.hide('JNT_face')
+    if cmds.objExists(put.joint_base):
+        cmds.hide(put.joint_base)

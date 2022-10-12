@@ -4,7 +4,7 @@
         true
     ],
     [
-        "Shape Combo System.Face Model",
+        "Shape Combo System.Meshes to work with",
         "bodyMid"
     ],
     [
@@ -38,5 +38,13 @@
             "process.run_script('load_shape_combo_system')",
             "script"
         ]
+    ],
+    [
+        "Split.",
+        true
+    ],
+    [
+        "Split.Pose Mesh",
+        "skull_bodyMid"
     ]
 ]

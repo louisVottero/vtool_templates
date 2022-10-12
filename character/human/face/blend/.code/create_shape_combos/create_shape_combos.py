@@ -22,4 +22,6 @@ def main():
         manager_inst.set_prune_distance(0.0001)
         manager_inst.add_meshes(meshes)
         
+        cmds.parent(manager, put.group_setup)
+        
         cmds.delete(targets)

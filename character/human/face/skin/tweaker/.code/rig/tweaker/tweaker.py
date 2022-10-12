@@ -3,7 +3,8 @@ from vtool.maya_lib import rigs_util
 
 def main():
 
-    joints = cmds.listRelatives('JNT_tweakers', ad = True, type = 'joint')
+
+    joints = cmds.listRelatives(put.joint_base, ad = True, type = 'joint')
     
     rig = rigs.FkLocalRig('tweaker')
     rig.set_joints(joints)
@@ -15,8 +16,9 @@ def main():
     rig.set_control_offset_axis('X')
     rig.set_number_in_control_name(False)
     rig.set_control_shape('sphere')
-    
-    rig.set_control_size(1 * put.size)
+    rig.set_scalable(True)
+        
+    rig.set_control_size(.6 * put.size)
     
     rig.set_control_parent(put.group_control)
     rig.set_setup_parent(put.group_setup)
@@ -24,6 +26,7 @@ def main():
     rig.create()
 
     put.controls_tweaker = rig.controls
+    put.setup_tweaker = rig.setup_group
     
     updated_controls = []
     
@@ -40,5 +43,7 @@ def main():
     
     xform_locals = cmds.ls('xform_local_*', type = 'transform')
     cmds.parent(xform_locals, rig.setup_group)    
+
+    cmds.hide(put.joint_base)    
         
     

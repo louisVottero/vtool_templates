@@ -1,4 +1,5 @@
 from vtool import qt_ui
+from vtool import util
 from vtool.maya_lib import core
 from vtool.maya_lib import blendshape
 from vtool.maya_lib import ui
@@ -19,14 +20,18 @@ def main():
     name = process.get_basename()
     
     model = 'Model'
-        
-    face_model = process.get_option('Face Model')
-    face_model = name + '_' + face_model
-
+    print('here')
+    meshes = process.get_option('Meshes to work with')    
+    meshes = util.convert_to_sequence(meshes)
+    print('here2')
     core.prefix_hierarchy(model, name)    
     
-    combo_inst = blendshape.ShapeComboManager()
-    combo_inst.create(face_model)
-    
-    ui.shape_combo()
+    for mesh in meshes:
+        mesh = name + '_' + mesh
+        
+        combo_inst = blendshape.ShapeComboManager()
+        combo_inst.create(mesh)
+        
+        ui.shape_combo()
+        
     

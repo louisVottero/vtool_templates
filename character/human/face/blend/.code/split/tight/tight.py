@@ -6,7 +6,7 @@ from vtool.maya_lib import core
 def main():
 
     split_name = 'split_tight'
-    skin_mesh = 'skull_bodyMid'
+    skin_mesh = process.get_option('Pose Mesh')
 
     data = put.shape_mappings
 

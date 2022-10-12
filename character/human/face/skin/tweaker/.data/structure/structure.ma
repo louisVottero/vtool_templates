@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: structure.ma
-//Last modified: Tue, Oct 04, 2022 01:10:24 AM
+//Last modified: Tue, Oct 11, 2022 05:47:00 PM
 //Codeset: 1252
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -11,15 +11,15 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202205171752-c25c06f306";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22621)";
-fileInfo "UUID" "C00B1BAA-4F6D-3359-F430-37A3A1AA9670";
+fileInfo "UUID" "9314A18E-4690-9434-DB4C-1084CF4CDDCF";
 createNode joint -n "JNT_tweakers";
-	rename -uid "22C6EAB4-4D59-FE6C-855C-ECBDCCBFCA84";
+	rename -uid "A34DEF42-4229-9ADE-CCCD-D9A3BFB57C4B";
 	setAttr ".t" -type "double3" 0 180.638 0 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".ds" 2;
 createNode joint -n "JNT_brow1_L" -p "JNT_tweakers";
-	rename -uid "0C54E883-41EC-73E6-EA28-CC84211E90D5";
+	rename -uid "035E369B-41C8-86B7-B67F-AEBC5856F72E";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -40,7 +40,7 @@ createNode joint -n "JNT_brow1_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -62,7 +62,7 @@ createNode joint -n "JNT_brow1_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow2_L" -p "JNT_tweakers";
-	rename -uid "FE9438BB-4945-8C56-6A51-E48BCEC9014C";
+	rename -uid "3D4D1279-4CEE-0F05-4A87-66BD1D30E817";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -83,7 +83,7 @@ createNode joint -n "JNT_brow2_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -105,7 +105,7 @@ createNode joint -n "JNT_brow2_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow3_L" -p "JNT_tweakers";
-	rename -uid "074ED3D5-4EE3-6972-0E6B-76AF72651C55";
+	rename -uid "1848BA44-4B78-076E-DD04-98BF70B6EEEB";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -126,7 +126,7 @@ createNode joint -n "JNT_brow3_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -148,7 +148,7 @@ createNode joint -n "JNT_brow3_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow4_L" -p "JNT_tweakers";
-	rename -uid "7C92C5CD-4004-D634-F4B6-61960C2CC0E1";
+	rename -uid "F72B9F0F-45F8-F394-84BC-1BBA6984680D";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -169,7 +169,7 @@ createNode joint -n "JNT_brow4_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -191,7 +191,7 @@ createNode joint -n "JNT_brow4_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow5_L" -p "JNT_tweakers";
-	rename -uid "69AF3470-4AEC-7F6D-F0F1-3784BB7454D0";
+	rename -uid "A2E32142-4227-7383-47E3-A78E05F18A00";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -212,7 +212,7 @@ createNode joint -n "JNT_brow5_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -234,7 +234,7 @@ createNode joint -n "JNT_brow5_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop1_L" -p "JNT_tweakers";
-	rename -uid "9281FE32-4BD0-F95D-A57B-57BB22CE2E7A";
+	rename -uid "9CDCCA3D-4DC5-AF73-6F66-F6800219DE0C";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -255,7 +255,7 @@ createNode joint -n "JNT_lidTop1_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -277,7 +277,7 @@ createNode joint -n "JNT_lidTop1_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop2_L" -p "JNT_tweakers";
-	rename -uid "BDD0766D-4CE2-1802-2886-3AB348F3E6B8";
+	rename -uid "D4246656-4C9C-B332-7034-29BA4E665F28";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -298,7 +298,7 @@ createNode joint -n "JNT_lidTop2_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -320,7 +320,7 @@ createNode joint -n "JNT_lidTop2_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop3_L" -p "JNT_tweakers";
-	rename -uid "E96D6384-4724-78D7-27A6-EEA9866FE595";
+	rename -uid "A40BE60E-43CB-753D-9DBC-DAB0B321AB53";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -341,7 +341,7 @@ createNode joint -n "JNT_lidTop3_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -363,7 +363,7 @@ createNode joint -n "JNT_lidTop3_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop4_L" -p "JNT_tweakers";
-	rename -uid "B853A5ED-4577-6518-5356-8A974E473B35";
+	rename -uid "7982C337-4ECC-A81C-A4E9-F6BC6683C133";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -384,7 +384,7 @@ createNode joint -n "JNT_lidTop4_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -406,7 +406,7 @@ createNode joint -n "JNT_lidTop4_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop5_L" -p "JNT_tweakers";
-	rename -uid "8EB9E11F-4171-C949-0E7D-C0850BEF37A5";
+	rename -uid "2BFD779C-447D-A0A6-1340-389ECCFFB180";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -427,7 +427,7 @@ createNode joint -n "JNT_lidTop5_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -449,7 +449,7 @@ createNode joint -n "JNT_lidTop5_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm1_L" -p "JNT_tweakers";
-	rename -uid "215C1136-47E1-6A16-0522-7DB4FB369011";
+	rename -uid "49274890-481D-8296-7200-46866A0ED653";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -470,7 +470,7 @@ createNode joint -n "JNT_lidBtm1_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -492,7 +492,7 @@ createNode joint -n "JNT_lidBtm1_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm2_L" -p "JNT_tweakers";
-	rename -uid "6EAD4D24-4DEB-ED47-05CC-578D6F5C9C50";
+	rename -uid "737BA744-479B-3521-CA83-9DB12769F8DF";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -513,7 +513,7 @@ createNode joint -n "JNT_lidBtm2_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -535,7 +535,7 @@ createNode joint -n "JNT_lidBtm2_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm3_L" -p "JNT_tweakers";
-	rename -uid "F2E3D3FC-40A1-23A4-657D-7FB7EAF4EFF4";
+	rename -uid "632973ED-4DAA-31BB-3999-2D82819CBF5D";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -556,7 +556,7 @@ createNode joint -n "JNT_lidBtm3_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -578,7 +578,7 @@ createNode joint -n "JNT_lidBtm3_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm4_L" -p "JNT_tweakers";
-	rename -uid "FCA2CE29-4E53-3425-7AEC-57BEF16163AF";
+	rename -uid "EFA7083A-4368-FA63-48DB-C0B81D5D54AC";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -599,7 +599,7 @@ createNode joint -n "JNT_lidBtm4_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -621,7 +621,7 @@ createNode joint -n "JNT_lidBtm4_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm5_L" -p "JNT_tweakers";
-	rename -uid "00B19F15-4CEE-45D1-34C0-EF867B78091F";
+	rename -uid "88080995-440C-6C1B-15A3-51A594B6787E";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -642,7 +642,7 @@ createNode joint -n "JNT_lidBtm5_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -664,7 +664,7 @@ createNode joint -n "JNT_lidBtm5_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop" -p "JNT_tweakers";
-	rename -uid "E1C75670-4AFA-71DD-B80D-DF9F238E8B17";
+	rename -uid "A9180A16-4101-46A2-F6BF-5C8F5E64B01A";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -685,12 +685,12 @@ createNode joint -n "JNT_lipTop" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 1 0 ;
-	setAttr ".t" -type "double3" 0 -3.7170152682954836 12.47297774495831 ;
+	setAttr ".t" -type "double3" 0.026848625244506128 -3.8074385979974465 13.114748252765082 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.5;
@@ -707,7 +707,7 @@ createNode joint -n "JNT_lipTop" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop1_L" -p "JNT_tweakers";
-	rename -uid "0D8F7536-4532-B82B-5849-80908627CA50";
+	rename -uid "7B39C7C5-43A0-A619-2903-80AA772920BB";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -728,12 +728,12 @@ createNode joint -n "JNT_lipTop1_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 0 0 1 ;
-	setAttr ".t" -type "double3" 0.96785300080866898 -3.6080872999957592 12.150718982770785 ;
+	setAttr ".t" -type "double3" 1.2531068941209784 -3.829652059244097 12.556331479326539 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.50896822804598107;
@@ -750,7 +750,7 @@ createNode joint -n "JNT_lipTop1_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop2_L" -p "JNT_tweakers";
-	rename -uid "FC8D9F44-41F5-2226-1EE6-39A384ACE6B4";
+	rename -uid "8177FB45-481E-57F7-3607-84881F73CFA3";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -771,12 +771,12 @@ createNode joint -n "JNT_lipTop2_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 0 0 1 ;
-	setAttr ".t" -type "double3" 1.8361329594350333 -3.8029671061813133 11.629531296912901 ;
+	setAttr ".t" -type "double3" 2.146400401127158 -3.951886817447928 11.985720601916917 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.50622816446319285;
@@ -793,7 +793,7 @@ createNode joint -n "JNT_lipTop2_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop3_L" -p "JNT_tweakers";
-	rename -uid "35145D07-4A1F-9C51-D0D6-479FF7CAA769";
+	rename -uid "39F76A98-42EC-B588-56D4-CA8309F1ACBA";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -814,12 +814,12 @@ createNode joint -n "JNT_lipTop3_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 0 0 1 ;
-	setAttr ".t" -type "double3" 2.6704024429980313 -3.9911842876561252 10.908842832837509 ;
+	setAttr ".t" -type "double3" 2.8916938164513795 -4.0803036347339514 11.14331725440918 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.5;
@@ -836,7 +836,7 @@ createNode joint -n "JNT_lipTop3_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop4_L" -p "JNT_tweakers";
-	rename -uid "CBBCD422-454B-DAA8-A62A-D5BBB6193867";
+	rename -uid "2639D60D-43C1-CA6D-B9A4-E291B0731B57";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -857,12 +857,12 @@ createNode joint -n "JNT_lipTop4_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 0 0 1 ;
-	setAttr ".t" -type "double3" 3.2456830401649088 -4.074839272452266 10.171064859182763 ;
+	setAttr ".t" -type "double3" 3.4737439105610584 -4.268108755116117 10.075252517425223 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.5;
@@ -878,8 +878,8 @@ createNode joint -n "JNT_lipTop4_L" -p "JNT_tweakers";
 	setAttr -k on ".invertScale";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
-createNode joint -n "JNT_lipBtm1" -p "JNT_tweakers";
-	rename -uid "3AEDBCD1-4EA5-1641-E3C8-7CBB4F1EA5E4";
+createNode joint -n "JNT_lipBtm" -p "JNT_tweakers";
+	rename -uid "439E1B65-4300-C378-95A3-B1A519D851B0";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -900,12 +900,12 @@ createNode joint -n "JNT_lipBtm1" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 1 0 ;
-	setAttr ".t" -type "double3" 0 -4.8653535275585398 12.008128641474439 ;
+	setAttr ".t" -type "double3" -1.0582946695969419e-16 -4.8653535275585966 12.872291819244362 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.5;
@@ -922,7 +922,7 @@ createNode joint -n "JNT_lipBtm1" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipBtm1_L" -p "JNT_tweakers";
-	rename -uid "986EBD75-467B-6C73-7B80-AAA447979789";
+	rename -uid "2778A3F8-41A1-6AAC-B8B2-75934857FD90";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -943,12 +943,12 @@ createNode joint -n "JNT_lipBtm1_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 0 0 1 ;
-	setAttr ".t" -type "double3" 1.0547451499171565 -4.9241771409487001 11.968823102894556 ;
+	setAttr ".t" -type "double3" 1.2090504258746815 -4.8319109353292617 12.325929832523427 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.5;
@@ -965,7 +965,7 @@ createNode joint -n "JNT_lipBtm1_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipBtm2_L" -p "JNT_tweakers";
-	rename -uid "2C490219-49A6-90F0-A69C-98A9EB46EC09";
+	rename -uid "EBD13410-4F67-2099-E8C0-72B82A7B6627";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -986,12 +986,12 @@ createNode joint -n "JNT_lipBtm2_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 0 0 1 ;
-	setAttr ".t" -type "double3" 2.0218884819874541 -4.7696046406309733 11.607068921355825 ;
+	setAttr ".t" -type "double3" 2.0593390090675676 -4.7554677387704487 11.880140313665191 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.5;
@@ -1008,7 +1008,7 @@ createNode joint -n "JNT_lipBtm2_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipBtm3_L" -p "JNT_tweakers";
-	rename -uid "BBEE413A-491C-A4CC-7A16-4CA9D166EDC7";
+	rename -uid "E66630BD-436A-C72D-77EF-F8A7A6E907B0";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1029,12 +1029,12 @@ createNode joint -n "JNT_lipBtm3_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 0 0 1 ;
-	setAttr ".t" -type "double3" 2.6594948583250164 -4.8007828345248242 10.837151380792356 ;
+	setAttr ".t" -type "double3" 2.7879043575863172 -4.7278681544435983 11.058581668883956 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.5;
@@ -1051,7 +1051,7 @@ createNode joint -n "JNT_lipBtm3_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipBtm4_L" -p "JNT_tweakers";
-	rename -uid "2734711B-44A7-4FE7-192C-3FA981A12E46";
+	rename -uid "E7AED466-4036-6D97-FB95-028863FB4852";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1072,12 +1072,12 @@ createNode joint -n "JNT_lipBtm4_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 0 0 1 ;
-	setAttr ".t" -type "double3" 3.0828887958899904 -4.7147926199037045 9.9468862692786875 ;
+	setAttr ".t" -type "double3" 3.4285088810941726 -4.5424274886323985 9.9261396506006783 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".radi" 0.5;
@@ -1094,7 +1094,7 @@ createNode joint -n "JNT_lipBtm4_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow1_R" -p "JNT_tweakers";
-	rename -uid "79808DAD-4AD8-9955-3FB8-AFB4B078424B";
+	rename -uid "5DAA0F87-4169-C884-2498-11B480B7BE6D";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1115,12 +1115,12 @@ createNode joint -n "JNT_brow1_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -1.1510324230877502 6.9950775057302508 12.162777520748016 ;
+	setAttr ".t" -type "double3" -1.1510324230877518 6.9950775057302508 12.162777520748016 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1139,7 +1139,7 @@ createNode joint -n "JNT_brow1_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow2_R" -p "JNT_tweakers";
-	rename -uid "08C0630A-48B7-40C3-D0F0-01BC349C72D6";
+	rename -uid "E45EC659-4112-EA72-E4B4-9AA6039D5423";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1160,12 +1160,12 @@ createNode joint -n "JNT_brow2_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -2.4838442656518058 7.2086781032903104 11.881159643973714 ;
+	setAttr ".t" -type "double3" -2.4838442656518072 7.2086781032903104 11.881159643973714 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1184,7 +1184,7 @@ createNode joint -n "JNT_brow2_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow3_R" -p "JNT_tweakers";
-	rename -uid "288770BE-4444-004B-611E-38AB7681851D";
+	rename -uid "BB3AF143-47E5-5F5C-E65B-2992D4CF3A93";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1205,12 +1205,12 @@ createNode joint -n "JNT_brow3_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -3.8401512270636005 7.2543456760712104 11.493252706366038 ;
+	setAttr ".t" -type "double3" -3.8401512270636018 7.2543456760712104 11.493252706366038 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1229,7 +1229,7 @@ createNode joint -n "JNT_brow3_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow4_R" -p "JNT_tweakers";
-	rename -uid "6618B4BE-4C74-FC7D-26C7-06B213D50123";
+	rename -uid "F6BD2F11-4709-F15A-B877-1F9A409310C2";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1250,12 +1250,12 @@ createNode joint -n "JNT_brow4_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -5.2179340233372775 7.0544389533065441 10.592715585803745 ;
+	setAttr ".t" -type "double3" -5.2179340233372784 7.0544389533065441 10.592715585803745 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1274,7 +1274,7 @@ createNode joint -n "JNT_brow4_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_brow5_R" -p "JNT_tweakers";
-	rename -uid "BEB3BB6F-4CA3-A9B2-43DB-A79936BF15D2";
+	rename -uid "955AD217-44FC-CDA3-51B1-F9B956644F23";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1295,12 +1295,12 @@ createNode joint -n "JNT_brow5_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -6.1953633568254958 6.393511866305488 9.4354041343569186 ;
+	setAttr ".t" -type "double3" -6.1953633568254967 6.393511866305488 9.4354041343569186 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1319,7 +1319,7 @@ createNode joint -n "JNT_brow5_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop1_R" -p "JNT_tweakers";
-	rename -uid "6D327133-4E56-1CC1-0BAC-2985621CF069";
+	rename -uid "F86E54E1-419A-6117-53C4-21A5158AE48D";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1340,12 +1340,12 @@ createNode joint -n "JNT_lidTop1_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -2.3715914695847653 4.4451221782903758 10.485757309361791 ;
+	setAttr ".t" -type "double3" -2.3715914695847666 4.4451221782903758 10.485757309361791 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1364,7 +1364,7 @@ createNode joint -n "JNT_lidTop1_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop2_R" -p "JNT_tweakers";
-	rename -uid "126B7BF1-4171-5777-3638-489EE6C9B826";
+	rename -uid "8B310697-4470-6232-6801-8B90323CADDE";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1385,12 +1385,12 @@ createNode joint -n "JNT_lidTop2_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -3.0929241164260803 5.0283974309488713 10.76747433178082 ;
+	setAttr ".t" -type "double3" -3.0929241164260817 5.0283974309488713 10.76747433178082 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1409,7 +1409,7 @@ createNode joint -n "JNT_lidTop2_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop3_R" -p "JNT_tweakers";
-	rename -uid "6A39FE49-4DE9-452E-7CAB-BC9B124F10AB";
+	rename -uid "56EEB413-47F4-3F6E-6F3D-C59E06AF5D68";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1430,12 +1430,12 @@ createNode joint -n "JNT_lidTop3_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -4.1678353857236861 5.1865354744138585 10.606871572459935 ;
+	setAttr ".t" -type "double3" -4.1678353857236869 5.1865354744138585 10.606871572459935 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1454,7 +1454,7 @@ createNode joint -n "JNT_lidTop3_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop4_R" -p "JNT_tweakers";
-	rename -uid "63304928-4B67-B2C1-8520-D69DA8136387";
+	rename -uid "F19FA89D-4BE3-8A9E-1639-23B9E271F74D";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1475,12 +1475,12 @@ createNode joint -n "JNT_lidTop4_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -5.0868769690617963 4.857802404992924 10.23658224801796 ;
+	setAttr ".t" -type "double3" -5.0868769690617972 4.857802404992924 10.23658224801796 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1499,7 +1499,7 @@ createNode joint -n "JNT_lidTop4_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidTop5_R" -p "JNT_tweakers";
-	rename -uid "43548090-4186-F658-58C0-6EB3C243F8C9";
+	rename -uid "078ECAA2-4A5F-8330-E699-37885BD7F0FB";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1520,12 +1520,12 @@ createNode joint -n "JNT_lidTop5_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -5.6669212292087838 4.3534598679593728 9.4301398618097956 ;
+	setAttr ".t" -type "double3" -5.6669212292087847 4.3534598679593728 9.4301398618097956 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1544,7 +1544,7 @@ createNode joint -n "JNT_lidTop5_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm1_R" -p "JNT_tweakers";
-	rename -uid "97876278-4B91-04A6-A781-43B5A2CAAC00";
+	rename -uid "4C504108-4068-9054-6F6C-D18C8B179231";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1565,12 +1565,12 @@ createNode joint -n "JNT_lidBtm1_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -2.6239937076115782 3.3706568867817168 10.41648104333076 ;
+	setAttr ".t" -type "double3" -2.4374838567002497 3.4418139623426214 10.349844349750333 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1589,7 +1589,7 @@ createNode joint -n "JNT_lidBtm1_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm2_R" -p "JNT_tweakers";
-	rename -uid "61FD2D3F-45B5-8695-79BB-D1A041CD21DE";
+	rename -uid "2A36B809-4685-0279-C987-EFA59D31A291";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1610,12 +1610,12 @@ createNode joint -n "JNT_lidBtm2_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -3.3285641121503216 3.0842032360562825 10.574897895719193 ;
+	setAttr ".t" -type "double3" -3.2523686739965774 3.1043316903830203 10.564370631697823 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1634,7 +1634,7 @@ createNode joint -n "JNT_lidBtm2_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm3_R" -p "JNT_tweakers";
-	rename -uid "BB355F02-425C-7CC8-810D-D8A31EB33DF6";
+	rename -uid "DE46F2A1-48B5-19DB-BB4C-37954BB9B5EC";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1655,12 +1655,12 @@ createNode joint -n "JNT_lidBtm3_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -4.1656108991721759 2.9130838200185281 10.439350241393988 ;
+	setAttr ".t" -type "double3" -4.1656108991721768 2.9130838200185281 10.439350241393988 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1679,7 +1679,7 @@ createNode joint -n "JNT_lidBtm3_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm4_R" -p "JNT_tweakers";
-	rename -uid "8FDC8C3C-449D-D438-0FFB-FBA44CB2CE4B";
+	rename -uid "940A45E7-43A0-AF9C-C5CE-CD832B03D08A";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1700,12 +1700,12 @@ createNode joint -n "JNT_lidBtm4_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -5.0005207237794247 3.0267005507623992 9.958680077518423 ;
+	setAttr ".t" -type "double3" -5.0005207237794256 3.0267005507623992 9.958680077518423 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1724,7 +1724,7 @@ createNode joint -n "JNT_lidBtm4_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lidBtm5_R" -p "JNT_tweakers";
-	rename -uid "213CD0C8-4A3B-940B-7CD2-959CA743D1A1";
+	rename -uid "20B6DC7C-4C28-EC55-FCD5-A099D65784B6";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1745,12 +1745,12 @@ createNode joint -n "JNT_lidBtm5_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -5.6116447431794718 3.3735356443021942 9.3120522005442457 ;
+	setAttr ".t" -type "double3" -5.6116447431794727 3.3735356443021942 9.3120522005442457 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1769,7 +1769,7 @@ createNode joint -n "JNT_lidBtm5_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop1_R" -p "JNT_tweakers";
-	rename -uid "3AE708B1-4572-6C0E-8E28-DB89A8C63E63";
+	rename -uid "9A863058-4B9E-02A3-8AF1-64A52419341B";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1790,12 +1790,12 @@ createNode joint -n "JNT_lipTop1_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -0.96785300080866898 -3.6080872999957592 12.150718982770785 ;
+	setAttr ".t" -type "double3" -1.25310689412098 -3.829652059244097 12.556331479326539 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1814,7 +1814,7 @@ createNode joint -n "JNT_lipTop1_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop2_R" -p "JNT_tweakers";
-	rename -uid "9F29EA87-40F9-ADE1-1157-DD97CA598FAF";
+	rename -uid "E9AD5151-42B4-4EF2-F192-AD974E6017EC";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1835,12 +1835,12 @@ createNode joint -n "JNT_lipTop2_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -1.8361329594350333 -3.8029671061813133 11.629531296912901 ;
+	setAttr ".t" -type "double3" -2.1464004011271594 -3.951886817447928 11.985720601916917 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1859,7 +1859,7 @@ createNode joint -n "JNT_lipTop2_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop3_R" -p "JNT_tweakers";
-	rename -uid "55F4E166-4D7E-BD83-7435-ECAF77DF09B4";
+	rename -uid "C7533945-4E56-BFEF-446A-89832FC09237";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1880,12 +1880,12 @@ createNode joint -n "JNT_lipTop3_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -2.6704024429980313 -3.9911842876561252 10.908842832837509 ;
+	setAttr ".t" -type "double3" -2.8916938164513808 -4.0803036347339514 11.14331725440918 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1904,7 +1904,7 @@ createNode joint -n "JNT_lipTop3_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipTop4_R" -p "JNT_tweakers";
-	rename -uid "A28221EE-456D-BD86-8B1C-F7B4FD97E840";
+	rename -uid "E27515ED-490F-1E22-6E25-689FA41BCABA";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1925,12 +1925,12 @@ createNode joint -n "JNT_lipTop4_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -3.2456830401649088 -4.074839272452266 10.171064859182763 ;
+	setAttr ".t" -type "double3" -3.4737439105610597 -4.268108755116117 10.075252517425223 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1949,7 +1949,7 @@ createNode joint -n "JNT_lipTop4_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipBtm1_R" -p "JNT_tweakers";
-	rename -uid "45925BAB-4EA9-94DA-9170-E085CCCA5BA0";
+	rename -uid "EA001A7B-43F1-D2E3-1742-C2A3424729CC";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -1970,12 +1970,12 @@ createNode joint -n "JNT_lipBtm1_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -1.0547451499171565 -4.9241771409487001 11.968823102894556 ;
+	setAttr ".t" -type "double3" -1.209050425874683 -4.8319109353292617 12.325929832523427 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -1994,7 +1994,7 @@ createNode joint -n "JNT_lipBtm1_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipBtm2_R" -p "JNT_tweakers";
-	rename -uid "6FE2EDAF-40FA-8352-ED97-A0A2F61916D3";
+	rename -uid "6DD1279A-4B28-649C-191C-49BB41C0090A";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2015,12 +2015,12 @@ createNode joint -n "JNT_lipBtm2_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -2.0218884819874541 -4.7696046406309733 11.607068921355825 ;
+	setAttr ".t" -type "double3" -2.0593390090675689 -4.7554677387704487 11.880140313665191 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2039,7 +2039,7 @@ createNode joint -n "JNT_lipBtm2_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipBtm3_R" -p "JNT_tweakers";
-	rename -uid "BCB8F4FA-48D3-4CB4-0FC0-2AB09D232566";
+	rename -uid "9CBC4AD3-435D-AE60-9615-DCAB92B45E86";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2060,12 +2060,12 @@ createNode joint -n "JNT_lipBtm3_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -2.6594948583250164 -4.8007828345248242 10.837151380792356 ;
+	setAttr ".t" -type "double3" -2.7879043575863185 -4.7278681544435983 11.058581668883956 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2084,7 +2084,7 @@ createNode joint -n "JNT_lipBtm3_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_lipBtm4_R" -p "JNT_tweakers";
-	rename -uid "0FE4BC15-4CA4-4A48-9C3A-D5BD35BA3D00";
+	rename -uid "F517F2B8-4A56-DC9D-C289-3B9334E0CFD1";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2105,12 +2105,12 @@ createNode joint -n "JNT_lipBtm4_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -3.0828887958899904 -4.7147926199037045 9.9468862692786875 ;
+	setAttr ".t" -type "double3" -3.428508881094174 -4.5424274886323985 9.9261396506006783 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2129,7 +2129,7 @@ createNode joint -n "JNT_lipBtm4_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial1_L" -p "JNT_tweakers";
-	rename -uid "59B770BF-4CDE-C241-D2D4-D985C48FBB75";
+	rename -uid "5CBF7C5F-4BBF-D1A7-35CE-0C96D2873166";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2150,7 +2150,7 @@ createNode joint -n "JNT_nasolabial1_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -2172,7 +2172,7 @@ createNode joint -n "JNT_nasolabial1_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial2_L" -p "JNT_tweakers";
-	rename -uid "8FD7E2AB-44ED-F95C-41DB-D1B5C6294E4F";
+	rename -uid "9AD50420-47EB-73AF-CDF1-C28B97956DEF";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2193,7 +2193,7 @@ createNode joint -n "JNT_nasolabial2_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -2215,7 +2215,7 @@ createNode joint -n "JNT_nasolabial2_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial3_L" -p "JNT_tweakers";
-	rename -uid "70BA997F-4C0B-22B8-5EA5-3BBB5AE550BD";
+	rename -uid "03AC8AE5-4D2C-155F-DD6F-A5BBEF36A21A";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2236,7 +2236,7 @@ createNode joint -n "JNT_nasolabial3_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -2258,7 +2258,7 @@ createNode joint -n "JNT_nasolabial3_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial4_L" -p "JNT_tweakers";
-	rename -uid "2CF362CD-4FBB-8B6B-A01D-CB8F022B2CE4";
+	rename -uid "D17040CC-4379-35A6-826A-CCB2B132682D";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2279,7 +2279,7 @@ createNode joint -n "JNT_nasolabial4_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -2301,7 +2301,7 @@ createNode joint -n "JNT_nasolabial4_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial5_L" -p "JNT_tweakers";
-	rename -uid "9B735F18-46C1-39FD-A138-5797A0C004BF";
+	rename -uid "400D8E83-4C90-B2D9-CCE0-17B25EE6A26F";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2322,7 +2322,7 @@ createNode joint -n "JNT_nasolabial5_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -2344,7 +2344,7 @@ createNode joint -n "JNT_nasolabial5_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ridge1_L" -p "JNT_tweakers";
-	rename -uid "7A9999F4-4F2D-F701-1640-FC9A27D6B092";
+	rename -uid "E8912E58-4480-6E68-88E4-FBB59E855A71";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2365,7 +2365,7 @@ createNode joint -n "JNT_ridge1_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -2387,7 +2387,7 @@ createNode joint -n "JNT_ridge1_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ridge2_L" -p "JNT_tweakers";
-	rename -uid "7E2B5BB3-4E5D-4AB5-7EB0-399579D4C736";
+	rename -uid "A55130DF-43C8-348B-E813-FC854B07F08B";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2408,7 +2408,7 @@ createNode joint -n "JNT_ridge2_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -2430,7 +2430,7 @@ createNode joint -n "JNT_ridge2_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ridge3_L" -p "JNT_tweakers";
-	rename -uid "93DDBB91-471A-8148-65CA-E4A3B86E334B";
+	rename -uid "06DB46F3-4727-B74C-B197-A6A0940C0552";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2451,7 +2451,7 @@ createNode joint -n "JNT_ridge3_L" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
@@ -2473,7 +2473,7 @@ createNode joint -n "JNT_ridge3_L" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial1_R" -p "JNT_tweakers";
-	rename -uid "ABFD2C6C-4466-C420-17E7-99ABC98B81CC";
+	rename -uid "29382C46-4C86-A0AB-D908-AF9E4F27F8E8";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2494,12 +2494,12 @@ createNode joint -n "JNT_nasolabial1_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -1.6449295334679324 2.1931869281194736 11.797272457411374 ;
+	setAttr ".t" -type "double3" -1.6449295334679339 2.1931869281194736 11.797272457411374 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2518,7 +2518,7 @@ createNode joint -n "JNT_nasolabial1_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial2_R" -p "JNT_tweakers";
-	rename -uid "A761619F-46BB-43F5-78C5-46A8E561072B";
+	rename -uid "5562E005-49EC-0BE4-9011-5D85650918D3";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2539,12 +2539,12 @@ createNode joint -n "JNT_nasolabial2_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -3.1593181311051133 0.659556091377965 11.012035557598093 ;
+	setAttr ".t" -type "double3" -3.1593181311051146 0.659556091377965 11.012035557598093 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2563,7 +2563,7 @@ createNode joint -n "JNT_nasolabial2_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial3_R" -p "JNT_tweakers";
-	rename -uid "63CE4005-4ADB-BEF3-7B2F-7AAE352134C6";
+	rename -uid "1C0284BA-45A7-6670-63D9-A68FC7AABF84";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2584,12 +2584,12 @@ createNode joint -n "JNT_nasolabial3_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -4.3910711780750828 -1.4677507783716237 9.9300760706232012 ;
+	setAttr ".t" -type "double3" -4.3910711780750837 -1.4677507783716237 9.9300760706232012 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2608,7 +2608,7 @@ createNode joint -n "JNT_nasolabial3_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial4_R" -p "JNT_tweakers";
-	rename -uid "29D4BF7C-408A-3B49-A13D-34A2DA7BC22C";
+	rename -uid "616A0DCC-4699-8393-F29A-43A8803FF55B";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2629,12 +2629,12 @@ createNode joint -n "JNT_nasolabial4_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -4.7657609990475294 -4.1504808491073675 8.9074332279203503 ;
+	setAttr ".t" -type "double3" -4.7657609990475303 -4.1504808491073675 8.9074332279203503 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2653,7 +2653,7 @@ createNode joint -n "JNT_nasolabial4_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_nasolabial5_R" -p "JNT_tweakers";
-	rename -uid "FC01D4B8-4582-12C4-0C6E-8DA0A0E97463";
+	rename -uid "C17A7D21-44D4-1C13-5A77-9E9211C10123";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2674,12 +2674,12 @@ createNode joint -n "JNT_nasolabial5_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -4.0002262629683836 -6.3456598356815164 9.6892197390481556 ;
+	setAttr ".t" -type "double3" -4.0002262629683845 -6.3456598356815164 9.6892197390481556 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2698,7 +2698,7 @@ createNode joint -n "JNT_nasolabial5_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ridge1_R" -p "JNT_tweakers";
-	rename -uid "25986720-42EA-3D35-1149-4BB9DD3CF653";
+	rename -uid "99020426-4159-CB42-9D9B-8686C06FE17A";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2719,12 +2719,12 @@ createNode joint -n "JNT_ridge1_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -4.7932643775313961 0.75649269315448464 9.9828816795160975 ;
+	setAttr ".t" -type "double3" -4.793264377531397 0.75649269315448464 9.9828816795160975 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2743,7 +2743,7 @@ createNode joint -n "JNT_ridge1_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ridge2_R" -p "JNT_tweakers";
-	rename -uid "BDB03B83-4548-8C73-1D18-8BA48D8F9C96";
+	rename -uid "1DD04079-4850-973E-B981-61902CB8FA47";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2764,12 +2764,12 @@ createNode joint -n "JNT_ridge2_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -6.3415099207528351 1.5153777662157779 9.0378566647683556 ;
+	setAttr ".t" -type "double3" -6.341509920752836 1.5153777662157779 9.0378566647683556 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2788,7 +2788,7 @@ createNode joint -n "JNT_ridge2_R" -p "JNT_tweakers";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "JNT_ridge3_R" -p "JNT_tweakers";
-	rename -uid "09E2048D-4FAC-4C0C-5134-9BA40040834D";
+	rename -uid "4BEF6AA5-4C04-8C11-02DC-0A9E7C0D1AC6";
 	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
 		-at "enum";
 	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
@@ -2809,12 +2809,12 @@ createNode joint -n "JNT_ridge3_R" -p "JNT_tweakers";
 		-at "enum";
 	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
 		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -at "bool";
+	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
 	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
 	setAttr ".ove" yes;
 	setAttr ".ovrgbf" yes;
 	setAttr ".ovrgb" -type "float3" 1 0 0 ;
-	setAttr ".t" -type "double3" -6.8491183671473026 3.4348716178058112 8.1875596129355017 ;
+	setAttr ".t" -type "double3" -6.8491183671473035 3.4348716178058112 8.1875596129355017 ;
 	setAttr ".s" -type "double3" -1 -1 -1 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -2832,31 +2832,121 @@ createNode joint -n "JNT_ridge3_R" -p "JNT_tweakers";
 	setAttr -k on ".invertScale" 7;
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
+createNode joint -n "JNT_cheek_L" -p "JNT_tweakers";
+	rename -uid "D7EE8B53-4167-D77B-05D1-E7B87A8C2B63";
+	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
+	setAttr ".ove" yes;
+	setAttr ".ovc" 6;
+	setAttr ".t" -type "double3" 6.1307180035379325 -3.8946114450413631 7.1514697935838996 ;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".bps" -type "matrix" 1 0 0 0 0 1 0 0 0 0 1 0 6.1307180035379325 176.74338855495864 7.1514697935838996 1;
+	setAttr ".radi" 0.5;
+	setAttr ".liw" yes;
+createNode joint -n "JNT_cheek_R" -p "JNT_tweakers";
+	rename -uid "F81EEDAD-46F1-E127-EF99-00803648C591";
+	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
+	setAttr ".ove" yes;
+	setAttr ".ovc" 13;
+	setAttr ".t" -type "double3" -6.1307180035379325 -3.8946114450413631 7.1514697935838996 ;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".bps" -type "matrix" 1 0 0 0 0 1 0 0 0 0 1 0 -6.1307180035379325 176.74338855495864 7.1514697935838996 1;
+	setAttr ".radi" 0.5;
+	setAttr ".liw" yes;
 select -ne :time1;
+	setAttr -av -k on ".cch";
+	setAttr -av -cb on ".ihi";
+	setAttr -av -k on ".nds";
+	setAttr -cb on ".bnm";
 	setAttr ".o" 1;
-	setAttr ".unw" 1;
+	setAttr -av ".unw" 1;
+	setAttr -k on ".etw";
+	setAttr -av -k on ".tps";
+	setAttr -av -k on ".tms";
 select -ne :hardwareRenderingGlobals;
+	setAttr -k on ".ihi";
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
 		 1 1 1 0 0 0 0 0 0 0 0 0
 		 0 0 0 0 ;
+	setAttr -av ".aoam";
+	setAttr -av ".aora";
+	setAttr -av ".mbe";
+	setAttr -av -k on ".mbsof";
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 3 ".st";
+	setAttr -av -k on ".cch";
+	setAttr -cb on ".ihi";
+	setAttr -av -k on ".nds";
+	setAttr -cb on ".bnm";
+	setAttr -s 4 ".st";
+	setAttr -cb on ".an";
+	setAttr -cb on ".pt";
 select -ne :renderGlobalsList1;
+	setAttr -k on ".cch";
+	setAttr -cb on ".ihi";
+	setAttr -k on ".nds";
+	setAttr -cb on ".bnm";
 select -ne :defaultShaderList1;
-	setAttr -s 6 ".s";
+	setAttr -k on ".cch";
+	setAttr -cb on ".ihi";
+	setAttr -k on ".nds";
+	setAttr -cb on ".bnm";
+	setAttr -s 7 ".s";
 select -ne :postProcessList1;
+	setAttr -k on ".cch";
+	setAttr -cb on ".ihi";
+	setAttr -k on ".nds";
+	setAttr -cb on ".bnm";
 	setAttr -s 2 ".p";
 select -ne :defaultRenderingList1;
+	setAttr -k on ".ihi";
 select -ne :initialShadingGroup;
+	setAttr -av -k on ".cch";
+	setAttr -cb on ".ihi";
+	setAttr -av -k on ".nds";
+	setAttr -cb on ".bnm";
+	setAttr -k on ".mwc";
+	setAttr -cb on ".an";
+	setAttr -cb on ".il";
+	setAttr -cb on ".vo";
+	setAttr -cb on ".eo";
+	setAttr -cb on ".fo";
+	setAttr -cb on ".epo";
 	setAttr ".ro" yes;
 select -ne :initialParticleSE;
+	setAttr -av -k on ".cch";
+	setAttr -k on ".ihi";
+	setAttr -av -k on ".nds";
+	setAttr -cb on ".bnm";
+	setAttr -k on ".mwc";
+	setAttr -k on ".an";
+	setAttr -k on ".il";
+	setAttr -k on ".vo";
+	setAttr -k on ".eo";
+	setAttr -k on ".fo";
+	setAttr -k on ".epo";
 	setAttr ".ro" yes;
 select -ne :defaultRenderGlobals;
 	setAttr ".ren" -type "string" "arnold";
 select -ne :defaultResolution;
-	setAttr ".pa" 1;
+	setAttr -av -k on ".cch";
+	setAttr -av -k on ".ihi";
+	setAttr -av -k on ".nds";
+	setAttr -k on ".bnm";
+	setAttr -av ".w";
+	setAttr -av ".h";
+	setAttr -av ".pa" 1;
+	setAttr -av -k on ".al";
+	setAttr -av ".dar";
+	setAttr -av -k on ".ldar";
+	setAttr -av -cb on ".dpi";
+	setAttr -av -k on ".off";
+	setAttr -av -k on ".fld";
+	setAttr -av -k on ".zsl";
+	setAttr -av -cb on ".isu";
+	setAttr -av -cb on ".pdu";
 select -ne :defaultColorMgtGlobals;
 	setAttr ".cfe" yes;
 	setAttr ".cfp" -type "string" "<MAYA_RESOURCES>/OCIO-configs/Maya2022-default/config.ocio";
@@ -2867,8 +2957,43 @@ select -ne :defaultColorMgtGlobals;
 	setAttr ".otn" -type "string" "ACES 1.0 SDR-video (sRGB)";
 	setAttr ".potn" -type "string" "ACES 1.0 SDR-video (sRGB)";
 select -ne :hardwareRenderGlobals;
+	setAttr -k on ".cch";
+	setAttr -k on ".ihi";
+	setAttr -k on ".nds";
+	setAttr -cb on ".bnm";
 	setAttr ".ctrs" 256;
-	setAttr ".btrs" 512;
+	setAttr -av ".btrs" 512;
+	setAttr -k off -cb on ".fbfm";
+	setAttr -k off -cb on ".ehql";
+	setAttr -k off -cb on ".eams";
+	setAttr -k off -cb on ".eeaa";
+	setAttr -k off -cb on ".engm";
+	setAttr -k off -cb on ".mes";
+	setAttr -k off -cb on ".emb";
+	setAttr -av -k off -cb on ".mbbf";
+	setAttr -k off -cb on ".mbs";
+	setAttr -k off -cb on ".trm";
+	setAttr -k off -cb on ".tshc";
+	setAttr -k off -cb on ".enpt";
+	setAttr -k off -cb on ".clmt";
+	setAttr -k off -cb on ".tcov";
+	setAttr -k off -cb on ".lith";
+	setAttr -k off -cb on ".sobc";
+	setAttr -k off -cb on ".cuth";
+	setAttr -k off -cb on ".hgcd";
+	setAttr -k off -cb on ".hgci";
+	setAttr -k off -cb on ".mgcs";
+	setAttr -k off -cb on ".twa";
+	setAttr -k off -cb on ".twz";
+	setAttr -k on ".hwcc";
+	setAttr -k on ".hwdp";
+	setAttr -k on ".hwql";
+	setAttr -k on ".hwfr";
+	setAttr -k on ".soll";
+	setAttr -k on ".sosl";
+	setAttr -k on ".bswa";
+	setAttr -k on ".shml";
+	setAttr -k on ".hwel";
 connectAttr "JNT_tweakers.s" "JNT_brow1_L.is";
 connectAttr "JNT_tweakers.s" "JNT_brow2_L.is";
 connectAttr "JNT_tweakers.s" "JNT_brow3_L.is";
@@ -2889,7 +3014,7 @@ connectAttr "JNT_tweakers.s" "JNT_lipTop1_L.is";
 connectAttr "JNT_tweakers.s" "JNT_lipTop2_L.is";
 connectAttr "JNT_tweakers.s" "JNT_lipTop3_L.is";
 connectAttr "JNT_tweakers.s" "JNT_lipTop4_L.is";
-connectAttr "JNT_tweakers.s" "JNT_lipBtm1.is";
+connectAttr "JNT_tweakers.s" "JNT_lipBtm.is";
 connectAttr "JNT_tweakers.s" "JNT_lipBtm1_L.is";
 connectAttr "JNT_tweakers.s" "JNT_lipBtm2_L.is";
 connectAttr "JNT_tweakers.s" "JNT_lipBtm3_L.is";
@@ -2933,9 +3058,11 @@ connectAttr "JNT_tweakers.s" "JNT_nasolabial5_R.is";
 connectAttr "JNT_tweakers.s" "JNT_ridge1_R.is";
 connectAttr "JNT_tweakers.s" "JNT_ridge2_R.is";
 connectAttr "JNT_tweakers.s" "JNT_ridge3_R.is";
-dataStructure -fmt "raw" -as "name=DiffArea:float=value";
-dataStructure -fmt "raw" -as "name=Offset:float[3]=value";
+connectAttr "JNT_tweakers.s" "JNT_cheek_L.is";
+connectAttr "JNT_tweakers.s" "JNT_cheek_R.is";
 dataStructure -fmt "raw" -as "name=Blur3dMetaData:string=Blur3dValue";
 dataStructure -fmt "raw" -as "name=DiffEdge:float=value";
+dataStructure -fmt "raw" -as "name=Offset:float[3]=value";
+dataStructure -fmt "raw" -as "name=DiffArea:float=value";
 dataStructure -fmt "raw" -as "name=Curvature:float=mean:float=gaussian:float=ABS:float=RMS";
 // End of structure.ma

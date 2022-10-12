@@ -1,11 +1,14 @@
 from vtool.maya_lib import rigs
 from vtool.maya_lib import rigs_util
+from vtool.maya_lib import core
 
 def main():
-
-    joints = cmds.listRelatives('JNT_face', ad = True, type = 'joint')
+    base_joint = put.joint_base
+    
+    joints = cmds.listRelatives(base_joint, ad = True, type = 'joint')
+    
     joints.remove('JNT_jawEnd')
-    show(put.joint_eye_look)
+    
     joints.remove(put.joint_eye_look['L'])
     joints.remove(put.joint_eye_look['R'])
     joints.remove(put.joint_eye['L'])
@@ -27,7 +30,6 @@ def main():
     rig.set_setup_parent(put.group_setup)
     
     rig.create()
-
     
     put.controls_skull = rig.controls
     
@@ -42,7 +44,8 @@ def main():
         control_inst.rename(name)    
         updated_controls.append(name)
     
-    put.controls_skull = updated_controls        
+    put.controls_skull = updated_controls 
+    put.skull_joint_control_map = rig.use_hierarchy_dict       
     
     xform_locals = cmds.ls('xform_local_*', type = 'transform')
     cmds.parent(xform_locals, rig.setup_group)    

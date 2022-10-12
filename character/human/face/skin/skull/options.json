@@ -5,7 +5,7 @@
     ],
     [
         "Rig.Info.",
-        false
+        true
     ],
     [
         "Rig.Info.Size",
@@ -13,14 +13,14 @@
     ],
     [
         "Rig.Info.Mappings.",
-        false
+        true
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
         [
             [
                 {
-                    "base": "JNT_head",
+                    "base": "JNT_face",
                     "earL": "JNT_ear_L",
                     "earR": "JNT_ear_R",
                     "eyeL": "JNT_eye_L",

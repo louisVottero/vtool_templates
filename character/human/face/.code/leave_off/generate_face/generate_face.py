@@ -18,7 +18,15 @@ def main():
     
     if faces and cmds.objExists(faces):
         cmds.delete(faces)
+    else:
+        core.print_warning('No existing faces found to delete')
     
+    things = process.get_option('Remove Objects')
     
+    for thing in things:
+        if cmds.objExists(thing):
+            cmds.delete(thing)    
+        else:
+            core.print_warning('Unable to delete: %s' % thing)            
     
     

@@ -6,6 +6,7 @@ def main():
     rel_process.import_data('face_model')
     
     name = process.get_basename()
+    put.name = name
     
     model = 'Model'
         

@@ -1,3 +1,3 @@
 
 def main():
-    return
+    cmds.hide('tweaker_Model')

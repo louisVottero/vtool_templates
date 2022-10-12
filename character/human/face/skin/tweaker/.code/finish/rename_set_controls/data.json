@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "rename_set_controls"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]

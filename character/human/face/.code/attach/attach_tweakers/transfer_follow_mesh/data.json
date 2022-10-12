@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "transfer_follow_mesh"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]

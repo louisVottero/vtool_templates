@@ -9,3 +9,5 @@ def main():
 
     group = core.create_group('%s_setup' % name)
     put.group_setup = group[0]
+    
+    cmds.setAttr('%s.inheritsTransform' % put.group_control, 0)

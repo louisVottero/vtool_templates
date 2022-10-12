@@ -20,8 +20,11 @@
         [
             [
                 {
+                    "base": "JNT_tweakers",
                     "browL": "JNT_brow*_L",
                     "browR": "JNT_brow*_R",
+                    "cheekL": "JNT_cheek_L",
+                    "cheekR": "JNT_cheek_R",
                     "lidBtmL": "JNT_lidBtm*_L",
                     "lidBtmR": "JNT_lidBtm*_R",
                     "lidTopL": "JNT_lidTop*_L",
@@ -53,10 +56,53 @@
                     "mouthTopR",
                     "mouthBtm",
                     "mouthBtmL",
-                    "mouthBtmR"
+                    "mouthBtmR",
+                    "base",
+                    "cheekL",
+                    "cheekR"
                 ]
             ],
             "dictionary"
+        ]
+    ],
+    [
+        "Workflow.",
+        true
+    ],
+    [
+        "Workflow.Structure.",
+        true
+    ],
+    [
+        "Workflow.Structure.Place Skeleton",
+        [
+            "process.run_script('leave_off/place_skeleton')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Structure.Export Skeleton",
+        [
+            "process.run_script('leave_off/export_skeleton')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Deform.",
+        true
+    ],
+    [
+        "Workflow.Deform.Paint Weight Meshes",
+        [
+            "process.run_script('leave_off/paint_skin_weights')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Deform.Export Weight Mesh Group",
+        [
+            "process.run_script('leave_off/export_skin_weights')",
+            "script"
         ]
     ]
 ]

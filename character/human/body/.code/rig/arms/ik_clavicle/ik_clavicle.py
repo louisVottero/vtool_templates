@@ -68,30 +68,30 @@ def main():
                         pivot_at_center=True)
         
         control_inst = rigs_util.Control(rig.controls[0])
+
         offset = 1
         if side == 'R':
             offset = -1
-        control_inst.translate_shape(0,4*offset*size, 0)
+
+        control_inst.translate_shape(0,4*size, 0)
         
         space.create_xform_group(section[0])
         driver = space.create_xform_group(section[0], 'driver')
         
-        #fix pole vector
         loc = cmds.spaceLocator(n = 'clavicle_rotateLock_%s' % side)[0]
         loc_xform = space.create_xform_group(loc)
 
-        if side =='L':
-            left_loc = loc
-            space.MatchSpace(section[0],loc_xform).translation_rotation()
-            pole_value = cmds.getAttr('%s.poleVector' % handle)[0]
+        pole_value = cmds.getAttr('%s.poleVector' % handle)[0]
+
+        cmds.parent(loc_xform, section[0])
+        
+        space.zero_out_transform_channels(loc_xform)
             
-            cmds.setAttr('%s.translateX' % loc, pole_value[0])
-            cmds.setAttr('%s.translateY' % loc, pole_value[1])
-            cmds.setAttr('%s.translateZ' % loc, pole_value[2])
+        cmds.setAttr('%s.translateX' % loc, pole_value[0] * offset)
+        cmds.setAttr('%s.translateY' % loc, pole_value[1] * offset)
+        cmds.setAttr('%s.translateZ' % loc, pole_value[2] * offset)
             
         cmds.parent(loc_xform, driver)
-        if side == 'R':
-            space.mirror_xform(left_loc, loc_xform)
-
+        
         cmds.poleVectorConstraint(loc, handle)         
         
