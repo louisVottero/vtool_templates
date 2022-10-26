@@ -1,14 +1,14 @@
 [
     [
-        "name",
+        "name", 
         "control_values"
-    ],
+    ], 
     [
-        "data_type",
+        "data_type", 
         "maya.control_values"
-    ],
+    ], 
     [
-        "sub_folder",
+        "sub_folder", 
         ""
     ]
 ]

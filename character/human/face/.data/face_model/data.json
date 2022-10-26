@@ -1,14 +1,14 @@
 [
     [
-        "name",
+        "name", 
         "face_model"
-    ],
+    ], 
     [
-        "data_type",
+        "data_type", 
         "maya.ascii"
-    ],
+    ], 
     [
-        "sub_folder",
+        "sub_folder", 
         ""
     ]
 ]

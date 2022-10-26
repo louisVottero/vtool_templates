@@ -19,9 +19,9 @@ def main():
         rels = cmds.listRelatives(targets, ad = True, type = 'transform')
         meshes = geo.get_meshes_in_list(rels)
         
-        manager_inst.set_prune_distance(0.0001)
+        manager_inst.set_prune_distance(0.001)
         manager_inst.add_meshes(meshes)
         
         cmds.parent(manager, put.group_setup)
         
-        cmds.delete(targets)
+        #cmds.delete(targets)

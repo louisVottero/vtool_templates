@@ -58,8 +58,8 @@ def split_shapes(base_mesh, shapes):
 
     split_inst = deform.SplitMeshTarget(shapes)
     split_inst.set_base_mesh(base_mesh)
-    split_inst.set_center_fade(2,positive = True,suffix='L',prefix=None,split_name=True)
-    split_inst.set_center_fade(2,positive = False,suffix='R',prefix=None,split_name=True)    
+    split_inst.set_center_fade(3,positive = True,suffix='L',prefix=None,split_name=True)
+    split_inst.set_center_fade(3,positive = False,suffix='R',prefix=None,split_name=True)    
     result = split_inst.create()
     show(result)
     
