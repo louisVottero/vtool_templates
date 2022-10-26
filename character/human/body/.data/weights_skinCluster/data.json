@@ -1,14 +1,14 @@
 [
     [
-        "name", 
+        "name",
         "weights_skinCluster"
-    ], 
+    ],
     [
-        "data_type", 
+        "data_type",
         "maya.skin_weights"
-    ], 
+    ],
     [
-        "sub_folder", 
+        "sub_folder",
         ""
     ]
 ]
