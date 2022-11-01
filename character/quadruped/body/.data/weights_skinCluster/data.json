@@ -1,0 +1,26 @@
+[
+    [
+        "name",
+        "weights_skinCluster"
+    ],
+    [
+        "data_type",
+        "maya.skin_weights"
+    ],
+    [
+        "sub_folder",
+        ""
+    ],
+    [
+        "single file",
+        false
+    ],
+    [
+        "version up",
+        false
+    ],
+    [
+        "blend weights",
+        false
+    ]
+]

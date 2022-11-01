@@ -22,7 +22,7 @@ def main():
     rig.set_control_shape('hexagon')
     rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
     #temporarily removing until its more stable.
-    #rig.set_ribbon_joint_aim(True, [0,1,0])
+    rig.set_ribbon_joint_aim(True, [0,1,0])
     rig.set_create_follows(False)
 
     rig.set_control_color_hue(.165)    
