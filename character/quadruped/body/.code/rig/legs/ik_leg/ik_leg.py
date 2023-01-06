@@ -11,6 +11,7 @@ def main():
     for side in 'LR':
         
         joints = put.joint_leg[side]
+        show(joints)
         
         rig = rigs.IkBackLegRig('ik_leg',side)
         rig.set_joints(joints)
@@ -65,6 +66,7 @@ def main():
         child = put.joint_foot[side]['foot'][-1]
         position_start = cmds.xform(put.joint_foot[side]['heel'], q = True, ws = True, t = True)
         position_end = cmds.xform(child, q = True, ws = True, t = True)
+        position_end[1] = position_start[1]
         geo.move_cvs(get_start_cvs(rig.controls[-1]),position_start,pivot_at_center = True)
         geo.move_cvs(get_end_cvs(rig.controls[-1]),position_end,pivot_at_center = True)
                  

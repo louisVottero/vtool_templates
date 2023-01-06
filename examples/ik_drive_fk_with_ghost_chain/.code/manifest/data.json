@@ -1,11 +1,11 @@
 [
     [
         "name",
-        "fix_ankle"
+        "manifest"
     ],
     [
         "data_type",
-        "script.python"
+        "script.manifest"
     ],
     [
         "sub_folder",

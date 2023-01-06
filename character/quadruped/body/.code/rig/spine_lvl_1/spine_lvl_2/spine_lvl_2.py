@@ -12,7 +12,7 @@ def main():
     
     joints = put.joint_spine
     
-    rig = rigs.FkCurveRig('spine')
+    rig = rigs.FkCurveRig('sub_spine')
     rig.set_joints(joints[:-1])
     rig.set_ribbon(True)
     

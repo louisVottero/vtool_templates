@@ -4,14 +4,6 @@
         true
     ],
     [
-        "Rig.",
-        true
-    ],
-    [
-        "Workflow.",
-        true
-    ],
-    [
         "Asset.Top Group",
         "Main"
     ],
@@ -28,19 +20,11 @@
         "Joints"
     ],
     [
+        "Rig.",
+        true
+    ],
+    [
         "Rig.Info.",
-        true
-    ],
-    [
-        "Rig.Prep.",
-        false
-    ],
-    [
-        "Workflow.Structure.",
-        true
-    ],
-    [
-        "Workflow.Deform.",
         true
     ],
     [
@@ -54,50 +38,6 @@
     [
         "Rig.Info.Mappings.",
         true
-    ],
-    [
-        "Rig.Info.Deformation Joints.",
-        false
-    ],
-    [
-        "Rig.Info.Controls.",
-        false
-    ],
-    [
-        "Rig.Prep.Orient Joints",
-        true
-    ],
-    [
-        "Rig.Prep.Align Center Joints",
-        false
-    ],
-    [
-        "Workflow.Structure.Place Skeleton",
-        [
-            "process.run_script('leave_off/place_skeleton')",
-            "script"
-        ]
-    ],
-    [
-        "Workflow.Structure.Export Skeleton",
-        [
-            "process.run_script('leave_off/export_skeleton')",
-            "script"
-        ]
-    ],
-    [
-        "Workflow.Deform.Paint Skin Weights",
-        [
-            "process.run_script('leave_off/paint_skin_weights')",
-            "script"
-        ]
-    ],
-    [
-        "Workflow.Deform.Export Skin Weights",
-        [
-            "process.run_script('leave_off/export_skin_weights')",
-            "script"
-        ]
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
@@ -178,12 +118,16 @@
         [
             [
                 {
-                    "leg":"JNT_leg_L, JNT_knee_L, JNT_ankle_L, JNT_ball_L",
+                    "foot":"JNT_ankle_L, JNT_backBall_L, JNT_toe_L",
+                    "heel":"GDE_backHeel_L",
+                    "leg":"JNT_leg_L, JNT_knee_L, JNT_ankle_L, JNT_backBall_L",
                     "toe1":"JNT_toe1*_L",
                     "toe2":"JNT_toe2*_L",
                     "toe3":"JNT_toe3*_L",
                     "toe4":"JNT_toe4*_L",
-                    "toe5":"JNT_toe5*_L"
+                    "toe5":"JNT_toe5*_L",
+                    "yaw in":"GDE_backYawIn_L",
+                    "yaw out":"GDE_backYawOut_L"
                 },
                 [
                     "leg",
@@ -191,7 +135,11 @@
                     "toe2",
                     "toe3",
                     "toe4",
-                    "toe5"
+                    "toe5",
+                    "foot",
+                    "yaw in",
+                    "yaw out",
+                    "heel"
                 ]
             ],
             "dictionary"
@@ -202,12 +150,16 @@
         [
             [
                 {
-                    "leg":"JNT_leg_R, JNT_knee_R, JNT_ankle_R, JNT_ball_R",
+                    "foot":"JNT_ankle_R, JNT_backBall_R, JNT_toe_R",
+                    "heel":"GDE_backHeel_R",
+                    "leg":"JNT_leg_R, JNT_knee_R, JNT_ankle_R, JNT_backBall_R",
                     "toe1":"JNT_toe1*_R",
                     "toe2":"JNT_toe2*_R",
                     "toe3":"JNT_toe3*_R",
                     "toe4":"JNT_toe4*_R",
-                    "toe5":"JNT_toe5*_R"
+                    "toe5":"JNT_toe5*_R",
+                    "yaw in":"GDE_backYawIn_R",
+                    "yaw out":"GDE_backYawOut_R"
                 },
                 [
                     "leg",
@@ -215,55 +167,19 @@
                     "toe2",
                     "toe3",
                     "toe4",
-                    "toe5"
+                    "toe5",
+                    "foot",
+                    "yaw in",
+                    "yaw out",
+                    "heel"
                 ]
             ],
             "dictionary"
         ]
     ],
     [
-        "Rig.Info.Mappings.Foot Left Joint Mapping",
-        [
-            [
-                {
-                    "ankleball":"JNT_ankleBall_L",
-                    "foot":"JNT_ankle_L, JNT_ball_L, JNT_toe_L",
-                    "heel":"GDE_heel_L",
-                    "yaw in":"GDE_yawIn_L",
-                    "yaw out":"GDE_yawOut_L"
-                },
-                [
-                    "foot",
-                    "yaw in",
-                    "yaw out",
-                    "heel",
-                    "ankleball"
-                ]
-            ],
-            "dictionary"
-        ]
-    ],
-    [
-        "Rig.Info.Mappings.Foot Right Joint Mapping",
-        [
-            [
-                {
-                    "ankleball":"JNT_ankleBall_R",
-                    "foot":"JNT_ankle_R, JNT_ball_R, JNT_toe_R",
-                    "heel":"GDE_heel_R",
-                    "yaw in":"GDE_yawIn_R",
-                    "yaw out":"GDE_yawOut_R"
-                },
-                [
-                    "foot",
-                    "yaw in",
-                    "yaw out",
-                    "heel",
-                    "ankleball"
-                ]
-            ],
-            "dictionary"
-        ]
+        "Rig.Info.Deformation Joints.",
+        true
     ],
     [
         "Rig.Info.Deformation Joints.Arm",
@@ -282,7 +198,63 @@
         4
     ],
     [
+        "Rig.Info.Controls.",
+        true
+    ],
+    [
         "Rig.Info.Controls.Mirrored IK",
         true
+    ],
+    [
+        "Rig.Prep.",
+        false
+    ],
+    [
+        "Rig.Prep.Orient Joints",
+        true
+    ],
+    [
+        "Rig.Prep.Align Center Joints",
+        false
+    ],
+    [
+        "Workflow.",
+        true
+    ],
+    [
+        "Workflow.Structure.",
+        true
+    ],
+    [
+        "Workflow.Structure.Place Skeleton",
+        [
+            "process.run_script('leave_off/place_skeleton')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Structure.Export Skeleton",
+        [
+            "process.run_script('leave_off/export_skeleton')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Deform.",
+        true
+    ],
+    [
+        "Workflow.Deform.Paint Skin Weights",
+        [
+            "process.run_script('leave_off/paint_skin_weights')",
+            "script"
+        ]
+    ],
+    [
+        "Workflow.Deform.Export Skin Weights",
+        [
+            "process.run_script('leave_off/export_skin_weights')",
+            "script"
+        ]
     ]
 ]

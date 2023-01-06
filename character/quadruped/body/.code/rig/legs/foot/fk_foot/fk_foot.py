@@ -6,8 +6,7 @@ def main():
     
     for side in 'LR':
     
-        joints = [put.buffer_foot[side]]
-        joints += put.joint_foot[side]['foot'][1:]
+        joints = [put.joint_foot[side]['foot'][-1]]
         
         rig = rigs.FkRig('fk_foot', side)
         rig.set_joints(joints)
@@ -23,5 +22,3 @@ def main():
         rig.set_setup_parent(put.group_setup)
         rig.set_switch_parent('controls_fk_leg_1_%s' % side)
         rig.create()
-        
-    

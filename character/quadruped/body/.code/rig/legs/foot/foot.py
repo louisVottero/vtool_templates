@@ -12,9 +12,9 @@ def main():
 
         
 
-        joint_ankle = put.joint_foot[side]['foot'][0]
+        joint_ankle = put.joint_foot[side]['foot'][1]
 
-        locator_foot = cmds.spaceLocator( n = 'buffer_foot_%s' % side )[0]
+        locator_foot = cmds.spaceLocator( n = 'buffer_ball_%s' % side )[0]
         space.MatchSpace(joint_ankle, locator_foot).translation_rotation()
         cmds.hide(locator_foot)
         
