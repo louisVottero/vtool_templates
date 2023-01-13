@@ -44,10 +44,7 @@ def main():
         cmds.connectAttr('%s.fkIk' % rig.controls[0], '%s.switch' % put.joint_leg[side][0])        
         
         control = rigs_util.Control(rig.controls[0])
-        if side == 'L':
-            control.translate_shape(0,0,-15*size)
-        if side == 'R':
-            control.translate_shape(0,0,15*size)
+        control.translate_shape(0,0,-15*size)
             
         space.create_follow_group(joint_ankle, rig.control_group)
         
