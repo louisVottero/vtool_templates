@@ -1,0 +1,14 @@
+[
+    [
+        "sub_folder",
+        ""
+    ],
+    [
+        "name",
+        "fix_rotate_orders"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ]
+]

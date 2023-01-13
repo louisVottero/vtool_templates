@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "run_animation"
+    ],
+    [
+        "data_type",
+        "maya.control_animation"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]

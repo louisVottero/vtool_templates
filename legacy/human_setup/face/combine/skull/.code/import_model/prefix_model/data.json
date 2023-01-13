@@ -1,0 +1,14 @@
+[
+    [
+        "sub_folder",
+        ""
+    ],
+    [
+        "name",
+        "prefix_model"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ]
+]

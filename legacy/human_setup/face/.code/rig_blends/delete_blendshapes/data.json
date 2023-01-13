@@ -1,0 +1,14 @@
+[
+    [
+        "sub_folder",
+        ""
+    ],
+    [
+        "name",
+        "delete_blendshapes"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ]
+]

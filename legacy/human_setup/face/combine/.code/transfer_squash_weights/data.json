@@ -1,0 +1,14 @@
+[
+    [
+        "sub_folder",
+        ""
+    ],
+    [
+        "name",
+        "transfer_squash_weights"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ]
+]
