@@ -1,0 +1,10 @@
+import_blendshapes.py True
+import_home.py True
+extract_shapes.py True
+import_weight_mesh.py True
+split.py True
+split/split_eyes.py True
+split/split_mouth.py True
+split/split_nose.py True
+split/split_brows.py True
+delete.py True

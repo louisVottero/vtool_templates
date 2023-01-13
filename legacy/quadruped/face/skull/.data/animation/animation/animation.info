@@ -1,0 +1,10 @@
+{'joint_jaw_rotateX' : {'output': [u'joint_jaw.rotateX'], 'input': 'None'}}
+{'joint_jaw_rotateY' : {'output': [u'joint_jaw.rotateY'], 'input': 'None'}}
+{'joint_jaw_rotateZ' : {'output': [u'joint_jaw.rotateZ'], 'input': 'None'}}
+{'joint_jaw_scaleX' : {'output': [u'joint_jaw.scaleX'], 'input': 'None'}}
+{'joint_jaw_scaleY' : {'output': [u'joint_jaw.scaleY'], 'input': 'None'}}
+{'joint_jaw_scaleZ' : {'output': [u'joint_jaw.scaleZ'], 'input': 'None'}}
+{'joint_jaw_translateX' : {'output': [u'joint_jaw.translateX'], 'input': 'None'}}
+{'joint_jaw_translateY' : {'output': [u'joint_jaw.translateY'], 'input': 'None'}}
+{'joint_jaw_translateZ' : {'output': [u'joint_jaw.translateZ'], 'input': 'None'}}
+{'joint_jaw_visibility' : {'output': [u'joint_jaw.visibility'], 'input': 'None'}}

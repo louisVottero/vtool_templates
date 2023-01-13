@@ -1,0 +1,9 @@
+import_model.py True
+import_structure.py True
+rig.py True
+rig/rig_squash.py True
+rig/create_spline_ik.py True
+rig/rig_squash_drivers.py True
+rig/setup_space.py True
+import_skin_weights.py True
+import_control_cvs.py True

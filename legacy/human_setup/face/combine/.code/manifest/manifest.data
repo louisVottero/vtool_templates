@@ -1,0 +1,8 @@
+rig_base.py True
+import_skull.py True
+import_zones.py True
+import_squash.py True
+attatch_zones.py True
+attach_squash.py True
+transfer_squash_weights.py True
+hide_structure.py True

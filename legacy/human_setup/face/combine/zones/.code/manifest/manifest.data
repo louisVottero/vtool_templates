@@ -1,0 +1,6 @@
+import_model.py True
+import_model/clean.py True
+import_structure.py True
+import_structure/clean.py True
+import_skin_weights.py True
+setup_zones.py True

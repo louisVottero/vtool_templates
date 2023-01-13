@@ -1,0 +1,17 @@
+import_blends.py True
+import_combine.py True
+rig_blends.py True
+rig_blends/rig_brow_blends.py False
+rig_blends/rig_brow_blends/rig_roll.py False
+rig_blends/rig_brow_blends/rig_corrugator.py False
+rig_blends/rig_mouth_blends.py False
+rig_blends/rig_mouth_combos.py False
+rig_blends/rig_mouth_open_combos.py False
+rig_blends/rig_nose_blends.py False
+rig_blends/rig_cheek_blends.py False
+rig_blends/rig_eyelid_blends.py True
+rig_blends/delete_blendshapes.py True
+set_inherits_attrs.py True
+hide_joints_locators.py True
+attatch_eyelash_geo.py True
+attatch_eyebrow_geo.py True
