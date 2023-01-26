@@ -12,10 +12,11 @@ def main():
 
         
 
-        joint_ankle = put.joint_foot[side]['foot'][1]
+        joint_foot = put.joint_foot[side]['foot'][1]
+        joint_ankle = put.joint_foot[side]['foot'][0]
 
         locator_foot = cmds.spaceLocator( n = 'buffer_ball_%s' % side )[0]
-        space.MatchSpace(joint_ankle, locator_foot).translation_rotation()
+        space.MatchSpace(joint_foot, locator_foot).translation_rotation()
         cmds.hide(locator_foot)
         
         cmds.parent(locator_foot, put.group_setup)
@@ -24,7 +25,7 @@ def main():
 
 
         rig = rigs.FkRig('foot', side)
-        rig.set_joints(joint_ankle)
+        rig.set_joints(joint_foot)
         rig.set_attach_joints(False)
         rig.set_control_size(size)
         rig.set_control_shape('gear')
@@ -44,7 +45,12 @@ def main():
         cmds.connectAttr('%s.fkIk' % rig.controls[0], '%s.switch' % put.joint_leg[side][0])        
         
         control = rigs_util.Control(rig.controls[0])
-        control.translate_shape(0,0,-15*size)
+        
+        offset = 1
+        if side == 'R':
+            offset = -1
+        
+        control.translate_shape(0,0,(-15*size*offset))
             
         space.create_follow_group(joint_ankle, rig.control_group)
         

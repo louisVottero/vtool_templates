@@ -8,9 +8,9 @@ def main():
     size = put.size
     
     for side in 'LR':             
-        for num in range(1,5):
+        for num in range(1,6):
             joints = put.joint_toe[side]['toe%s' % num]
-            joint_foot = put.joint_leg[side][-2]
+            joints_foot = put.joint_foot[side]['foot']
             
             rig = rigs.FkScaleRig(('toe%s' % num), side)
             rig.set_joints(joints[:-1])
@@ -33,7 +33,7 @@ def main():
             rig.set_control_set([side, 'foot_%s' % side]) 
             rig.create()
             
-            space.create_follow_group(joint_foot, rig.control_group)
+            space.create_follow_group(joints_foot[1], rig.control_group)
             
             for control, joint in zip(rig.controls, joints):
                 child = cmds.listRelatives(joint, type = 'joint')
@@ -42,27 +42,6 @@ def main():
                 geo.move_cvs(get_start_cvs(control),position_start,pivot_at_center = True)
                 geo.move_cvs(get_end_cvs(control),position_end,pivot_at_center = True)
                        
-            
-            aim_loc = cmds.spaceLocator(n = 'locator_toeAim%s_%s' % (num, side))[0]
-            
-            parent_aim_transform =  'locator_ik_leg_ankle_1_%s' % side
-            parent_transform =  'JNT_ankle_%s' % side
-            
-            cmds.parent(aim_loc,parent_aim_transform)
-
-            space.MatchSpace(joints[-1], aim_loc).translation_rotation()
-            aim_xform = space.get_xform_group(rig.controls[1])
-            
-            aim_axis = [0,0,1]
-            if side == 'R':
-                aim_axis = [0,0,-1]
-            
-            cmds.aimConstraint(aim_loc, aim_xform, aim = aim_axis,
-                                wu = [0,0,0],
-                                worldUpObject = parent_transform,
-                                worldUpType = 'objectrotation')
-            
-            
             
 def get_start_cvs(control):
     cvs = ['%sShape4.cv[1]' % control, 
@@ -78,4 +57,4 @@ def get_end_cvs(control):
             '%sShape1.cv[0:7]' % control,
             '%sShape5.cv[0]' % control,
             '%sShape2.cv[0]' % control]
-    return cvs   
+    return cvs                 

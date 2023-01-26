@@ -34,7 +34,8 @@ rig/legs/foot.py True
 rig/legs/foot/fk_foot.py True
 rig/legs/foot/ik_foot.py True
 rig/legs/foot/attach_ik_fk.py True
-rig/legs/toes.py False
+rig/legs/toes_old.py False
+rig/legs/toes.py True
 rig/twist.py False
 rig/twist/twist_arm.py True
 rig/twist/twist_elbow.py True
