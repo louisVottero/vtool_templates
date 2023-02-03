@@ -11,10 +11,12 @@ rig/prep/orient_joints.py True
 rig/settings.py True
 rig/ground.py True
 rig/root.py True
-rig/spine_lvl_1.py True
+rig/spine.py True
+rig/spine/style_controls.py True
+rig/pelvis.py True
+rig/spine_lvl_1.py False
 rig/spine_lvl_1/ik_spine.py True
 rig/spine_lvl_1/spine_lvl_2.py True
-rig/spine_lvl_1/pelvis.py True
 rig/neck.py False
 rig/head.py False
 rig/arms.py False
