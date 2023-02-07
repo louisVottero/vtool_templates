@@ -15,4 +15,3 @@ as well as various examples
 
 ![vetala_pose](https://user-images.githubusercontent.com/2879064/192540668-fd581c40-2ca5-4ca4-8b6b-649e2cebf019.png)
 
-hello world!!!
