@@ -31,10 +31,15 @@ def main():
         rig.set_pole_angle_joints(joints[:-1])
 
 
+        rig.set_negate_right_scale(True,scale_x=1,scale_y=-1,scale_z=-1)
         if put.controls_mirrored_ik:
-            rig.set_right_side_fix(False)
+
             rig.set_negate_right_scale(True,scale_x=-1,scale_y=-1,scale_z=-1)
 
+        if side == 'R':
+            rig.set_invert_poles(True)
+        if side == 'R':
+            rig.set_invert_twist(True)
 
         if side == 'L':
             rig.set_control_color_hue(.65)
@@ -47,6 +52,8 @@ def main():
         rig.set_control_parent(put.control_pelvis)
         rig.set_setup_parent(put.group_setup)        
         rig.create()
+
+        show(rig._ik_pole_values)
 
         put.control_leg_ik[side] = rig.controls
 

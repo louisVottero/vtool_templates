@@ -45,23 +45,31 @@ def main():
             
             aim_loc = cmds.spaceLocator(n = 'locator_toeAim%s_%s' % (num, side))[0]
             
-            parent_aim_transform =  'locator_ik_leg_ankle_1_%s' % side
-            parent_transform =  'JNT_ankle_%s' % side
+            ball_joint = put.joint_leg[side][-1]
+            ankle_joint = put.joint_leg[side][-2]            
             
-            cmds.parent(aim_loc,parent_aim_transform)
+            parent_transform = ball_joint
+            parent_rotate = ball_joint
+            
+            cmds.parent(aim_loc,rig.setup_group)
 
             space.MatchSpace(joints[-1], aim_loc).translation_rotation()
             aim_xform = space.get_xform_group(rig.controls[1])
+
+            aim_rotate_up = ball_joint
+
             
             aim_axis = [0,0,1]
             if side == 'R':
                 aim_axis = [0,0,-1]
             
             cmds.aimConstraint(aim_loc, aim_xform, aim = aim_axis,
-                                wu = [0,0,0],
-                                worldUpObject = parent_transform,
+                                wu = [0,1,0],
+                                worldUpObject = aim_rotate_up,
                                 worldUpType = 'objectrotation')
-            
+
+            cmds.parentConstraint(parent_transform, aim_loc, mo = True)
+
             
             
 def get_start_cvs(control):

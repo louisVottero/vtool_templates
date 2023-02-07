@@ -30,8 +30,7 @@ def main():
         rig.set_attribute_control_shape('gear')
         rig.set_create_roll_controls(False)
         rig.set_create_foot_roll(False)
-        #if side == 'R':
-        #    rig.set_mirror_yaw(True)
+
         rig.set_control_size(size*9)
         rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
         rig.set_create_ball_control(True)

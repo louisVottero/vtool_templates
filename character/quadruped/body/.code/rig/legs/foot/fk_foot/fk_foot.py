@@ -22,3 +22,5 @@ def main():
         rig.set_setup_parent(put.group_setup)
         rig.set_switch_parent('controls_fk_leg_1_%s' % side)
         rig.create()
+        
+        

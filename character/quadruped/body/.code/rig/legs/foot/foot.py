@@ -7,6 +7,7 @@ def main():
 
     size = put.size
     put.buffer_foot = {}
+    put.control_foot = {}
     
     for side in 'LR':
 
@@ -55,4 +56,5 @@ def main():
         space.create_follow_group(joint_ankle, rig.control_group)
         
 
+        put.control_foot[side] = rig.controls
                 
