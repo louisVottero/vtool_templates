@@ -10,10 +10,10 @@ def main():
     rig.set_joints(put.joint_pelvis)
 
     rig.set_sub_control_color_only(True)
-    rig.set_control_size(size*35)
+    rig.set_control_size(size*20)
     rig.set_control_shape('square')
     rig.set_control_set('spine')
-    
+        
     rig.set_control_parent(put.control_spine[0])
     rig.set_setup_parent(put.group_setup)
     rig.create()

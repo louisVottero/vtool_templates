@@ -37,7 +37,7 @@
     ],
     [
         "Rig.Info.Mappings.",
-        false
+        true
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
@@ -48,14 +48,16 @@
                     "head":"JNT_head",
                     "neck":"JNT_neck*",
                     "pelvis":"JNT_pelvis",
-                    "spine":"JNT_spine*,JNT_chest"
+                    "spine":"JNT_spine*,JNT_chest",
+                    "tail":"JNT_tail*"
                 },
                 [
                     "base",
                     "pelvis",
                     "spine",
                     "neck",
-                    "head"
+                    "head",
+                    "tail"
                 ]
             ],
             "dictionary"
@@ -68,11 +70,15 @@
                 {
                     "arm":"JNT_arm_L, JNT_elbow_L, JNT_wrist_L",
                     "clavicle":"JNT_clavicle_L",
+                    "hand":"JNT_wrist_L, JNT_ball_L, JNT_finger_L",
+                    "heel":"GDE_heel_L",
                     "index":"JNT_index*_L",
                     "middle":"JNT_middle*_L",
                     "pinky":"JNT_pinky*_L",
                     "ring":"JNT_ring*_L",
-                    "thumb":"JNT_thumb*_L"
+                    "thumb":"JNT_thumb*_L",
+                    "yaw in":"GDE_yawIn_L",
+                    "yaw out":"GDE_yawOut_L"
                 },
                 [
                     "arm",
@@ -81,7 +87,11 @@
                     "middle",
                     "ring",
                     "pinky",
-                    "clavicle"
+                    "clavicle",
+                    "hand",
+                    "yaw in",
+                    "yaw out",
+                    "heel"
                 ]
             ],
             "dictionary"
@@ -94,11 +104,15 @@
                 {
                     "arm":"JNT_arm_R, JNT_elbow_R, JNT_wrist_R",
                     "clavicle":"JNT_clavicle_R",
+                    "hand":"JNT_wrist_R, JNT_ball_R, JNT_finger_R",
+                    "heel":"GDE_heel_R",
                     "index":"JNT_index*_R",
                     "middle":"JNT_middle*_R",
                     "pinky":"JNT_pinky*_R",
                     "ring":"JNT_ring*_R",
-                    "thumb":"JNT_thumb*_R"
+                    "thumb":"JNT_thumb*_R",
+                    "yaw in":"GDE_yawIn_R",
+                    "yaw out":"GDE_yawOut_R"
                 },
                 [
                     "arm",
@@ -107,7 +121,11 @@
                     "middle",
                     "ring",
                     "pinky",
-                    "clavicle"
+                    "clavicle",
+                    "hand",
+                    "yaw in",
+                    "yaw out",
+                    "heel"
                 ]
             ],
             "dictionary"

@@ -13,6 +13,7 @@ def main():
     put.joint_spine = get_mapping('spine', joint_mapping)
     put.joint_neck = get_mapping('neck', joint_mapping)
     put.joint_head = get_mapping('head', joint_mapping)
+    put.joint_tail = get_mapping('tail', joint_mapping)
 
     #arms
     put.joint_clavicle =  {'L':get_mapping('clavicle', arm_left_joint_mapping)}
@@ -25,6 +26,12 @@ def main():
     for mapping in ['thumb', 'index', 'middle', 'ring', 'pinky']:
         put.joint_finger['L'][mapping] = get_mapping(mapping, arm_left_joint_mapping) 
         put.joint_finger['R'][mapping] = get_mapping(mapping, arm_right_joint_mapping) 
+
+    #hand
+    put.joint_hand = {'L':{}, 'R':{}}
+    for mapping in ['hand','yaw in', 'yaw out', 'heel']:
+        put.joint_hand['L'][mapping] = get_mapping(mapping, arm_left_joint_mapping) 
+        put.joint_hand['R'][mapping] = get_mapping(mapping, arm_right_joint_mapping) 
     
     #legs
     put.joint_leg = {'L': get_mapping('leg', leg_left_joint_mapping)}
