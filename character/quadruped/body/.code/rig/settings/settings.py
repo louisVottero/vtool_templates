@@ -19,7 +19,7 @@ def main():
     rig.create()
     
     control = rigs_util.Control(rig.controls[-1])
-    control.translate_shape(0,size*40,0)
+    control.translate_shape(0,size*25,0)
     
     attr.hide_keyable_attributes(rig.controls[-1])
     

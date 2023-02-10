@@ -16,12 +16,12 @@ def main():
         rig = rigs.IkBackLegRig('ik_leg',side)
         rig.set_joints(joints)
         
-        rig.set_control_size(size*15)
+        rig.set_control_size(size*5)
         rig.set_buffer(True)
         rig.set_stretch_axis('Y')
         rig.set_stretch_type(2)
         rig.set_create_ik_buffer_joint(False)
-        rig.set_pole_offset(size * 1)
+        rig.set_pole_offset(size * .8)
         rig.set_pole_control_shape('sphere')
         rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
         rig.set_pole_follow_transform([put.control_ground[-1],put.control_root[-1]],1)
@@ -29,11 +29,10 @@ def main():
         rig.set_offset_ankle_axis('X')
         rig.set_pole_at_knee_only(True)
         rig.set_pole_angle_joints(joints[:-1])
-
-
+        
         rig.set_negate_right_scale(True,scale_x=1,scale_y=-1,scale_z=-1)
-        if put.controls_mirrored_ik:
 
+        if put.controls_mirrored_ik:
             rig.set_negate_right_scale(True,scale_x=-1,scale_y=-1,scale_z=-1)
 
         if side == 'R':
@@ -52,13 +51,8 @@ def main():
         rig.set_control_parent(put.control_pelvis)
         rig.set_setup_parent(put.group_setup)        
         rig.create()
-
-        show(rig._ik_pole_values)
-
+        
         put.control_leg_ik[side] = rig.controls
-
-        control = rigs_util.Control(rig.controls[1])
-        control.scale_shape(.3,.3,.3)
 
         cmds.setAttr('%s.world' % rig.controls[-1], 0)        
         cmds.setAttr('%s.poleVisibility' % rig.controls[-1], 1)
@@ -66,30 +60,7 @@ def main():
         cmds.setAttr('%s.damp' % rig.controls[-1], 1)
         cmds.setAttr('%s.autoTwist' % rig.controls[-1], 1)
         
-        control = rigs_util.Control(rig.controls[-1])
-        control.set_curve_type('cube')        
-        control.scale_shape(13*size, 2*size, 13*size)
-        
-        child = put.joint_foot[side]['foot'][-1]
-        position_start = cmds.xform(put.joint_foot[side]['heel'], q = True, ws = True, t = True)
-        position_end = cmds.xform(child, q = True, ws = True, t = True)
-        position_end[1] = position_start[1]
-        geo.move_cvs(get_start_cvs(rig.controls[-1]),position_start,pivot_at_center = True)
-        geo.move_cvs(get_end_cvs(rig.controls[-1]),position_end,pivot_at_center = True)
-                 
-
-def get_start_cvs(control):
-    cvs = ['%s.cv[2:3]' % control, 
-            '%s.cv[6:10]' % control,
-            '%s.cv[13]' % control]
-    return cvs
-    
-def get_end_cvs(control):
-    cvs = ['%s.cv[0:1]' % control, 
-            '%s.cv[4:5]' % control, 
-            '%s.cv[11:12]' % control,
-            '%s.cv[14:15]' % control]
-    return cvs   
+ 
         
      
         

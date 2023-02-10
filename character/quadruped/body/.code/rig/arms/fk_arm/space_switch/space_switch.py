@@ -8,10 +8,9 @@ def main():
         xform = space.get_xform_group(controls[0])
         switch = space.SpaceSwitch([put.control_ground[-1],
                             put.control_root[-1], 
-                            put.control_spine[-1],
-                            put.control_clavicle[side]],target=xform)
+                            put.control_spine[-1]],target=xform)
         switch.set_connect_scale(False)        
         switch.set_connect_translate(False)
-        switch.set_input_attribute(controls[0],'switch',['ground','root','spine', 'clavicle'])
+        switch.set_input_attribute(controls[0],'switch',['ground','root','spine'])
         switch.create(create_switch=True)   
         cmds.setAttr('%s.switch' % controls[0], 1)    

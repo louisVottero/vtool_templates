@@ -13,7 +13,7 @@ def main():
     rig = rigs.FkRig('root')
     rig.set_joints(root_guide)
 
-    rig.set_control_size(size*25)
+    rig.set_control_size(size*16)
     rig.set_control_shape('square_point')
     rig.set_create_sub_controls(True)
     rig.set_nice_sub_control_naming(True)

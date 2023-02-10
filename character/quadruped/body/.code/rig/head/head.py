@@ -7,7 +7,7 @@ from vtool.maya_lib import attr
 def main():
     
     size = put.size
-    head_size = 13 * size
+    head_size = 8 * size
     
     put.control_head = 'CNT_HEAD_1'
     put.control_sub_head = 'CNT_SUB_HEAD_1'
@@ -18,25 +18,23 @@ def main():
     
     top_control.set_curve_type('simple_sphere')
 
-    top_control.scale_shape(head_size*.8,head_size,head_size*.8)
-    top_control.translate_shape(0,10*size,-1*size)
+    top_control.scale_shape(head_size,head_size,head_size)
+    top_control.translate_shape(0,2*size,2*size)
     
-    top_sub_control = rigs_util.Control(put.control_sub_neck[-1])
+    top_sub_control = rigs_util.Control(put.control_neck_sub[-1])
     top_sub_control.rename(put.control_sub_head)
-    put.control_sub_neck.pop()
+    put.control_neck_sub.pop()
 
     top_sub_control.set_curve_type('simple_sphere')
     rigs_util.fix_sub_controls(top_control.control)    
 
-    cmds.orientConstraint([put.control_head,put.control_neck[0]], 
-                            'driver_%s' % put.control_sub_neck[1], 
-                            mo = True)
+    driver = space.create_xform_group(put.control_neck_sub[1],prefix='driver')
                             
     cmds.orientConstraint(put.control_sub_head, 'locator_rivet_%s' % put.joint_head)                            
     
     space.MatchSpace('GDE_headPivot', put.control_head).rotate_scale_pivot_to_translation()
     space.MatchSpace('GDE_headPivot', 'xform_%s' % put.control_head).rotate_scale_pivot_to_translation()
-    space.MatchSpace('GDE_headPivot', 'driver_%s' % put.control_head).rotate_scale_pivot_to_translation()    
+    #space.MatchSpace('GDE_headPivot', 'driver_%s' % put.control_head).rotate_scale_pivot_to_translation()    
     
     control = put.control_head
     
