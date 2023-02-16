@@ -4,6 +4,7 @@ from vtool.maya_lib import attr
 def main():
     
     cmds.hide(put.group_setup)
+    cmds.hide(put.group_joint)
 
     controls = rigs_util.get_controls()
     

@@ -14,8 +14,7 @@ def main():
         
         rig = rigs.IkFrontLegRig('ik_arm',side)
         rig.set_joints(joints)
-
-        #rig.set_control_offset_axis('Y')
+        
         rig.set_control_size(size*5)
         rig.set_buffer(True)
         rig.set_stretch_type(1)
@@ -28,6 +27,9 @@ def main():
         if put.controls_mirrored_ik:
             rig.set_right_side_fix(False)
             rig.set_negate_right_scale(True,scale_x=-1,scale_y=-1,scale_z=-1)
+        else:
+            rig.set_right_side_fix(True)
+        #rig.set_negate_right_scale(True,scale_x=-1,scale_y=-1,scale_z=-1)
 
         if side == 'L':
             rig.set_control_color_hue(.65)
@@ -45,6 +47,7 @@ def main():
         cmds.setAttr('%s.poleVisibility' % rig.controls[-1], 1)
                 
         cmds.parentConstraint(put.joint_spine[-1], rig.control_group, mo = True)
+
         
 def get_start_cvs(control):
     cvs = ['%s.cv[5:6]' % control, 

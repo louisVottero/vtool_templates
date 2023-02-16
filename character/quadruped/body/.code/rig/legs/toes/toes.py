@@ -70,7 +70,8 @@ def main():
 
             cmds.parentConstraint(parent_transform, aim_loc, mo = True)
 
-            
+            cmds.connectAttr('%s.toeVisibility' % put.control_foot[side],
+                                '%s.visibility' % rig.control_group)            
             
 def get_start_cvs(control):
     cvs = ['%sShape4.cv[1]' % control, 

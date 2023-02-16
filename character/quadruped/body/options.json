@@ -221,7 +221,7 @@
     ],
     [
         "Rig.Info.Controls.Mirrored IK",
-        false
+        true
     ],
     [
         "Rig.Prep.",

@@ -21,6 +21,7 @@ def main():
     rig.set_control_size(put.size*11)
     rig.set_control_set('tail')
     rig.set_control_shape('hexagon')
+    rig.set_control_color_increment_hue(-.01)
     rig.set_align_controls_to_joints(True)
     rig.set_fk(True)
     
