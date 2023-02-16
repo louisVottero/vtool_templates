@@ -3,7 +3,7 @@ def main():
 
     for side in 'LR':
         
-        joint = 'buffer_ball_%s' % side
+        joint = 'buffer_backBall_%s' % side
         
         cmds.connectAttr('%s.switch'%put.joint_leg[side][0],'%s.switch' % joint)
         

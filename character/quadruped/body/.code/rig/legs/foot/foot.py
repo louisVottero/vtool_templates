@@ -16,7 +16,7 @@ def main():
 
         joint_ankle = put.joint_foot[side]['foot'][0]
 
-        locator_foot = cmds.spaceLocator( n = 'buffer_ball_%s' % side )[0]
+        locator_foot = cmds.spaceLocator( n = 'buffer_backBall_%s' % side )[0]
         space.MatchSpace(joint_foot, locator_foot).translation_rotation()
         cmds.hide(locator_foot)
         
@@ -55,5 +55,7 @@ def main():
         space.create_follow_group(joint_foot, rig.control_group)
         
 
-        put.control_foot[side] = rig.controls
-                
+        put.control_foot[side] = rig.controls[0]
+
+        cmds.addAttr(rig.controls[-1], ln = 'toeVisibility', at = 'bool', dv = 0, k = False)
+        cmds.setAttr('%s.toeVisibility' % rig.controls[-1], cb = True)                  

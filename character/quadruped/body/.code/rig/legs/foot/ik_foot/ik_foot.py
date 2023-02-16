@@ -34,7 +34,6 @@ def main():
         rig.set_control_size(size*9)
         rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
         rig.set_create_ball_control(True)
-        rig.set_create_ankle_roll(True, 'Z')
 
         rig.set_control_set([side, 'foot_%s' % side])  
         rig.set_control_parent('CNT_SUB_IK_LEG_BTM_1_%s' % side)

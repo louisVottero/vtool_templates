@@ -15,7 +15,7 @@ def main():
         rig.set_joints(joints)
 
         rig.set_control_offset_axis('Y')
-        rig.set_control_size(size*15)
+        rig.set_control_size(size*10)
         rig.set_buffer(True)
         rig.set_control_shape('cylinder')        
         rig.set_control_set([side, 'arm_%s' % side])       
@@ -35,7 +35,7 @@ def main():
         
         put.control_arm_fk[side] = rig.controls
                        
-        attr.hide_attributes(rig.controls[1],['rotateX','rotateZ'])
+        attr.hide_attributes(rig.controls[1],['rotateY','rotateZ'])
         attr.hide_translate(rig.controls[1])
 
         
