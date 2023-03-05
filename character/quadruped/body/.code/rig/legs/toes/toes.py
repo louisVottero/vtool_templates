@@ -6,8 +6,11 @@ from vtool.maya_lib import rigs_util
 def main():  
     
     size = put.size
+    put.control_toes = {}
     
-    for side in 'LR':             
+    for side in 'LR':    
+        put.control_toes[side] = {}
+                 
         for num in range(1,5):
             joints = put.joint_toe[side]['toe%s' % num]
             joint_foot = put.joint_leg[side][-2]
@@ -16,7 +19,7 @@ def main():
             rig.set_joints(joints[:-1])
             
             rig.set_control_size(size*4)
-            rig.set_control_shape('cylinder')
+            rig.set_control_shape('pin_round')
             rig.set_create_sub_controls(False)
             rig.set_control_offset_axis('X')
 
@@ -33,58 +36,44 @@ def main():
             rig.set_control_set([side, 'foot_%s' % side]) 
             rig.create()
             
-            space.create_follow_group(joint_foot, rig.control_group)
+            space.create_follow_group(joint_foot, rig.control_group)  
             
-            for control, joint in zip(rig.controls, joints):
-                child = cmds.listRelatives(joint, type = 'joint')
-                position_start = cmds.xform(joint, q = True, ws = True, t = True)
-                position_end = cmds.xform(child[0], q = True, ws = True, t = True)
-                geo.move_cvs(get_start_cvs(control),position_start,pivot_at_center = True)
-                geo.move_cvs(get_end_cvs(control),position_end,pivot_at_center = True)
-                       
+            put.control_toes[side]['toe%s' % num] = rig.controls      
             
-            aim_loc = cmds.spaceLocator(n = 'locator_toeAim%s_%s' % (num, side))[0]
-            
-            ball_joint = put.joint_leg[side][-1]
-            ankle_joint = put.joint_leg[side][-2]            
-            
-            parent_transform = ball_joint
-            parent_rotate = ball_joint
-            
-            cmds.parent(aim_loc,rig.setup_group)
+            aim(rig, num, side)
 
-            space.MatchSpace(joints[-1], aim_loc).translation_rotation()
-            aim_xform = space.get_xform_group(rig.controls[1])
-
-            aim_rotate_up = ball_joint
-
-            
-            aim_axis = [0,0,1]
-            if side == 'R':
-                aim_axis = [0,0,-1]
-            
-            cmds.aimConstraint(aim_loc, aim_xform, aim = aim_axis,
-                                wu = [0,1,0],
-                                worldUpObject = aim_rotate_up,
-                                worldUpType = 'objectrotation')
-
-            cmds.parentConstraint(parent_transform, aim_loc, mo = True)
-
-            cmds.connectAttr('%s.toeVisibility' % put.control_foot[side],
-                                '%s.visibility' % rig.control_group)            
-            
-def get_start_cvs(control):
-    cvs = ['%sShape4.cv[1]' % control, 
-            '%sShape.cv[0:7]' % control, 
-            '%sShape2.cv[1]' % control,
-            '%sShape5.cv[1]' % control,
-            '%sShape3.cv[1]' % control]
-    return cvs
+def aim(rig, num, side):
+    controls = rig.controls
+    control_group = rig.control_group
+    setup_group = rig.setup_group
     
-def get_end_cvs(control):
-    cvs = ['%sShape3.cv[0]' % control, 
-            '%sShape4.cv[0]' % control, 
-            '%sShape1.cv[0:7]' % control,
-            '%sShape5.cv[0]' % control,
-            '%sShape2.cv[0]' % control]
-    return cvs   
+    joints = put.joint_toe[side]['toe%s' % num]
+    
+    aim_loc = cmds.spaceLocator(n = 'locator_toeAim%s_%s' % (num, side))[0]
+    
+    ball_joint = put.joint_leg[side][-1]        
+    
+    parent_transform = ball_joint
+    parent_rotate = ball_joint
+    
+    cmds.parent(aim_loc,setup_group)
+
+    space.MatchSpace(joints[-1], aim_loc).translation_rotation()
+    aim_xform = space.get_xform_group(controls[1])
+
+    aim_rotate_up = ball_joint
+
+    aim_axis = [0,0,1]
+    if side == 'R':
+        aim_axis = [0,0,-1]
+    
+    cmds.aimConstraint(aim_loc, aim_xform, aim = aim_axis,
+                        wu = [0,1,0],
+                        worldUpObject = aim_rotate_up,
+                        worldUpType = 'objectrotation', mo = True)
+
+    cmds.parentConstraint(parent_transform, aim_loc, mo = True)
+
+    cmds.connectAttr('%s.toeVisibility' % put.control_foot[side],
+                        '%s.visibility' % control_group)     
+                        

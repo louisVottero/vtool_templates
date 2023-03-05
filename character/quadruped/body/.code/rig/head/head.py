@@ -34,7 +34,6 @@ def main():
     
     space.MatchSpace('GDE_headPivot', put.control_head).rotate_scale_pivot_to_translation()
     space.MatchSpace('GDE_headPivot', 'xform_%s' % put.control_head).rotate_scale_pivot_to_translation()
-    #space.MatchSpace('GDE_headPivot', 'driver_%s' % put.control_head).rotate_scale_pivot_to_translation()    
     
     control = put.control_head
     

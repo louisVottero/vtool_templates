@@ -27,7 +27,7 @@ def main():
         rig.set_attribute_control_shape('gear')
         rig.set_create_roll_controls(False)
         rig.set_create_foot_roll(True)
-        rig.set_toe_rotate_axis(axis='Z')
+        rig.set_toe_rotate_axis(axis='X')
         rig.set_toe_control_as_sub_control(False)
         rig.set_control_offset_axis('X')
         rig.set_control_size(size*9)
