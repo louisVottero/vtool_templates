@@ -1,5 +1,4 @@
 from vtool.maya_lib import rigs
-from vtool.maya_lib import rigs_dev
 from vtool.maya_lib import rigs_util
 from vtool.maya_lib import space
 

@@ -1,5 +1,3 @@
-from vtool.maya_lib import rigs_dev
-
 from vtool.maya_lib import deform
 
 def main():
