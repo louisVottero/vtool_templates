@@ -12,10 +12,6 @@ def main():
 
     pin = None
     
-    cmds.select(mesh)
-    mel.eval('texNormalProjection 1 1 ""')
-    cmds.delete(mesh, ch = True)
-    
     for control in tweaker_controls:    
         xform = space.get_xform_group(control)
  
