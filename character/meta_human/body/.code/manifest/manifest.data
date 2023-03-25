@@ -5,6 +5,7 @@ init/import_structure.py True
 init/import_model.py False
 rig.py True
 rig/prep.py True
+rig/prep/put_settings.py True
 rig/prep/put.py True
 rig/prep/fix_center_line.py False
 rig/prep/orient_joints.py False

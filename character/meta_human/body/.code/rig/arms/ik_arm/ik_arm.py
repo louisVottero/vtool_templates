@@ -37,8 +37,14 @@ def main():
             rig.set_control_color_hue(1)
             rig.set_control_color_increment_hue(-0.04)
         
-        rig.set_right_side_fix(False)
-        rig.set_negate_right_scale(True,1,-1,-1)
+        if put.controls_mirrored_ik:
+            rig.set_right_side_fix(False)
+            rig.set_negate_right_scale(True,scale_x=-1,scale_y=-1,scale_z=-1)
+        else:
+            rig.set_right_side_fix(False)
+            rig.set_negate_right_scale(True,1,-1,-1)
+                           
+            
         rig.set_control_parent(put.control_clavicle[side])
         rig.set_setup_parent(put.group_setup)
         rig.create()
@@ -58,7 +64,11 @@ def main():
         control.set_curve_type('cube')        
         control.scale_shape(13*size, 11*size, 13*size)
 
-        if cmds.upAxis(q = True, ax = True) == 'z':            
-            cmds.rotate(-90,0,0, 'IkWorld_ik_arm_1_%s' % side, ws = True)
+        if put.z_up:        
+            cmds.rotate(-90,0,0, 'IkWorld_ik_arm_1_%s' % side, ws = True, r = True)
         else:
-            cmds.rotate(180,0,0, 'IkWorld_ik_arm_1_%s' % side, ws = True)
+            x_rot = cmds.getAttr('IkWorld_ik_arm_1_%s.rotateX' % side)
+            offset = 1            
+            if x_rot > 0:            
+                offset = -1
+            cmds.setAttr('IkWorld_ik_arm_1_%s.rotateX' % side, x_rot + 180 * offset)            

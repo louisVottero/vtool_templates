@@ -25,7 +25,7 @@
     ],
     [
         "Rig.Info.",
-        false
+        true
     ],
     [
         "Rig.Info.Size",
@@ -37,7 +37,7 @@
     ],
     [
         "Rig.Info.Mappings.",
-        true
+        false
     ],
     [
         "Rig.Info.Mappings.Joint Mapping",
@@ -221,7 +221,7 @@
     ],
     [
         "Rig.Info.Controls.Mirrored IK",
-        true
+        false
     ],
     [
         "Rig.Prep.",

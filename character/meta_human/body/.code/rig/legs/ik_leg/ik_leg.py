@@ -35,8 +35,12 @@ def main():
         if side == 'R':            
             rig.set_control_color_hue(1)
             rig.set_control_color_increment_hue(-0.04)
-
-        rig.set_negate_right_scale(True,-1,1,-1)
+        
+        if not put.controls_mirrored_ik:      
+            rig.set_negate_right_scale(True,-1,1,-1)
+        else:
+            rig.set_right_side_fix(False)
+            rig.set_negate_right_scale(True,-1,-1,-1)
         rig.set_control_set([side, 'leg_%s' % side])
         rig.set_control_parent(put.control_pelvis)
         rig.set_setup_parent(put.group_setup)        
