@@ -2,9 +2,6 @@ from vtool.maya_lib import space
 
 def main():
     
-    
-    print('here',put.control_leg_ik)
-    
     for side in 'LR':
         controls = put.control_leg_ik[side]
     
