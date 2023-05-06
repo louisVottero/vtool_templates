@@ -1,21 +1,21 @@
 [
     [
-        "My Custom UI .",
+        "UI Group 1.",
         true
     ],
     [
-        "My Custom UI .Structure UI",
+        "UI Group 1.UI",
         [
             "from vtool.maya_lib.ui_lib import ui_rig\n\nui = ui_rig.StructureWidget(scroll=True)",
             "ui"
         ]
     ],
     [
-        "My Custom UI 2.",
+        "UI Group 2.",
         true
     ],
     [
-        "My Custom UI 2.Control UI",
+        "UI Group 2.UI",
         [
             "from vtool.maya_lib.ui_lib import ui_rig\n\nui = ui_rig.ControlWidget(scroll = False)",
             "ui"
