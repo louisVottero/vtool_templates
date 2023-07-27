@@ -1,0 +1,167 @@
+[
+    {
+        "source":"91397ff9-7273-437b-88d5-ebf8ffd77ccf",
+        "source name":"color",
+        "target":"f6f59681-4837-4afd-a40d-a9213381a336",
+        "target name":"color",
+        "type":4
+    },
+    {
+        "source":"129a847e-ffa4-4980-b2ab-a3c35343a31f",
+        "source name":"joints",
+        "target":"f6f59681-4837-4afd-a40d-a9213381a336",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"c189b58b-6042-4e89-9cd5-365030f91a9e",
+        "source name":"color",
+        "target":"b344324b-366b-46d9-9cf6-030ee6daaa60",
+        "target name":"color",
+        "type":4
+    },
+    {
+        "source":"88d3f5a5-d4e1-4619-ae29-8de3a298b4a5",
+        "source name":"joints",
+        "target":"b344324b-366b-46d9-9cf6-030ee6daaa60",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"180aa786-7b20-4c22-a9a2-c5b4eecdd2c6",
+        "source name":"curve_shape",
+        "target":"b344324b-366b-46d9-9cf6-030ee6daaa60",
+        "target name":"curve_shape",
+        "type":4
+    },
+    {
+        "name":"Color",
+        "position":[
+            2259.5625,
+            2989.375
+        ],
+        "type":10003,
+        "uuid":"91397ff9-7273-437b-88d5-ebf8ffd77ccf",
+        "widget_value":{
+            "color value":{
+                "data_type":5,
+                "value":[
+                    0.0,
+                    0.3333333333333333,
+                    1.0
+                ]
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            2265.0,
+            2822.0
+        ],
+        "type":10002,
+        "uuid":"129a847e-ffa4-4980-b2ab-a3c35343a31f",
+        "widget_value":{
+            "joint filter":{
+                "data_type":3,
+                "value":"joint_exampleB*"
+            }
+        }
+    },
+    {
+        "name":"FkRig",
+        "position":[
+            2586.0,
+            2819.0
+        ],
+        "rig uuid":"4544463D-427A-F5CD-51F1-1B8ADFA30D70",
+        "type":20003,
+        "uuid":"f6f59681-4837-4afd-a40d-a9213381a336",
+        "widget_value":{
+            "description":{
+                "data_type":3,
+                "value":"fk_other"
+            }
+        }
+    },
+    {
+        "name":"FkRig",
+        "position":[
+            2582.0,
+            2540.0
+        ],
+        "rig uuid":"49287E39-430D-E06A-29FA-94969D812070",
+        "type":20003,
+        "uuid":"b344324b-366b-46d9-9cf6-030ee6daaa60",
+        "widget_value":{
+            "description":{
+                "data_type":3,
+                "value":"test"
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            2267.625,
+            2485.3125
+        ],
+        "type":10002,
+        "uuid":"88d3f5a5-d4e1-4619-ae29-8de3a298b4a5",
+        "widget_value":{
+            "joint filter":{
+                "data_type":3,
+                "value":"joint_exampleA*"
+            }
+        }
+    },
+    {
+        "name":"Import Data",
+        "position":[
+            1987.0,
+            2399.0
+        ],
+        "type":30002,
+        "uuid":"f63dc32e-2eac-4d7d-a04f-40b044811e2c",
+        "widget_value":{
+            "data name":{
+                "data_type":3,
+                "value":"structure"
+            }
+        }
+    },
+    {
+        "name":"Color",
+        "position":[
+            2250.1875,
+            2681.5625
+        ],
+        "type":10003,
+        "uuid":"c189b58b-6042-4e89-9cd5-365030f91a9e",
+        "widget_value":{
+            "color value":{
+                "data_type":5,
+                "value":[
+                    1.0,
+                    1.0,
+                    0.0
+                ]
+            }
+        }
+    },
+    {
+        "name":"Curve Shape",
+        "position":[
+            2139.625,
+            2586.25
+        ],
+        "type":10004,
+        "uuid":"180aa786-7b20-4c22-a9a2-c5b4eecdd2c6",
+        "widget_value":{
+            "curve":{
+                "data_type":3,
+                "value":67
+            }
+        }
+    }
+]

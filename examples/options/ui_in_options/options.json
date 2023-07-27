@@ -4,7 +4,7 @@
         true
     ],
     [
-        "UI Group 1.UI",
+        "UI Group 1.Structure UI",
         [
             "from vtool.maya_lib.ui_lib import ui_rig\n\nui = ui_rig.StructureWidget(scroll=True)",
             "ui"
@@ -15,7 +15,7 @@
         true
     ],
     [
-        "UI Group 2.UI",
+        "UI Group 2.Controls UI",
         [
             "from vtool.maya_lib.ui_lib import ui_rig\n\nui = ui_rig.ControlWidget(scroll = False)",
             "ui"

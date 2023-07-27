@@ -1,0 +1,72 @@
+[
+    {
+        "source":"e5c4af7e-9c45-469b-a201-36efe40b6286",
+        "source name":"joints",
+        "target":"a72aa079-e431-4263-8e83-2e70b652cdab",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"218c7972-4e69-4b93-8a41-488df59a54d8",
+        "source name":"result",
+        "target":"dd32ccd3-2fb7-4525-a30c-da57c34b96e9",
+        "target name":"input",
+        "type":4
+    },
+    {
+        "name":"Import Data",
+        "position":[
+            2035.875,
+            2288.25
+        ],
+        "type":30002,
+        "uuid":"218c7972-4e69-4b93-8a41-488df59a54d8",
+        "widget_value":{
+            "data name":{
+                "data_type":3,
+                "value":"asset"
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            2458.0,
+            2471.0
+        ],
+        "type":10002,
+        "uuid":"e5c4af7e-9c45-469b-a201-36efe40b6286",
+        "widget_value":{
+            "joint filter":{
+                "data_type":3,
+                "value":"joint*"
+            }
+        }
+    },
+    {
+        "name":"FkRig",
+        "position":[
+            2785.0,
+            2470.0
+        ],
+        "rig uuid":"a72aa079-e431-4263-8e83-2e70b652cdab",
+        "type":20003,
+        "uuid":"a72aa079-e431-4263-8e83-2e70b652cdab",
+        "widget_value":{
+            "description":{
+                "data_type":3,
+                "value":"fk"
+            }
+        }
+    },
+    {
+        "name":"Set Skeletal Mesh",
+        "position":[
+            2299.0625,
+            2336.4375
+        ],
+        "type":30004,
+        "uuid":"dd32ccd3-2fb7-4525-a30c-da57c34b96e9",
+        "widget_value":{}
+    }
+]

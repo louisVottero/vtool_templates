@@ -10,5 +10,13 @@
     [
         "sub_folder",
         ""
+    ],
+    [
+        "blend weights",
+        false
+    ],
+    [
+        "version up",
+        false
     ]
 ]
