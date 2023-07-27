@@ -1,0 +1,5 @@
+get_template.py True
+template_rig.py True
+template_rig_finish.py True
+template_deform.py True
+template_finish.py True
