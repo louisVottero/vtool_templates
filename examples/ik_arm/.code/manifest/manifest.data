@@ -1,7 +1,0 @@
-import_structure.py True
-initialize_arms.py True
-add_geo.py True
-ik_simplest.py True
-ik_default.py True
-ik_elbow_lock.py True
-ik_elbow_lock_soft.py True

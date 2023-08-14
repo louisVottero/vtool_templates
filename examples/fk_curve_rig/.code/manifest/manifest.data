@@ -1,8 +1,0 @@
-import_structure.py True
-initialize_spines.py True
-skin_geo.py True
-simple.py True
-default.py True
-stretch_on_off.py True
-ribbon.py True
-ribbon_advanced.py True

@@ -1,7 +1,0 @@
-import_structure.py True
-ground.py True
-settings.py True
-fk_rig.py True
-ik_rig.py True
-fk_curve_rig.py True
-attach_switch.py True

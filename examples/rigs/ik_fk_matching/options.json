@@ -1,0 +1,16 @@
+[
+    [
+        "IK FK Note",
+        [
+            "Build the process, pose the rig, and then use the button to switch and match between IK/FK",
+            "note"
+        ]
+    ],
+    [
+        "IK/FK",
+        [
+            "from vtool.maya_lib import rigs_util\n\n#rigs_util.match_switch_rigs_from_control(control,auto_key=False)\nrigs_util.match_switch_rigs_from_control('CNT_IK_ARM_BTM_1',auto_key=True)",
+            "script"
+        ]
+    ]
+]

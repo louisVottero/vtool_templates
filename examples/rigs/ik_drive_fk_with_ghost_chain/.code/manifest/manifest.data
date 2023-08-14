@@ -1,0 +1,6 @@
+import_structure.py True
+create_groups.py True
+setup_joints.py True
+ik_rig.py True
+fk_rig.py True
+ghost_chain.py True

@@ -8,85 +8,62 @@
         ""
     ],
     [
-        "Reference Body Options.",
+        "Referenced Options.",
         [
             [
                 true,
-                "#This code allows the reference group to connect to another process\n#In order to connect you need to set the path to the process\n#And you need to give the name of the option group at the process\n#example\n#path = 'D:/project/assets/character_test'\n#option_group = 'test'\npath = process.get_option('Path to Template Process')\nif not path:\n    from vtool import util\n    from vtool import util_file\n    project_path = util.get_env('VETALA_PROJECT_PATH')\n    path = util_file.join_path(project_path, 'character/human/body')\n    \npath_to_process = path\noption_group = ['Asset','Rig']\n\n"
+                "#This code allows the reference group to connect to another process\n#In order to connect you need to set the path to the process\n#And you need to give the name of the option group at the process\n#example\n#path = 'D:/project/assets/character_test'\n#option_group = 'test'\n\npath = process.get_option('Path to Template Process')\nif not path:\n    from vtool import util\n    from vtool import util_file\n    project_path = util.get_env('VETALA_PROJECT_PATH')\n    path = util_file.join_path(project_path, 'character/human/body')\n    \npath_to_process = path\noption_group = ['Asset','Rig']\n\n\n"
             ],
             "reference.group"
         ]
     ],
     [
-        "Reference Body Options.Asset.",
-        [
-            [
-                true,
-                "#This code allows the reference group to connect to another process\n#In order to connect you need to set the path to the process\n#And you need to give the name of the option group at the process\n#example\n#path = 'D:/project/assets/character_test'\n#option_group = 'test'\n\npath_to_process = ''\noption_group = ''\n\n"
-            ],
-            "reference.group"
-        ]
-    ],
-    [
-        "Reference Body Options.Asset.Top Group",
-        "Main"
-    ],
-    [
-        "Reference Body Options.Asset.Control Group",
-        "Controls"
-    ],
-    [
-        "Reference Body Options.Asset.Setup Group",
-        "Setup"
-    ],
-    [
-        "Reference Body Options.Asset.Joint Group",
-        "Joints"
-    ],
-    [
-        "Reference Body Options.Rig.",
-        [
-            [
-                true,
-                "#This code allows the reference group to connect to another process\n#In order to connect you need to set the path to the process\n#And you need to give the name of the option group at the process\n#example\n#path = 'D:/project/assets/character_test'\n#option_group = 'test'\n\npath_to_process = ''\noption_group = ''\n\n"
-            ],
-            "reference.group"
-        ]
-    ],
-    [
-        "Reference Body Options.Rig.Info.",
-        [
-            true,
-            "reference.group"
-        ]
-    ],
-    [
-        "Reference Body Options.Rig.Info.Size",
-        1.0
-    ],
-    [
-        "Reference Body Options.Rig.Info.Scale Uniform",
+        "Referenced Options.Asset.",
         true
     ],
     [
-        "Reference Body Options.Rig.Info.Mappings.",
-        [
-            false,
-            "reference.group"
-        ]
+        "Referenced Options.Asset.Top Group",
+        "Main"
     ],
     [
-        "Reference Body Options.Rig.Info.Mappings.Joint Mapping",
+        "Referenced Options.Asset.Control Group",
+        "Controls"
+    ],
+    [
+        "Referenced Options.Asset.Setup Group",
+        "Setup"
+    ],
+    [
+        "Referenced Options.Asset.Joint Group",
+        "Joints"
+    ],
+    [
+        "Referenced Options.Rig.",
+        true
+    ],
+    [
+        "Referenced Options.Rig.Info.",
+        true
+    ],
+    [
+        "Referenced Options.Rig.Info.Size",
+        1.0
+    ],
+    [
+        "Referenced Options.Rig.Info.Scale Uniform",
+        true
+    ],
+    [
+        "Referenced Options.Rig.Info.Mappings.",
+        false
+    ],
+    [
+        "Referenced Options.Rig.Info.Mappings.Joint Mapping",
         [
             [
                 {
                     "base":"JNT_root",
                     "head":"JNT_head",
-                    "key2":"JNT_root",
-                    "key3":"JNT_pelvis",
-                    "key4":"JNT_spine*,JNT_chest",
-                    "key5":"JNT_neck*",
-                    "key6":"JNT_head",
                     "neck":"JNT_neck*",
                     "pelvis":"JNT_pelvis",
                     "spine":"JNT_spine*,JNT_chest"
@@ -96,32 +73,20 @@
                     "pelvis",
                     "spine",
                     "neck",
-                    "head",
-                    "key2",
-                    "key3",
-                    "key4",
-                    "key5",
-                    "key6"
+                    "head"
                 ]
             ],
             "dictionary"
         ]
     ],
     [
-        "Reference Body Options.Rig.Info.Mappings.Arm Left Joint Mapping",
+        "Referenced Options.Rig.Info.Mappings.Arm Left Joint Mapping",
         [
             [
                 {
                     "arm":"JNT_arm_L, JNT_elbow_L, JNT_wrist_L",
                     "clavicle":"JNT_clavicle_L",
                     "index":"JNT_index*_L",
-                    "key2":"JNT_arm_L, JNT_elbow_L, JNT_wrist_L",
-                    "key3":"JNT_thumb*_L",
-                    "key4":"JNT_index*_L",
-                    "key5":"JNT_middle*_L",
-                    "key6":"JNT_ring*_L",
-                    "key7":"JNT_pinky*_L",
-                    "key8":"JNT_clavicle_L",
                     "middle":"JNT_middle*_L",
                     "pinky":"JNT_pinky*_L",
                     "ring":"JNT_ring*_L",
@@ -134,34 +99,20 @@
                     "middle",
                     "ring",
                     "pinky",
-                    "clavicle",
-                    "key2",
-                    "key3",
-                    "key4",
-                    "key5",
-                    "key6",
-                    "key7",
-                    "key8"
+                    "clavicle"
                 ]
             ],
             "dictionary"
         ]
     ],
     [
-        "Reference Body Options.Rig.Info.Mappings.Arm Right Joint Mapping",
+        "Referenced Options.Rig.Info.Mappings.Arm Right Joint Mapping",
         [
             [
                 {
                     "arm":"JNT_arm_R, JNT_elbow_R, JNT_wrist_R",
                     "clavicle":"JNT_clavicle_R",
                     "index":"JNT_index*_R",
-                    "key2":"JNT_arm_R, JNT_elbow_R, JNT_wrist_R",
-                    "key3":"JNT_thumb*_R",
-                    "key4":"JNT_index*_R",
-                    "key5":"JNT_middle*_R",
-                    "key6":"JNT_ring*_R",
-                    "key7":"JNT_pinky*_R",
-                    "key8":"JNT_clavicle_R",
                     "middle":"JNT_middle*_R",
                     "pinky":"JNT_pinky*_R",
                     "ring":"JNT_ring*_R",
@@ -174,30 +125,17 @@
                     "middle",
                     "ring",
                     "pinky",
-                    "clavicle",
-                    "key2",
-                    "key3",
-                    "key4",
-                    "key5",
-                    "key6",
-                    "key7",
-                    "key8"
+                    "clavicle"
                 ]
             ],
             "dictionary"
         ]
     ],
     [
-        "Reference Body Options.Rig.Info.Mappings.Leg Left Joint Mapping",
+        "Referenced Options.Rig.Info.Mappings.Leg Left Joint Mapping",
         [
             [
                 {
-                    "key2":"JNT_leg_L, JNT_knee_L, JNT_ankle_L",
-                    "key3":"JNT_toe1*_L",
-                    "key4":"JNT_toe2*_L",
-                    "key5":"JNT_toe3*_L",
-                    "key6":"JNT_toe4*_L",
-                    "key7":"JNT_toe5*_L",
                     "leg":"JNT_leg_L, JNT_knee_L, JNT_ankle_L",
                     "toe1":"JNT_toe1*_L",
                     "toe2":"JNT_toe2*_L",
@@ -211,29 +149,17 @@
                     "toe2",
                     "toe3",
                     "toe4",
-                    "toe5",
-                    "key2",
-                    "key3",
-                    "key4",
-                    "key5",
-                    "key6",
-                    "key7"
+                    "toe5"
                 ]
             ],
             "dictionary"
         ]
     ],
     [
-        "Reference Body Options.Rig.Info.Mappings.Leg Right Joint Mapping",
+        "Referenced Options.Rig.Info.Mappings.Leg Right Joint Mapping",
         [
             [
                 {
-                    "key2":"JNT_leg_R, JNT_knee_R, JNT_ankle_R",
-                    "key3":"JNT_toe1*_R",
-                    "key4":"JNT_toe2*_R",
-                    "key5":"JNT_toe3*_R",
-                    "key6":"JNT_toe4*_R",
-                    "key7":"JNT_toe5*_R",
                     "leg":"JNT_leg_R, JNT_knee_R, JNT_ankle_R",
                     "toe1":"JNT_toe1*_R",
                     "toe2":"JNT_toe2*_R",
@@ -247,31 +173,20 @@
                     "toe2",
                     "toe3",
                     "toe4",
-                    "toe5",
-                    "key2",
-                    "key3",
-                    "key4",
-                    "key5",
-                    "key6",
-                    "key7"
+                    "toe5"
                 ]
             ],
             "dictionary"
         ]
     ],
     [
-        "Reference Body Options.Rig.Info.Mappings.Foot Left Joint Mapping",
+        "Referenced Options.Rig.Info.Mappings.Foot Left Joint Mapping",
         [
             [
                 {
                     "ankleball":"JNT_ankleBall_L",
                     "foot":"JNT_ankle_L, JNT_ball_L, JNT_toe_L",
                     "heel":"GDE_heel_L",
-                    "key2":"JNT_ankle_L, JNT_ball_L, JNT_toe_L",
-                    "key3":"GDE_yawIn_L",
-                    "key4":"GDE_yawOut_L",
-                    "key5":"GDE_heel_L",
-                    "key6":"JNT_ankleBall_L",
                     "yaw in":"GDE_yawIn_L",
                     "yaw out":"GDE_yawOut_L"
                 },
@@ -280,30 +195,20 @@
                     "yaw in",
                     "yaw out",
                     "heel",
-                    "ankleball",
-                    "key2",
-                    "key3",
-                    "key4",
-                    "key5",
-                    "key6"
+                    "ankleball"
                 ]
             ],
             "dictionary"
         ]
     ],
     [
-        "Reference Body Options.Rig.Info.Mappings.Foot Right Joint Mapping",
+        "Referenced Options.Rig.Info.Mappings.Foot Right Joint Mapping",
         [
             [
                 {
                     "ankleball":"JNT_ankleBall_R",
                     "foot":"JNT_ankle_R, JNT_ball_R, JNT_toe_R",
                     "heel":"GDE_heel_R",
-                    "key2":"JNT_ankle_R, JNT_ball_R, JNT_toe_R",
-                    "key3":"GDE_yawIn_R",
-                    "key4":"GDE_yawOut_R",
-                    "key5":"GDE_heel_R",
-                    "key6":"JNT_ankleBall_R",
                     "yaw in":"GDE_yawIn_R",
                     "yaw out":"GDE_yawOut_R"
                 },
@@ -312,119 +217,62 @@
                     "yaw in",
                     "yaw out",
                     "heel",
-                    "ankleball",
-                    "key2",
-                    "key3",
-                    "key4",
-                    "key5",
-                    "key6"
+                    "ankleball"
                 ]
             ],
             "dictionary"
         ]
     ],
     [
-        "Reference Body Options.Rig.Info.Deformation Joints.",
-        [
-            false,
-            "reference.group"
-        ]
-    ],
-    [
-        "Reference Body Options.Rig.Info.Deformation Joints.Arm",
-        4
-    ],
-    [
-        "Reference Body Options.Rig.Info.Deformation Joints.Elbow",
-        4
-    ],
-    [
-        "Reference Body Options.Rig.Info.Deformation Joints.Leg",
-        4
-    ],
-    [
-        "Reference Body Options.Rig.Info.Deformation Joints.Knee",
-        4
-    ],
-    [
-        "Reference Body Options.Rig.Info.Controls.",
-        [
-            true,
-            "reference.group"
-        ]
-    ],
-    [
-        "Reference Body Options.Rig.Info.Controls.Mirrored IK",
+        "Referenced Options.Rig.Info.Deformation Joints.",
         false
     ],
     [
-        "Reference Body Options.Rig.Prep.",
-        [
-            true,
-            "reference.group"
-        ]
+        "Referenced Options.Rig.Info.Deformation Joints.Arm",
+        4
     ],
     [
-        "Reference Body Options.Rig.Prep.Orient Joints",
+        "Referenced Options.Rig.Info.Deformation Joints.Elbow",
+        4
+    ],
+    [
+        "Referenced Options.Rig.Info.Deformation Joints.Leg",
+        4
+    ],
+    [
+        "Referenced Options.Rig.Info.Deformation Joints.Knee",
+        4
+    ],
+    [
+        "Referenced Options.Rig.Info.Controls.",
+        false
+    ],
+    [
+        "Referenced Options.Rig.Info.Controls.Mirrored IK",
+        false
+    ],
+    [
+        "Referenced Options.Rig.Prep.",
         true
     ],
     [
-        "Reference Body Options.Rig.Prep.Align Center Joints",
+        "Referenced Options.Rig.Prep.Orient Joints",
+        true
+    ],
+    [
+        "Referenced Options.Rig.Prep.Align Center Joints",
         false
     ],
     [
-        "Reference Body Options.Face Model.Remove Faces",
-        "bodyMid.f[20256:41295]"
+        "Referenced Options.Workflow.Deform.boolean",
+        false
     ],
     [
-        "Reference Body Options.Face Model.Remove Objects",
-        ""
-    ],
-    [
-        "Reference Body Options.Face Model.-----",
-        null
-    ],
-    [
-        "Rig.Info.",
-        [
-            true,
-            "reference.group"
-        ]
-    ],
-    [
-        "Rig.Info.Mappings.",
-        [
-            false,
-            "reference.group"
-        ]
-    ],
-    [
-        "Rig.Info.Deformation Joints.",
-        [
-            false,
-            "reference.group"
-        ]
-    ],
-    [
-        "Rig.Info.Controls.",
-        [
-            true,
-            "reference.group"
-        ]
-    ],
-    [
-        "Rig.Prep.",
-        [
-            true,
-            "reference.group"
-        ]
-    ],
-    [
-        "True.Reference Body Options.",
+        "True.Referenced Options.",
         [
             [
                 true,
-                "#This code allows the reference group to connect to another process\n#In order to connect you need to set the path to the process\n#And you need to give the name of the option group at the process\n#example\n#path = 'D:/project/assets/character_test'\n#option_group = 'test'\npath = process.get_option('Path to Template Process')\nif not path:\n    from vtool import util\n    from vtool import util_file\n    project_path = util.get_env('VETALA_PROJECT_PATH')\n    path = util_file.join_path(project_path, 'character/human/body')\n    \npath_to_process = path\noption_group = ['Asset','Rig']\n\n"
+                "#This code allows the reference group to connect to another process\n#In order to connect you need to set the path to the process\n#And you need to give the name of the option group at the process\n#example\n#path = 'D:/project/assets/character_test'\n#option_group = 'test'\n\npath = process.get_option('Path to Template Process')\nif not path:\n    from vtool import util\n    from vtool import util_file\n    project_path = util.get_env('VETALA_PROJECT_PATH')\n    path = util_file.join_path(project_path, 'character/human/body')\n    \npath_to_process = path\noption_group = ['Asset','Rig']\n\n\n"
             ],
             "reference.group"
         ]
