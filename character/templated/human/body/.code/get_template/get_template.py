@@ -1,3 +1,4 @@
+import os
 
 def main():
     from vtool import util
@@ -6,7 +7,7 @@ def main():
     if not path:
         from vtool import util
         from vtool import util_file
-        project_path = util.get_env('VETALA_PROJECT_PATH')
+        project_path = os.environ.get('VETALA_PROJECT_PATH')
         path = util_file.join_path(project_path, 'character/human/body')
     
     process_inst = process.get_empty_process(path)  
