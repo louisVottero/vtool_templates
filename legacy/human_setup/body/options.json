@@ -1,7 +1,7 @@
 [
     [
         "Setup.",
-        false
+        true
     ],
     [
         "Setup.Top Group",
@@ -13,7 +13,7 @@
     ],
     [
         "Setup.Auto Rig Groups.",
-        null
+        false
     ],
     [
         "Setup.Auto Rig Groups.Setup Group",
@@ -33,7 +33,7 @@
     ],
     [
         "Setup.Controls.",
-        null
+        false
     ],
     [
         "Setup.Controls.Control Size",
@@ -45,7 +45,7 @@
     ],
     [
         "Spine.",
-        false
+        true
     ],
     [
         "Spine.Fk Count",
@@ -57,7 +57,7 @@
     ],
     [
         "Arms.",
-        false
+        true
     ],
     [
         "Arms.Stretchy",
@@ -65,7 +65,7 @@
     ],
     [
         "Arms.Bendy.",
-        null
+        false
     ],
     [
         "Arms.Bendy.Bendy",
@@ -121,7 +121,7 @@
     ],
     [
         "Legs.Bendy.",
-        true
+        false
     ],
     [
         "Legs.Bendy.Bendy",

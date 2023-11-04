@@ -1,0 +1,13 @@
+import_model.py True
+import_structure.py True
+import_weights_skinCluster.py True
+rig.py True
+rig/setup_group.py True
+rig/root.py True
+rig/fk.py True
+rig/add_dynamic.py True
+rig/import_attributes.py True
+rig/import_control_values.py True
+finish.py True
+finish/hide.py True
+finish/ready_for_playback.py True
