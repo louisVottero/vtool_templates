@@ -12,7 +12,8 @@ rig/settings.py True
 rig/ground.py True
 rig/root.py True
 rig/spine.py True
-rig/spine/ik_spine.py True
+rig/spine/style_controls.py True
+rig/spine/set_pivots.py True
 rig/spine/pelvis.py True
 rig/neck.py True
 rig/head.py True

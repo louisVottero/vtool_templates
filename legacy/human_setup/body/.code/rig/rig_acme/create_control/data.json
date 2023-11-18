@@ -1,0 +1,14 @@
+[
+    [
+        "sub_folder",
+        ""
+    ],
+    [
+        "name",
+        "create_control"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ]
+]

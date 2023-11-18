@@ -1,0 +1,14 @@
+[
+    [
+        "sub_folder",
+        ""
+    ],
+    [
+        "name",
+        "attach_ik_fk"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ]
+]

@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: structure.ma
-//Last modified: Fri, Sep 30, 2022 01:51:37 AM
+//Last modified: Sat, Nov 18, 2023 09:36:45 AM
 //Codeset: 1252
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -9,9 +9,9 @@ currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
-fileInfo "cutIdentifier" "202205171752-c25c06f306";
+fileInfo "cutIdentifier" "202303271415-baa69b5798";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22621)";
-fileInfo "UUID" "91EB91A1-4C91-06CF-69D9-B288021CAB44";
+fileInfo "UUID" "20403129-4EE2-1CC6-6FBE-F4A3B23C11E8";
 createNode transform -n "temp";
 	rename -uid "2275EE48-4428-688E-62DF-BEB35DD2D013";
 	setAttr ".ove" yes;
@@ -274,6 +274,12 @@ createNode joint -n "GDE_yawOut_R" -p "temp";
 	setAttr -k on ".invertScale";
 	setAttr -k on ".active" yes;
 	setAttr -k on ".surface" -type "string" "";
+createNode joint -n "GDE_chestPivot" -p "temp";
+	rename -uid "42D65FAA-498E-2E0F-AD4E-79B3513EFFD6";
+	setAttr ".t" -type "double3" 1.2325951644078309e-32 132.02810668945312 -10.160543441772461 ;
+	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
+	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".radi" 2;
 createNode joint -n "JNT_root";
 	rename -uid "2351A3AD-4E05-A5F3-0458-16A751129B0A";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
@@ -5743,7 +5749,7 @@ select -ne :renderPartition;
 	setAttr -cb on ".ihi";
 	setAttr -av -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -s 3 ".st";
+	setAttr -s 2 ".st";
 	setAttr -cb on ".an";
 	setAttr -cb on ".pt";
 select -ne :renderGlobalsList1;
@@ -5756,7 +5762,7 @@ select -ne :defaultShaderList1;
 	setAttr -cb on ".ihi";
 	setAttr -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr -s 6 ".s";
+	setAttr -s 5 ".s";
 select -ne :postProcessList1;
 	setAttr -k on ".cch";
 	setAttr -cb on ".ihi";
@@ -5973,9 +5979,9 @@ connectAttr "JNT_ball_R.s" "JNT_toe5_1_R.is";
 connectAttr "JNT_toe5_1_R.s" "JNT_toe5_2_R.is";
 connectAttr "JNT_toe5_2_R.s" "JNT_toe5_3_R.is";
 connectAttr "JNT_ankle_R.s" "JNT_ankleBall_R.is";
+dataStructure -fmt "raw" -as "name=Offset:float[3]=value";
 dataStructure -fmt "raw" -as "name=DiffEdge:float=value";
 dataStructure -fmt "raw" -as "name=Blur3dMetaData:string=Blur3dValue";
-dataStructure -fmt "raw" -as "name=Curvature:float=mean:float=gaussian:float=ABS:float=RMS";
-dataStructure -fmt "raw" -as "name=Offset:float[3]=value";
 dataStructure -fmt "raw" -as "name=DiffArea:float=value";
+dataStructure -fmt "raw" -as "name=Curvature:float=mean:float=gaussian:float=ABS:float=RMS";
 // End of structure.ma

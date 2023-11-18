@@ -1,56 +1,46 @@
 from vtool.maya_lib import rigs
-from vtool.maya_lib import rigs_util
-from vtool.maya_lib import attr
 from vtool.maya_lib import space
-from vtool.maya_lib import geo
-
-
 
 def main():
 
-    size = put.size
-    
     joints = put.joint_spine
+
+    rig = rigs.TweakLevelRig('spine')
+    rig.set_joints(joints)
+        
+    rig.set_control_count(2)
+    rig.set_sub_control_count(4)
     
-    rig = rigs.FkCurveRig('spine')
-    rig.set_joints(joints[:-1])
-    rig.set_ribbon(True)
-    rig.set_ribbon_offset_axis('Z')
-    rig.set_stretch_on_off(True)
-    rig.set_control_size(size*30)
+    rig.set_ribbon_offset_axis('X')
+    rig.set_ribbon_overshoot_stretch_axis('Z')
+    
+    #rig.set_control_offset_axis('X')    
+    rig.set_control_size(put.size*15)
     rig.set_control_set('spine')
     rig.set_control_shape('hexagon')
-    rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
-    #temporarily removing until its more stable.
+    rig.set_align_controls_to_joints(True)
+    rig.set_sub_visibility(True)
+    #rig.set_fk(True)
+    
+    rig.set_stretch_on_off(True)
     rig.set_ribbon_joint_aim(True, [0,1,0])
-    rig.set_create_follows(False)
 
-    rig.set_control_color_hue(.165)    
-    rig.set_control_color_increment_hue(-.02)
-    rig.set_sub_control_color_hue(.12)
+    rig.connect_sub_visibility(put.control_settings)
 
     rig.set_control_parent(put.control_root[-1])
-    rig.set_setup_parent(put.group_setup)    
+    rig.set_setup_parent(put.group_setup)        
     rig.create()
-
-    cmds.setAttr('%s.stretchOffOn' % rig.controls[-1], .1)
-
+    
     put.control_spine = rig.controls
-    put.control_sub_spine = rig.sub_controls
+    put.control_spine_sub = rig.sub_controls
     
-    #cmds.parent('xform_%s' % rig.sub_controls[0], put.control_root[-1])
-    cmds.orientConstraint(rig.sub_controls[-1], put.joint_spine[-1], mo = True)
+    reparent_sub_controls(rig.sub_controls[-2:-1], rig.controls[-1])
+        
+def reparent_sub_controls(sub_controls, control):
     
-    scale = 35 * size
-    
-    control = rigs_util.Control(rig.controls[-1])
-    control.set_curve_type('rib')
-    control.scale_shape(scale*.9, scale*.8, scale*.9)
-    control.translate_shape(0,9*size, 0)
-
-    control = rigs_util.Control(rig.controls[0])
-    control.set_curve_type('pelvis')
-    control.scale_shape(scale*.7, scale*.7, scale*.6)    
-    control.translate_shape(0,-9*size, 0)
-    
-    #attr.disconnect_attribute('%s.subVisibility' % rig.controls[0])
+    for sub_control in sub_controls:
+        xform = space.get_xform_group(sub_control)
+        constraint = space.ConstraintEditor()
+        constraint.delete_constraints(xform,constraint_type='parentConstraint')
+        
+        cmds.parent(xform, control)        

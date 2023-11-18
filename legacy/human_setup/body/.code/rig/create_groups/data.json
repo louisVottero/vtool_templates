@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "create_groups"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]
