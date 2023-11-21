@@ -16,5 +16,6 @@ def main():
     rig.use_hierarchy_to_inform_size(True)    
     rig.use_hierarchy_to_inform_color(True)    
 
+    rig.delete_setup()
     
     rig.create()    
