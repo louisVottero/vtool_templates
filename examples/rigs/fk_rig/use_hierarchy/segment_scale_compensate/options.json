@@ -1,0 +1,17 @@
+[
+    [
+        "Use Hierarchy Scale Example",
+        null
+    ],
+    [
+        "note",
+        [
+            "This Process is a test of how the FkScaleRig deals with complex scale setups\n",
+            "note"
+        ]
+    ],
+    [
+        "Use Segment Scale Compensate",
+        false
+    ]
+]

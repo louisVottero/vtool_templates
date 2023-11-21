@@ -1,0 +1,6 @@
+import_model.py True
+import_structure.py True
+prep.py True
+rig.py True
+hide.py True
+import_weights_skinCluster.py True
