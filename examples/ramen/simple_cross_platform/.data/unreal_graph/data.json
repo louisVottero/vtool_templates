@@ -1,11 +1,11 @@
 [
     [
         "name",
-        "manifest"
+        "unreal_graph"
     ],
     [
         "data_type",
-        "script.manifest"
+        "unreal.graph"
     ],
     [
         "sub_folder",

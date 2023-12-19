@@ -11,7 +11,6 @@ def main():
     rig.set_sub_control_count(4)
     
     rig.set_ribbon_offset_axis('X')
-    
     rig.set_control_count(5)
     rig.set_sub_control_count(10)
     rig.set_control_offset_axis('X')    

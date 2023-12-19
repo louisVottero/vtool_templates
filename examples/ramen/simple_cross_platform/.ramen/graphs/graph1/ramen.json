@@ -1,72 +1,807 @@
 [
     {
-        "source":"e5c4af7e-9c45-469b-a201-36efe40b6286",
-        "source name":"joints",
-        "target":"a72aa079-e431-4263-8e83-2e70b652cdab",
-        "target name":"joints",
-        "type":4
-    },
-    {
-        "source":"218c7972-4e69-4b93-8a41-488df59a54d8",
-        "source name":"result",
-        "target":"dd32ccd3-2fb7-4525-a30c-da57c34b96e9",
-        "target name":"input",
-        "type":4
-    },
-    {
-        "name":"Import Data",
+        "name":"Set Skeletal Mesh",
         "position":[
-            2035.875,
-            2288.25
+            -2447.0,
+            -2530.0
         ],
-        "type":30002,
-        "uuid":"218c7972-4e69-4b93-8a41-488df59a54d8",
+        "type":30004,
+        "uuid":"7548ee16-bac9-4795-8112-b58041209a56",
         "widget_value":{
-            "data name":{
-                "data_type":3,
-                "value":"asset"
+            "input":{
+                "data_type":null,
+                "value":[
+                    "['/Game/Vetala/examples/ramen/simple_cross_platform/asset/Materials/MI_standardSurface2SG', '/Game/Vetala/examples/ramen/simple_cross_platform/asset/Materials/MI_standardSurface2SG_TwoSided', '/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/PHYS_asset', '/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset', '/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig', '/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SKEL_root']"
+                ]
             }
         }
     },
     {
         "name":"Joints",
         "position":[
-            2458.0,
-            2471.0
+            -1420.2626275198777,
+            -1720.5507686988105
         ],
         "type":10002,
-        "uuid":"e5c4af7e-9c45-469b-a201-36efe40b6286",
+        "uuid":"bd5e9348-d27c-43ad-a865-6150fec32348",
         "widget_value":{
             "joint filter":{
-                "data_type":3,
-                "value":"joint*"
+                "data_type":5,
+                "value":[
+                    "joint_test2_*"
+                ]
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            -2303.571788816016,
+            -2381.3784661578784
+        ],
+        "type":10002,
+        "uuid":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
+        "widget_value":{
+            "joint filter":{
+                "data_type":5,
+                "value":[
+                    "root"
+                ]
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            -1903.5356377438009,
+            -1996.0959159971746
+        ],
+        "type":10002,
+        "uuid":"b94b660c-81fb-4726-acee-4232bcb6ab42",
+        "widget_value":{
+            "joint filter":{
+                "data_type":5,
+                "value":[
+                    "joint_test_*"
+                ]
+            }
+        }
+    },
+    {
+        "name":"Color",
+        "position":[
+            -2493.873427599746,
+            -1884.111847826194
+        ],
+        "type":10003,
+        "uuid":"e9e88780-fdbc-4547-b678-cc0a62972851",
+        "widget_value":{
+            "color value":{
+                "data_type":7,
+                "value":[
+                    [
+                        1.0,
+                        0.4,
+                        0.0
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "name":"Color",
+        "position":[
+            -1956.3677997150417,
+            -1666.0863016486876
+        ],
+        "type":10003,
+        "uuid":"81a96054-6cd9-4a64-8f5f-55dfa70a391a",
+        "widget_value":{
+            "color value":{
+                "data_type":7,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "name":"Color",
+        "position":[
+            -1355.4736653057307,
+            -1346.521389830103
+        ],
+        "type":10003,
+        "uuid":"218c0ff2-a5ed-4520-b438-9babf1ca7995",
+        "widget_value":{
+            "color value":{
+                "data_type":7,
+                "value":[
+                    [
+                        1.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "name":"Curve Shape",
+        "position":[
+            -2522.831334255551,
+            -2350.829584106925
+        ],
+        "type":10004,
+        "uuid":"e6b30822-96ec-4060-9497-67aed626bfe7",
+        "widget_value":{
+            "Maya":{
+                "data_type":5,
+                "value":[
+                    "square_point"
+                ]
+            },
+            "Unreal":{
+                "data_type":5,
+                "value":[
+                    "Triangle_Thin"
+                ]
+            }
+        }
+    },
+    {
+        "name":"Import Data",
+        "position":[
+            -2763.0,
+            -2559.0
+        ],
+        "type":30002,
+        "uuid":"e7ad327d-0117-494d-bf95-17732d326a7b",
+        "widget_value":{
+            "New Scene":{
+                "data_type":null,
+                "value":1
+            },
+            "data name":{
+                "data_type":5,
+                "value":[
+                    "asset"
+                ]
+            }
+        }
+    },
+    {
+        "name":"Transform Vector",
+        "position":[
+            -1425.5214835015074,
+            -1626.7656292147738
+        ],
+        "type":10005,
+        "uuid":"5501464a-d1dc-436c-a3d1-43a02e4c92ef",
+        "widget_value":{
+            "Maya Rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        90.0
+                    ]
+                ]
+            },
+            "Maya Scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "Maya Translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "Unreal Rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "Unreal Scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "Unreal Translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "name":"Transform Vector",
+        "position":[
+            -2110.737716544694,
+            -1957.6076210491622
+        ],
+        "type":10005,
+        "uuid":"73c45666-588a-47ce-b873-095c35b7f7ab",
+        "widget_value":{
+            "Maya Rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        90.0
+                    ]
+                ]
+            },
+            "Maya Scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "Maya Translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "Unreal Rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        90.0,
+                        0.0
+                    ]
+                ]
+            },
+            "Unreal Scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "Unreal Translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "name":"Transform Vector",
+        "position":[
+            -2517.0123043027006,
+            -2195.250167845081
+        ],
+        "type":10005,
+        "uuid":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
+        "widget_value":{
+            "Maya Rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "Maya Scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "Maya Translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "Unreal Rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        180.0
+                    ]
+                ]
+            },
+            "Unreal Scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "Unreal Translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        1.0,
+                        0.0
+                    ]
+                ]
             }
         }
     },
     {
         "name":"FkRig",
         "position":[
-            2785.0,
-            2470.0
+            -1130.495502011822,
+            -1766.0244742956509
         ],
-        "rig uuid":"a72aa079-e431-4263-8e83-2e70b652cdab",
+        "rig uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "type":20003,
-        "uuid":"a72aa079-e431-4263-8e83-2e70b652cdab",
+        "uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "widget_value":{
+            "color":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
             "description":{
+                "data_type":null,
+                "value":[
+                    "test2"
+                ]
+            },
+            "hierarchy":{
+                "data_type":2,
+                "value":true
+            },
+            "joint_token":{
+                "data_type":5,
+                "value":[
+                    ""
+                ]
+            },
+            "restrain_numbering":{
+                "data_type":2,
+                "value":false
+            },
+            "shape":{
+                "data_type":null,
+                "value":[
+                    ""
+                ]
+            },
+            "shape_rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        90.0
+                    ]
+                ]
+            },
+            "shape_scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "shape_translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "side":{
+                "data_type":null,
+                "value":[
+                    ""
+                ]
+            },
+            "sub_color":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.7499961852445258,
+                        0.4,
+                        0.0
+                    ]
+                ]
+            },
+            "sub_count":{
                 "data_type":3,
-                "value":"fk"
+                "value":[
+                    0
+                ]
+            },
+            "use_joint_name":{
+                "data_type":2,
+                "value":false
             }
         }
     },
     {
-        "name":"Set Skeletal Mesh",
+        "name":"FkRig",
         "position":[
-            2299.0625,
-            2336.4375
+            -2090.903114186851,
+            -2474.2871972318335
         ],
-        "type":30004,
-        "uuid":"dd32ccd3-2fb7-4525-a30c-da57c34b96e9",
-        "widget_value":{}
+        "rig uuid":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "type":20003,
+        "uuid":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "widget_value":{
+            "color":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        0.4,
+                        0.0
+                    ]
+                ]
+            },
+            "description":{
+                "data_type":null,
+                "value":[
+                    "root"
+                ]
+            },
+            "hierarchy":{
+                "data_type":2,
+                "value":true
+            },
+            "joint_token":{
+                "data_type":5,
+                "value":[
+                    ""
+                ]
+            },
+            "restrain_numbering":{
+                "data_type":2,
+                "value":false
+            },
+            "shape":{
+                "data_type":null,
+                "value":[
+                    "square_point"
+                ]
+            },
+            "shape_rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "shape_scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "shape_translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "side":{
+                "data_type":null,
+                "value":[
+                    ""
+                ]
+            },
+            "sub_color":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.8274509803921568,
+                        1.0,
+                        0.6274509803921569
+                    ]
+                ]
+            },
+            "sub_count":{
+                "data_type":3,
+                "value":[
+                    2
+                ]
+            },
+            "use_joint_name":{
+                "data_type":2,
+                "value":false
+            }
+        }
+    },
+    {
+        "name":"FkRig",
+        "position":[
+            -1687.3771626297575,
+            -2055.2179930795846
+        ],
+        "rig uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "type":20003,
+        "uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "widget_value":{
+            "color":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "description":{
+                "data_type":null,
+                "value":[
+                    "test"
+                ]
+            },
+            "hierarchy":{
+                "data_type":2,
+                "value":true
+            },
+            "joint_token":{
+                "data_type":5,
+                "value":[
+                    ""
+                ]
+            },
+            "restrain_numbering":{
+                "data_type":2,
+                "value":false
+            },
+            "shape":{
+                "data_type":null,
+                "value":[
+                    "Circle_Thin"
+                ]
+            },
+            "shape_rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        90.0
+                    ]
+                ]
+            },
+            "shape_scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "shape_translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "side":{
+                "data_type":null,
+                "value":[
+                    ""
+                ]
+            },
+            "sub_color":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.7499961852445258,
+                        0.4,
+                        0.0
+                    ]
+                ]
+            },
+            "sub_count":{
+                "data_type":3,
+                "value":[
+                    0
+                ]
+            },
+            "use_joint_name":{
+                "data_type":2,
+                "value":false
+            }
+        }
+    },
+    {
+        "source":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "source name":"controls",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"parent",
+        "type":4
+    },
+    {
+        "source":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "source name":"controls",
+        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "target name":"parent",
+        "type":4
+    },
+    {
+        "source":"5501464a-d1dc-436c-a3d1-43a02e4c92ef",
+        "source name":"Rotate",
+        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "target name":"shape_rotate",
+        "type":4
+    },
+    {
+        "source":"218c0ff2-a5ed-4520-b438-9babf1ca7995",
+        "source name":"color",
+        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "target name":"color",
+        "type":4
+    },
+    {
+        "source":"bd5e9348-d27c-43ad-a865-6150fec32348",
+        "source name":"joints",
+        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"73c45666-588a-47ce-b873-095c35b7f7ab",
+        "source name":"Rotate",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"shape_rotate",
+        "type":4
+    },
+    {
+        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
+        "source name":"Scale",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape_scale",
+        "type":4
+    },
+    {
+        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
+        "source name":"Rotate",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape_rotate",
+        "type":4
+    },
+    {
+        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
+        "source name":"Translate",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape_translate",
+        "type":4
+    },
+    {
+        "source":"e6b30822-96ec-4060-9497-67aed626bfe7",
+        "source name":"curve_shape",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape",
+        "type":4
+    },
+    {
+        "source":"e9e88780-fdbc-4547-b678-cc0a62972851",
+        "source name":"color",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"color",
+        "type":4
+    },
+    {
+        "source":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
+        "source name":"joints",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"e7ad327d-0117-494d-bf95-17732d326a7b",
+        "source name":"result",
+        "target":"7548ee16-bac9-4795-8112-b58041209a56",
+        "target name":"input",
+        "type":4
+    },
+    {
+        "source":"b94b660c-81fb-4726-acee-4232bcb6ab42",
+        "source name":"joints",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"81a96054-6cd9-4a64-8f5f-55dfa70a391a",
+        "source name":"color",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"color",
+        "type":4
     }
 ]

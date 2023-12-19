@@ -2,5 +2,38 @@
     [
         "Maya Use Camera Settings",
         0
+    ],
+    [
+        "notes",
+        ""
+    ],
+    [
+        "control_name_order",
+        [
+            "Control Alias",
+            "Description",
+            "Number",
+            "Side"
+        ]
+    ],
+    [
+        "control_uppercase",
+        true
+    ],
+    [
+        "control_alias",
+        "CNT"
+    ],
+    [
+        "control_left",
+        "L"
+    ],
+    [
+        "control_right",
+        "R"
+    ],
+    [
+        "control_center",
+        "C"
     ]
 ]

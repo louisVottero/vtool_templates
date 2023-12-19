@@ -1,15 +1,16 @@
-//Maya ASCII 2022 scene
-//Name: weight_mesh.ma
-//Last modified: Fri, Aug 26, 2022 12:58:36 AM
+//Maya ASCII 2020 scene
+//Name: structure.ma
+//Last modified: Fri, Dec 15, 2023 12:40:20 AM
 //Codeset: 1252
-requires maya "2022";
+requires maya "2020";
+requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
-fileInfo "product" "Maya 2022";
-fileInfo "version" "2022";
-fileInfo "cutIdentifier" "202110272215-ad32f8f1e6";
-fileInfo "osv" "Windows 10 Home v2009 (Build: 19044)";
-fileInfo "UUID" "ADCEBE26-4FD8-0879-D93D-38BB106E4E27";
+fileInfo "product" "Maya 2020";
+fileInfo "version" "2020";
+fileInfo "cutIdentifier" "202011110415-b1e20b88e2";
+fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 22621)\n";
+fileInfo "UUID" "C11C5B01-4F83-057D-A6CC-96BCF084A66B";
 createNode transform -n "structure";
 	rename -uid "F34E7C18-4E0E-2FBA-6F9C-239A2EB4741D";
 createNode transform -n "fade_grp" -p "structure";
@@ -6379,6 +6380,7 @@ createNode dagPose -n "bindPose1";
 		 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 yes;
 	setAttr -s 3 ".m";
 	setAttr -s 3 ".p";
+	setAttr -s 2 ".g";
 	setAttr ".g[2]" yes;
 	setAttr ".bp" yes;
 createNode skinCluster -n "skin_eyelid_individual_weights";
@@ -6631,7 +6633,7 @@ createNode skinCluster -n "skin_eyelid_individual_weights";
 		1 34 1
 		1 33 1
 		1 32 1
-		3 29 7.6543674099694781e-07 31 0.99999816167965305 32 1.0728836059570312e-06
+		3 29 7.6543674099694781e-07 31 0.99999816167965305 32 1.0728836059570313e-06
 		1 29 1
 		2 10 0.5 29 0.5
 		1 10 1
@@ -7380,7 +7382,6 @@ select -ne :hardwareRenderingGlobals;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
 		 1 1 1 0 0 0 0 0 0 0 0 0
 		 0 0 0 0 ;
-	setAttr ".fprt" yes;
 select -ne :renderPartition;
 	setAttr -s 2 ".st";
 select -ne :renderGlobalsList1;
@@ -7400,14 +7401,8 @@ select -ne :defaultRenderGlobals;
 select -ne :defaultResolution;
 	setAttr ".pa" 1;
 select -ne :defaultColorMgtGlobals;
-	setAttr ".cfe" yes;
+	setAttr ".cme" no;
 	setAttr ".cfp" -type "string" "<MAYA_RESOURCES>/OCIO-configs/Maya2022-default/config.ocio";
-	setAttr ".vtn" -type "string" "ACES 1.0 SDR-video (sRGB)";
-	setAttr ".vn" -type "string" "ACES 1.0 SDR-video";
-	setAttr ".dn" -type "string" "sRGB";
-	setAttr ".wsn" -type "string" "ACEScg";
-	setAttr ".otn" -type "string" "ACES 1.0 SDR-video (sRGB)";
-	setAttr ".potn" -type "string" "ACES 1.0 SDR-video (sRGB)";
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
@@ -7670,4 +7665,4 @@ connectAttr "JNT_btmLid_19.bps" "bindPose2.wm[41]";
 connectAttr "JNT_btmLid_20.bps" "bindPose2.wm[42]";
 connectAttr "eyelid_individual_weightsShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "eyelid_falloff_weightsShape.iog" ":initialShadingGroup.dsm" -na;
-// End of weight_mesh.ma
+// End of structure.ma
