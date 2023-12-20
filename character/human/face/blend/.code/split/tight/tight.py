@@ -14,6 +14,7 @@ def main():
 
         found_shapes = []
         
+        
         manager_inst = blendshape.ShapeComboManager()
         manager_inst.load(manager)
         
@@ -37,6 +38,7 @@ def main():
         for shape in found_shapes:
             
             manager_inst.zero_out()
+            show(shape)            
             new_shape = manager_inst.recreate_shape(shape,from_shape_combo_channels=False)
             cmds.parent(new_shape, target_group)
 
