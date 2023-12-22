@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "create_cube"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]

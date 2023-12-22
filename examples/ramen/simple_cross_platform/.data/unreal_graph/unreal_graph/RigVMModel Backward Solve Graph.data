@@ -1,0 +1,1870 @@
+Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="InverseExecution" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.InverseExecution'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.InverseExecution.ExecuteContext'"
+   End Object
+   Begin Object Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.InverseExecution.ExecuteContext'"
+      DisplayName="Execute"
+      Direction=Output
+      CPPType="FRigVMExecuteContext"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/RigVM.RigVMExecuteContext'"
+      CPPTypeObjectPath="/Script/RigVM.RigVMExecuteContext"
+   End Object
+   ResolvedFunctionName="FRigUnit_InverseExecution::Execute"
+   NodeTitle="Backwards Solve"
+   NodeColor=(R=1.000000,G=0.000000,B=0.000000,A=1.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'ExecuteContext'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionReferenceNode Name="vetala_FkRig" ExportPath="/Script/RigVMDeveloper.RigVMFunctionReferenceNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="controls" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.controls'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0.A'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0.B'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0.G'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0.R'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0.A'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0.B'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0.G'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0.R'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_scale" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.shape_scale'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_rotate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.shape_rotate'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_translate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.shape_translate'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.shape'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="joints" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.0.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.0.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="1" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.1'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.1.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.1.Name'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="side" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.side'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="description" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.description'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.parent'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="use_joint_name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.use_joint_name'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="hierarchy" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.hierarchy'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="sub_count" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_count'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="joint_token" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joint_token'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="restrain_numbering" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.restrain_numbering'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="mode" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.mode'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="uuid" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.uuid'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.ExecuteContext'"
+   End Object
+   Begin Object Name="controls" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.controls'"
+      Direction=Output
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0'"
+         Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0.A'"
+            DisplayName="A"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.000000"
+         End Object
+         Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0.B'"
+            DisplayName="B"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.6274509803921569"
+         End Object
+         Begin Object Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0.G'"
+            DisplayName="G"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="1.0"
+         End Object
+         Begin Object Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_color.0.R'"
+            DisplayName="R"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.8274509803921568"
+         End Object
+         Direction=Input
+         CPPType="FLinearColor"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+         CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+         DefaultValue="(R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000)"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'R'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'G'"
+         SubPins(2)="/Script/RigVMDeveloper.RigVMPin'B'"
+         SubPins(3)="/Script/RigVMDeveloper.RigVMPin'A'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FLinearColor>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+      CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+      DefaultValue="((R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000))"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+   End Object
+   Begin Object Name="color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0'"
+         Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0.A'"
+            DisplayName="A"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.000000"
+         End Object
+         Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0.B'"
+            DisplayName="B"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.0"
+         End Object
+         Begin Object Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0.G'"
+            DisplayName="G"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.4"
+         End Object
+         Begin Object Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.color.0.R'"
+            DisplayName="R"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="1.0"
+         End Object
+         Direction=Input
+         CPPType="FLinearColor"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+         CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+         DefaultValue="(R=1.0,G=0.4,B=0.0,A=0.000000)"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'R'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'G'"
+         SubPins(2)="/Script/RigVMDeveloper.RigVMPin'B'"
+         SubPins(3)="/Script/RigVMDeveloper.RigVMPin'A'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FLinearColor>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+      CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+      DefaultValue="((R=1.0,G=0.4,B=0.0,A=0.000000))"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+   End Object
+   Begin Object Name="shape_scale" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.shape_scale'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape_rotate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.shape_rotate'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape_translate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.shape_translate'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.shape'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="Triangle_Thin"
+   End Object
+   Begin Object Name="joints" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.0'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.0.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="root"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.0.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="1" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.1'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.1.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joints.1.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'1'"
+   End Object
+   Begin Object Name="side" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.side'"
+      Direction=Input
+      CPPType="FString"
+   End Object
+   Begin Object Name="description" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.description'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="root"
+   End Object
+   Begin Object Name="parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.parent'"
+      Direction=Input
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="use_joint_name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.use_joint_name'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="false"
+   End Object
+   Begin Object Name="hierarchy" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.hierarchy'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="true"
+   End Object
+   Begin Object Name="sub_count" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.sub_count'"
+      Direction=Input
+      CPPType="int32"
+   End Object
+   Begin Object Name="joint_token" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.joint_token'"
+      Direction=Input
+      CPPType="FString"
+   End Object
+   Begin Object Name="restrain_numbering" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.restrain_numbering'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="false"
+   End Object
+   Begin Object Name="mode" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.mode'"
+      Direction=Input
+      CPPType="int32"
+      DefaultValue="2"
+   End Object
+   Begin Object Name="uuid" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.uuid'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="4843524f-b403-44e4-99ae-bd05cb75d1fd"
+   End Object
+   Begin Object Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig.ExecuteContext'"
+      Direction=IO
+      CPPType="FRigVMExecuteContext"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/RigVM.RigVMExecuteContext'"
+      CPPTypeObjectPath="/Script/RigVM.RigVMExecuteContext"
+      DefaultValue="()"
+   End Object
+   ReferencedFunctionHeader=(LibraryPointer=(LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"),Name="vetala_FkRig",NodeTitle="vetala_FkRig",Arguments=((Name="ExecuteContext",DisplayName="ExecuteContext",CPPType="FRigVMExecuteContext",CPPTypeObject="/Script/RigVM.RigVMExecuteContext",Direction=IO,DefaultValue="()",PathToTooltip=(("ExecuteContext", ""))),(Name="uuid",DisplayName="uuid",CPPType="FString",PathToTooltip=(("uuid", ""))),(Name="mode",DisplayName="mode",CPPType="int32",PathToTooltip=(("mode", ""))),(Name="restrain_numbering",DisplayName="restrain_numbering",CPPType="bool",DefaultValue="false",PathToTooltip=(("restrain_numbering", ""))),(Name="joint_token",DisplayName="joint_token",CPPType="FString",PathToTooltip=(("joint_token", ""))),(Name="sub_count",DisplayName="sub_count",CPPType="int32",PathToTooltip=(("sub_count", ""))),(Name="hierarchy",DisplayName="hierarchy",CPPType="bool",DefaultValue="true",PathToTooltip=(("hierarchy", ""))),(Name="use_joint_name",DisplayName="use_joint_name",CPPType="bool",DefaultValue="false",PathToTooltip=(("use_joint_name", ""))),(Name="parent",DisplayName="parent",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,DefaultValue="()",PathToTooltip=(("parent", ""))),(Name="description",DisplayName="description",CPPType="FString",DefaultValue="root",PathToTooltip=(("description", ""))),(Name="side",DisplayName="side",CPPType="FString",PathToTooltip=(("side", ""))),(Name="joints",DisplayName="joints",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,DefaultValue="()",PathToTooltip=(("joints", ""))),(Name="shape",DisplayName="shape",CPPType="FString",DefaultValue="Triangle_Thin",PathToTooltip=(("shape", ""))),(Name="shape_translate",DisplayName="shape_translate",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_translate", ""))),(Name="shape_rotate",DisplayName="shape_rotate",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_rotate", ""))),(Name="shape_scale",DisplayName="shape_scale",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_scale", ""))),(Name="color",DisplayName="color",CPPType="TArray<FLinearColor>",CPPTypeObject="/Script/CoreUObject.LinearColor",bIsArray=True,DefaultValue="((R=1.0,G=0.4,B=0.0,A=0.000000))",PathToTooltip=(("color", ""),("0", ""),("0.R", ""),("0.G", ""),("0.B", ""),("0.A", ""))),(Name="sub_color",DisplayName="sub_color",CPPType="TArray<FLinearColor>",CPPTypeObject="/Script/CoreUObject.LinearColor",bIsArray=True,DefaultValue="((R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000))",PathToTooltip=(("sub_color", ""),("0", ""),("0.R", ""),("0.G", ""),("0.B", ""),("0.A", ""))),(Name="controls",DisplayName="controls",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,Direction=Output,DefaultValue="()",PathToTooltip=(("controls", "")))),Dependencies=(((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ConstructName",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 3333154724),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 1596375182),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_Control",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 4105446961),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 1385493303),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetJointDescription",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 255915026)))
+   Position=(X=261.371107,Y=-217.858997)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'ExecuteContext'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'uuid'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'mode'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'restrain_numbering'"
+   Pins(4)="/Script/RigVMDeveloper.RigVMPin'joint_token'"
+   Pins(5)="/Script/RigVMDeveloper.RigVMPin'sub_count'"
+   Pins(6)="/Script/RigVMDeveloper.RigVMPin'hierarchy'"
+   Pins(7)="/Script/RigVMDeveloper.RigVMPin'use_joint_name'"
+   Pins(8)="/Script/RigVMDeveloper.RigVMPin'parent'"
+   Pins(9)="/Script/RigVMDeveloper.RigVMPin'description'"
+   Pins(10)="/Script/RigVMDeveloper.RigVMPin'side'"
+   Pins(11)="/Script/RigVMDeveloper.RigVMPin'joints'"
+   Pins(12)="/Script/RigVMDeveloper.RigVMPin'shape'"
+   Pins(13)="/Script/RigVMDeveloper.RigVMPin'shape_translate'"
+   Pins(14)="/Script/RigVMDeveloper.RigVMPin'shape_rotate'"
+   Pins(15)="/Script/RigVMDeveloper.RigVMPin'shape_scale'"
+   Pins(16)="/Script/RigVMDeveloper.RigVMPin'color'"
+   Pins(17)="/Script/RigVMDeveloper.RigVMPin'sub_color'"
+   Pins(18)="/Script/RigVMDeveloper.RigVMPin'controls'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionReferenceNode Name="vetala_FkRig_1" ExportPath="/Script/RigVMDeveloper.RigVMFunctionReferenceNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="controls" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.controls'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0.A'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0.B'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0.G'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0.R'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0.A'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0.B'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0.G'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0.R'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_scale" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.shape_scale'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_rotate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.shape_rotate'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_translate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.shape_translate'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.shape'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="joints" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="10" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.10'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.10.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.10.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="9" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.9'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.9.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.9.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="8" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.8'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.8.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.8.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="7" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.7'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.7.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.7.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="6" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.6'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.6.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.6.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="5" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.5'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.5.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.5.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="4" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.4'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.4.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.4.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="3" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.3'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.3.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.3.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="2" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.2'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.2.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.2.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="1" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.1'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.1.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.1.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.0.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.0.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="11" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.11'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.11.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.11.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="12" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.12'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.12.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.12.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="13" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.13'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.13.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.13.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="14" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.14'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.14.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.14.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="15" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.15'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.15.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.15.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="16" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.16'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.16.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.16.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="17" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.17'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.17.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.17.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="18" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.18'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.18.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.18.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="19" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.19'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.19.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.19.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="20" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.20'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.20.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.20.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="21" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.21'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.21.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.21.Name'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="side" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.side'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="description" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.description'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.parent'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="use_joint_name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.use_joint_name'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="hierarchy" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.hierarchy'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="sub_count" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_count'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="joint_token" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joint_token'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="restrain_numbering" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.restrain_numbering'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="mode" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.mode'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="uuid" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.uuid'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.ExecuteContext'"
+   End Object
+   Begin Object Name="controls" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.controls'"
+      Direction=Output
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0'"
+         Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0.A'"
+            DisplayName="A"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.000000"
+         End Object
+         Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0.B'"
+            DisplayName="B"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.6274509803921569"
+         End Object
+         Begin Object Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0.G'"
+            DisplayName="G"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="1.0"
+         End Object
+         Begin Object Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_color.0.R'"
+            DisplayName="R"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.8274509803921568"
+         End Object
+         Direction=Input
+         CPPType="FLinearColor"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+         CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+         DefaultValue="(R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000)"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'R'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'G'"
+         SubPins(2)="/Script/RigVMDeveloper.RigVMPin'B'"
+         SubPins(3)="/Script/RigVMDeveloper.RigVMPin'A'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FLinearColor>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+      CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+      DefaultValue="((R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000))"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+   End Object
+   Begin Object Name="color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0'"
+         Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0.A'"
+            DisplayName="A"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.000000"
+         End Object
+         Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0.B'"
+            DisplayName="B"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.0"
+         End Object
+         Begin Object Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0.G'"
+            DisplayName="G"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.4"
+         End Object
+         Begin Object Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.color.0.R'"
+            DisplayName="R"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="1.0"
+         End Object
+         Direction=Input
+         CPPType="FLinearColor"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+         CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+         DefaultValue="(R=1.0,G=0.4,B=0.0,A=0.000000)"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'R'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'G'"
+         SubPins(2)="/Script/RigVMDeveloper.RigVMPin'B'"
+         SubPins(3)="/Script/RigVMDeveloper.RigVMPin'A'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FLinearColor>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+      CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+      DefaultValue="((R=1.0,G=0.4,B=0.0,A=0.000000))"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+   End Object
+   Begin Object Name="shape_scale" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.shape_scale'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape_rotate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.shape_rotate'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape_translate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.shape_translate'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.shape'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="Triangle_Thin"
+   End Object
+   Begin Object Name="joints" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints'"
+      Begin Object Name="10" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.10'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.10.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_11"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.10.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="9" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.9'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.9.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_10"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.9.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="8" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.8'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.8.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_9"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.8.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="7" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.7'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.7.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_8"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.7.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="6" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.6'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.6.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_7"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.6.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="5" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.5'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.5.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_6"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.5.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="4" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.4'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.4.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_5"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.4.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="3" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.3'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.3.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_4"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.3.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="2" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.2'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.2.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_3"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.2.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="1" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.1'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.1.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_2"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.1.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.0'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.0.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test_1"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.0.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="11" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.11'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.11.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.11.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="12" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.12'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.12.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.12.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="13" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.13'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.13.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.13.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="14" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.14'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.14.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.14.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="15" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.15'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.15.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.15.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="16" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.16'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.16.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.16.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="17" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.17'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.17.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.17.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="18" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.18'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.18.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.18.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="19" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.19'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.19.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.19.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="20" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.20'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.20.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.20.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="21" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.21'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.21.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joints.21.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'1'"
+      SubPins(2)="/Script/RigVMDeveloper.RigVMPin'2'"
+      SubPins(3)="/Script/RigVMDeveloper.RigVMPin'3'"
+      SubPins(4)="/Script/RigVMDeveloper.RigVMPin'4'"
+      SubPins(5)="/Script/RigVMDeveloper.RigVMPin'5'"
+      SubPins(6)="/Script/RigVMDeveloper.RigVMPin'6'"
+      SubPins(7)="/Script/RigVMDeveloper.RigVMPin'7'"
+      SubPins(8)="/Script/RigVMDeveloper.RigVMPin'8'"
+      SubPins(9)="/Script/RigVMDeveloper.RigVMPin'9'"
+      SubPins(10)="/Script/RigVMDeveloper.RigVMPin'10'"
+      SubPins(11)="/Script/RigVMDeveloper.RigVMPin'11'"
+      SubPins(12)="/Script/RigVMDeveloper.RigVMPin'12'"
+      SubPins(13)="/Script/RigVMDeveloper.RigVMPin'13'"
+      SubPins(14)="/Script/RigVMDeveloper.RigVMPin'14'"
+      SubPins(15)="/Script/RigVMDeveloper.RigVMPin'15'"
+      SubPins(16)="/Script/RigVMDeveloper.RigVMPin'16'"
+      SubPins(17)="/Script/RigVMDeveloper.RigVMPin'17'"
+      SubPins(18)="/Script/RigVMDeveloper.RigVMPin'18'"
+      SubPins(19)="/Script/RigVMDeveloper.RigVMPin'19'"
+      SubPins(20)="/Script/RigVMDeveloper.RigVMPin'20'"
+      SubPins(21)="/Script/RigVMDeveloper.RigVMPin'21'"
+   End Object
+   Begin Object Name="side" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.side'"
+      Direction=Input
+      CPPType="FString"
+   End Object
+   Begin Object Name="description" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.description'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="root"
+   End Object
+   Begin Object Name="parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.parent'"
+      Direction=Input
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="use_joint_name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.use_joint_name'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="false"
+   End Object
+   Begin Object Name="hierarchy" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.hierarchy'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="true"
+   End Object
+   Begin Object Name="sub_count" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.sub_count'"
+      Direction=Input
+      CPPType="int32"
+   End Object
+   Begin Object Name="joint_token" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.joint_token'"
+      Direction=Input
+      CPPType="FString"
+   End Object
+   Begin Object Name="restrain_numbering" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.restrain_numbering'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="false"
+   End Object
+   Begin Object Name="mode" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.mode'"
+      Direction=Input
+      CPPType="int32"
+      DefaultValue="2"
+   End Object
+   Begin Object Name="uuid" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.uuid'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="fab769e8-d670-4efc-b89c-5f92063d097a"
+   End Object
+   Begin Object Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_1.ExecuteContext'"
+      Direction=IO
+      CPPType="FRigVMExecuteContext"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/RigVM.RigVMExecuteContext'"
+      CPPTypeObjectPath="/Script/RigVM.RigVMExecuteContext"
+      DefaultValue="()"
+   End Object
+   ReferencedFunctionHeader=(LibraryPointer=(LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"),Name="vetala_FkRig",NodeTitle="vetala_FkRig",Arguments=((Name="ExecuteContext",DisplayName="ExecuteContext",CPPType="FRigVMExecuteContext",CPPTypeObject="/Script/RigVM.RigVMExecuteContext",Direction=IO,DefaultValue="()",PathToTooltip=(("ExecuteContext", ""))),(Name="uuid",DisplayName="uuid",CPPType="FString",PathToTooltip=(("uuid", ""))),(Name="mode",DisplayName="mode",CPPType="int32",PathToTooltip=(("mode", ""))),(Name="restrain_numbering",DisplayName="restrain_numbering",CPPType="bool",DefaultValue="false",PathToTooltip=(("restrain_numbering", ""))),(Name="joint_token",DisplayName="joint_token",CPPType="FString",PathToTooltip=(("joint_token", ""))),(Name="sub_count",DisplayName="sub_count",CPPType="int32",PathToTooltip=(("sub_count", ""))),(Name="hierarchy",DisplayName="hierarchy",CPPType="bool",DefaultValue="true",PathToTooltip=(("hierarchy", ""))),(Name="use_joint_name",DisplayName="use_joint_name",CPPType="bool",DefaultValue="false",PathToTooltip=(("use_joint_name", ""))),(Name="parent",DisplayName="parent",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,DefaultValue="()",PathToTooltip=(("parent", ""))),(Name="description",DisplayName="description",CPPType="FString",DefaultValue="root",PathToTooltip=(("description", ""))),(Name="side",DisplayName="side",CPPType="FString",PathToTooltip=(("side", ""))),(Name="joints",DisplayName="joints",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,DefaultValue="()",PathToTooltip=(("joints", ""))),(Name="shape",DisplayName="shape",CPPType="FString",DefaultValue="Triangle_Thin",PathToTooltip=(("shape", ""))),(Name="shape_translate",DisplayName="shape_translate",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_translate", ""))),(Name="shape_rotate",DisplayName="shape_rotate",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_rotate", ""))),(Name="shape_scale",DisplayName="shape_scale",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_scale", ""))),(Name="color",DisplayName="color",CPPType="TArray<FLinearColor>",CPPTypeObject="/Script/CoreUObject.LinearColor",bIsArray=True,DefaultValue="((R=1.0,G=0.4,B=0.0,A=0.000000))",PathToTooltip=(("color", ""),("0", ""),("0.R", ""),("0.G", ""),("0.B", ""),("0.A", ""))),(Name="sub_color",DisplayName="sub_color",CPPType="TArray<FLinearColor>",CPPTypeObject="/Script/CoreUObject.LinearColor",bIsArray=True,DefaultValue="((R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000))",PathToTooltip=(("sub_color", ""),("0", ""),("0.R", ""),("0.G", ""),("0.B", ""),("0.A", ""))),(Name="controls",DisplayName="controls",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,Direction=Output,DefaultValue="()",PathToTooltip=(("controls", "")))),Dependencies=(((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ConstructName",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 3333154724),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 1596375182),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_Control",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 4105446961),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 1385493303),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetJointDescription",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 255915026)))
+   Position=(X=765.778547,Y=305.977509)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'ExecuteContext'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'uuid'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'mode'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'restrain_numbering'"
+   Pins(4)="/Script/RigVMDeveloper.RigVMPin'joint_token'"
+   Pins(5)="/Script/RigVMDeveloper.RigVMPin'sub_count'"
+   Pins(6)="/Script/RigVMDeveloper.RigVMPin'hierarchy'"
+   Pins(7)="/Script/RigVMDeveloper.RigVMPin'use_joint_name'"
+   Pins(8)="/Script/RigVMDeveloper.RigVMPin'parent'"
+   Pins(9)="/Script/RigVMDeveloper.RigVMPin'description'"
+   Pins(10)="/Script/RigVMDeveloper.RigVMPin'side'"
+   Pins(11)="/Script/RigVMDeveloper.RigVMPin'joints'"
+   Pins(12)="/Script/RigVMDeveloper.RigVMPin'shape'"
+   Pins(13)="/Script/RigVMDeveloper.RigVMPin'shape_translate'"
+   Pins(14)="/Script/RigVMDeveloper.RigVMPin'shape_rotate'"
+   Pins(15)="/Script/RigVMDeveloper.RigVMPin'shape_scale'"
+   Pins(16)="/Script/RigVMDeveloper.RigVMPin'color'"
+   Pins(17)="/Script/RigVMDeveloper.RigVMPin'sub_color'"
+   Pins(18)="/Script/RigVMDeveloper.RigVMPin'controls'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionReferenceNode Name="vetala_FkRig_2" ExportPath="/Script/RigVMDeveloper.RigVMFunctionReferenceNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="controls" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.controls'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0.A'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0.B'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0.G'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0.R'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0.A'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0.B'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0.G'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0.R'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_scale" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.shape_scale'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_rotate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.shape_rotate'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_translate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.shape_translate'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.shape'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="joints" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="4" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.4'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.4.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.4.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="3" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.3'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.3.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.3.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="2" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.2'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.2.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.2.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="1" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.1'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.1.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.1.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.0.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.0.Type'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="5" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.5'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.5.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.5.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="6" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.6'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.6.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.6.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="7" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.7'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.7.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.7.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="8" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.8'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.8.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.8.Name'"
+         End Object
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="9" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.9'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.9.Type'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.9.Name'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="side" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.side'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="description" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.description'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.parent'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="use_joint_name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.use_joint_name'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="hierarchy" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.hierarchy'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="sub_count" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_count'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="joint_token" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joint_token'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="restrain_numbering" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.restrain_numbering'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="mode" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.mode'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="uuid" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.uuid'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.ExecuteContext'"
+   End Object
+   Begin Object Name="controls" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.controls'"
+      Direction=Output
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0'"
+         Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0.A'"
+            DisplayName="A"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.000000"
+         End Object
+         Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0.B'"
+            DisplayName="B"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.6274509803921569"
+         End Object
+         Begin Object Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0.G'"
+            DisplayName="G"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="1.0"
+         End Object
+         Begin Object Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_color.0.R'"
+            DisplayName="R"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.8274509803921568"
+         End Object
+         Direction=Input
+         CPPType="FLinearColor"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+         CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+         DefaultValue="(R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000)"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'R'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'G'"
+         SubPins(2)="/Script/RigVMDeveloper.RigVMPin'B'"
+         SubPins(3)="/Script/RigVMDeveloper.RigVMPin'A'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FLinearColor>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+      CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+      DefaultValue="((R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000))"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+   End Object
+   Begin Object Name="color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0'"
+         Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0.A'"
+            DisplayName="A"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.000000"
+         End Object
+         Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0.B'"
+            DisplayName="B"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.0"
+         End Object
+         Begin Object Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0.G'"
+            DisplayName="G"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="0.4"
+         End Object
+         Begin Object Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.color.0.R'"
+            DisplayName="R"
+            Direction=Input
+            CPPType="float"
+            DefaultValue="1.0"
+         End Object
+         Direction=Input
+         CPPType="FLinearColor"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+         CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+         DefaultValue="(R=1.0,G=0.4,B=0.0,A=0.000000)"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'R'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'G'"
+         SubPins(2)="/Script/RigVMDeveloper.RigVMPin'B'"
+         SubPins(3)="/Script/RigVMDeveloper.RigVMPin'A'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FLinearColor>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+      CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+      DefaultValue="((R=1.0,G=0.4,B=0.0,A=0.000000))"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+   End Object
+   Begin Object Name="shape_scale" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.shape_scale'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape_rotate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.shape_rotate'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape_translate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.shape_translate'"
+      Direction=Input
+      CPPType="TArray<FVector>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'"
+      CPPTypeObjectPath="/Script/CoreUObject.Vector"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="shape" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.shape'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="Triangle_Thin"
+   End Object
+   Begin Object Name="joints" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints'"
+      Begin Object Name="4" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.4'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.4.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test2_5"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.4.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="3" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.3'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.3.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test2_4"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.3.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="2" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.2'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.2.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test2_3"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.2.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="1" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.1'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.1.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test2_2"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.1.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.0'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.0.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="joint_test2_1"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.0.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="5" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.5'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.5.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.5.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="6" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.6'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.6.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.6.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="7" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.7'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.7.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.7.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="8" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.8'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.8.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.8.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Begin Object Name="9" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.9'"
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.9.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joints.9.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Direction=Input
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Direction=Input
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'1'"
+      SubPins(2)="/Script/RigVMDeveloper.RigVMPin'2'"
+      SubPins(3)="/Script/RigVMDeveloper.RigVMPin'3'"
+      SubPins(4)="/Script/RigVMDeveloper.RigVMPin'4'"
+      SubPins(5)="/Script/RigVMDeveloper.RigVMPin'5'"
+      SubPins(6)="/Script/RigVMDeveloper.RigVMPin'6'"
+      SubPins(7)="/Script/RigVMDeveloper.RigVMPin'7'"
+      SubPins(8)="/Script/RigVMDeveloper.RigVMPin'8'"
+      SubPins(9)="/Script/RigVMDeveloper.RigVMPin'9'"
+   End Object
+   Begin Object Name="side" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.side'"
+      Direction=Input
+      CPPType="FString"
+   End Object
+   Begin Object Name="description" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.description'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="root"
+   End Object
+   Begin Object Name="parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.parent'"
+      Direction=Input
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="use_joint_name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.use_joint_name'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="false"
+   End Object
+   Begin Object Name="hierarchy" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.hierarchy'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="true"
+   End Object
+   Begin Object Name="sub_count" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.sub_count'"
+      Direction=Input
+      CPPType="int32"
+   End Object
+   Begin Object Name="joint_token" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.joint_token'"
+      Direction=Input
+      CPPType="FString"
+   End Object
+   Begin Object Name="restrain_numbering" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.restrain_numbering'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="false"
+   End Object
+   Begin Object Name="mode" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.mode'"
+      Direction=Input
+      CPPType="int32"
+      DefaultValue="2"
+   End Object
+   Begin Object Name="uuid" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.uuid'"
+      Direction=Input
+      CPPType="FString"
+      DefaultValue="8e22b526-3291-4626-9821-bcafb93d9e82"
+   End Object
+   Begin Object Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.vetala_FkRig_2.ExecuteContext'"
+      Direction=IO
+      CPPType="FRigVMExecuteContext"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/RigVM.RigVMExecuteContext'"
+      CPPTypeObjectPath="/Script/RigVM.RigVMExecuteContext"
+      DefaultValue="()"
+   End Object
+   ReferencedFunctionHeader=(LibraryPointer=(LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"),Name="vetala_FkRig",NodeTitle="vetala_FkRig",Arguments=((Name="ExecuteContext",DisplayName="ExecuteContext",CPPType="FRigVMExecuteContext",CPPTypeObject="/Script/RigVM.RigVMExecuteContext",Direction=IO,DefaultValue="()",PathToTooltip=(("ExecuteContext", ""))),(Name="uuid",DisplayName="uuid",CPPType="FString",PathToTooltip=(("uuid", ""))),(Name="mode",DisplayName="mode",CPPType="int32",PathToTooltip=(("mode", ""))),(Name="restrain_numbering",DisplayName="restrain_numbering",CPPType="bool",DefaultValue="false",PathToTooltip=(("restrain_numbering", ""))),(Name="joint_token",DisplayName="joint_token",CPPType="FString",PathToTooltip=(("joint_token", ""))),(Name="sub_count",DisplayName="sub_count",CPPType="int32",PathToTooltip=(("sub_count", ""))),(Name="hierarchy",DisplayName="hierarchy",CPPType="bool",DefaultValue="true",PathToTooltip=(("hierarchy", ""))),(Name="use_joint_name",DisplayName="use_joint_name",CPPType="bool",DefaultValue="false",PathToTooltip=(("use_joint_name", ""))),(Name="parent",DisplayName="parent",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,DefaultValue="()",PathToTooltip=(("parent", ""))),(Name="description",DisplayName="description",CPPType="FString",DefaultValue="root",PathToTooltip=(("description", ""))),(Name="side",DisplayName="side",CPPType="FString",PathToTooltip=(("side", ""))),(Name="joints",DisplayName="joints",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,DefaultValue="()",PathToTooltip=(("joints", ""))),(Name="shape",DisplayName="shape",CPPType="FString",DefaultValue="Triangle_Thin",PathToTooltip=(("shape", ""))),(Name="shape_translate",DisplayName="shape_translate",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_translate", ""))),(Name="shape_rotate",DisplayName="shape_rotate",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_rotate", ""))),(Name="shape_scale",DisplayName="shape_scale",CPPType="TArray<FVector>",CPPTypeObject="/Script/CoreUObject.Vector",bIsArray=True,DefaultValue="()",PathToTooltip=(("shape_scale", ""))),(Name="color",DisplayName="color",CPPType="TArray<FLinearColor>",CPPTypeObject="/Script/CoreUObject.LinearColor",bIsArray=True,DefaultValue="((R=1.0,G=0.4,B=0.0,A=0.000000))",PathToTooltip=(("color", ""),("0", ""),("0.R", ""),("0.G", ""),("0.B", ""),("0.A", ""))),(Name="sub_color",DisplayName="sub_color",CPPType="TArray<FLinearColor>",CPPTypeObject="/Script/CoreUObject.LinearColor",bIsArray=True,DefaultValue="((R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000))",PathToTooltip=(("sub_color", ""),("0", ""),("0.R", ""),("0.G", ""),("0.B", ""),("0.A", ""))),(Name="controls",DisplayName="controls",CPPType="TArray<FRigElementKey>",CPPTypeObject="/Script/ControlRig.RigElementKey",bIsArray=True,Direction=Output,DefaultValue="()",PathToTooltip=(("controls", "")))),Dependencies=(((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ConstructName",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 3333154724),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 1596375182),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_Control",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 4105446961),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 1385493303),((LibraryNode="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetJointDescription",HostObject="/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig_C"), 255915026)))
+   Position=(X=1514.801445,Y=785.523549)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'ExecuteContext'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'uuid'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'mode'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'restrain_numbering'"
+   Pins(4)="/Script/RigVMDeveloper.RigVMPin'joint_token'"
+   Pins(5)="/Script/RigVMDeveloper.RigVMPin'sub_count'"
+   Pins(6)="/Script/RigVMDeveloper.RigVMPin'hierarchy'"
+   Pins(7)="/Script/RigVMDeveloper.RigVMPin'use_joint_name'"
+   Pins(8)="/Script/RigVMDeveloper.RigVMPin'parent'"
+   Pins(9)="/Script/RigVMDeveloper.RigVMPin'description'"
+   Pins(10)="/Script/RigVMDeveloper.RigVMPin'side'"
+   Pins(11)="/Script/RigVMDeveloper.RigVMPin'joints'"
+   Pins(12)="/Script/RigVMDeveloper.RigVMPin'shape'"
+   Pins(13)="/Script/RigVMDeveloper.RigVMPin'shape_translate'"
+   Pins(14)="/Script/RigVMDeveloper.RigVMPin'shape_rotate'"
+   Pins(15)="/Script/RigVMDeveloper.RigVMPin'shape_scale'"
+   Pins(16)="/Script/RigVMDeveloper.RigVMPin'color'"
+   Pins(17)="/Script/RigVMDeveloper.RigVMPin'sub_color'"
+   Pins(18)="/Script/RigVMDeveloper.RigVMPin'controls'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_0" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.RigVMLink_0'"
+   SourcePinPath="InverseExecution.ExecuteContext"
+   TargetPinPath="vetala_FkRig.ExecuteContext"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_1" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.RigVMLink_1'"
+   SourcePinPath="vetala_FkRig.ExecuteContext"
+   TargetPinPath="vetala_FkRig_1.ExecuteContext"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_2" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMModel Backward Solve Graph.RigVMLink_2'"
+   SourcePinPath="vetala_FkRig_1.ExecuteContext"
+   TargetPinPath="vetala_FkRig_2.ExecuteContext"
+End Object

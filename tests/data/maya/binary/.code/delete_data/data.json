@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "delete_data"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]
