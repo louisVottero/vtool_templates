@@ -2,20 +2,38 @@
     {
         "name":"Color",
         "position":[
-            2259.5625,
-            2989.375
+            2250.1875,
+            2681.5625
         ],
         "type":10003,
-        "uuid":"91397ff9-7273-437b-88d5-ebf8ffd77ccf",
+        "uuid":"c189b58b-6042-4e89-9cd5-365030f91a9e",
         "widget_value":{
             "color value":{
                 "data_type":7,
                 "value":[
                     [
+                        1.0,
+                        1.0,
                         0.0,
-                        0.3333333333333333,
                         1.0
                     ]
+                ]
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            2267.625,
+            2485.3125
+        ],
+        "type":10002,
+        "uuid":"88d3f5a5-d4e1-4619-ae29-8de3a298b4a5",
+        "widget_value":{
+            "joint filter":{
+                "data_type":5,
+                "value":[
+                    "joint_exampleA*"
                 ]
             }
         }
@@ -31,41 +49,29 @@
         "widget_value":{
             "joint filter":{
                 "data_type":5,
-                "value":"joint_exampleB*"
-            }
-        }
-    },
-    {
-        "name":"Joints",
-        "position":[
-            2267.625,
-            2485.3125
-        ],
-        "type":10002,
-        "uuid":"88d3f5a5-d4e1-4619-ae29-8de3a298b4a5",
-        "widget_value":{
-            "joint filter":{
-                "data_type":5,
-                "value":"joint_exampleA*"
+                "value":[
+                    "joint_exampleB*"
+                ]
             }
         }
     },
     {
         "name":"Color",
         "position":[
-            2250.1875,
-            2681.5625
+            2259.5625,
+            2989.375
         ],
         "type":10003,
-        "uuid":"c189b58b-6042-4e89-9cd5-365030f91a9e",
+        "uuid":"91397ff9-7273-437b-88d5-ebf8ffd77ccf",
         "widget_value":{
             "color value":{
                 "data_type":7,
                 "value":[
                     [
+                        0.0,
+                        0.3333333333333333,
                         1.0,
-                        1.0,
-                        0.0
+                        1.0
                     ]
                 ]
             }

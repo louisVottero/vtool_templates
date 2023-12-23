@@ -117,23 +117,6 @@
         }
     },
     {
-        "name":"Get Sub Controls",
-        "position":[
-            1337.5121107266439,
-            724.5847750865053
-        ],
-        "type":21000,
-        "uuid":"47e7162c-13b5-4e4c-ac4e-a0ee0617552c",
-        "widget_value":{
-            "control_index":{
-                "data_type":null,
-                "value":[
-                    -1
-                ]
-            }
-        }
-    },
-    {
         "name":"Import Data",
         "position":[
             -57.08865937500104,
@@ -645,20 +628,6 @@
         "type":4
     },
     {
-        "source":"47e7162c-13b5-4e4c-ac4e-a0ee0617552c",
-        "source name":"sub_controls",
-        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
-        "target name":"parent",
-        "type":4
-    },
-    {
-        "source":"fab769e8-d670-4efc-b89c-5f92063d097a",
-        "source name":"controls",
-        "target":"47e7162c-13b5-4e4c-ac4e-a0ee0617552c",
-        "target name":"controls",
-        "type":4
-    },
-    {
         "source":"73c45666-588a-47ce-b873-095c35b7f7ab",
         "source name":"Scale",
         "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
@@ -754,6 +723,13 @@
         "source name":"joints",
         "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "source name":"controls",
+        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "target name":"parent",
         "type":4
     }
 ]
