@@ -1,70 +1,19 @@
 [
     {
-        "name":"Joints",
-        "position":[
-            -1835.196586239092,
-            -2390.61021542179
-        ],
-        "type":10002,
-        "uuid":"bd5e9348-d27c-43ad-a865-6150fec32348",
-        "widget_value":{
-            "joint filter":{
-                "data_type":5,
-                "value":[
-                    "joint_test2_*"
-                ]
-            }
-        }
-    },
-    {
-        "name":"Joints",
-        "position":[
-            -2820.357976316016,
-            -3195.708216157878
-        ],
-        "type":10002,
-        "uuid":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
-        "widget_value":{
-            "joint filter":{
-                "data_type":5,
-                "value":[
-                    "root"
-                ]
-            }
-        }
-    },
-    {
-        "name":"Joints",
-        "position":[
-            -2407.8650778389574,
-            -2775.8235898726066
-        ],
-        "type":10002,
-        "uuid":"b94b660c-81fb-4726-acee-4232bcb6ab42",
-        "widget_value":{
-            "joint filter":{
-                "data_type":5,
-                "value":[
-                    "joint_test_*"
-                ]
-            }
-        }
-    },
-    {
         "name":"Color",
         "position":[
-            -3010.6596150997457,
-            -2698.4415978261936
+            1372.3771964875968,
+            1065.9271646471755
         ],
         "type":10003,
-        "uuid":"e9e88780-fdbc-4547-b678-cc0a62972851",
+        "uuid":"218c0ff2-a5ed-4520-b438-9babf1ca7995",
         "widget_value":{
             "color value":{
                 "data_type":7,
                 "value":[
                     [
                         1.0,
-                        0.4,
+                        0.0,
                         0.0,
                         1.0
                     ]
@@ -75,8 +24,8 @@
     {
         "name":"Color",
         "position":[
-            -2660.41228153623,
-            -2602.5410262059845
+            562.285246588769,
+            640.8932206690147
         ],
         "type":10003,
         "uuid":"81a96054-6cd9-4a64-8f5f-55dfa70a391a",
@@ -97,18 +46,18 @@
     {
         "name":"Color",
         "position":[
-            -1850.3203316374024,
-            -2177.5070822278235
+            212.03791302525315,
+            544.9926490488056
         ],
         "type":10003,
-        "uuid":"218c0ff2-a5ed-4520-b438-9babf1ca7995",
+        "uuid":"e9e88780-fdbc-4547-b678-cc0a62972851",
         "widget_value":{
             "color value":{
                 "data_type":7,
                 "value":[
                     [
                         1.0,
-                        0.0,
+                        0.4,
                         0.0,
                         1.0
                     ]
@@ -117,18 +66,90 @@
         }
     },
     {
+        "name":"Joints",
+        "position":[
+            814.8324502860405,
+            467.6106570023926
+        ],
+        "type":10002,
+        "uuid":"b94b660c-81fb-4726-acee-4232bcb6ab42",
+        "widget_value":{
+            "joint filter":{
+                "data_type":5,
+                "value":[
+                    "joint_test_*"
+                ]
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            402.33955180898283,
+            47.726030717121375
+        ],
+        "type":10002,
+        "uuid":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
+        "widget_value":{
+            "joint filter":{
+                "data_type":5,
+                "value":[
+                    "root"
+                ]
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            1387.5009418859072,
+            852.824031453209
+        ],
+        "type":10002,
+        "uuid":"bd5e9348-d27c-43ad-a865-6150fec32348",
+        "widget_value":{
+            "joint filter":{
+                "data_type":5,
+                "value":[
+                    "joint_test2_*"
+                ]
+            }
+        }
+    },
+    {
         "name":"Get Sub Controls",
         "position":[
-            -1871.2106655811108,
-            -2622.2180888638786
+            1337.5121107266439,
+            724.5847750865053
         ],
         "type":21000,
-        "uuid":"003d62ac-3186-4181-87c1-73300ace43ec",
+        "uuid":"47e7162c-13b5-4e4c-ac4e-a0ee0617552c",
         "widget_value":{
             "control_index":{
                 "data_type":null,
                 "value":[
-                    0
+                    -1
+                ]
+            }
+        }
+    },
+    {
+        "name":"Import Data",
+        "position":[
+            -57.08865937500104,
+            -129.8955031250007
+        ],
+        "type":30002,
+        "uuid":"e7ad327d-0117-494d-bf95-17732d326a7b",
+        "widget_value":{
+            "New Scene":{
+                "data_type":null,
+                "value":1
+            },
+            "data name":{
+                "data_type":5,
+                "value":[
+                    "asset"
                 ]
             }
         }
@@ -136,8 +157,8 @@
     {
         "name":"Curve Shape",
         "position":[
-            -3039.617521755551,
-            -3165.159334106925
+            183.0800063694478,
+            78.27491276807405
         ],
         "type":10004,
         "uuid":"e6b30822-96ec-4060-9497-67aed626bfe7",
@@ -157,102 +178,10 @@
         }
     },
     {
-        "name":"Import Data",
-        "position":[
-            -3279.7861875,
-            -3373.3297500000003
-        ],
-        "type":30002,
-        "uuid":"e7ad327d-0117-494d-bf95-17732d326a7b",
-        "widget_value":{
-            "New Scene":{
-                "data_type":null,
-                "value":1
-            },
-            "data name":{
-                "data_type":5,
-                "value":[
-                    "asset"
-                ]
-            }
-        }
-    },
-    {
         "name":"Transform Vector",
         "position":[
-            -2781.482788636594,
-            -2387.4553844829093
-        ],
-        "type":10005,
-        "uuid":"73c45666-588a-47ce-b873-095c35b7f7ab",
-        "widget_value":{
-            "Maya Rotate":{
-                "data_type":null,
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        90.0
-                    ]
-                ]
-            },
-            "Maya Scale":{
-                "data_type":null,
-                "value":[
-                    [
-                        1.0,
-                        1.0,
-                        1.0
-                    ]
-                ]
-            },
-            "Maya Translate":{
-                "data_type":null,
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ]
-            },
-            "Unreal Rotate":{
-                "data_type":null,
-                "value":[
-                    [
-                        0.0,
-                        90.0,
-                        0.0
-                    ]
-                ]
-            },
-            "Unreal Scale":{
-                "data_type":null,
-                "value":[
-                    [
-                        0.5,
-                        0.5,
-                        0.5
-                    ]
-                ]
-            },
-            "Unreal Translate":{
-                "data_type":null,
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ]
-            }
-        }
-    },
-    {
-        "name":"Transform Vector",
-        "position":[
-            -3033.7984918027005,
-            -3009.579917845081
+            188.89903632229834,
+            233.85432902991806
         ],
         "type":10005,
         "uuid":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
@@ -320,22 +249,93 @@
         }
     },
     {
+        "name":"Transform Vector",
+        "position":[
+            441.2147394884041,
+            855.9788623920899
+        ],
+        "type":10005,
+        "uuid":"73c45666-588a-47ce-b873-095c35b7f7ab",
+        "widget_value":{
+            "Maya Rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        90.0
+                    ]
+                ]
+            },
+            "Maya Scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ]
+            },
+            "Maya Translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            },
+            "Unreal Rotate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        90.0,
+                        0.0
+                    ]
+                ]
+            },
+            "Unreal Scale":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ]
+            },
+            "Unreal Translate":{
+                "data_type":null,
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ]
+            }
+        }
+    },
+    {
         "name":"FkRig",
         "position":[
-            -1604.945031665292,
-            -2485.910910638008
+            1018.5341779952405,
+            373.8865037954142
         ],
-        "rig uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "rig uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
         "type":20003,
-        "uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
         "widget_value":{
             "color":{
                 "data_type":null,
                 "value":[
                     [
+                        0.0,
+                        0.0,
                         1.0,
-                        0.0,
-                        0.0,
                         1.0
                     ]
                 ]
@@ -343,12 +343,12 @@
             "description":{
                 "data_type":null,
                 "value":[
-                    "test2"
+                    "test"
                 ]
             },
             "hierarchy":{
                 "data_type":2,
-                "value":1
+                "value":0
             },
             "joint_token":{
                 "data_type":5,
@@ -358,7 +358,7 @@
             },
             "restrain_numbering":{
                 "data_type":2,
-                "value":0
+                "value":false
             },
             "shape":{
                 "data_type":null,
@@ -406,9 +406,9 @@
                 "data_type":null,
                 "value":[
                     [
-                        1.0,
-                        0.792156862745098,
-                        0.3058823529411765,
+                        0.7499961852445258,
+                        0.4,
+                        0.0,
                         1.0
                     ]
                 ]
@@ -416,20 +416,20 @@
             "sub_count":{
                 "data_type":3,
                 "value":[
-                    2
+                    1
                 ]
             },
             "use_joint_name":{
                 "data_type":2,
-                "value":0
+                "value":false
             }
         }
     },
     {
         "name":"FkRig",
         "position":[
-            -2607.6893016868507,
-            -3288.616947231834
+            615.0082264381481,
+            -45.18270035683463
         ],
         "rig uuid":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
         "type":20003,
@@ -454,7 +454,7 @@
             },
             "hierarchy":{
                 "data_type":2,
-                "value":true
+                "value":1
             },
             "joint_token":{
                 "data_type":5,
@@ -534,20 +534,20 @@
     {
         "name":"FkRig",
         "position":[
-            -2204.1633501297574,
-            -2869.547743079585
+            1617.752496459706,
+            757.5233362369913
         ],
-        "rig uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "rig uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "type":20003,
-        "uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "widget_value":{
             "color":{
                 "data_type":null,
                 "value":[
                     [
-                        0.0,
-                        0.0,
                         1.0,
+                        0.0,
+                        0.0,
                         1.0
                     ]
                 ]
@@ -555,12 +555,12 @@
             "description":{
                 "data_type":null,
                 "value":[
-                    "test"
+                    "test2"
                 ]
             },
             "hierarchy":{
                 "data_type":2,
-                "value":true
+                "value":0
             },
             "joint_token":{
                 "data_type":5,
@@ -570,7 +570,7 @@
             },
             "restrain_numbering":{
                 "data_type":2,
-                "value":false
+                "value":0
             },
             "shape":{
                 "data_type":null,
@@ -618,9 +618,9 @@
                 "data_type":null,
                 "value":[
                     [
-                        0.7499961852445258,
-                        0.4,
-                        0.0,
+                        1.0,
+                        0.792156862745098,
+                        0.3058823529411765,
                         1.0
                     ]
                 ]
@@ -628,17 +628,24 @@
             "sub_count":{
                 "data_type":3,
                 "value":[
-                    5
+                    1
                 ]
             },
             "use_joint_name":{
                 "data_type":2,
-                "value":false
+                "value":0
             }
         }
     },
     {
-        "source":"003d62ac-3186-4181-87c1-73300ace43ec",
+        "source":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "source name":"controls",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"parent",
+        "type":4
+    },
+    {
+        "source":"47e7162c-13b5-4e4c-ac4e-a0ee0617552c",
         "source name":"sub_controls",
         "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "target name":"parent",
@@ -647,29 +654,85 @@
     {
         "source":"fab769e8-d670-4efc-b89c-5f92063d097a",
         "source name":"controls",
-        "target":"003d62ac-3186-4181-87c1-73300ace43ec",
+        "target":"47e7162c-13b5-4e4c-ac4e-a0ee0617552c",
         "target name":"controls",
-        "type":4
-    },
-    {
-        "source":"bd5e9348-d27c-43ad-a865-6150fec32348",
-        "source name":"joints",
-        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
-        "target name":"joints",
         "type":4
     },
     {
         "source":"73c45666-588a-47ce-b873-095c35b7f7ab",
         "source name":"Scale",
-        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "target name":"shape_scale",
         "type":4
     },
     {
-        "source":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "source name":"controls",
+        "source":"73c45666-588a-47ce-b873-095c35b7f7ab",
+        "source name":"Rotate",
+        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "target name":"shape_rotate",
+        "type":4
+    },
+    {
+        "source":"81a96054-6cd9-4a64-8f5f-55dfa70a391a",
+        "source name":"color",
         "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
-        "target name":"parent",
+        "target name":"color",
+        "type":4
+    },
+    {
+        "source":"b94b660c-81fb-4726-acee-4232bcb6ab42",
+        "source name":"joints",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
+        "source name":"joints",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"e9e88780-fdbc-4547-b678-cc0a62972851",
+        "source name":"color",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"color",
+        "type":4
+    },
+    {
+        "source":"e6b30822-96ec-4060-9497-67aed626bfe7",
+        "source name":"curve_shape",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape",
+        "type":4
+    },
+    {
+        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
+        "source name":"Translate",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape_translate",
+        "type":4
+    },
+    {
+        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
+        "source name":"Rotate",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape_rotate",
+        "type":4
+    },
+    {
+        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
+        "source name":"Scale",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape_scale",
+        "type":4
+    },
+    {
+        "source":"73c45666-588a-47ce-b873-095c35b7f7ab",
+        "source name":"Rotate",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"shape_rotate",
         "type":4
     },
     {
@@ -681,79 +744,16 @@
     },
     {
         "source":"73c45666-588a-47ce-b873-095c35b7f7ab",
-        "source name":"Rotate",
-        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
-        "target name":"shape_rotate",
-        "type":4
-    },
-    {
-        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
         "source name":"Scale",
-        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
         "target name":"shape_scale",
         "type":4
     },
     {
-        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
-        "source name":"Rotate",
-        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "target name":"shape_rotate",
-        "type":4
-    },
-    {
-        "source":"1063a20e-49a4-4d13-b356-a5f72ab997dc",
-        "source name":"Translate",
-        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "target name":"shape_translate",
-        "type":4
-    },
-    {
-        "source":"e6b30822-96ec-4060-9497-67aed626bfe7",
-        "source name":"curve_shape",
-        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "target name":"shape",
-        "type":4
-    },
-    {
-        "source":"e9e88780-fdbc-4547-b678-cc0a62972851",
-        "source name":"color",
-        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "target name":"color",
-        "type":4
-    },
-    {
-        "source":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
+        "source":"bd5e9348-d27c-43ad-a865-6150fec32348",
         "source name":"joints",
-        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "target name":"joints",
-        "type":4
-    },
-    {
-        "source":"b94b660c-81fb-4726-acee-4232bcb6ab42",
-        "source name":"joints",
-        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
-        "target name":"joints",
-        "type":4
-    },
-    {
-        "source":"81a96054-6cd9-4a64-8f5f-55dfa70a391a",
-        "source name":"color",
-        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
-        "target name":"color",
-        "type":4
-    },
-    {
-        "source":"73c45666-588a-47ce-b873-095c35b7f7ab",
-        "source name":"Rotate",
         "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
-        "target name":"shape_rotate",
-        "type":4
-    },
-    {
-        "source":"73c45666-588a-47ce-b873-095c35b7f7ab",
-        "source name":"Scale",
-        "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
-        "target name":"shape_scale",
+        "target name":"joints",
         "type":4
     }
 ]
