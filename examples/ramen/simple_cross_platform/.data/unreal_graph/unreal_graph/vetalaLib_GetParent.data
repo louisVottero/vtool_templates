@@ -854,26 +854,33 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="ItemExists" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists'"
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Item" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item'"
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Type'"
-      End Object
       Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Type'"
       End Object
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Exists" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Exists'"
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="CachedIndex" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex'"
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key'"
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Type'"
-         End Object
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Name'"
-         End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.ContainerVersion'"
       End Object
       Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Index'"
       End Object
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.ContainerVersion'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Type'"
+         End Object
       End Object
    End Object
    Begin Object Name="Item" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
       Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Type'"
          DisplayName="Type"
          Direction=Input
@@ -881,13 +888,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="ItemExists" Export
          CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
          CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
          DefaultValue="None"
-      End Object
-      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Name'"
-         DisplayName="Name"
-         Direction=Input
-         CPPType="FName"
-         DefaultValue="None"
-         CustomWidgetName="ElementName"
       End Object
       DisplayName="Item"
       Direction=Input
@@ -905,7 +905,29 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="ItemExists" Export
       DefaultValue="False"
    End Object
    Begin Object Name="CachedIndex" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex'"
+      Begin Object Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.ContainerVersion'"
+         DisplayName="Container Version"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="int32"
+         DefaultValue="-1"
+      End Object
+      Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Index'"
+         DisplayName="Index"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="uint16"
+         DefaultValue="65535"
+      End Object
       Begin Object Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Name'"
+            DisplayName="Name"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
          Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Type'"
             DisplayName="Type"
             Direction=Hidden
@@ -915,14 +937,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="ItemExists" Export
             CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
             DefaultValue="None"
          End Object
-         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Name'"
-            DisplayName="Name"
-            Direction=Hidden
-            bIsDynamicArray=True
-            CPPType="FName"
-            DefaultValue="None"
-            CustomWidgetName="ElementName"
-         End Object
          DisplayName="Key"
          Direction=Hidden
          bIsDynamicArray=True
@@ -931,20 +945,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="ItemExists" Export
          CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
          SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
          SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
-      End Object
-      Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Index'"
-         DisplayName="Index"
-         Direction=Hidden
-         bIsDynamicArray=True
-         CPPType="uint16"
-         DefaultValue="65535"
-      End Object
-      Begin Object Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.ContainerVersion'"
-         DisplayName="Container Version"
-         Direction=Hidden
-         bIsDynamicArray=True
-         CPPType="int32"
-         DefaultValue="-1"
       End Object
       DisplayName="Cached Index"
       Direction=Hidden
@@ -968,21 +968,21 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Condition'"
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True'"
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Type'"
-      End Object
       Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Type'"
       End Object
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False'"
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Type'"
-      End Object
       Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Type'"
       End Object
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result'"
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Type'"
-      End Object
       Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Type'"
       End Object
    End Object
    Begin Object Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Condition'"
@@ -991,6 +991,13 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
       DefaultValue="False"
    End Object
    Begin Object Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
       Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Type'"
          DisplayName="Type"
          Direction=Input
@@ -998,13 +1005,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
          CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
          CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
          DefaultValue="None"
-      End Object
-      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Name'"
-         DisplayName="Name"
-         Direction=Input
-         CPPType="FName"
-         DefaultValue="None"
-         CustomWidgetName="ElementName"
       End Object
       Direction=Input
       CPPType="FRigElementKey"
@@ -1014,6 +1014,13 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
       SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
    End Object
    Begin Object Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
       Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Type'"
          DisplayName="Type"
          Direction=Input
@@ -1021,13 +1028,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
          CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
          CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
          DefaultValue="None"
-      End Object
-      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Name'"
-         DisplayName="Name"
-         Direction=Input
-         CPPType="FName"
-         DefaultValue="None"
-         CustomWidgetName="ElementName"
       End Object
       Direction=Input
       CPPType="FRigElementKey"
@@ -1037,6 +1037,13 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
       SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
    End Object
    Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Name'"
+         DisplayName="Name"
+         Direction=Output
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
       Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Type'"
          DisplayName="Type"
          Direction=Output
@@ -1044,13 +1051,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
          CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
          CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
          DefaultValue="None"
-      End Object
-      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Name'"
-         DisplayName="Name"
-         Direction=Output
-         CPPType="FName"
-         DefaultValue="None"
-         CustomWidgetName="ElementName"
       End Object
       Direction=Output
       CPPType="FRigElementKey"

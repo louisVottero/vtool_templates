@@ -14,13 +14,11 @@ def main():
     rig.set_ribbon_offset_axis('X')
     rig.set_ribbon_overshoot_stretch_axis('Z')
     
-    #rig.set_control_offset_axis('X')    
     rig.set_control_size(put.size*15)
     rig.set_control_set('spine')
     rig.set_control_shape('hexagon')
     rig.set_align_controls_to_joints(True)
     rig.set_sub_visibility(True)
-    #rig.set_fk(True)
     
     rig.set_stretch_on_off(True)
     rig.set_ribbon_joint_aim(True, [0,1,0])

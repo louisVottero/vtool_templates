@@ -48,7 +48,7 @@ def main():
     constraint = space.ConstraintEditor()
     constraint.delete_constraints(sub_xform,constraint_type='parentConstraint')
     
-    space.create_follow_group(put.joint_spine[-1],sub_xform,prefix='follow',follow_scale=False,use_duplicate=False)
+    space.create_follow_group(put.joint_spine[-1],rig.control_group,prefix='follow',follow_scale=False,use_duplicate=False)
 
     attr.connect_visibility('%s.subNeckVisibility' % put.control_spine_sub[-1],
                             sub_xform, value = 0)

@@ -1,16 +1,4 @@
 Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionEntryNode Name="Entry" ExportPath="/Script/RigVMDeveloper.RigVMFunctionEntryNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color'"
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0'"
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.A'"
-         End Object
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.B'"
-         End Object
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.G'"
-         End Object
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.R'"
-         End Object
-      End Object
-   End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.color'"
       Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.color.0'"
          Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.color.0.A'"
@@ -26,6 +14,18 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionEntryNode Name="Entry" Ex
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_scale" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.shape_scale'"
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_rotate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.shape_rotate'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.A'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.B'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.G'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.R'"
+         End Object
+      End Object
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="shape_translate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.shape_translate'"
    End Object
@@ -54,45 +54,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionEntryNode Name="Entry" Ex
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="uuid" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.uuid'"
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.ExecuteContext'"
-   End Object
-   Begin Object Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color'"
-      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0'"
-         Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.A'"
-            Direction=Output
-            CPPType="float"
-            DefaultValue="0.000000"
-         End Object
-         Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.B'"
-            Direction=Output
-            CPPType="float"
-            DefaultValue="0.6274509803921569"
-         End Object
-         Begin Object Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.G'"
-            Direction=Output
-            CPPType="float"
-            DefaultValue="1.0"
-         End Object
-         Begin Object Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.R'"
-            Direction=Output
-            CPPType="float"
-            DefaultValue="0.8274509803921568"
-         End Object
-         Direction=Output
-         CPPType="FLinearColor"
-         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
-         CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
-         DefaultValue="(R=0.8274509803921568,G=1.0,B=0.6274509803921569,A=0.000000)"
-         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'R'"
-         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'G'"
-         SubPins(2)="/Script/RigVMDeveloper.RigVMPin'B'"
-         SubPins(3)="/Script/RigVMDeveloper.RigVMPin'A'"
-      End Object
-      Direction=Output
-      CPPType="TArray<FLinearColor>"
-      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
-      CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
-      DefaultValue="()"
-      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
    End Object
    Begin Object Name="color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.color'"
       Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.color.0'"
@@ -147,6 +108,45 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionEntryNode Name="Entry" Ex
       CPPTypeObjectPath="/Script/CoreUObject.Vector"
       DefaultValue="()"
    End Object
+   Begin Object Name="sub_color" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0'"
+         Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.A'"
+            Direction=Output
+            CPPType="float"
+            DefaultValue="0.000000"
+         End Object
+         Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.B'"
+            Direction=Output
+            CPPType="float"
+            DefaultValue="0"
+         End Object
+         Begin Object Name="G" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.G'"
+            Direction=Output
+            CPPType="float"
+            DefaultValue="0.4"
+         End Object
+         Begin Object Name="R" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.sub_color.0.R'"
+            Direction=Output
+            CPPType="float"
+            DefaultValue="0.75"
+         End Object
+         Direction=Output
+         CPPType="FLinearColor"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+         CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+         DefaultValue="(R=0.75,G=0.4,B=0,A=0.000000)"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'R'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'G'"
+         SubPins(2)="/Script/RigVMDeveloper.RigVMPin'B'"
+         SubPins(3)="/Script/RigVMDeveloper.RigVMPin'A'"
+      End Object
+      Direction=Output
+      CPPType="TArray<FLinearColor>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.LinearColor'"
+      CPPTypeObjectPath="/Script/CoreUObject.LinearColor"
+      DefaultValue="()"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+   End Object
    Begin Object Name="shape_translate" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.shape_translate'"
       Direction=Output
       CPPType="TArray<FVector>"
@@ -173,7 +173,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionEntryNode Name="Entry" Ex
    Begin Object Name="description" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.description'"
       Direction=Output
       CPPType="FString"
-      DefaultValue="root"
+      DefaultValue="fk"
    End Object
    Begin Object Name="parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Entry.parent'"
       Direction=Output
@@ -1794,16 +1794,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="GetTransform" Expo
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Set Transform" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform'"
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="CachedIndex" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex'"
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.Key'"
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.Key.Type'"
-         End Object
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.Key.Name'"
-         End Object
-      End Object
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.Index'"
-      End Object
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.ContainerVersion'"
-      End Object
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="bPropagateToChildren" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.bPropagateToChildren'"
    End Object
@@ -1842,56 +1832,12 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Set Transform" Exp
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.ExecuteContext'"
    End Object
    Begin Object Name="CachedIndex" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex'"
-      Begin Object Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.Key'"
-         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.Key.Type'"
-            DisplayName="Type"
-            Direction=Hidden
-            bIsDynamicArray=True
-            CPPType="ERigElementType"
-            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
-            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
-            DefaultValue="None"
-         End Object
-         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.Key.Name'"
-            DisplayName="Name"
-            Direction=Hidden
-            bIsDynamicArray=True
-            CPPType="FName"
-            DefaultValue="None"
-            CustomWidgetName="ElementName"
-         End Object
-         DisplayName="Key"
-         Direction=Hidden
-         bIsDynamicArray=True
-         CPPType="FRigElementKey"
-         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
-         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
-         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
-         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
-      End Object
-      Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.Index'"
-         DisplayName="Index"
-         Direction=Hidden
-         bIsDynamicArray=True
-         CPPType="uint16"
-         DefaultValue="65535"
-      End Object
-      Begin Object Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.CachedIndex.ContainerVersion'"
-         DisplayName="Container Version"
-         Direction=Hidden
-         bIsDynamicArray=True
-         CPPType="int32"
-         DefaultValue="-1"
-      End Object
       DisplayName="Cached Index"
       Direction=Hidden
       bIsDynamicArray=True
       CPPType="FCachedRigElement"
       CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.CachedRigElement'"
       CPPTypeObjectPath="/Script/ControlRig.CachedRigElement"
-      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Key'"
-      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Index'"
-      SubPins(2)="/Script/RigVMDeveloper.RigVMPin'ContainerVersion'"
    End Object
    Begin Object Name="bPropagateToChildren" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform.bPropagateToChildren'"
       DisplayName="Propagate to Children"
@@ -2132,16 +2078,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Set Transform_1" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1'"
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="CachedIndex" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex'"
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.Key'"
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.Key.Type'"
-         End Object
-         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.Key.Name'"
-         End Object
-      End Object
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.Index'"
-      End Object
-      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.ContainerVersion'"
-      End Object
    End Object
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="bPropagateToChildren" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.bPropagateToChildren'"
    End Object
@@ -2180,56 +2116,12 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Set Transform_1" E
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ExecuteContext" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.ExecuteContext'"
    End Object
    Begin Object Name="CachedIndex" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex'"
-      Begin Object Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.Key'"
-         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.Key.Type'"
-            DisplayName="Type"
-            Direction=Hidden
-            bIsDynamicArray=True
-            CPPType="ERigElementType"
-            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
-            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
-            DefaultValue="None"
-         End Object
-         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.Key.Name'"
-            DisplayName="Name"
-            Direction=Hidden
-            bIsDynamicArray=True
-            CPPType="FName"
-            DefaultValue="None"
-            CustomWidgetName="ElementName"
-         End Object
-         DisplayName="Key"
-         Direction=Hidden
-         bIsDynamicArray=True
-         CPPType="FRigElementKey"
-         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
-         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
-         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
-         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
-      End Object
-      Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.Index'"
-         DisplayName="Index"
-         Direction=Hidden
-         bIsDynamicArray=True
-         CPPType="uint16"
-         DefaultValue="65535"
-      End Object
-      Begin Object Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.CachedIndex.ContainerVersion'"
-         DisplayName="Container Version"
-         Direction=Hidden
-         bIsDynamicArray=True
-         CPPType="int32"
-         DefaultValue="-1"
-      End Object
       DisplayName="Cached Index"
       Direction=Hidden
       bIsDynamicArray=True
       CPPType="FCachedRigElement"
       CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.CachedRigElement'"
       CPPTypeObjectPath="/Script/ControlRig.CachedRigElement"
-      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Key'"
-      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Index'"
-      SubPins(2)="/Script/RigVMDeveloper.RigVMPin'ContainerVersion'"
    End Object
    Begin Object Name="bPropagateToChildren" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.Set Transform_1.bPropagateToChildren'"
       DisplayName="Propagate to Children"
@@ -2907,7 +2799,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_37" ExportPa
    TargetPinPath="vetalaLib_Control.description"
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_38" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.RigVMLink_38'"
-   SourcePinPath="vetalaLib_Control.Last Control"
+   SourcePinPath="vetalaLib_Control.Control"
    TargetPinPath="DISPATCH_RigVMDispatch_ArrayAdd.Element"
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_39" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetala_FkRig.vetala_FkRig_ContainedGraph.RigVMLink_39'"

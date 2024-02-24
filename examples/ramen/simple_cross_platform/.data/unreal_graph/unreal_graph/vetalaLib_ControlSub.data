@@ -285,7 +285,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="SpawnControl" Expo
    Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.SpawnControl.Name'"
       Direction=Input
       CPPType="FName"
-      DefaultValue="NewControl"
+      DefaultValue="CNT_SUB"
    End Object
    Begin Object Name="Item" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.SpawnControl.Item'"
       Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.SpawnControl.Item.Name'"
@@ -687,81 +687,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="SpawnControl" Expo
    Pins(6)="/Script/RigVMDeveloper.RigVMPin'InitialValue'"
    Pins(7)="/Script/RigVMDeveloper.RigVMPin'Settings'"
 End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Replace" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace.Name'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Old" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace.Old'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="New" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace.New'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace.Result'"
-   End Object
-   Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace.Name'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   Begin Object Name="Old" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace.Old'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="CNT_"
-   End Object
-   Begin Object Name="New" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace.New'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="CNT_SUB_"
-   End Object
-   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace.Result'"
-      Direction=Output
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   TemplateNotation="Replace::Execute(in Name,in Old,in New,out Result)"
-   ResolvedFunctionName="FRigVMFunction_NameReplace::Execute"
-   Position=(X=-1360.000000,Y=944.000000)
-   NodeColor=(R=0.462745,G=1.000000,B=0.329412,A=1.000000)
-   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Name'"
-   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Old'"
-   Pins(2)="/Script/RigVMDeveloper.RigVMPin'New'"
-   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Result'"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Replace_1" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1.Name'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Old" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1.Old'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="New" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1.New'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1.Result'"
-   End Object
-   Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1.Name'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   Begin Object Name="Old" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1.Old'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="_1_"
-   End Object
-   Begin Object Name="New" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1.New'"
-      Direction=Input
-      CPPType="FName"
-   End Object
-   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_1.Result'"
-      Direction=Output
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   TemplateNotation="Replace::Execute(in Name,in Old,in New,out Result)"
-   ResolvedFunctionName="FRigVMFunction_NameReplace::Execute"
-   Position=(X=-1888.000000,Y=1136.000000)
-   NodeColor=(R=0.462745,G=1.000000,B=0.329412,A=1.000000)
-   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Name'"
-   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Old'"
-   Pins(2)="/Script/RigVMDeveloper.RigVMPin'New'"
-   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Result'"
-End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigDispatch_ToString" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_ToString'"
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Value" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_ToString.Value'"
    End Object
@@ -778,7 +703,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigDi
    End Object
    TemplateNotation="DISPATCH_RigDispatch_ToString(in Value,out Result)"
    ResolvedFunctionName="DISPATCH_RigDispatch_ToString::Value:int32,Result:FString"
-   Position=(X=-2544.000000,Y=1184.000000)
+   Position=(X=-1936.000000,Y=880.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'Value'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Result'"
 End Object
@@ -806,31 +731,11 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Add" ExportPath="/
    End Object
    TemplateNotation="Add::Execute(in A,in B,out Result)"
    ResolvedFunctionName="FRigVMFunction_MathIntAdd::Execute"
-   Position=(X=-2720.000000,Y=1184.000000)
+   Position=(X=-2128.000000,Y=896.000000)
    NodeColor=(R=0.050000,G=0.250000,B=0.050000,A=1.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'A'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'B'"
    Pins(2)="/Script/RigVMDeveloper.RigVMPin'Result'"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigDispatch_FromString" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_FromString'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="String" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_FromString.String'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_FromString.Result'"
-   End Object
-   Begin Object Name="String" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_FromString.String'"
-      Direction=Input
-      CPPType="FString"
-   End Object
-   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_FromString.Result'"
-      Direction=Output
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   TemplateNotation="DISPATCH_RigDispatch_FromString(in String,out Result)"
-   ResolvedFunctionName="DISPATCH_RigDispatch_FromString::String:FString,Result:FName"
-   Position=(X=-2112.000000,Y=1168.000000)
-   Pins(0)="/Script/RigVMDeveloper.RigVMPin'String'"
-   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Result'"
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="RigVMFunction_StringJoin" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringJoin'"
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Values" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringJoin.Values'"
@@ -884,109 +789,11 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="RigVMFunction_Stri
    End Object
    ResolvedFunctionName="FRigVMFunction_StringJoin::Execute"
    NodeTitle="Join"
-   Position=(X=-2352.000000,Y=1184.000000)
+   Position=(X=-1744.000000,Y=880.000000)
    NodeColor=(R=0.462745,G=1.000000,B=0.329412,A=1.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'Values'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Separator'"
    Pins(2)="/Script/RigVMDeveloper.RigVMPin'Result'"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_If" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Condition'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.True'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.False'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Result'"
-   End Object
-   Begin Object Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Condition'"
-      Direction=Input
-      CPPType="bool"
-      DefaultValue="False"
-   End Object
-   Begin Object Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.True'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   Begin Object Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.False'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Result'"
-      Direction=Output
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   TemplateNotation="DISPATCH_RigVMDispatch_If(in Condition,in True,in False,out Result)"
-   ResolvedFunctionName="DISPATCH_RigVMDispatch_If::Condition:bool,True:FName,False:FName,Result:FName"
-   Position=(X=272.000000,Y=128.000000)
-   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Condition'"
-   Pins(1)="/Script/RigVMDeveloper.RigVMPin'True'"
-   Pins(2)="/Script/RigVMDeveloper.RigVMPin'False'"
-   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Result'"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="RigVMFunction_StringFind" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Value" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind.Value'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Search" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind.Search'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Found" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind.Found'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind.Index'"
-   End Object
-   Begin Object Name="Value" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind.Value'"
-      DisplayName="Value"
-      Direction=Input
-      CPPType="FString"
-   End Object
-   Begin Object Name="Search" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind.Search'"
-      DisplayName="Search"
-      Direction=Input
-      CPPType="FString"
-      DefaultValue="_1_"
-   End Object
-   Begin Object Name="Found" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind.Found'"
-      DisplayName="Found"
-      Direction=Output
-      CPPType="bool"
-      DefaultValue="False"
-   End Object
-   Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMFunction_StringFind.Index'"
-      DisplayName="Index"
-      Direction=Output
-      CPPType="int32"
-      DefaultValue="-1"
-   End Object
-   ResolvedFunctionName="FRigVMFunction_StringFind::Execute"
-   NodeTitle="Find"
-   Position=(X=-1360.000000,Y=800.000000)
-   NodeColor=(R=0.462745,G=1.000000,B=0.329412,A=1.000000)
-   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Value'"
-   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Search'"
-   Pins(2)="/Script/RigVMDeveloper.RigVMPin'Found'"
-   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Index'"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigDispatch_ToString_1" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_ToString_1'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Value" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_ToString_1.Value'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_ToString_1.Result'"
-   End Object
-   Begin Object Name="Value" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_ToString_1.Value'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigDispatch_ToString_1.Result'"
-      Direction=Output
-      CPPType="FString"
-   End Object
-   TemplateNotation="DISPATCH_RigDispatch_ToString(in Value,out Result)"
-   ResolvedFunctionName="DISPATCH_RigDispatch_ToString::Value:FName,Result:FString"
-   Position=(X=-1536.000000,Y=800.000000)
-   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Value'"
-   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Result'"
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Replace_2" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_2'"
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Replace_2.Name'"
@@ -1019,7 +826,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Replace_2" ExportP
    End Object
    TemplateNotation="Replace::Execute(in Name,in Old,in New,out Result)"
    ResolvedFunctionName="FRigVMFunction_NameReplace::Execute"
-   Position=(X=-1248.000000,Y=1376.000000)
+   Position=(X=-688.000000,Y=832.000000)
    NodeColor=(R=0.462745,G=1.000000,B=0.329412,A=1.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'Name'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Old'"
@@ -1069,7 +876,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="RigVMFunction_Stri
    End Object
    ResolvedFunctionName="FRigVMFunction_StringJoin::Execute"
    NodeTitle="Join"
-   Position=(X=-2128.000000,Y=1328.000000)
+   Position=(X=-1520.000000,Y=880.000000)
    NodeColor=(R=0.462745,G=1.000000,B=0.329412,A=1.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'Values'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Separator'"
@@ -1091,76 +898,9 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigDi
    End Object
    TemplateNotation="DISPATCH_RigDispatch_FromString(in String,out Result)"
    ResolvedFunctionName="DISPATCH_RigDispatch_FromString::String:FString,Result:FName"
-   Position=(X=-1888.000000,Y=1440.000000)
+   Position=(X=-1296.000000,Y=880.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'String'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Result'"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_If_1" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Condition'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result'"
-   End Object
-   Begin Object Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Condition'"
-      Direction=Input
-      CPPType="bool"
-      DefaultValue="False"
-   End Object
-   Begin Object Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   Begin Object Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False'"
-      Direction=Input
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result'"
-      Direction=Output
-      CPPType="FName"
-      DefaultValue="None"
-   End Object
-   TemplateNotation="DISPATCH_RigVMDispatch_If(in Condition,in True,in False,out Result)"
-   ResolvedFunctionName="DISPATCH_RigVMDispatch_If::Condition:bool,True:FName,False:FName,Result:FName"
-   Position=(X=-1680.000000,Y=1008.000000)
-   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Condition'"
-   Pins(1)="/Script/RigVMDeveloper.RigVMPin'True'"
-   Pins(2)="/Script/RigVMDeveloper.RigVMPin'False'"
-   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Result'"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Greater" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Greater'"
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Greater.A'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Greater.B'"
-   End Object
-   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Greater.Result'"
-   End Object
-   Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Greater.A'"
-      Direction=Input
-      CPPType="int32"
-      DefaultValue="0"
-   End Object
-   Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Greater.B'"
-      Direction=Input
-      CPPType="int32"
-      DefaultValue="0"
-   End Object
-   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.Greater.Result'"
-      Direction=Output
-      CPPType="bool"
-      DefaultValue="False"
-   End Object
-   TemplateNotation="Greater::Execute(in A,in B,out Result)"
-   ResolvedFunctionName="FRigVMFunction_MathIntGreater::Execute"
-   Position=(X=-2352.000000,Y=1008.000000)
-   NodeColor=(R=0.050000,G=0.250000,B=0.050000,A=1.000000)
-   Pins(0)="/Script/RigVMDeveloper.RigVMPin'A'"
-   Pins(1)="/Script/RigVMDeveloper.RigVMPin'B'"
-   Pins(2)="/Script/RigVMDeveloper.RigVMPin'Result'"
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_If_2" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2'"
    Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.Condition'"
@@ -1193,7 +933,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVM
    End Object
    TemplateNotation="DISPATCH_RigVMDispatch_If(in Condition,in True,in False,out Result)"
    ResolvedFunctionName="DISPATCH_RigVMDispatch_If::Condition:bool,True:FName,False:FName,Result:FName"
-   Position=(X=-1520.000000,Y=1600.000000)
+   Position=(X=-992.000000,Y=880.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'Condition'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'True'"
    Pins(2)="/Script/RigVMDeveloper.RigVMPin'False'"
@@ -1811,7 +1551,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMVariableNode Name="VariableNode_3
       CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
       CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
    End Object
-   Position=(X=965.825767,Y=-357.728010)
+   Position=(X=965.000000,Y=-357.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'Variable'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Value'"
 End Object
@@ -1878,6 +1618,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMVariableNode Name="VariableNode" 
          CustomWidgetName="ElementName"
       End Object
       Direction=Input
+      bIsExpanded=True
       CPPType="FRigElementKey"
       CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
       CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
@@ -2023,7 +1764,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMVariableNode Name="VariableNode_8
       Direction=Output
       CPPType="int32"
    End Object
-   Position=(X=-2960.000000,Y=1184.000000)
+   Position=(X=-2400.000000,Y=640.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'Variable'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Value'"
 End Object
@@ -2568,7 +2309,7 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMVariableNode Name="VariableNode_4
       SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
       SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
    End Object
-   Position=(X=-1968.000000,Y=704.000000)
+   Position=(X=-992.000000,Y=688.000000)
    Pins(0)="/Script/RigVMDeveloper.RigVMPin'Variable'"
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Value'"
 End Object
@@ -2666,41 +2407,43 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMVariableNode Name="VariableNode_1
    Pins(1)="/Script/RigVMDeveloper.RigVMPin'Variable'"
    Pins(2)="/Script/RigVMDeveloper.RigVMPin'Value'"
 End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="GreaterEqual" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.GreaterEqual'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.GreaterEqual.A'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.GreaterEqual.B'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.GreaterEqual.Result'"
+   End Object
+   Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.GreaterEqual.A'"
+      Direction=Input
+      CPPType="int32"
+      DefaultValue="0"
+   End Object
+   Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.GreaterEqual.B'"
+      Direction=Input
+      CPPType="int32"
+      DefaultValue="0"
+   End Object
+   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.GreaterEqual.Result'"
+      Direction=Output
+      CPPType="bool"
+      DefaultValue="True"
+   End Object
+   TemplateNotation="GreaterEqual::Execute(in A,in B,out Result)"
+   ResolvedFunctionName="FRigVMFunction_MathIntGreaterEqual::Execute"
+   Position=(X=-1760.000000,Y=672.000000)
+   NodeColor=(R=0.050000,G=0.250000,B=0.050000,A=1.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'A'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'B'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'Result'"
+End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_17" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_17'"
    SourcePinPath="Add.Result"
    TargetPinPath="DISPATCH_RigDispatch_ToString.Value"
 End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_19" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_19'"
-   SourcePinPath="DISPATCH_RigDispatch_FromString.Result"
-   TargetPinPath="Replace_1.New"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_20" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_20'"
-   SourcePinPath="Replace_1.Result"
-   TargetPinPath="Replace.Name"
-End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_21" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_21'"
    SourcePinPath="DISPATCH_RigDispatch_ToString.Result"
    TargetPinPath="RigVMFunction_StringJoin.Values.1"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_22" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_22'"
-   SourcePinPath="RigVMFunction_StringJoin.Result"
-   TargetPinPath="DISPATCH_RigDispatch_FromString.String"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_24" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_24'"
-   SourcePinPath="DISPATCH_RigDispatch_ToString_1.Result"
-   TargetPinPath="RigVMFunction_StringFind.Value"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_25" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_25'"
-   SourcePinPath="RigVMFunction_StringFind.Found"
-   TargetPinPath="DISPATCH_RigVMDispatch_If.Condition"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_26" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_26'"
-   SourcePinPath="Replace.Result"
-   TargetPinPath="DISPATCH_RigVMDispatch_If.True"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_28" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_28'"
-   SourcePinPath="Replace_2.Result"
-   TargetPinPath="DISPATCH_RigVMDispatch_If.False"
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_29" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_29'"
    SourcePinPath="RigVMFunction_StringJoin.Result"
@@ -2709,26 +2452,6 @@ End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_30" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_30'"
    SourcePinPath="RigVMFunction_StringJoin_1.Result"
    TargetPinPath="DISPATCH_RigDispatch_FromString_1.String"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_32" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_32'"
-   SourcePinPath="DISPATCH_RigVMDispatch_If.Result"
-   TargetPinPath="SpawnControl.Name"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_34" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_34'"
-   SourcePinPath="Greater.Result"
-   TargetPinPath="DISPATCH_RigVMDispatch_If_1.Condition"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_36" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_36'"
-   SourcePinPath="Replace_1.Result"
-   TargetPinPath="DISPATCH_RigVMDispatch_If_1.True"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_38" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_38'"
-   SourcePinPath="DISPATCH_RigVMDispatch_If_1.Result"
-   TargetPinPath="Replace.New"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_40" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_40'"
-   SourcePinPath="Greater.Result"
-   TargetPinPath="DISPATCH_RigVMDispatch_If_2.Condition"
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_41" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_41'"
    SourcePinPath="DISPATCH_RigDispatch_FromString_1.Result"
@@ -2778,10 +2501,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_142" ExportP
    SourcePinPath="SpawnControl.Item"
    TargetPinPath="VariableNode.Value"
 End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_144" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_144'"
-   SourcePinPath="VariableNode.ExecuteContext"
-   TargetPinPath="DISPATCH_RigVMDispatch_ArrayAdd.ExecuteContext"
-End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_158" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_158'"
    SourcePinPath="Divide_1.Result"
    TargetPinPath="Multiply_1.A"
@@ -2809,10 +2528,6 @@ End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_172" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_172'"
    SourcePinPath="VariableNode_8.Value"
    TargetPinPath="Add.A"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_173" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_173'"
-   SourcePinPath="VariableNode_8.Value"
-   TargetPinPath="Greater.A"
 End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_174" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_174'"
    SourcePinPath="HierarchyGetShapeSettings.Settings.Transform.Scale3D"
@@ -2862,18 +2577,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_8" ExportPat
    SourcePinPath="SpawnControl.ExecuteContext"
    TargetPinPath="VariableNode.ExecuteContext"
 End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_13" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_13'"
-   SourcePinPath="VariableNode_4.Value.Name"
-   TargetPinPath="DISPATCH_RigDispatch_ToString_1.Value"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_14" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_14'"
-   SourcePinPath="VariableNode_4.Value.Name"
-   TargetPinPath="DISPATCH_RigVMDispatch_If_1.False"
-End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_15" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_15'"
-   SourcePinPath="VariableNode_4.Value.Name"
-   TargetPinPath="Replace_1.Name"
-End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_16" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_16'"
    SourcePinPath="VariableNode_4.Value.Name"
    TargetPinPath="Replace_2.Name"
@@ -2902,10 +2605,6 @@ Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_6" ExportPat
    SourcePinPath="VariableNode_10.Value"
    TargetPinPath="Return.LastSubControl"
 End Object
-Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_7" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_7'"
-   SourcePinPath="Entry.ExecuteContext"
-   TargetPinPath="VariableNode_11.ExecuteContext"
-End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_18" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_18'"
    SourcePinPath="VariableNode_11.ExecuteContext"
    TargetPinPath="RigVMFunction_ForLoopCount.ExecuteContext"
@@ -2917,4 +2616,24 @@ End Object
 Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_27" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_27'"
    SourcePinPath="VariableNode_1.Value"
    TargetPinPath="SpawnControl.Parent"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_44" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_44'"
+   SourcePinPath="VariableNode.ExecuteContext"
+   TargetPinPath="DISPATCH_RigVMDispatch_ArrayAdd.ExecuteContext"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_45" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_45'"
+   SourcePinPath="Entry.ExecuteContext"
+   TargetPinPath="VariableNode_11.ExecuteContext"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_46" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_46'"
+   SourcePinPath="VariableNode_8.Value"
+   TargetPinPath="GreaterEqual.A"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_50" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_50'"
+   SourcePinPath="GreaterEqual.Result"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_2.Condition"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_31" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/examples/ramen/simple_cross_platform/asset/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_ControlSub.New Function_ContainedGraph.RigVMLink_31'"
+   SourcePinPath="Replace_2.Result"
+   TargetPinPath="SpawnControl.Name"
 End Object
