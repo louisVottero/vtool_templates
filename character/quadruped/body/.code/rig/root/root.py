@@ -20,7 +20,7 @@ def main():
     rig.set_attach_joints(False)
     
     rig.set_control_set('base')
-    rig.set_control_parent(put.control_ground[-1])    
+    rig.set_control_parent(put.control_sub_ground[-1])    
     rig.delete_setup()
     rig.create()
     
@@ -29,7 +29,7 @@ def main():
     cmds.delete(root_guide)
     
     root_follow = cmds.spaceLocator(n = 'root_follow')[0]
-    cmds.parent(root_follow, put.control_ground[-1])
+    cmds.parent(root_follow, put.control_sub_ground[-1])
     cmds.hide(root_follow)
     cmds.pointConstraint(rig.sub_controls[-1], root_follow, mo = True)
     cmds.transformLimits(root_follow, ty = [0, 0], ety = [1, 1])    

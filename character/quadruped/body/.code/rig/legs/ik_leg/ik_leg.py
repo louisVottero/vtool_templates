@@ -21,10 +21,10 @@ def main():
         rig.set_stretch_axis('Y')
         rig.set_stretch_type(2)
         rig.set_create_ik_buffer_joint(False)
-        rig.set_pole_offset(size * .8)
+        rig.set_pole_offset(size * .3)
         rig.set_pole_control_shape('sphere')
         rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
-        rig.set_pole_follow_transform([put.control_ground[-1],put.control_root[-1]],1)
+        rig.set_pole_follow_transform([put.control_sub_ground[-1],put.control_root[-1]],1)
 
         rig.set_offset_ankle_axis('X')
         rig.set_pole_at_knee_only(True)

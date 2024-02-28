@@ -19,9 +19,9 @@ def main():
         rig.set_buffer(True)
         rig.set_stretch_type(1)
         rig.set_create_ik_buffer_joint(False)
-        rig.set_pole_offset(size*.8)
+        rig.set_pole_offset(size*.4)
         rig.set_pole_control_shape('sphere')        
-        rig.set_pole_follow_transform([put.control_ground[-1],put.control_root[-1]],1)
+        rig.set_pole_follow_transform([put.control_sub_ground[-1],put.control_root[-1]],1)
         rig.set_control_set([side, 'arm_%s' % side])       
         rig.connect_sub_visibility('%s.subVisibility' % put.control_settings)
         if put.controls_mirrored_ik:

@@ -43,11 +43,24 @@ def main():
                         put.control_root[-1], 
                         put.control_spine[-1],
                         put.control_neck[-1]], xform)
+    switch.set_connect_translate(True)                                
+    switch.set_connect_rotate(False)
+    switch.set_connect_scale(False)        
+    switch.set_input_attribute(control,'switchTranslate',['ground','root','spine', 'neck'])
+    switch.create(create_switch=True)          
+    cmds.setAttr('%s.switchTranslate' % control, 1)        
+
+    switch = space.SpaceSwitch([put.control_ground[-1],
+                        put.control_root[-1], 
+                        put.control_spine[-1],
+                        put.control_neck[-1]], xform)
     switch.set_connect_translate(False)                                
     switch.set_connect_scale(False)        
     switch.set_input_attribute(control,'switchRotate',['ground','root','spine', 'neck'])
     switch.create(create_switch=True)          
     cmds.setAttr('%s.switchRotate' % control, 1)        
+
+
     
     cmds.parent(put.control_settings, put.control_head)
     

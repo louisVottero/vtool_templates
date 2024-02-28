@@ -27,7 +27,7 @@ def main():
             rig.set_control_color_hue(1)
             rig.set_control_color_increment_hue(-0.04)
 
-        rig.set_control_parent(put.control_spine[-1])
+        rig.set_control_parent(put.control_scapula[side][1])
         rig.set_setup_parent(put.group_setup)
         rig.create()
         

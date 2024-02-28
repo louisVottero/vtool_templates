@@ -21,7 +21,7 @@ rig/arms.py True
 rig/arms/ik_scapula.py True
 rig/arms/fk_arm.py True
 rig/arms/fk_arm/style_controls.py True
-rig/arms/fk_arm/space_switch.py False
+rig/arms/fk_arm/space_switch.py True
 rig/arms/ik_arm.py True
 rig/arms/ik_arm/style_controls.py True
 rig/arms/ik_arm/space_switch.py True

@@ -11,7 +11,7 @@ def main():
     for side in 'LR':
         
         joints = put.joint_leg[side]
-        
+        show(joints)
         rig = rigs.FkRig('fk_leg',side)
         rig.set_joints(joints)
 
