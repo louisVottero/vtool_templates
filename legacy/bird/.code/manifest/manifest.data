@@ -23,3 +23,4 @@ import_correctives.py True
 import_control_cvs.py True
 import_skin_cluster.py True
 import_animation.py True
+manifest/version.py False
