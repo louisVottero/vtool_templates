@@ -1,0 +1,10 @@
+[
+    [
+        "name", 
+        "import_control_cvs"
+    ], 
+    [
+        "data_type", 
+        "script.python"
+    ]
+]

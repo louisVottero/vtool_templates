@@ -43,7 +43,7 @@ def main():
     control = put.control_head
     
     xform = space.get_xform_group(control)
-
+    
     switch = space.SpaceSwitch([put.control_ground[-1],
                         put.control_root[-1], 
                         put.control_spine[-1],

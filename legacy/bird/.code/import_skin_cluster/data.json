@@ -1,0 +1,10 @@
+[
+    [
+        "name", 
+        "import_skin_cluster"
+    ], 
+    [
+        "data_type", 
+        "script.python"
+    ]
+]
