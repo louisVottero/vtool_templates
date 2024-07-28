@@ -1,4 +1,4 @@
-from vtool.maya_lib import space
+from vtool.maya_lib import rigs_util
 
 def main():
 
@@ -11,7 +11,7 @@ def main():
 
 def mirror_animation():
     #this needs to be moved out of util. Beta 0.1.18 it will be in rigs_util
-    mirror = space.MirrorControlKeyframes('CNT_ARM_1_L')
+    mirror = rigs_util.MirrorControlKeyframes('CNT_ARM_1_L')
     mirror.mirror_outputs(True)
 
 
