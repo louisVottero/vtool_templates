@@ -1,16 +1,17 @@
-//Maya ASCII 2020 scene
+//Maya ASCII 2023 scene
 //Name: structure.ma
-//Last modified: Fri, Dec 15, 2023 12:40:20 AM
+//Last modified: Sat, Jul 27, 2024 08:53:08 PM
 //Codeset: 1252
-requires maya "2020";
+requires maya "2023";
 requires "stereoCamera" "10.0";
+requires "mtoa" "5.2.1.1";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
-fileInfo "product" "Maya 2020";
-fileInfo "version" "2020";
-fileInfo "cutIdentifier" "202011110415-b1e20b88e2";
-fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 22621)\n";
-fileInfo "UUID" "C11C5B01-4F83-057D-A6CC-96BCF084A66B";
+fileInfo "product" "Maya 2023";
+fileInfo "version" "2023";
+fileInfo "cutIdentifier" "202405151550-05a853e76d";
+fileInfo "osv" "Windows 11 Home v2009 (Build: 22631)";
+fileInfo "UUID" "06F3BB97-4415-CD73-5C7E-75A845E17809";
 createNode transform -n "structure";
 	rename -uid "F34E7C18-4E0E-2FBA-6F9C-239A2EB4741D";
 createNode transform -n "fade_grp" -p "structure";
@@ -6380,7 +6381,6 @@ createNode dagPose -n "bindPose1";
 		 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 yes;
 	setAttr -s 3 ".m";
 	setAttr -s 3 ".p";
-	setAttr -s 2 ".g";
 	setAttr ".g[2]" yes;
 	setAttr ".bp" yes;
 createNode skinCluster -n "skin_eyelid_individual_weights";
@@ -6633,7 +6633,7 @@ createNode skinCluster -n "skin_eyelid_individual_weights";
 		1 34 1
 		1 33 1
 		1 32 1
-		3 29 7.6543674099694781e-07 31 0.99999816167965305 32 1.0728836059570313e-06
+		3 29 7.6543674099694781e-07 31 0.99999816167965305 32 1.0728836059570312e-06
 		1 29 1
 		2 10 0.5 29 0.5
 		1 10 1
@@ -7382,6 +7382,7 @@ select -ne :hardwareRenderingGlobals;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
 		 1 1 1 0 0 0 0 0 0 0 0 0
 		 0 0 0 0 ;
+	setAttr ".fprt" yes;
 select -ne :renderPartition;
 	setAttr -s 2 ".st";
 select -ne :renderGlobalsList1;
@@ -7401,8 +7402,14 @@ select -ne :defaultRenderGlobals;
 select -ne :defaultResolution;
 	setAttr ".pa" 1;
 select -ne :defaultColorMgtGlobals;
-	setAttr ".cme" no;
+	setAttr ".cfe" yes;
 	setAttr ".cfp" -type "string" "<MAYA_RESOURCES>/OCIO-configs/Maya2022-default/config.ocio";
+	setAttr ".vtn" -type "string" "ACES 1.0 SDR-video (sRGB)";
+	setAttr ".vn" -type "string" "ACES 1.0 SDR-video";
+	setAttr ".dn" -type "string" "sRGB";
+	setAttr ".wsn" -type "string" "ACEScg";
+	setAttr ".otn" -type "string" "ACES 1.0 SDR-video (sRGB)";
+	setAttr ".potn" -type "string" "ACES 1.0 SDR-video (sRGB)";
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
