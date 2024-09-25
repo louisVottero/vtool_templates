@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: structure.ma
-//Last modified: Tue, Sep 24, 2024 11:19:55 PM
+//Last modified: Tue, Sep 24, 2024 11:22:40 PM
 //Codeset: 1252
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202405021833-753375ecb3";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22631)";
-fileInfo "UUID" "269EFF8F-4F30-5E73-18B6-20831085C584";
+fileInfo "UUID" "B2EADECB-4D0D-F31B-9566-4B941BCCBDFC";
 createNode transform -n "temp";
 	rename -uid "281CC404-49CC-A9B3-9C6A-618DC135DA5C";
 	setAttr ".ove" yes;
@@ -276,274 +276,6 @@ createNode joint -n "GDE_yawOut_R" -p "temp";
 	setAttr -k on ".surface" -type "string" "";
 createNode joint -n "GDE_chestPivot" -p "temp";
 	rename -uid "B6B31BF3-42CB-4D81-AC69-87BB0505CE2B";
-	setAttr ".t" -type "double3" 1.2325951644078309e-32 132.02810668945312 -10.160543441772461 ;
-	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
-	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 2;
-createNode transform -n "version_temp";
-	rename -uid "5ED45BA1-4D35-2A97-B043-99B1A7FA7D6D";
-	setAttr ".ove" yes;
-	setAttr ".ovc" 18;
-createNode joint -n "GDE_headPivot" -p "version_temp";
-	rename -uid "773D9AA6-4233-0792-58A7-BE9C4A17BD68";
-	setAttr ".t" -type "double3" 0.00015367437566737852 174.90277771341809 -2.3478771929905178 ;
-	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
-	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 2;
-createNode joint -n "GDE_yawIn_L" -p "version_temp";
-	rename -uid "6D71AFB5-4433-89C0-0067-8D833D4A0BB0";
-	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
-		-at "enum";
-	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "upAxis" -ln "upAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "worldUpAxis" -ln "worldUpAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "aimAt" -ln "aimAt" -min 0 -max 5 -en "world_X:world_Y:world_Z:child:parent:local_parent" 
-		-at "enum";
-	addAttr -ci true -sn "aimUpAt" -ln "aimUpAt" -min 0 -max 6 -en "world:parent_rotate:child_position:parent_position:triangle_plane:2nd_child_position:surface" 
-		-at "enum";
-	addAttr -ci true -sn "triangleTop" -ln "triangleTop" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleMid" -ln "triangleMid" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleBtm" -ln "triangleBtm" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
-		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
-	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
-	setAttr ".ove" yes;
-	setAttr ".ovc" 18;
-	setAttr ".t" -type "double3" 5.8613371849060059 0.0070323566906154156 8.5468940734863281 ;
-	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
-	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 4;
-	setAttr -l on -k on ".ORIENT_INFO";
-	setAttr -k on ".aimAxis";
-	setAttr -k on ".upAxis" 1;
-	setAttr -k on ".worldUpAxis" 1;
-	setAttr -k on ".aimAt" 5;
-	setAttr -k on ".aimUpAt" 1;
-	setAttr -k on ".triangleTop" 1;
-	setAttr -k on ".triangleMid" 2;
-	setAttr -k on ".triangleBtm" 3;
-	setAttr -k on ".invertScale";
-	setAttr -k on ".active" yes;
-	setAttr -k on ".surface" -type "string" "";
-createNode joint -n "GDE_heel_L" -p "version_temp";
-	rename -uid "C0DF76B3-4605-EADA-8AB6-B2B1C4C2014A";
-	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
-		-at "enum";
-	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "upAxis" -ln "upAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "worldUpAxis" -ln "worldUpAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "aimAt" -ln "aimAt" -min 0 -max 5 -en "world_X:world_Y:world_Z:child:parent:local_parent" 
-		-at "enum";
-	addAttr -ci true -sn "aimUpAt" -ln "aimUpAt" -min 0 -max 6 -en "world:parent_rotate:child_position:parent_position:triangle_plane:2nd_child_position:surface" 
-		-at "enum";
-	addAttr -ci true -sn "triangleTop" -ln "triangleTop" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleMid" -ln "triangleMid" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleBtm" -ln "triangleBtm" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
-		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
-	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
-	setAttr ".ove" yes;
-	setAttr ".ovc" 18;
-	setAttr ".t" -type "double3" 9.5775747299194336 -0.064353138208389282 -13.781664848327637 ;
-	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
-	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 4;
-	setAttr -l on -k on ".ORIENT_INFO";
-	setAttr -k on ".aimAxis";
-	setAttr -k on ".upAxis" 1;
-	setAttr -k on ".worldUpAxis" 1;
-	setAttr -k on ".aimAt" 5;
-	setAttr -k on ".aimUpAt" 1;
-	setAttr -k on ".triangleTop" 1;
-	setAttr -k on ".triangleMid" 2;
-	setAttr -k on ".triangleBtm" 3;
-	setAttr -k on ".invertScale";
-	setAttr -k on ".active" yes;
-	setAttr -k on ".surface" -type "string" "";
-createNode joint -n "GDE_yawOut_L" -p "version_temp";
-	rename -uid "85E32090-456B-D5AB-F196-07A3EB85A9D5";
-	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
-		-at "enum";
-	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "upAxis" -ln "upAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "worldUpAxis" -ln "worldUpAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "aimAt" -ln "aimAt" -min 0 -max 5 -en "world_X:world_Y:world_Z:child:parent:local_parent" 
-		-at "enum";
-	addAttr -ci true -sn "aimUpAt" -ln "aimUpAt" -min 0 -max 6 -en "world:parent_rotate:child_position:parent_position:triangle_plane:2nd_child_position:surface" 
-		-at "enum";
-	addAttr -ci true -sn "triangleTop" -ln "triangleTop" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleMid" -ln "triangleMid" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleBtm" -ln "triangleBtm" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
-		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
-	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
-	setAttr ".ove" yes;
-	setAttr ".ovc" 18;
-	setAttr ".t" -type "double3" 17.023900985717773 -0.0318259596824646 3.2838413715362549 ;
-	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
-	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 4;
-	setAttr -l on -k on ".ORIENT_INFO";
-	setAttr -k on ".aimAxis";
-	setAttr -k on ".upAxis" 1;
-	setAttr -k on ".worldUpAxis" 1;
-	setAttr -k on ".aimAt" 5;
-	setAttr -k on ".aimUpAt" 1;
-	setAttr -k on ".triangleTop" 1;
-	setAttr -k on ".triangleMid" 2;
-	setAttr -k on ".triangleBtm" 3;
-	setAttr -k on ".invertScale";
-	setAttr -k on ".active" yes;
-	setAttr -k on ".surface" -type "string" "";
-createNode joint -n "GDE_yawIn_R" -p "version_temp";
-	rename -uid "AF005B0B-4436-D894-3D21-A8A7C5A80373";
-	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
-		-at "enum";
-	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "upAxis" -ln "upAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "worldUpAxis" -ln "worldUpAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "aimAt" -ln "aimAt" -min 0 -max 5 -en "world_X:world_Y:world_Z:child:parent:local_parent" 
-		-at "enum";
-	addAttr -ci true -sn "aimUpAt" -ln "aimUpAt" -min 0 -max 6 -en "world:parent_rotate:child_position:parent_position:triangle_plane:2nd_child_position:surface" 
-		-at "enum";
-	addAttr -ci true -sn "triangleTop" -ln "triangleTop" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleMid" -ln "triangleMid" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleBtm" -ln "triangleBtm" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
-		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
-	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
-	setAttr ".ove" yes;
-	setAttr ".ovc" 18;
-	setAttr ".t" -type "double3" -5.8613371849060059 0.0070323566906154156 8.5468940734863281 ;
-	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
-	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 4;
-	setAttr -l on -k on ".ORIENT_INFO";
-	setAttr -k on ".aimAxis";
-	setAttr -k on ".upAxis" 1;
-	setAttr -k on ".worldUpAxis" 1;
-	setAttr -k on ".aimAt" 5;
-	setAttr -k on ".aimUpAt";
-	setAttr -k on ".triangleTop" 1;
-	setAttr -k on ".triangleMid" 2;
-	setAttr -k on ".triangleBtm" 3;
-	setAttr -k on ".invertScale";
-	setAttr -k on ".active" yes;
-	setAttr -k on ".surface" -type "string" "";
-createNode joint -n "GDE_heel_R" -p "version_temp";
-	rename -uid "09994D59-4D74-A36D-301B-0BA18B61A5D3";
-	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
-		-at "enum";
-	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "upAxis" -ln "upAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "worldUpAxis" -ln "worldUpAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "aimAt" -ln "aimAt" -min 0 -max 5 -en "world_X:world_Y:world_Z:child:parent:local_parent" 
-		-at "enum";
-	addAttr -ci true -sn "aimUpAt" -ln "aimUpAt" -min 0 -max 6 -en "world:parent_rotate:child_position:parent_position:triangle_plane:2nd_child_position:surface" 
-		-at "enum";
-	addAttr -ci true -sn "triangleTop" -ln "triangleTop" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleMid" -ln "triangleMid" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleBtm" -ln "triangleBtm" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
-		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
-	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
-	setAttr ".ove" yes;
-	setAttr ".ovc" 18;
-	setAttr ".t" -type "double3" -9.5775747299194336 -0.064353138208389282 -13.781664848327637 ;
-	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
-	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 4;
-	setAttr -l on -k on ".ORIENT_INFO";
-	setAttr -k on ".aimAxis";
-	setAttr -k on ".upAxis" 1;
-	setAttr -k on ".worldUpAxis" 1;
-	setAttr -k on ".aimAt" 5;
-	setAttr -k on ".aimUpAt" 1;
-	setAttr -k on ".triangleTop" 1;
-	setAttr -k on ".triangleMid" 2;
-	setAttr -k on ".triangleBtm" 3;
-	setAttr -k on ".invertScale";
-	setAttr -k on ".active" yes;
-	setAttr -k on ".surface" -type "string" "";
-createNode joint -n "GDE_yawOut_R" -p "version_temp";
-	rename -uid "2E40EA3C-40B5-2D0A-0147-23BFCA15FC44";
-	addAttr -ci true -sn "ORIENT_INFO" -ln "ORIENT_INFO" -min 0 -max 0 -en "----------" 
-		-at "enum";
-	addAttr -ci true -sn "aimAxis" -ln "aimAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "upAxis" -ln "upAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "worldUpAxis" -ln "worldUpAxis" -min 0 -max 6 -en "X:Y:Z:-X:-Y:-Z:none" 
-		-at "enum";
-	addAttr -ci true -sn "aimAt" -ln "aimAt" -min 0 -max 5 -en "world_X:world_Y:world_Z:child:parent:local_parent" 
-		-at "enum";
-	addAttr -ci true -sn "aimUpAt" -ln "aimUpAt" -min 0 -max 6 -en "world:parent_rotate:child_position:parent_position:triangle_plane:2nd_child_position:surface" 
-		-at "enum";
-	addAttr -ci true -sn "triangleTop" -ln "triangleTop" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleMid" -ln "triangleMid" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "triangleBtm" -ln "triangleBtm" -min 0 -max 4 -en "grand_parent:parent:self:child:grand_child" 
-		-at "enum";
-	addAttr -ci true -sn "invertScale" -ln "invertScale" -min 0 -max 7 -en "none:X:Y:Z:XY:XZ:YZ:XYZ" 
-		-at "enum";
-	addAttr -ci true -sn "active" -ln "active" -min 0 -max 1 -at "bool";
-	addAttr -ci true -sn "surface" -ln "surface" -dt "string";
-	setAttr ".ove" yes;
-	setAttr ".ovc" 18;
-	setAttr ".t" -type "double3" -17.023900985717773 -0.0318259596824646 3.2838413715362549 ;
-	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
-	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".radi" 4;
-	setAttr -l on -k on ".ORIENT_INFO";
-	setAttr -k on ".aimAxis";
-	setAttr -k on ".upAxis" 1;
-	setAttr -k on ".worldUpAxis" 1;
-	setAttr -k on ".aimAt" 5;
-	setAttr -k on ".aimUpAt" 1;
-	setAttr -k on ".triangleTop" 1;
-	setAttr -k on ".triangleMid" 2;
-	setAttr -k on ".triangleBtm" 3;
-	setAttr -k on ".invertScale";
-	setAttr -k on ".active" yes;
-	setAttr -k on ".surface" -type "string" "";
-createNode joint -n "GDE_chestPivot" -p "version_temp";
-	rename -uid "40E1F4BD-4DA2-8184-C025-0795E564D52D";
 	setAttr ".t" -type "double3" 1.2325951644078309e-32 132.02810668945312 -10.160543441772461 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
@@ -6252,9 +5984,9 @@ connectAttr "JNT_ball_R.s" "JNT_toe5_1_R.is";
 connectAttr "JNT_toe5_1_R.s" "JNT_toe5_2_R.is";
 connectAttr "JNT_toe5_2_R.s" "JNT_toe5_3_R.is";
 connectAttr "JNT_ankle_R.s" "JNT_ankleBall_R.is";
-dataStructure -fmt "raw" -as "name=Curvature:float=mean:float=gaussian:float=ABS:float=RMS";
-dataStructure -fmt "raw" -as "name=DiffEdge:float=value";
 dataStructure -fmt "raw" -as "name=DiffArea:float=value";
-dataStructure -fmt "raw" -as "name=Blur3dMetaData:string=Blur3dValue";
 dataStructure -fmt "raw" -as "name=Offset:float[3]=value";
+dataStructure -fmt "raw" -as "name=Curvature:float=mean:float=gaussian:float=ABS:float=RMS";
+dataStructure -fmt "raw" -as "name=Blur3dMetaData:string=Blur3dValue";
+dataStructure -fmt "raw" -as "name=DiffEdge:float=value";
 // End of structure.ma
