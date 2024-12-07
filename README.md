@@ -7,7 +7,9 @@ some of the templates included
 
 * human / body, face
 * meta_human / body
+* quadruped / body
 * prop / use_hierarchy
+* legacy / human_setup
 
 as well as various examples
 
