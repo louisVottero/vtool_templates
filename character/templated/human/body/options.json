@@ -272,7 +272,7 @@
         [
             [
                 true,
-                "#This code allows the reference group to connect to another process\n#In order to connect you need to set the path to the process\n#And you need to give the name of the option group at the process\n#example\n#path = 'D:/project/assets/character_test'\n#option_group = 'test'\n\npath = process.get_option('Path to Template Process')\nif not path:\n    from vtool import util\n    from vtool import util_file\n    project_path = util.get_env('VETALA_PROJECT_PATH')\n    path = util_file.join_path(project_path, 'character/human/body')\n    \npath_to_process = path\noption_group = ['Asset','Rig']\n\n\n"
+                "#This code allows the reference group to connect to another process\n#In order to connect you need to set the path to the process\n#And you need to give the name of the option group at the process\n#example\n#path = 'D:/project/assets/character_test'\n#option_group = 'test'\n\npath = process.get_option('Path to Template Process')\nif not path:\n    from vtool import util\n    from vtool import util_file\n    project_path = util.get_env('VETALA_PROJECT_PATH')\n    path = util_file.join_path(project_path, 'character/human/body')\n    \npath_to_process = path\noption_group = ['Asset', 'Rig']\n\n\n"
             ],
             "reference.group"
         ]

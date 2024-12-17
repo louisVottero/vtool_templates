@@ -5,7 +5,7 @@
     ],
     [
         "data_type",
-        "maya.ascii"
+        "agnostic.platform"
     ],
     [
         "sub_folder",

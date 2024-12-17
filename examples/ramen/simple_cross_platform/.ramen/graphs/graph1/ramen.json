@@ -2,18 +2,18 @@
     {
         "name":"Color",
         "position":[
-            1372.3771964875968,
-            1065.9271646471755
+            212.03791302525315,
+            544.9926490488056
         ],
         "type":10003,
-        "uuid":"218c0ff2-a5ed-4520-b438-9babf1ca7995",
+        "uuid":"e9e88780-fdbc-4547-b678-cc0a62972851",
         "widget_value":{
             "color value":{
                 "data_type":7,
                 "value":[
                     [
                         1.0,
-                        0.0,
+                        0.4,
                         0.0,
                         1.0
                     ]
@@ -46,55 +46,21 @@
     {
         "name":"Color",
         "position":[
-            212.03791302525315,
-            544.9926490488056
+            1372.3771964875968,
+            1065.9271646471755
         ],
         "type":10003,
-        "uuid":"e9e88780-fdbc-4547-b678-cc0a62972851",
+        "uuid":"218c0ff2-a5ed-4520-b438-9babf1ca7995",
         "widget_value":{
             "color value":{
                 "data_type":7,
                 "value":[
                     [
                         1.0,
-                        0.4,
+                        0.0,
                         0.0,
                         1.0
                     ]
-                ]
-            }
-        }
-    },
-    {
-        "name":"Joints",
-        "position":[
-            814.8324502860405,
-            467.6106570023926
-        ],
-        "type":10002,
-        "uuid":"b94b660c-81fb-4726-acee-4232bcb6ab42",
-        "widget_value":{
-            "joint filter":{
-                "data_type":5,
-                "value":[
-                    "joint_test_*"
-                ]
-            }
-        }
-    },
-    {
-        "name":"Joints",
-        "position":[
-            402.33955180898283,
-            47.726030717121375
-        ],
-        "type":10002,
-        "uuid":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
-        "widget_value":{
-            "joint filter":{
-                "data_type":5,
-                "value":[
-                    "root"
                 ]
             }
         }
@@ -108,6 +74,12 @@
         "type":10002,
         "uuid":"bd5e9348-d27c-43ad-a865-6150fec32348",
         "widget_value":{
+            "joint exclude":{
+                "data_type":5,
+                "value":[
+                    ""
+                ]
+            },
             "joint filter":{
                 "data_type":5,
                 "value":[
@@ -117,22 +89,47 @@
         }
     },
     {
-        "name":"Import Data",
+        "name":"Joints",
         "position":[
-            -57.08865937500104,
-            -129.8955031250007
+            402.33955180898283,
+            47.726030717121375
         ],
-        "type":30002,
-        "uuid":"e7ad327d-0117-494d-bf95-17732d326a7b",
+        "type":10002,
+        "uuid":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
         "widget_value":{
-            "Clear Current Data":{
-                "data_type":null,
-                "value":1
-            },
-            "data name":{
+            "joint exclude":{
                 "data_type":5,
                 "value":[
-                    "asset"
+                    ""
+                ]
+            },
+            "joint filter":{
+                "data_type":5,
+                "value":[
+                    "root"
+                ]
+            }
+        }
+    },
+    {
+        "name":"Joints",
+        "position":[
+            814.8324502860405,
+            467.6106570023926
+        ],
+        "type":10002,
+        "uuid":"b94b660c-81fb-4726-acee-4232bcb6ab42",
+        "widget_value":{
+            "joint exclude":{
+                "data_type":5,
+                "value":[
+                    ""
+                ]
+            },
+            "joint filter":{
+                "data_type":5,
+                "value":[
+                    "joint_test_*"
                 ]
             }
         }
@@ -161,22 +158,43 @@
         }
     },
     {
+        "name":"Import Data",
+        "position":[
+            -57.08865937500104,
+            -129.8955031250007
+        ],
+        "type":30002,
+        "uuid":"e7ad327d-0117-494d-bf95-17732d326a7b",
+        "widget_value":{
+            "Clear Current Data":{
+                "data_type":null,
+                "value":1
+            },
+            "data name":{
+                "data_type":5,
+                "value":[
+                    "asset"
+                ]
+            }
+        }
+    },
+    {
         "name":"FkRig",
         "position":[
-            1020.7879260839568,
-            373.88650379541434
+            1617.752496459706,
+            759.4390221123999
         ],
-        "rig uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "rig uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "type":20003,
-        "uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "widget_value":{
             "color":{
                 "data_type":null,
                 "value":[
                     [
-                        0.0,
-                        0.0,
                         1.0,
+                        0.0,
+                        0.0,
                         1.0
                     ]
                 ]
@@ -184,12 +202,12 @@
             "description":{
                 "data_type":null,
                 "value":[
-                    "test"
+                    "test2"
                 ]
             },
             "hierarchy":{
                 "data_type":2,
-                "value":1
+                "value":0
             },
             "joint_token":{
                 "data_type":5,
@@ -199,7 +217,7 @@
             },
             "restrain_numbering":{
                 "data_type":2,
-                "value":false
+                "value":0
             },
             "shape":{
                 "data_type":null,
@@ -231,7 +249,7 @@
                 "data_type":null,
                 "value":[
                     [
-                        1.0,
+                        0.0,
                         0.0,
                         0.0
                     ]
@@ -247,9 +265,9 @@
                 "data_type":null,
                 "value":[
                     [
-                        0.7499961852445258,
-                        0.4,
-                        0.0,
+                        1.0,
+                        0.792156862745098,
+                        0.3058823529411765,
                         1.0
                     ]
                 ]
@@ -262,7 +280,7 @@
             },
             "use_joint_name":{
                 "data_type":2,
-                "value":false
+                "value":0
             }
         }
     },
@@ -375,20 +393,20 @@
     {
         "name":"FkRig",
         "position":[
-            1617.752496459706,
-            759.4390221123999
+            1020.7879260839568,
+            373.88650379541434
         ],
-        "rig uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "rig uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
         "type":20003,
-        "uuid":"8e22b526-3291-4626-9821-bcafb93d9e82",
+        "uuid":"fab769e8-d670-4efc-b89c-5f92063d097a",
         "widget_value":{
             "color":{
                 "data_type":null,
                 "value":[
                     [
+                        0.0,
+                        0.0,
                         1.0,
-                        0.0,
-                        0.0,
                         1.0
                     ]
                 ]
@@ -396,12 +414,12 @@
             "description":{
                 "data_type":null,
                 "value":[
-                    "test2"
+                    "test"
                 ]
             },
             "hierarchy":{
                 "data_type":2,
-                "value":0
+                "value":1
             },
             "joint_token":{
                 "data_type":5,
@@ -411,7 +429,7 @@
             },
             "restrain_numbering":{
                 "data_type":2,
-                "value":0
+                "value":false
             },
             "shape":{
                 "data_type":null,
@@ -443,7 +461,7 @@
                 "data_type":null,
                 "value":[
                     [
-                        0.0,
+                        1.0,
                         0.0,
                         0.0
                     ]
@@ -459,9 +477,9 @@
                 "data_type":null,
                 "value":[
                     [
-                        1.0,
-                        0.792156862745098,
-                        0.3058823529411765,
+                        0.7499961852445258,
+                        0.4,
+                        0.0,
                         1.0
                     ]
                 ]
@@ -474,37 +492,9 @@
             },
             "use_joint_name":{
                 "data_type":2,
-                "value":0
+                "value":false
             }
         }
-    },
-    {
-        "source":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "source name":"controls",
-        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
-        "target name":"parent",
-        "type":4
-    },
-    {
-        "source":"81a96054-6cd9-4a64-8f5f-55dfa70a391a",
-        "source name":"color",
-        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
-        "target name":"color",
-        "type":4
-    },
-    {
-        "source":"b94b660c-81fb-4726-acee-4232bcb6ab42",
-        "source name":"joints",
-        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
-        "target name":"joints",
-        "type":4
-    },
-    {
-        "source":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
-        "source name":"joints",
-        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "target name":"joints",
-        "type":4
     },
     {
         "source":"e9e88780-fdbc-4547-b678-cc0a62972851",
@@ -514,10 +504,10 @@
         "type":4
     },
     {
-        "source":"e6b30822-96ec-4060-9497-67aed626bfe7",
-        "source name":"curve_shape",
-        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
-        "target name":"shape",
+        "source":"81a96054-6cd9-4a64-8f5f-55dfa70a391a",
+        "source name":"color",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"color",
         "type":4
     },
     {
@@ -532,6 +522,41 @@
         "source name":"joints",
         "target":"8e22b526-3291-4626-9821-bcafb93d9e82",
         "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"d4e4858f-4f87-4e12-9f98-6ec370feb9a8",
+        "source name":"joints",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"b94b660c-81fb-4726-acee-4232bcb6ab42",
+        "source name":"joints",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"joints",
+        "type":4
+    },
+    {
+        "source":"e6b30822-96ec-4060-9497-67aed626bfe7",
+        "source name":"curve_shape",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"shape",
+        "type":4
+    },
+    {
+        "source":"e7ad327d-0117-494d-bf95-17732d326a7b",
+        "source name":"Eval OUT",
+        "target":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "target name":"Eval IN",
+        "type":4
+    },
+    {
+        "source":"4843524f-b403-44e4-99ae-bd05cb75d1fd",
+        "source name":"controls",
+        "target":"fab769e8-d670-4efc-b89c-5f92063d097a",
+        "target name":"parent",
         "type":4
     },
     {
