@@ -22,7 +22,7 @@ def main():
     rig.set_control_shape('circle')
     rig.set_ribbon(True)
     rig.set_ribbon_offset_axis('X')
-    rig.set_ribbon_joint_aim(True, [0,1,0])
+    rig.set_ribbon_joint_aim(True, [0,0,0])
     rig.set_ribbon_overshoot_stretch_axis('Z')
     rig.set_stretch_on_off(True)
 

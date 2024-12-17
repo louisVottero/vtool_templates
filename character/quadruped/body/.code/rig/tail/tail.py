@@ -26,7 +26,7 @@ def main():
     
     rig.connect_sub_visibility(put.control_settings)
     rig.set_stretch_on_off(True)
-    rig.set_ribbon_joint_aim(True, [0,1,0])
+    rig.set_ribbon_joint_aim(True, [0,0,0])
 
     rig.set_control_parent(put.control_pelvis)
     rig.set_setup_parent(put.group_setup)        
