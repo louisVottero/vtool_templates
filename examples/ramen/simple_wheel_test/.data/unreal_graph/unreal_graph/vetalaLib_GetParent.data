@@ -1,0 +1,1141 @@
+Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionEntryNode Name="Entry" ExportPath="/Script/RigVMDeveloper.RigVMFunctionEntryNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="joint" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.joint'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.joint.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.joint.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="default_parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.default_parent'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="is_top_joint" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.is_top_joint'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="in_hierarchy" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.in_hierarchy'"
+   End Object
+   Begin Object Name="joint" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.joint'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.joint.Name'"
+         Direction=Output
+         CPPType="FName"
+         DefaultValue="None"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.joint.Type'"
+         Direction=Output
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="Bone"
+      End Object
+      Direction=Output
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="(Type=Bone,Name=\"None\")"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="default_parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.default_parent'"
+      Direction=Output
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="is_top_joint" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.is_top_joint'"
+      Direction=Output
+      CPPType="bool"
+   End Object
+   Begin Object Name="in_hierarchy" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Entry.in_hierarchy'"
+      Direction=Output
+      CPPType="bool"
+      DefaultValue="False"
+   End Object
+   Position=(X=-784.000000,Y=-352.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'joint'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'default_parent'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'is_top_joint'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'in_hierarchy'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMFunctionReturnNode Name="Return" ExportPath="/Script/RigVMDeveloper.RigVMFunctionReturnNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Return'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Return.Result'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Return.Result.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Return.Result.Type'"
+      End Object
+   End Object
+   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Return.Result'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Return.Result.Name'"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Return.Result.Type'"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="(Type=None,Name=\"None\")"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Position=(X=1136.000000,Y=-208.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Result'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="HierarchyGetParent" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Child" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Child'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Child.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Child.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Parent'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Parent.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Parent.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="CachedChild" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.ContainerVersion'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.Index'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.Key'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.Key.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.Key.Type'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="CachedParent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.ContainerVersion'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.Index'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.Key'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.Key.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.Key.Type'"
+         End Object
+      End Object
+   End Object
+   Begin Object Name="Child" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Child'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Child.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Child.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="Bone"
+      End Object
+      DisplayName="Child"
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="Parent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Parent'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Parent.Name'"
+         DisplayName="Name"
+         Direction=Output
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.Parent.Type'"
+         DisplayName="Type"
+         Direction=Output
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="Bone"
+      End Object
+      DisplayName="Parent"
+      Direction=Output
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="CachedChild" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild'"
+      Begin Object Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.ContainerVersion'"
+         DisplayName="Container Version"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="int32"
+         DefaultValue="-1"
+      End Object
+      Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.Index'"
+         DisplayName="Index"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="uint16"
+         DefaultValue="65535"
+      End Object
+      Begin Object Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.Key'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.Key.Name'"
+            DisplayName="Name"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedChild.Key.Type'"
+            DisplayName="Type"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         DisplayName="Key"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      DisplayName="Cached Child"
+      Direction=Hidden
+      bIsDynamicArray=True
+      CPPType="FCachedRigElement"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.CachedRigElement'"
+      CPPTypeObjectPath="/Script/ControlRig.CachedRigElement"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Key'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Index'"
+      SubPins(2)="/Script/RigVMDeveloper.RigVMPin'ContainerVersion'"
+   End Object
+   Begin Object Name="CachedParent" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent'"
+      Begin Object Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.ContainerVersion'"
+         DisplayName="Container Version"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="int32"
+         DefaultValue="-1"
+      End Object
+      Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.Index'"
+         DisplayName="Index"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="uint16"
+         DefaultValue="65535"
+      End Object
+      Begin Object Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.Key'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.Key.Name'"
+            DisplayName="Name"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.HierarchyGetParent.CachedParent.Key.Type'"
+            DisplayName="Type"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         DisplayName="Key"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      DisplayName="Cached Parent"
+      Direction=Hidden
+      bIsDynamicArray=True
+      CPPType="FCachedRigElement"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.CachedRigElement'"
+      CPPTypeObjectPath="/Script/ControlRig.CachedRigElement"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Key'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Index'"
+      SubPins(2)="/Script/RigVMDeveloper.RigVMPin'ContainerVersion'"
+   End Object
+   ResolvedFunctionName="FRigUnit_HierarchyGetParent::Execute"
+   NodeTitle="Get Parent"
+   Position=(X=-304.000000,Y=192.000000)
+   NodeColor=(R=0.462745,G=1.000000,B=0.329412,A=1.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Child'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Parent'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'CachedChild'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'CachedParent'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigDispatch_GetMetadata_1" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Item" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Item'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Item.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Item.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Name'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Cache" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.ContainerVersion'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.Index'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.Key'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.Key.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.Key.Type'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Default" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Default'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Default.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Default.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Value" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Value'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Value.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Value.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Found" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Found'"
+   End Object
+   Begin Object Name="Item" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Item'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Item.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Item.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="Bone"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Name'"
+      Direction=Input
+      CPPType="FName"
+      DefaultValue="Control"
+   End Object
+   Begin Object Name="Cache" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache'"
+      Begin Object Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.ContainerVersion'"
+         DisplayName="Container Version"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="int32"
+         DefaultValue="-1"
+      End Object
+      Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.Index'"
+         DisplayName="Index"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="uint16"
+         DefaultValue="65535"
+      End Object
+      Begin Object Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.Key'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.Key.Name'"
+            DisplayName="Name"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Cache.Key.Type'"
+            DisplayName="Type"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         DisplayName="Key"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Direction=Hidden
+      bIsDynamicArray=True
+      CPPType="FCachedRigElement"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.CachedRigElement'"
+      CPPTypeObjectPath="/Script/ControlRig.CachedRigElement"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Key'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Index'"
+      SubPins(2)="/Script/RigVMDeveloper.RigVMPin'ContainerVersion'"
+   End Object
+   Begin Object Name="Default" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Default'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Default.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Default.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="Bone"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="(Type=Bone,Name=\"\")"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="Value" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Value'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Value.Name'"
+         DisplayName="Name"
+         Direction=Output
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Value.Type'"
+         DisplayName="Type"
+         Direction=Output
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="Bone"
+      End Object
+      Direction=Output
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="(Type=Bone,Name=\"\")"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="Found" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigDispatch_GetMetadata_1.Found'"
+      Direction=Output
+      CPPType="bool"
+      DefaultValue="False"
+   End Object
+   TemplateNotation="DISPATCH_RigDispatch_GetMetadata(in Item,in Name,in Default,out Value,out Found)"
+   ResolvedFunctionName="DISPATCH_RigDispatch_GetMetadata::Item:FRigElementKey,Name:FName,Cache:FCachedRigElement,Default:FRigElementKey,Value:FRigElementKey,Found:bool"
+   Position=(X=-128.000000,Y=192.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Item'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'Cache'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Default'"
+   Pins(4)="/Script/RigVMDeveloper.RigVMPin'Value'"
+   Pins(5)="/Script/RigVMDeveloper.RigVMPin'Found'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_If" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Condition'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.True'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.True.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.True.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.False'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.False.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.False.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Result'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Result.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Result.Type'"
+      End Object
+   End Object
+   Begin Object Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Condition'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="False"
+   End Object
+   Begin Object Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.True'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.True.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.True.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.False'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.False.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.False.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Result'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Result.Name'"
+         DisplayName="Name"
+         Direction=Output
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If.Result.Type'"
+         DisplayName="Type"
+         Direction=Output
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Output
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   TemplateNotation="DISPATCH_RigVMDispatch_If(in Condition,in True,in False,out Result)"
+   ResolvedFunctionName="DISPATCH_RigVMDispatch_If::Condition:bool,True:FRigElementKey,False:FRigElementKey,Result:FRigElementKey"
+   Position=(X=928.000000,Y=-208.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Condition'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'True'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'False'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Result'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_ArrayGetAtIndex_1" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Array" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Array'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Index'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Element" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element.Type'"
+      End Object
+   End Object
+   Begin Object Name="Array" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Array'"
+      Direction=Input
+      bIsDynamicArray=True
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Index'"
+      Direction=Input
+      CPPType="int32"
+      DefaultValue="-1"
+   End Object
+   Begin Object Name="Element" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element.Name'"
+         DisplayName="Name"
+         Direction=Output
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element.Type'"
+         DisplayName="Type"
+         Direction=Output
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Output
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   TemplateNotation="DISPATCH_RigVMDispatch_ArrayGetAtIndex(in Array,in Index,out Element)"
+   ResolvedFunctionName="DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey"
+   Position=(X=112.000000,Y=-64.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Array'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Index'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'Element'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_ArrayGetNum" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetNum'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Array" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetNum.Array'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Num" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetNum.Num'"
+   End Object
+   Begin Object Name="Array" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetNum.Array'"
+      Direction=Input
+      bIsDynamicArray=True
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="Num" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_ArrayGetNum.Num'"
+      Direction=Output
+      CPPType="int32"
+      DefaultValue="0"
+   End Object
+   TemplateNotation="DISPATCH_RigVMDispatch_ArrayGetNum(in Array,out Num)"
+   ResolvedFunctionName="DISPATCH_RigVMDispatch_ArrayGetNum::Array:TArray<FRigElementKey>,Num:int32"
+   Position=(X=-640.000000,Y=-64.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Array'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Num'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="Greater" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Greater'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Greater.A'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Greater.B'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Greater.Result'"
+   End Object
+   Begin Object Name="A" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Greater.A'"
+      Direction=Input
+      CPPType="int32"
+      DefaultValue="0"
+   End Object
+   Begin Object Name="B" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Greater.B'"
+      Direction=Input
+      CPPType="int32"
+      DefaultValue="0"
+   End Object
+   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.Greater.Result'"
+      Direction=Output
+      CPPType="bool"
+      DefaultValue="False"
+   End Object
+   TemplateNotation="Greater::Execute(in A,in B,out Result)"
+   ResolvedFunctionName="FRigVMFunction_MathIntGreater::Execute"
+   Position=(X=-416.000000,Y=-64.000000)
+   NodeColor=(R=0.050000,G=0.250000,B=0.050000,A=1.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'A'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'B'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'Result'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_If_2" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.Condition'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.True'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.False'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.False.0'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.False.0.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.False.0.Type'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.Result'"
+   End Object
+   Begin Object Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.Condition'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="False"
+   End Object
+   Begin Object Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.True'"
+      Direction=Input
+      bIsDynamicArray=True
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   Begin Object Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.False'"
+      Begin Object Name="0" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.False.0'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.False.0.Name'"
+            DisplayName="Name"
+            Direction=Input
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.False.0.Type'"
+            DisplayName="Type"
+            Direction=Input
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="Bone"
+         End Object
+         Direction=Input
+         bIsDynamicArray=True
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         DefaultValue="()"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      Direction=Input
+      bIsDynamicArray=True
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'0'"
+   End Object
+   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_2.Result'"
+      Direction=Output
+      bIsDynamicArray=True
+      CPPType="TArray<FRigElementKey>"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      DefaultValue="()"
+   End Object
+   TemplateNotation="DISPATCH_RigVMDispatch_If(in Condition,in True,in False,out Result)"
+   ResolvedFunctionName="DISPATCH_RigVMDispatch_If::Condition:bool,True:TArray<FRigElementKey>,False:TArray<FRigElementKey>,Result:TArray<FRigElementKey>"
+   Position=(X=-160.000000,Y=-160.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Condition'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'True'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'False'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Result'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_If_3" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.Condition'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.True'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.True.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.True.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.False'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.False.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.False.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.Result'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.Result.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.Result.Type'"
+      End Object
+   End Object
+   Begin Object Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.Condition'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="False"
+   End Object
+   Begin Object Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.True'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.True.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.True.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.False'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.False.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.False.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.Result'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.Result.Name'"
+         DisplayName="Name"
+         Direction=Output
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_3.Result.Type'"
+         DisplayName="Type"
+         Direction=Output
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Output
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   TemplateNotation="DISPATCH_RigVMDispatch_If(in Condition,in True,in False,out Result)"
+   ResolvedFunctionName="DISPATCH_RigVMDispatch_If::Condition:bool,True:FRigElementKey,False:FRigElementKey,Result:FRigElementKey"
+   Position=(X=768.000000,Y=0.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Condition'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'True'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'False'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Result'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMUnitNode Name="ItemExists" ExportPath="/Script/RigVMDeveloper.RigVMUnitNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Item" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Exists" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Exists'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="CachedIndex" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.ContainerVersion'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Index'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key'"
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Name'"
+         End Object
+         Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Type'"
+         End Object
+      End Object
+   End Object
+   Begin Object Name="Item" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Item.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      DisplayName="Item"
+      Direction=Input
+      bIsExpanded=True
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="Exists" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.Exists'"
+      DisplayName="Exists"
+      Direction=Output
+      CPPType="bool"
+      DefaultValue="False"
+   End Object
+   Begin Object Name="CachedIndex" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex'"
+      Begin Object Name="ContainerVersion" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.ContainerVersion'"
+         DisplayName="Container Version"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="int32"
+         DefaultValue="-1"
+      End Object
+      Begin Object Name="Index" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Index'"
+         DisplayName="Index"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="uint16"
+         DefaultValue="65535"
+      End Object
+      Begin Object Name="Key" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key'"
+         Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Name'"
+            DisplayName="Name"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="FName"
+            DefaultValue="None"
+            CustomWidgetName="ElementName"
+         End Object
+         Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.ItemExists.CachedIndex.Key.Type'"
+            DisplayName="Type"
+            Direction=Hidden
+            bIsDynamicArray=True
+            CPPType="ERigElementType"
+            CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+            CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+            DefaultValue="None"
+         End Object
+         DisplayName="Key"
+         Direction=Hidden
+         bIsDynamicArray=True
+         CPPType="FRigElementKey"
+         CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+         CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+         SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+         SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+      End Object
+      DisplayName="Cached Index"
+      Direction=Hidden
+      bIsDynamicArray=True
+      CPPType="FCachedRigElement"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.CachedRigElement'"
+      CPPTypeObjectPath="/Script/ControlRig.CachedRigElement"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Key'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Index'"
+      SubPins(2)="/Script/RigVMDeveloper.RigVMPin'ContainerVersion'"
+   End Object
+   ResolvedFunctionName="FRigUnit_ItemExists::Execute"
+   NodeTitle="Item Exists"
+   Position=(X=256.000000,Y=320.000000)
+   NodeColor=(R=0.700000,G=0.050000,B=0.500000,A=1.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Item'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'Exists'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'CachedIndex'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMDispatchNode Name="DISPATCH_RigVMDispatch_If_1" ExportPath="/Script/RigVMDeveloper.RigVMDispatchNode'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1'"
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Condition'"
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Type'"
+      End Object
+   End Object
+   Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result'"
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Name'"
+      End Object
+      Begin Object Class=/Script/RigVMDeveloper.RigVMPin Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Type'"
+      End Object
+   End Object
+   Begin Object Name="Condition" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Condition'"
+      Direction=Input
+      CPPType="bool"
+      DefaultValue="False"
+   End Object
+   Begin Object Name="True" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.True.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="False" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Name'"
+         DisplayName="Name"
+         Direction=Input
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.False.Type'"
+         DisplayName="Type"
+         Direction=Input
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Input
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   Begin Object Name="Result" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result'"
+      Begin Object Name="Name" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Name'"
+         DisplayName="Name"
+         Direction=Output
+         CPPType="FName"
+         DefaultValue="None"
+         CustomWidgetName="ElementName"
+      End Object
+      Begin Object Name="Type" ExportPath="/Script/RigVMDeveloper.RigVMPin'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.DISPATCH_RigVMDispatch_If_1.Result.Type'"
+         DisplayName="Type"
+         Direction=Output
+         CPPType="ERigElementType"
+         CPPTypeObject="/Script/CoreUObject.Enum'/Script/ControlRig.ERigElementType'"
+         CPPTypeObjectPath="/Script/ControlRig.ERigElementType"
+         DefaultValue="None"
+      End Object
+      Direction=Output
+      CPPType="FRigElementKey"
+      CPPTypeObject="/Script/CoreUObject.ScriptStruct'/Script/ControlRig.RigElementKey'"
+      CPPTypeObjectPath="/Script/ControlRig.RigElementKey"
+      SubPins(0)="/Script/RigVMDeveloper.RigVMPin'Type'"
+      SubPins(1)="/Script/RigVMDeveloper.RigVMPin'Name'"
+   End Object
+   TemplateNotation="DISPATCH_RigVMDispatch_If(in Condition,in True,in False,out Result)"
+   ResolvedFunctionName="DISPATCH_RigVMDispatch_If::Condition:bool,True:FRigElementKey,False:FRigElementKey,Result:FRigElementKey"
+   Position=(X=592.000000,Y=240.000000)
+   Pins(0)="/Script/RigVMDeveloper.RigVMPin'Condition'"
+   Pins(1)="/Script/RigVMDeveloper.RigVMPin'True'"
+   Pins(2)="/Script/RigVMDeveloper.RigVMPin'False'"
+   Pins(3)="/Script/RigVMDeveloper.RigVMPin'Result'"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_21" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_21'"
+   SourcePinPath="HierarchyGetParent.Parent"
+   TargetPinPath="DISPATCH_RigDispatch_GetMetadata_1.Item"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_27" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_27'"
+   SourcePinPath="DISPATCH_RigVMDispatch_ArrayGetNum.Num"
+   TargetPinPath="Greater.A"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_28" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_28'"
+   SourcePinPath="Greater.Result"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_2.Condition"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_29" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_29'"
+   SourcePinPath="DISPATCH_RigVMDispatch_If_2.Result"
+   TargetPinPath="DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Array"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_30" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_30'"
+   SourcePinPath="DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element"
+   TargetPinPath="DISPATCH_RigVMDispatch_If.True"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_4" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_4'"
+   SourcePinPath="DISPATCH_RigVMDispatch_If_3.Result"
+   TargetPinPath="DISPATCH_RigVMDispatch_If.False"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_9" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_9'"
+   SourcePinPath="DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_3.False"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_12" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_12'"
+   SourcePinPath="Entry.joint"
+   TargetPinPath="HierarchyGetParent.Child"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_0" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_0'"
+   SourcePinPath="Entry.default_parent"
+   TargetPinPath="DISPATCH_RigVMDispatch_ArrayGetNum.Array"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_1" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_1'"
+   SourcePinPath="Entry.default_parent"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_2.True"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_6" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_6'"
+   SourcePinPath="DISPATCH_RigVMDispatch_If.Result"
+   TargetPinPath="Return.Result"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_2" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_2'"
+   SourcePinPath="Entry.is_top_joint"
+   TargetPinPath="DISPATCH_RigVMDispatch_If.Condition"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_7" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_7'"
+   SourcePinPath="Entry.in_hierarchy"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_3.Condition"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_8" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_8'"
+   SourcePinPath="ItemExists.Exists"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_1.Condition"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_11" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_11'"
+   SourcePinPath="DISPATCH_RigDispatch_GetMetadata_1.Value"
+   TargetPinPath="ItemExists.Item"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_13" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_13'"
+   SourcePinPath="DISPATCH_RigDispatch_GetMetadata_1.Value"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_1.True"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_14" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_14'"
+   SourcePinPath="DISPATCH_RigVMDispatch_ArrayGetAtIndex_1.Element"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_1.False"
+End Object
+Begin Object Class=/Script/RigVMDeveloper.RigVMLink Name="RigVMLink_15" ExportPath="/Script/RigVMDeveloper.RigVMLink'/Game/Vetala/wheel_test3/data/SkeletalMeshes/SK_asset_CtrlRig.SK_asset_CtrlRig:RigVMFunctionLibrary.vetalaLib_GetParent.New Function_ContainedGraph.RigVMLink_15'"
+   SourcePinPath="DISPATCH_RigVMDispatch_If_1.Result"
+   TargetPinPath="DISPATCH_RigVMDispatch_If_3.True"
+End Object
