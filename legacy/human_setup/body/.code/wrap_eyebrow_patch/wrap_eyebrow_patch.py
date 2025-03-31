@@ -1,15 +1,17 @@
-import pymel.core as pmc
+
+from vtool.maya_lib import deform
+
 
 rig_group = process.get_option('Setup Group Parent', 'Setup.Auto Rig Groups')
 
 def main():
 
-    pmc.select(['eyebrow_patch_C', 'body_C'], r=True)
-    pmc.runtime.CreateWrap()
-    wrap_deformer = pmc.PyNode('wrap1')
-    wrap_deformer.falloffMode.set(1)
-    wrap_deformer.exclusiveBind.set(1)
+    deform.create_wrap('body_C',
+                        'eyebrow_patch_C',
+                        return_class=False)
+
+
     
-    wrap_group = pmc.group(em=True, n='rig_wrap_base_gr')
-    pmc.parent('body_CBase', wrap_group)
-    pmc.parent(wrap_group, rig_group)
+    wrap_group = cmds.group(em=True, n='rig_wrap_base_gr')
+    cmds.parent('wrapBase_body_C', wrap_group)
+    cmds.parent(wrap_group, rig_group)
