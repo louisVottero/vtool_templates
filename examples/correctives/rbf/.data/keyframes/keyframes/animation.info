@@ -1,0 +1,4 @@
+{'arm_L_rotateY' : {'output': [u'arm_L.rotateY'], 'input': 'None'}}
+{'arm_L_rotateZ' : {'output': [u'arm_L.rotateZ'], 'input': 'None'}}
+{'arm_R_rotateY' : {'output': [u'arm_R.rotateY'], 'input': 'None'}}
+{'arm_R_rotateZ' : {'output': [u'arm_R.rotateZ'], 'input': 'None'}}

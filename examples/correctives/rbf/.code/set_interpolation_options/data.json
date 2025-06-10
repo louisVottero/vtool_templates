@@ -1,0 +1,14 @@
+[
+    [
+        "name",
+        "set_interpolation_options"
+    ],
+    [
+        "data_type",
+        "script.python"
+    ],
+    [
+        "sub_folder",
+        ""
+    ]
+]
