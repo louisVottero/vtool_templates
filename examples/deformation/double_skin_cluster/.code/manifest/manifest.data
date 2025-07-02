@@ -1,0 +1,4 @@
+import_structure.py True
+import_weights_skinCluster.py True
+import_weights_skinCluster2.py True
+import_weights_skinCluster3.py True
