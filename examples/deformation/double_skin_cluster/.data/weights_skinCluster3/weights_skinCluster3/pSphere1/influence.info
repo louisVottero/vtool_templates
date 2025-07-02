@@ -1,0 +1,6 @@
+{'joint7' : {'position' : [1.0, 0.0, -1.0]}}
+{'joint8' : {'position' : [1.0, 0.0, 0.0]}}
+{'joint9' : {'position' : [1.0, 0.0, 1.0]}}
+{'joint10' : {'position' : [-1.0, 0.0, 1.0]}}
+{'joint11' : {'position' : [-1.0, 0.0, 0.0]}}
+{'joint12' : {'position' : [-1.0, 0.0, -1.0]}}
