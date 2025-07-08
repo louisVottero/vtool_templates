@@ -12,6 +12,7 @@ def main():
         
         parent_joint = cmds.listRelatives(end_joint, type = 'joint', p = True)[0]
         
+        #just needed for aiming the bone.
         ik = space.create_ik_on_joint(parent_joint,'spring')        
         cmds.parent(ik, control)
         cmds.hide(ik)
