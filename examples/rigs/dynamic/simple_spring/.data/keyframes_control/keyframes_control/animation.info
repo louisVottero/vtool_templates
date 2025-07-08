@@ -1,0 +1,7 @@
+{'CNT_ROOT_1_translateX' : {'output': [u'CNT_ROOT_1.translateX'], 'input': 'None'}}
+{'CNT_ROOT_1_translateY' : {'output': [u'CNT_ROOT_1.translateY'], 'input': 'None'}}
+{'CNT_ROOT_1_translateZ' : {'output': [u'CNT_ROOT_1.translateZ'], 'input': 'None'}}
+{'CNT_ROOT_1_rotateX' : {'output': [u'CNT_ROOT_1.rotateX'], 'input': 'None'}}
+{'CNT_ROOT_1_rotateY' : {'output': [u'CNT_ROOT_1.rotateY'], 'input': 'None'}}
+{'CNT_ROOT_1_rotateZ' : {'output': [u'CNT_ROOT_1.rotateZ'], 'input': 'None'}}
+{'CNT_ROOT_1_rotateOrder' : {'output': [u'CNT_ROOT_1.rotateOrder'], 'input': 'None'}}
