@@ -50,8 +50,8 @@
         "uuid":"91618f9e-ae6c-429a-bc12-9ca31b1738df",
         "type":10002,
         "position":[
-            -634.0243529041581,
-            1423.064427380774
+            -470.59301785023865,
+            1207.1903242545357
         ],
         "widget_value":{
             "joint filter":{
@@ -117,8 +117,8 @@
         "uuid":"433946e1-346f-4d51-a3c7-857206736ceb",
         "type":10002,
         "position":[
-            -688.7221918819564,
-            2492.701183210763
+            -612.1158181687214,
+            2728.2757894239985
         ],
         "widget_value":{
             "joint filter":{
@@ -140,8 +140,8 @@
         "uuid":"44e97b17-82b7-47a0-a100-b810589012b8",
         "type":10002,
         "position":[
-            869.8646240984556,
-            1188.4165876124032
+            802.5426259968613,
+            974.8204673049613
         ],
         "widget_value":{
             "joint filter":{
@@ -207,8 +207,8 @@
         "uuid":"f7f3b71c-e6ec-4740-810f-823c4aeabfcc",
         "type":10002,
         "position":[
-            836.0022455497531,
-            2361.2102716366
+            596.6616294635555,
+            2577.443999480982
         ],
         "widget_value":{
             "joint filter":{
@@ -281,7 +281,7 @@
             },
             "Unreal Shape Name":{
                 "value":[
-                    ""
+                    "Triangle_Thin"
                 ],
                 "data_type":5
             }
@@ -292,8 +292,8 @@
         "uuid":"5184940a-3406-42a9-9ff1-c0d404ed907a",
         "type":10006,
         "position":[
-            289.2352485700151,
-            1969.2656985851997
+            -136.04701577068965,
+            1917.5421799491683
         ],
         "widget_value":{
             "Maya Vector":{
@@ -579,7 +579,7 @@
             },
             "shape":{
                 "value":[
-                    "Default"
+                    "Circle_Thick"
                 ],
                 "data_type":null
             },
@@ -587,7 +587,7 @@
                 "value":[
                     [
                         0.0,
-                        0.0,
+                        4.0,
                         0.0
                     ]
                 ],
@@ -606,9 +606,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.0,
-                        1.0,
-                        1.0
+                        0.5,
+                        0.5,
+                        0.5
                     ]
                 ],
                 "data_type":null
@@ -689,7 +689,7 @@
             },
             "shape":{
                 "value":[
-                    "square_point"
+                    "Triangle_Thin"
                 ],
                 "data_type":null
             },
@@ -707,7 +707,7 @@
                 "value":[
                     [
                         0.0,
-                        0.0,
+                        180.0,
                         0.0
                     ]
                 ],
@@ -716,9 +716,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        7.0,
-                        7.0,
-                        7.0
+                        5.0,
+                        5.0,
+                        5.0
                     ]
                 ],
                 "data_type":null
@@ -756,8 +756,8 @@
         "uuid":"641a6282-b64b-41cd-aca8-89429a089104",
         "type":20010,
         "position":[
-            -230.3192778111881,
-            1102.679444701637
+            -17.776668280719548,
+            1211.675654717262
         ],
         "widget_value":{
             "description":{
@@ -796,7 +796,7 @@
             "shape_translate":{
                 "value":[
                     [
-                        2.0,
+                        0.0,
                         0.0,
                         0.0
                     ]
@@ -816,9 +816,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.0,
-                        1.0,
-                        1.0
+                        1.3,
+                        1.3,
+                        1.3
                     ]
                 ],
                 "data_type":null
@@ -888,8 +888,8 @@
         "uuid":"aa5ad521-251f-4283-ab83-3120bb553fbf",
         "type":20010,
         "position":[
-            -251.8271865433532,
-            2732.394467887805
+            20.35824351987182,
+            2716.1160556651794
         ],
         "widget_value":{
             "description":{
@@ -928,7 +928,7 @@
             "shape_translate":{
                 "value":[
                     [
-                        2.0,
+                        0.0,
                         0.0,
                         0.0
                     ]
@@ -948,9 +948,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.0,
-                        1.0,
-                        1.0
+                        1.3,
+                        1.3,
+                        1.3
                     ]
                 ],
                 "data_type":null
@@ -1020,8 +1020,8 @@
         "uuid":"8ef711c5-1bdb-493b-a672-f845f74a0a62",
         "type":20010,
         "position":[
-            1259.1707392268415,
-            795.8425712043734
+            1266.7137295393418,
+            931.6163968293733
         ],
         "widget_value":{
             "description":{
@@ -1060,7 +1060,7 @@
             "shape_translate":{
                 "value":[
                     [
-                        -2.0,
+                        0.0,
                         0.0,
                         0.0
                     ]
@@ -1080,9 +1080,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.0,
-                        1.0,
-                        1.0
+                        1.3,
+                        1.3,
+                        1.3
                     ]
                 ],
                 "data_type":null
@@ -1152,8 +1152,8 @@
         "uuid":"7f6a4528-cc8c-4202-8d03-873e979ba156",
         "type":20010,
         "position":[
-            1257.0358808500157,
-            2781.108086491612
+            1128.8050455375155,
+            2554.8183771166123
         ],
         "widget_value":{
             "description":{
@@ -1192,7 +1192,7 @@
             "shape_translate":{
                 "value":[
                     [
-                        -2.0,
+                        0.0,
                         0.0,
                         0.0
                     ]
@@ -1212,9 +1212,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.0,
-                        1.0,
-                        1.0
+                        1.3,
+                        1.3,
+                        1.3
                     ]
                 ],
                 "data_type":null
@@ -1278,6 +1278,94 @@
             }
         },
         "rig uuid":"7f6a4528-cc8c-4202-8d03-873e979ba156"
+    },
+    {
+        "name":"Platform Transform Vector",
+        "uuid":"53c7dc41-428e-4a2f-b0db-db53a9f6b1e4",
+        "type":10005,
+        "position":[
+            -1575.0,
+            793.0
+        ],
+        "widget_value":{
+            "Maya Translate":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Maya Rotate":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Maya Scale":{
+                "value":[
+                    [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Unreal Translate":{
+                "value":[
+                    [
+                        0.0,
+                        4.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Unreal Rotate":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Unreal Scale":{
+                "value":[
+                    [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "data_type":null
+            }
+        }
+    },
+    {
+        "name":"Uniform Curve Shape",
+        "uuid":"034e293f-e0b2-4d95-88d2-1caa3e81a188",
+        "type":10010,
+        "position":[
+            -1767.0,
+            721.0
+        ],
+        "widget_value":{
+            "Uniform Shape Name":{
+                "value":[
+                    "Circle_Thick"
+                ],
+                "data_type":5
+            }
+        }
     },
     {
         "type":4,
@@ -1523,5 +1611,33 @@
         "source name":"controls",
         "target":"928a9ac7-6e38-4fd0-9786-4286ab588469",
         "target name":"controls"
+    },
+    {
+        "type":4,
+        "source":"53c7dc41-428e-4a2f-b0db-db53a9f6b1e4",
+        "source name":"Translate",
+        "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
+        "target name":"shape_translate"
+    },
+    {
+        "type":4,
+        "source":"53c7dc41-428e-4a2f-b0db-db53a9f6b1e4",
+        "source name":"Rotate",
+        "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
+        "target name":"shape_rotate"
+    },
+    {
+        "type":4,
+        "source":"53c7dc41-428e-4a2f-b0db-db53a9f6b1e4",
+        "source name":"Scale",
+        "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
+        "target name":"shape_scale"
+    },
+    {
+        "type":4,
+        "source":"034e293f-e0b2-4d95-88d2-1caa3e81a188",
+        "source name":"curve_shape",
+        "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
+        "target name":"shape"
     }
 ]
