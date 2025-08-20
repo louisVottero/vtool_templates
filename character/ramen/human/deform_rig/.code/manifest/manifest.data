@@ -1,0 +1,7 @@
+delete.py True
+import_structure.py True
+import_asset.py True
+orient_joints.py True
+parent.py True
+import_weights_skinCluster.py True
+save_output_usd.py False
