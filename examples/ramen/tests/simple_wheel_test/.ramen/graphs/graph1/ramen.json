@@ -73,8 +73,8 @@
         "uuid":"fd79473b-49f7-464c-a2b6-661e92862e6f",
         "type":10003,
         "position":[
-            -898.8511630289439,
-            2149.015930202536
+            -994.6901084586563,
+            1709.0280443661295
         ],
         "widget_value":{
             "color value":{
@@ -95,8 +95,8 @@
         "uuid":"13a30309-5eb6-4b7c-b3ea-b98c53c6f1a9",
         "type":10003,
         "position":[
-            -903.2274082014834,
-            2260.883426340567
+            -999.0663536311957,
+            1820.895540504161
         ],
         "widget_value":{
             "color value":{
@@ -117,8 +117,8 @@
         "uuid":"433946e1-346f-4d51-a3c7-857206736ceb",
         "type":10002,
         "position":[
-            -612.1158181687214,
-            2728.2757894239985
+            -633.8973966754742,
+            1948.4952788822484
         ],
         "widget_value":{
             "joint filter":{
@@ -163,8 +163,8 @@
         "uuid":"7f90bc0c-e3ac-4e5f-bce6-61b22bd4066f",
         "type":10003,
         "position":[
-            800.4247455497541,
-            2061.9727716365996
+            447.5631737403587,
+            1652.479095709647
         ],
         "widget_value":{
             "color value":{
@@ -185,8 +185,8 @@
         "uuid":"67939f10-86c7-40bb-8ea9-8f4e6d3a3362",
         "type":10003,
         "position":[
-            805.482245549754,
-            2166.0127716365996
+            452.6206737403586,
+            1756.519095709647
         ],
         "widget_value":{
             "color value":{
@@ -207,8 +207,8 @@
         "uuid":"f7f3b71c-e6ec-4740-810f-823c4aeabfcc",
         "type":10002,
         "position":[
-            596.6616294635555,
-            2577.443999480982
+            783.9832046216297,
+            1980.6287483959554
         ],
         "widget_value":{
             "joint filter":{
@@ -284,179 +284,6 @@
                     "Triangle_Thin"
                 ],
                 "data_type":5
-            }
-        }
-    },
-    {
-        "name":"Platform Vector",
-        "uuid":"5184940a-3406-42a9-9ff1-c0d404ed907a",
-        "type":10006,
-        "position":[
-            -136.04701577068965,
-            1917.5421799491683
-        ],
-        "widget_value":{
-            "Maya Vector":{
-                "value":[
-                    [
-                        0.0,
-                        1.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Vector":{
-                "value":[
-                    [
-                        0.0,
-                        1.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            }
-        }
-    },
-    {
-        "name":"Platform Transform Vector",
-        "uuid":"aca64560-d490-438b-8052-cd9fb3785c0d",
-        "type":10005,
-        "position":[
-            770.4341252390275,
-            1655.092152803202
-        ],
-        "widget_value":{
-            "Maya Translate":{
-                "value":[
-                    [
-                        -2.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Maya Rotate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Maya Scale":{
-                "value":[
-                    [
-                        1.0,
-                        1.0,
-                        1.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Translate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Rotate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Scale":{
-                "value":[
-                    [
-                        1.3,
-                        1.3,
-                        1.3
-                    ]
-                ],
-                "data_type":null
-            }
-        }
-    },
-    {
-        "name":"Platform Transform Vector",
-        "uuid":"56977e8a-e026-4d1e-92ab-7c3e8308cf31",
-        "type":10005,
-        "position":[
-            -934.5692320513953,
-            1829.004425525142
-        ],
-        "widget_value":{
-            "Maya Translate":{
-                "value":[
-                    [
-                        2.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Maya Rotate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Maya Scale":{
-                "value":[
-                    [
-                        1.0,
-                        1.0,
-                        1.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Translate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Rotate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Scale":{
-                "value":[
-                    [
-                        1.3,
-                        1.3,
-                        1.3
-                    ]
-                ],
-                "data_type":null
             }
         }
     },
@@ -796,7 +623,7 @@
             "shape_translate":{
                 "value":[
                     [
-                        0.0,
+                        2.0,
                         0.0,
                         0.0
                     ]
@@ -816,9 +643,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.3,
-                        1.3,
-                        1.3
+                        1.0,
+                        1.0,
+                        1.0
                     ]
                 ],
                 "data_type":null
@@ -888,8 +715,8 @@
         "uuid":"aa5ad521-251f-4283-ab83-3120bb553fbf",
         "type":20010,
         "position":[
-            20.35824351987182,
-            2716.1160556651794
+            -1.4233349868809881,
+            1936.3355451234293
         ],
         "widget_value":{
             "description":{
@@ -928,7 +755,7 @@
             "shape_translate":{
                 "value":[
                     [
-                        0.0,
+                        2.0,
                         0.0,
                         0.0
                     ]
@@ -948,9 +775,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.3,
-                        1.3,
-                        1.3
+                        1.0,
+                        1.0,
+                        1.0
                     ]
                 ],
                 "data_type":null
@@ -1060,7 +887,7 @@
             "shape_translate":{
                 "value":[
                     [
-                        0.0,
+                        -2.0,
                         0.0,
                         0.0
                     ]
@@ -1080,9 +907,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.3,
-                        1.3,
-                        1.3
+                        1.0,
+                        1.0,
+                        1.0
                     ]
                 ],
                 "data_type":null
@@ -1152,8 +979,8 @@
         "uuid":"7f6a4528-cc8c-4202-8d03-873e979ba156",
         "type":20010,
         "position":[
-            1128.8050455375155,
-            2554.8183771166123
+            1316.12662069559,
+            1958.003126031586
         ],
         "widget_value":{
             "description":{
@@ -1192,7 +1019,7 @@
             "shape_translate":{
                 "value":[
                     [
-                        0.0,
+                        -2.0,
                         0.0,
                         0.0
                     ]
@@ -1212,9 +1039,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.3,
-                        1.3,
-                        1.3
+                        1.0,
+                        1.0,
+                        1.0
                     ]
                 ],
                 "data_type":null
@@ -1280,77 +1107,6 @@
         "rig uuid":"7f6a4528-cc8c-4202-8d03-873e979ba156"
     },
     {
-        "name":"Platform Transform Vector",
-        "uuid":"53c7dc41-428e-4a2f-b0db-db53a9f6b1e4",
-        "type":10005,
-        "position":[
-            -1575.0,
-            793.0
-        ],
-        "widget_value":{
-            "Maya Translate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Maya Rotate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Maya Scale":{
-                "value":[
-                    [
-                        1.0,
-                        1.0,
-                        1.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Translate":{
-                "value":[
-                    [
-                        0.0,
-                        4.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Rotate":{
-                "value":[
-                    [
-                        0.0,
-                        0.0,
-                        0.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Scale":{
-                "value":[
-                    [
-                        0.5,
-                        0.5,
-                        0.5
-                    ]
-                ],
-                "data_type":null
-            }
-        }
-    },
-    {
         "name":"Uniform Curve Shape",
         "uuid":"034e293f-e0b2-4d95-88d2-1caa3e81a188",
         "type":10010,
@@ -1364,6 +1120,37 @@
                     "Circle_Thick"
                 ],
                 "data_type":5
+            }
+        }
+    },
+    {
+        "name":"Platform Vector",
+        "uuid":"1f946fbe-9e09-416b-9f13-9ff18871da62",
+        "type":10006,
+        "position":[
+            -1712.0,
+            858.0
+        ],
+        "widget_value":{
+            "Maya Vector":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Unreal Vector":{
+                "value":[
+                    [
+                        0.0,
+                        4.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
             }
         }
     },
@@ -1502,76 +1289,6 @@
     },
     {
         "type":4,
-        "source":"5184940a-3406-42a9-9ff1-c0d404ed907a",
-        "source name":"Vector",
-        "target":"641a6282-b64b-41cd-aca8-89429a089104",
-        "target name":"steer_axis"
-    },
-    {
-        "type":4,
-        "source":"5184940a-3406-42a9-9ff1-c0d404ed907a",
-        "source name":"Vector",
-        "target":"8ef711c5-1bdb-493b-a672-f845f74a0a62",
-        "target name":"steer_axis"
-    },
-    {
-        "type":4,
-        "source":"aca64560-d490-438b-8052-cd9fb3785c0d",
-        "source name":"Translate",
-        "target":"8ef711c5-1bdb-493b-a672-f845f74a0a62",
-        "target name":"shape_translate"
-    },
-    {
-        "type":4,
-        "source":"aca64560-d490-438b-8052-cd9fb3785c0d",
-        "source name":"Translate",
-        "target":"7f6a4528-cc8c-4202-8d03-873e979ba156",
-        "target name":"shape_translate"
-    },
-    {
-        "type":4,
-        "source":"aca64560-d490-438b-8052-cd9fb3785c0d",
-        "source name":"Scale",
-        "target":"7f6a4528-cc8c-4202-8d03-873e979ba156",
-        "target name":"shape_scale"
-    },
-    {
-        "type":4,
-        "source":"aca64560-d490-438b-8052-cd9fb3785c0d",
-        "source name":"Scale",
-        "target":"8ef711c5-1bdb-493b-a672-f845f74a0a62",
-        "target name":"shape_scale"
-    },
-    {
-        "type":4,
-        "source":"56977e8a-e026-4d1e-92ab-7c3e8308cf31",
-        "source name":"Translate",
-        "target":"aa5ad521-251f-4283-ab83-3120bb553fbf",
-        "target name":"shape_translate"
-    },
-    {
-        "type":4,
-        "source":"56977e8a-e026-4d1e-92ab-7c3e8308cf31",
-        "source name":"Translate",
-        "target":"641a6282-b64b-41cd-aca8-89429a089104",
-        "target name":"shape_translate"
-    },
-    {
-        "type":4,
-        "source":"56977e8a-e026-4d1e-92ab-7c3e8308cf31",
-        "source name":"Scale",
-        "target":"aa5ad521-251f-4283-ab83-3120bb553fbf",
-        "target name":"shape_scale"
-    },
-    {
-        "type":4,
-        "source":"56977e8a-e026-4d1e-92ab-7c3e8308cf31",
-        "source name":"Scale",
-        "target":"641a6282-b64b-41cd-aca8-89429a089104",
-        "target name":"shape_scale"
-    },
-    {
-        "type":4,
         "source":"26d5de8e-fe62-45d5-af5b-99df6f349854",
         "source name":"Translate",
         "target":"6ed0d5a0-5029-4f4f-8a7f-c73eba7c4e1a",
@@ -1614,30 +1331,16 @@
     },
     {
         "type":4,
-        "source":"53c7dc41-428e-4a2f-b0db-db53a9f6b1e4",
-        "source name":"Translate",
-        "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
-        "target name":"shape_translate"
-    },
-    {
-        "type":4,
-        "source":"53c7dc41-428e-4a2f-b0db-db53a9f6b1e4",
-        "source name":"Rotate",
-        "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
-        "target name":"shape_rotate"
-    },
-    {
-        "type":4,
-        "source":"53c7dc41-428e-4a2f-b0db-db53a9f6b1e4",
-        "source name":"Scale",
-        "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
-        "target name":"shape_scale"
-    },
-    {
-        "type":4,
         "source":"034e293f-e0b2-4d95-88d2-1caa3e81a188",
         "source name":"curve_shape",
         "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
         "target name":"shape"
+    },
+    {
+        "type":4,
+        "source":"1f946fbe-9e09-416b-9f13-9ff18871da62",
+        "source name":"Vector",
+        "target":"6f130186-595a-4922-81f4-ff1ac49271d2",
+        "target name":"shape_translate"
     }
 ]
