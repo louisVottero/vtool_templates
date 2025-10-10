@@ -70,7 +70,7 @@
             },
             "shape":{
                 "value":[
-                    "square_point"
+                    "Triangle_Thin"
                 ],
                 "data_type":null
             },
@@ -88,7 +88,7 @@
                 "value":[
                     [
                         0.0,
-                        0.0,
+                        180.0,
                         0.0
                     ]
                 ],
@@ -97,9 +97,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        15.0,
-                        15.0,
-                        15.0
+                        10.0,
+                        10.0,
+                        10.0
                     ]
                 ],
                 "data_type":null
@@ -156,37 +156,6 @@
         }
     },
     {
-        "name":"Platform Vector",
-        "uuid":"fc2f4c65-73a3-4d83-a346-519e51d881c8",
-        "type":10006,
-        "position":[
-            168.34249999999997,
-            610.5124999999999
-        ],
-        "widget_value":{
-            "Maya Vector":{
-                "value":[
-                    [
-                        15.0,
-                        15.0,
-                        15.0
-                    ]
-                ],
-                "data_type":null
-            },
-            "Unreal Vector":{
-                "value":[
-                    [
-                        10.0,
-                        10.0,
-                        10.0
-                    ]
-                ],
-                "data_type":null
-            }
-        }
-    },
-    {
         "name":"Color",
         "uuid":"ec52252c-2647-420d-8dc0-dba0a3554059",
         "type":10003,
@@ -213,8 +182,8 @@
         "uuid":"3911d865-9aa1-4c82-bdf3-325c8b87470b",
         "type":20005,
         "position":[
-            1517.9168559248692,
-            127.79826033275481
+            1509.6815618072221,
+            146.62178974451945
         ],
         "widget_value":{
             "description":{
@@ -403,7 +372,7 @@
             },
             "shape":{
                 "value":[
-                    "u_square"
+                    "Square_Thin"
                 ],
                 "data_type":null
             },
@@ -528,8 +497,8 @@
         "uuid":"56039d37-21ab-410f-b9a0-71baa106b783",
         "type":21000,
         "position":[
-            1811.1027950355756,
-            472.8486269550051
+            1827.5733832708693,
+            455.2015681314757
         ],
         "widget_value":{
             "control_index":{
@@ -589,7 +558,7 @@
             },
             "shape":{
                 "value":[
-                    "u_square"
+                    "Square_Thin"
                 ],
                 "data_type":null
             },
@@ -805,7 +774,7 @@
             },
             "shape":{
                 "value":[
-                    "u_square"
+                    "Square_Thin"
                 ],
                 "data_type":null
             },
@@ -982,7 +951,7 @@
             },
             "shape":{
                 "value":[
-                    "u_square"
+                    "Square_Thin"
                 ],
                 "data_type":null
             },
@@ -1065,8 +1034,8 @@
         "uuid":"640c8f73-4859-4ac1-a183-0aa345935977",
         "type":10002,
         "position":[
-            931.805788288492,
-            1979.8836236462005
+            998.1057882884919,
+            1988.3836236462
         ],
         "widget_value":{
             "joint filter":{
@@ -1210,7 +1179,7 @@
             },
             "shape":{
                 "value":[
-                    "u_square"
+                    "Square_Thin"
                 ],
                 "data_type":null
             },
@@ -2270,7 +2239,7 @@
             },
             "side":{
                 "value":[
-                    "L"
+                    "R"
                 ],
                 "data_type":null
             },
@@ -2451,7 +2420,7 @@
             },
             "side":{
                 "value":[
-                    "L"
+                    "R"
                 ],
                 "data_type":null
             },
@@ -2607,7 +2576,7 @@
             },
             "side":{
                 "value":[
-                    "L"
+                    "R"
                 ],
                 "data_type":null
             },
@@ -2758,7 +2727,7 @@
             },
             "side":{
                 "value":[
-                    "L"
+                    "R"
                 ],
                 "data_type":null
             },
@@ -2868,7 +2837,7 @@
             },
             "side":{
                 "value":[
-                    "L"
+                    "R"
                 ],
                 "data_type":null
             },
@@ -3001,7 +2970,7 @@
             },
             "side":{
                 "value":[
-                    "L"
+                    "R"
                 ],
                 "data_type":null
             },
@@ -3223,8 +3192,8 @@
         "uuid":"75f7d672-ea3a-4aab-84a0-021d9f594837",
         "type":10002,
         "position":[
-            1832.301169972925,
-            -433.10342342568424
+            1872.301169972925,
+            -408.10342342568424
         ],
         "widget_value":{
             "joint filter":{
@@ -3307,7 +3276,7 @@
             },
             "shape":{
                 "value":[
-                    "u_square"
+                    "Square_Thin"
                 ],
                 "data_type":null
             },
@@ -3440,7 +3409,7 @@
             },
             "shape":{
                 "value":[
-                    "u_square"
+                    "Square_Thin"
                 ],
                 "data_type":null
             },
@@ -3630,7 +3599,7 @@
             },
             "shape":{
                 "value":[
-                    "u_sphere"
+                    "Sphere_Thin"
                 ],
                 "data_type":null
             },
@@ -3844,6 +3813,10 @@
                         -1.331
                     ]
                 ],
+                "data_type":null
+            },
+            "fk_first":{
+                "value":1,
                 "data_type":null
             }
         },
@@ -4083,8 +4056,8 @@
         "uuid":"204f9f2e-abeb-47b2-94ee-c65eff7fb0a5",
         "type":10002,
         "position":[
-            3059.432072460848,
-            939.5025794073522
+            2651.1275741909517,
+            1156.8036174696363
         ],
         "widget_value":{
             "joint filter":{
@@ -4408,6 +4381,10 @@
                     ]
                 ],
                 "data_type":null
+            },
+            "fk_first":{
+                "value":1,
+                "data_type":null
             }
         },
         "rig uuid":"9192fd83-948a-4fd0-8014-df309e0690b8"
@@ -4596,8 +4573,8 @@
         "uuid":"60d62bf6-9f3e-4bfa-985f-820282445bbf",
         "type":20003,
         "position":[
-            463.5959818488765,
-            2070.8564313166744
+            566.1809604770059,
+            2155.529747009733
         ],
         "widget_value":{
             "description":{
@@ -4922,6 +4899,448 @@
         "rig uuid":"abf97fb4-1597-445e-83a7-528eb737f58a"
     },
     {
+        "name":"Switch",
+        "uuid":"74e89e32-31d8-4f80-9372-4beda0157a80",
+        "type":22002,
+        "position":[
+            3497.0,
+            2406.0
+        ],
+        "widget_value":{
+            "control_index":{
+                "value":[
+                    -1
+                ],
+                "data_type":3
+            },
+            "description":{
+                "value":[
+                    "arm_switch"
+                ],
+                "data_type":null
+            },
+            "side":{
+                "value":[
+                    "L"
+                ],
+                "data_type":null
+            },
+            "restrain_numbering":{
+                "value":true,
+                "data_type":2
+            },
+            "attribute_name":{
+                "value":[
+                    "fkIk"
+                ],
+                "data_type":null
+            },
+            "color":{
+                "value":[
+                    [
+                        0.0,
+                        1.0,
+                        0.9686274509803922,
+                        1.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape":{
+                "value":[
+                    "Default"
+                ],
+                "data_type":null
+            },
+            "shape_translate":{
+                "value":[
+                    [
+                        0.0,
+                        15.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape_rotate":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        90.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape_scale":{
+                "value":[
+                    [
+                        3.0,
+                        3.0,
+                        3.0
+                    ]
+                ],
+                "data_type":null
+            }
+        },
+        "rig uuid":"74e89e32-31d8-4f80-9372-4beda0157a80"
+    },
+    {
+        "name":"Get Joints",
+        "uuid":"31c2fb20-5a8f-4d8b-a6d9-fc66c8d228b5",
+        "type":10002,
+        "position":[
+            2955.301169972925,
+            -169.10342342568424
+        ],
+        "widget_value":{
+            "joint filter":{
+                "value":[
+                    "neck*"
+                ],
+                "data_type":5
+            },
+            "joint exclude":{
+                "value":[
+                    ""
+                ],
+                "data_type":5
+            }
+        }
+    },
+    {
+        "name":"Switch",
+        "uuid":"a1f6a3b6-529c-402f-8b33-46a86e4fa3b5",
+        "type":22002,
+        "position":[
+            -1447.206824462893,
+            2638.9070395797894
+        ],
+        "widget_value":{
+            "control_index":{
+                "value":[
+                    -1
+                ],
+                "data_type":3
+            },
+            "description":{
+                "value":[
+                    "arm_switch"
+                ],
+                "data_type":null
+            },
+            "side":{
+                "value":[
+                    "R"
+                ],
+                "data_type":null
+            },
+            "restrain_numbering":{
+                "value":true,
+                "data_type":2
+            },
+            "attribute_name":{
+                "value":[
+                    "fkIk"
+                ],
+                "data_type":null
+            },
+            "color":{
+                "value":[
+                    [
+                        1.0,
+                        0.48627451062202454,
+                        0.4941176474094391,
+                        1.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape":{
+                "value":[
+                    "Default"
+                ],
+                "data_type":null
+            },
+            "shape_translate":{
+                "value":[
+                    [
+                        0.0,
+                        -15.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape_rotate":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        90.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape_scale":{
+                "value":[
+                    [
+                        3.0,
+                        3.0,
+                        3.0
+                    ]
+                ],
+                "data_type":null
+            }
+        },
+        "rig uuid":"a1f6a3b6-529c-402f-8b33-46a86e4fa3b5"
+    },
+    {
+        "name":"Switch",
+        "uuid":"094d22e0-9ae8-4cb3-b4a8-5189928643e1",
+        "type":22002,
+        "position":[
+            738.5070980870967,
+            2901.1688928849626
+        ],
+        "widget_value":{
+            "control_index":{
+                "value":[
+                    -1
+                ],
+                "data_type":3
+            },
+            "description":{
+                "value":[
+                    "leg_switch"
+                ],
+                "data_type":null
+            },
+            "side":{
+                "value":[
+                    "R"
+                ],
+                "data_type":null
+            },
+            "restrain_numbering":{
+                "value":true,
+                "data_type":2
+            },
+            "attribute_name":{
+                "value":[
+                    "fkIk"
+                ],
+                "data_type":null
+            },
+            "color":{
+                "value":[
+                    [
+                        1.0,
+                        0.501960813999176,
+                        0.5098039507865906,
+                        1.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape":{
+                "value":[
+                    "Default"
+                ],
+                "data_type":null
+            },
+            "shape_translate":{
+                "value":[
+                    [
+                        -15.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape_rotate":{
+                "value":[
+                    [
+                        90.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape_scale":{
+                "value":[
+                    [
+                        3.0,
+                        3.0,
+                        3.0
+                    ]
+                ],
+                "data_type":null
+            }
+        },
+        "rig uuid":"094d22e0-9ae8-4cb3-b4a8-5189928643e1"
+    },
+    {
+        "name":"Switch",
+        "uuid":"e137d57f-b274-4707-9f68-c789c86ac8ff",
+        "type":22002,
+        "position":[
+            1958.1692267832668,
+            3175.23711895619
+        ],
+        "widget_value":{
+            "control_index":{
+                "value":[
+                    -1
+                ],
+                "data_type":3
+            },
+            "description":{
+                "value":[
+                    "leg_switch"
+                ],
+                "data_type":null
+            },
+            "side":{
+                "value":[
+                    "L"
+                ],
+                "data_type":null
+            },
+            "restrain_numbering":{
+                "value":true,
+                "data_type":2
+            },
+            "attribute_name":{
+                "value":[
+                    "fkIk"
+                ],
+                "data_type":null
+            },
+            "color":{
+                "value":[
+                    [
+                        0.0,
+                        0.9490196108818054,
+                        1.0,
+                        1.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape":{
+                "value":[
+                    "Default"
+                ],
+                "data_type":null
+            },
+            "shape_translate":{
+                "value":[
+                    [
+                        15.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape_rotate":{
+                "value":[
+                    [
+                        90.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "shape_scale":{
+                "value":[
+                    [
+                        3.0,
+                        3.0,
+                        3.0
+                    ]
+                ],
+                "data_type":null
+            }
+        },
+        "rig uuid":"e137d57f-b274-4707-9f68-c789c86ac8ff"
+    },
+    {
+        "name":"Platform Transform Vector",
+        "uuid":"a27f5aa4-0b49-4963-862b-6dd4f4b2181a",
+        "type":10005,
+        "position":[
+            -272.6643598615916,
+            340.4844290657438
+        ],
+        "widget_value":{
+            "Maya Translate":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Maya Rotate":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Maya Scale":{
+                "value":[
+                    [
+                        15.0,
+                        15.0,
+                        15.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Unreal Translate":{
+                "value":[
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Unreal Rotate":{
+                "value":[
+                    [
+                        0.0,
+                        180.0,
+                        0.0
+                    ]
+                ],
+                "data_type":null
+            },
+            "Unreal Scale":{
+                "value":[
+                    [
+                        10.0,
+                        10.0,
+                        10.0
+                    ]
+                ],
+                "data_type":null
+            }
+        }
+    },
+    {
         "type":4,
         "source":"a9a7400e-7d80-48ba-a660-6825f3760c01",
         "source name":"curve_shape",
@@ -4941,13 +5360,6 @@
         "source name":"joints",
         "target":"0eed962a-976c-426e-adc1-f30bee0ac491",
         "target name":"joints"
-    },
-    {
-        "type":4,
-        "source":"fc2f4c65-73a3-4d83-a346-519e51d881c8",
-        "source name":"Vector",
-        "target":"0eed962a-976c-426e-adc1-f30bee0ac491",
-        "target name":"shape_scale"
     },
     {
         "type":4,
@@ -4974,8 +5386,8 @@
         "type":4,
         "source":"3911d865-9aa1-4c82-bdf3-325c8b87470b",
         "source name":"controls",
-        "target":"56039d37-21ab-410f-b9a0-71baa106b783",
-        "target name":"controls"
+        "target":"c21c2c12-76d6-49cc-9493-f54cfe2ebd62",
+        "target name":"parent"
     },
     {
         "type":4,
@@ -4988,8 +5400,8 @@
         "type":4,
         "source":"3911d865-9aa1-4c82-bdf3-325c8b87470b",
         "source name":"controls",
-        "target":"c21c2c12-76d6-49cc-9493-f54cfe2ebd62",
-        "target name":"parent"
+        "target":"56039d37-21ab-410f-b9a0-71baa106b783",
+        "target name":"controls"
     },
     {
         "type":4,
@@ -5113,13 +5525,6 @@
     {
         "type":4,
         "source":"f6e0b5a0-212e-4520-b330-66ae7042d7ee",
-        "source name":"ik",
-        "target":"a3704d2b-74df-4cb9-95f6-0478603958ea",
-        "target name":"ik"
-    },
-    {
-        "type":4,
-        "source":"f6e0b5a0-212e-4520-b330-66ae7042d7ee",
         "source name":"controls",
         "target":"ff12c5df-da11-43bc-9892-13b8282b87cf",
         "target name":"children"
@@ -5140,6 +5545,13 @@
     },
     {
         "type":4,
+        "source":"f6e0b5a0-212e-4520-b330-66ae7042d7ee",
+        "source name":"ik",
+        "target":"a3704d2b-74df-4cb9-95f6-0478603958ea",
+        "target name":"ik"
+    },
+    {
+        "type":4,
         "source":"ff6cdbb8-3018-4701-9070-753780127963",
         "source name":"joints",
         "target":"99b8887f-71ec-473a-a882-0ec7e6577d02",
@@ -5150,6 +5562,13 @@
         "source":"ff6cdbb8-3018-4701-9070-753780127963",
         "source name":"joints",
         "target":"f6e0b5a0-212e-4520-b330-66ae7042d7ee",
+        "target name":"joints"
+    },
+    {
+        "type":4,
+        "source":"ff6cdbb8-3018-4701-9070-753780127963",
+        "source name":"joints",
+        "target":"e137d57f-b274-4707-9f68-c789c86ac8ff",
         "target name":"joints"
     },
     {
@@ -5252,10 +5671,10 @@
     },
     {
         "type":4,
-        "source":"099917d0-55ca-41de-be6f-b8c8bc528ca5",
-        "source name":"ik",
-        "target":"9192fd83-948a-4fd0-8014-df309e0690b8",
-        "target name":"ik"
+        "source":"84f088f3-9668-4cdf-9227-2bfa7e57ca56",
+        "source name":"joints",
+        "target":"74e89e32-31d8-4f80-9372-4beda0157a80",
+        "target name":"joints"
     },
     {
         "type":4,
@@ -5280,6 +5699,13 @@
     },
     {
         "type":4,
+        "source":"099917d0-55ca-41de-be6f-b8c8bc528ca5",
+        "source name":"ik",
+        "target":"9192fd83-948a-4fd0-8014-df309e0690b8",
+        "target name":"ik"
+    },
+    {
+        "type":4,
         "source":"640c8f73-4859-4ac1-a183-0aa345935977",
         "source name":"joints",
         "target":"60d62bf6-9f3e-4bfa-985f-820282445bbf",
@@ -5290,6 +5716,13 @@
         "source":"640c8f73-4859-4ac1-a183-0aa345935977",
         "source name":"joints",
         "target":"099917d0-55ca-41de-be6f-b8c8bc528ca5",
+        "target name":"joints"
+    },
+    {
+        "type":4,
+        "source":"640c8f73-4859-4ac1-a183-0aa345935977",
+        "source name":"joints",
+        "target":"094d22e0-9ae8-4cb3-b4a8-5189928643e1",
         "target name":"joints"
     },
     {
@@ -5312,6 +5745,13 @@
         "source name":"joints",
         "target":"bbf8381d-8bb1-40f5-a9a7-0a6fd3bcade9",
         "target name":"transforms"
+    },
+    {
+        "type":4,
+        "source":"05bebd09-325c-4e13-803f-5f9ecfc7b270",
+        "source name":"joints",
+        "target":"a1f6a3b6-529c-402f-8b33-46a86e4fa3b5",
+        "target name":"joints"
     },
     {
         "type":4,
@@ -5497,6 +5937,13 @@
     },
     {
         "type":4,
+        "source":"ede9d615-1d6d-40ef-8563-eb8c355c0d03",
+        "source name":"color",
+        "target":"e137d57f-b274-4707-9f68-c789c86ac8ff",
+        "target name":"color"
+    },
+    {
+        "type":4,
         "source":"8670f3db-91b9-4853-ae1a-b56685502b5b",
         "source name":"curve_shape",
         "target":"87448381-43fe-4dd0-99c3-f18d66de387f",
@@ -5679,6 +6126,13 @@
     },
     {
         "type":4,
+        "source":"20b5ab1e-6ac4-482a-ac74-424f053cbe69",
+        "source name":"color",
+        "target":"094d22e0-9ae8-4cb3-b4a8-5189928643e1",
+        "target name":"color"
+    },
+    {
+        "type":4,
         "source":"103f8113-8066-4cd5-922b-7ff0fecdb9f7",
         "source name":"controls",
         "target":"0757957f-7a9b-47d2-a1e5-4f664885b675",
@@ -5697,13 +6151,6 @@
         "source name":"joints",
         "target":"103f8113-8066-4cd5-922b-7ff0fecdb9f7",
         "target name":"joints"
-    },
-    {
-        "type":4,
-        "source":"75f7d672-ea3a-4aab-84a0-021d9f594837",
-        "source name":"joints",
-        "target":"a10f8c2b-b3d3-4238-abd5-641bb4586ffd",
-        "target name":"parent"
     },
     {
         "type":4,
@@ -5858,5 +6305,61 @@
         "source name":"joints",
         "target":"9192fd83-948a-4fd0-8014-df309e0690b8",
         "target name":"joints"
+    },
+    {
+        "type":4,
+        "source":"eb5d7025-eb84-47c6-adb9-b08fc270e87e",
+        "source name":"Eval OUT",
+        "target":"0eed962a-976c-426e-adc1-f30bee0ac491",
+        "target name":"Eval IN"
+    },
+    {
+        "type":4,
+        "source":"99b8887f-71ec-473a-a882-0ec7e6577d02",
+        "source name":"controls",
+        "target":"a3704d2b-74df-4cb9-95f6-0478603958ea",
+        "target name":"fk_parent"
+    },
+    {
+        "type":4,
+        "source":"60d62bf6-9f3e-4bfa-985f-820282445bbf",
+        "source name":"controls",
+        "target":"9192fd83-948a-4fd0-8014-df309e0690b8",
+        "target name":"fk_parent"
+    },
+    {
+        "type":4,
+        "source":"31c2fb20-5a8f-4d8b-a6d9-fc66c8d228b5",
+        "source name":"joints",
+        "target":"a10f8c2b-b3d3-4238-abd5-641bb4586ffd",
+        "target name":"parent"
+    },
+    {
+        "type":4,
+        "source":"094d22e0-9ae8-4cb3-b4a8-5189928643e1",
+        "source name":"controls",
+        "target":"9192fd83-948a-4fd0-8014-df309e0690b8",
+        "target name":"switch_control"
+    },
+    {
+        "type":4,
+        "source":"e137d57f-b274-4707-9f68-c789c86ac8ff",
+        "source name":"controls",
+        "target":"a3704d2b-74df-4cb9-95f6-0478603958ea",
+        "target name":"switch_control"
+    },
+    {
+        "type":4,
+        "source":"a27f5aa4-0b49-4963-862b-6dd4f4b2181a",
+        "source name":"Rotate",
+        "target":"0eed962a-976c-426e-adc1-f30bee0ac491",
+        "target name":"shape_rotate"
+    },
+    {
+        "type":4,
+        "source":"a27f5aa4-0b49-4963-862b-6dd4f4b2181a",
+        "source name":"Scale",
+        "target":"0eed962a-976c-426e-adc1-f30bee0ac491",
+        "target name":"shape_scale"
     }
 ]
