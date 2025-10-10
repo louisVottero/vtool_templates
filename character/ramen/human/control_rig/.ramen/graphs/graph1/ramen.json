@@ -70,7 +70,7 @@
             },
             "shape":{
                 "value":[
-                    "Triangle_Thin"
+                    "square_point"
                 ],
                 "data_type":null
             },
@@ -88,7 +88,7 @@
                 "value":[
                     [
                         0.0,
-                        180.0,
+                        0.0,
                         0.0
                     ]
                 ],
@@ -97,9 +97,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        10.0,
-                        10.0,
-                        10.0
+                        15.0,
+                        15.0,
+                        15.0
                     ]
                 ],
                 "data_type":null
@@ -774,7 +774,7 @@
             },
             "shape":{
                 "value":[
-                    "Square_Thin"
+                    "u_square"
                 ],
                 "data_type":null
             },
@@ -951,7 +951,7 @@
             },
             "shape":{
                 "value":[
-                    "Square_Thin"
+                    "u_square"
                 ],
                 "data_type":null
             },
@@ -1179,7 +1179,7 @@
             },
             "shape":{
                 "value":[
-                    "Square_Thin"
+                    "u_square"
                 ],
                 "data_type":null
             },
@@ -3276,15 +3276,15 @@
             },
             "shape":{
                 "value":[
-                    "Square_Thin"
+                    "u_square"
                 ],
                 "data_type":null
             },
             "shape_translate":{
                 "value":[
                     [
-                        -10.0,
-                        0.0,
+                        -7.0,
+                        -2.5,
                         0.0
                     ]
                 ],
@@ -3293,7 +3293,7 @@
             "shape_rotate":{
                 "value":[
                     [
-                        0.0,
+                        45.0,
                         0.0,
                         0.0
                     ]
@@ -3303,7 +3303,7 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.0,
+                        1.5,
                         0.5,
                         0.5
                     ]
@@ -3409,15 +3409,15 @@
             },
             "shape":{
                 "value":[
-                    "Square_Thin"
+                    "u_square"
                 ],
                 "data_type":null
             },
             "shape_translate":{
                 "value":[
                     [
-                        10.0,
-                        0.0,
+                        7.0,
+                        2.5,
                         0.0
                     ]
                 ],
@@ -3426,7 +3426,7 @@
             "shape_rotate":{
                 "value":[
                     [
-                        0.0,
+                        45.0,
                         0.0,
                         0.0
                     ]
@@ -3436,7 +3436,7 @@
             "shape_scale":{
                 "value":[
                     [
-                        1.0,
+                        1.5,
                         0.5,
                         0.5
                     ]
