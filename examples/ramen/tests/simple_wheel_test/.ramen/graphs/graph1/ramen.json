@@ -406,7 +406,7 @@
             },
             "shape":{
                 "value":[
-                    "Circle_Thick"
+                    "u_circle"
                 ],
                 "data_type":null
             },
@@ -414,7 +414,7 @@
                 "value":[
                     [
                         0.0,
-                        4.0,
+                        0.0,
                         0.0
                     ]
                 ],
@@ -516,7 +516,7 @@
             },
             "shape":{
                 "value":[
-                    "Triangle_Thin"
+                    "square_point"
                 ],
                 "data_type":null
             },
@@ -534,7 +534,7 @@
                 "value":[
                     [
                         0.0,
-                        180.0,
+                        0.0,
                         0.0
                     ]
                 ],
@@ -543,9 +543,9 @@
             "shape_scale":{
                 "value":[
                     [
-                        5.0,
-                        5.0,
-                        5.0
+                        7.0,
+                        7.0,
+                        7.0
                     ]
                 ],
                 "data_type":null

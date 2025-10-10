@@ -336,7 +336,7 @@
             },
             "shape":{
                 "value":[
-                    "Triangle_Thin"
+                    "square_point"
                 ],
                 "data_type":null
             },
