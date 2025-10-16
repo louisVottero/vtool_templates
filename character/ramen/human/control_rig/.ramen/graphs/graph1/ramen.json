@@ -372,7 +372,7 @@
             },
             "shape":{
                 "value":[
-                    "Square_Thin"
+                    "u_square"
                 ],
                 "data_type":null
             },
@@ -558,7 +558,7 @@
             },
             "shape":{
                 "value":[
-                    "Square_Thin"
+                    "u_square"
                 ],
                 "data_type":null
             },
@@ -3599,7 +3599,7 @@
             },
             "shape":{
                 "value":[
-                    "Sphere_Thin"
+                    "u_sphere"
                 ],
                 "data_type":null
             },
@@ -5454,6 +5454,20 @@
     },
     {
         "type":4,
+        "source":"fd2a24b6-b0b7-4b98-97dc-fe36d87764b9",
+        "source name":"controls",
+        "target":"094d22e0-9ae8-4cb3-b4a8-5189928643e1",
+        "target name":"parent"
+    },
+    {
+        "type":4,
+        "source":"fd2a24b6-b0b7-4b98-97dc-fe36d87764b9",
+        "source name":"controls",
+        "target":"e137d57f-b274-4707-9f68-c789c86ac8ff",
+        "target name":"parent"
+    },
+    {
+        "type":4,
         "source":"c85cb5ca-13f4-443e-95b0-1632a55d0443",
         "source name":"curve_shape",
         "target":"fd2a24b6-b0b7-4b98-97dc-fe36d87764b9",
@@ -6196,6 +6210,13 @@
     },
     {
         "type":4,
+        "source":"c21c2c12-76d6-49cc-9493-f54cfe2ebd62",
+        "source name":"controls",
+        "target":"a1f6a3b6-529c-402f-8b33-46a86e4fa3b5",
+        "target name":"parent"
+    },
+    {
+        "type":4,
         "source":"157420d6-03b1-449b-a024-cccb4a9b55d5",
         "source name":"joints",
         "target":"c21c2c12-76d6-49cc-9493-f54cfe2ebd62",
@@ -6227,6 +6248,13 @@
         "source":"1c806260-bbb1-4ba4-a753-e7280c9c8d98",
         "source name":"controls",
         "target":"3190d866-de6a-405d-bb9a-c119e2c3b232",
+        "target name":"parent"
+    },
+    {
+        "type":4,
+        "source":"1c806260-bbb1-4ba4-a753-e7280c9c8d98",
+        "source name":"controls",
+        "target":"74e89e32-31d8-4f80-9372-4beda0157a80",
         "target name":"parent"
     },
     {
