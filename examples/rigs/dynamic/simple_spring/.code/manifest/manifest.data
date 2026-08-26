@@ -1,4 +1,5 @@
 import_structure.py True
+set_playback.py True
 rig.py True
 rig/root.py True
 rig/arms.py True
