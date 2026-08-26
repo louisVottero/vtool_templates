@@ -1,3 +1,3 @@
 
 def main():
-    cmds.playbackOptions( e = True, maxTime = 10000)
+    cmds.playbackOptions( e = True, minTime = 0, maxTime = 10000)
